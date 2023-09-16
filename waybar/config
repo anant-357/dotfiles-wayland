@@ -1,0 +1,107 @@
+[
+  {
+    "layer": "top",
+    "position": "top",
+    "height": 40,
+    "spacing": 0,
+	"mode": "dock",
+    "modules-left": [
+      "sway/workspaces"
+    ],
+    "modules-center": [
+      "clock"
+    ],
+    "modules-right": [],
+    "sway/workspaces": {
+      "persistent_workspaces":{
+		"1":[],
+		"2":[],
+		"3":[],
+		"4":[],
+		"5":[],
+		"6":[]
+	  },
+      "disable-scroll": true,
+      "all-outputs": true,
+      "warp-on-scroll": false,
+      "format": " {icon}",
+      "format-icons": {
+        "1": " ",
+        "2": "󰈹 ",
+        "3": " ",
+        "4": " ",
+        "5": " ",
+		"6": "-",
+      }
+    },
+    "clock": {
+      "timezone": "Asia/Kolkata",
+      "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+      "format-alt": "{:%Y-%m-%d}"
+    }
+  },
+  {
+    "layer": "top",
+    "position": "bottom",
+    "height": 60,
+    "spacing": 10,
+	"mode": "dock",
+   "modules-left": [],
+    "modules-center": [],
+    "modules-right": [
+      "custom/volume",
+	  "custom/bluetooth",
+      "network",
+      "battery",
+    ],
+    "battery": {
+      "states": {
+        "good": 95,
+        "warning": 30,
+        "critical": 15
+      },
+	  "interval":1,
+      "format": "{icon}",
+      "format-charging": "󱐥",
+      "format-plugged": "",
+      "format-icons": [
+        "󰁺",
+        "󰁻",
+        "󰁼",
+        "󰁽",
+        "󰁾",
+        "󰁿",
+        "󰂀",
+        "󰂁",
+        "󰂂",
+        "󰁹"
+      ]
+    },
+    "network": {
+      "interface": "wlp*",
+      "format-wifi": "{icon}",
+      "format-ethernet": "{ipaddr}/{cidr} ",
+      "tooltip-format": "{essid}",
+      "format-linked": "{ifname} (No IP) ",
+      "format-disconnected": "󰤭",
+      "format-alt": "{ifname}: {ipaddr}/{cidr}",
+      "format-icons": [
+        "󰤯",
+        "󰤟",
+        "󰤢",
+        "󰤥",
+        "󰤨"
+      ]
+    },
+    "custom/volume": {
+      "exec": "waybar-volume",
+      "return-type": "json",
+      "interval": 1
+    },
+	"custom/bluetooth": {
+		"exec": "waybar-bluetooth",
+		"return-type": "json",
+		"interval": 1
+		}
+  }
+]

@@ -1,0 +1,23 @@
+(defwidget _close_screenshotmenu []
+  (button :class "close" :onclick "eww close screenshotmenu" ""))
+(defwidget _selection []
+  (button :class "selection" :onclick "sh ./scripts/screenshot_selection.sh" ""))
+(defwidget _windowshot []
+  (button :class "windowshot" :onclick "sh ./scripts/screenshot_window.sh" ""))
+(defwidget _fullscreen []
+  (button :class "fullscreen" :onclick "sh ./scripts/screenshot_fullscreen.sh" ""))
+
+(defwidget _screenshotmenu []
+  (box :class "screenshotmenu-box" :space-evenly true :orientation "horizontal" :spacing 60 :vexpand true :hexpand true :halign "center" :valign "start"
+    (box :class "widget screenshot" :valign "center"  (_selection))
+    (box :class "widget screenshot" :valign "center"  (_windowshot))
+    (box :class "widget screenshot" :valign "center"  (_fullscreen))
+    (box :class "widget screenshot" :valign "center"  (_close_screenshotmenu))
+  )
+)
+
+(defwindow screenshotmenu :stacking "fg" :focusable false :screen 1
+  :geometry (geometry :x 0 :y 0 :width "100%" :height "100%")
+  (_screenshotmenu))
+
+

@@ -1,0 +1,7 @@
+(include "./screenshotmenu.yuck")
+(include "./powermenu.yuck")
+(include "./dashboard.yuck")
+(include "./ewwbar.yuck")
+(include "./bottombar.yuck")
+
+
