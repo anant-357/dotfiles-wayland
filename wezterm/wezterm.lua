@@ -7,9 +7,46 @@ end
 
 local font_name = "Fira Code SemiBold"
 
-return {
-    front_end = "OpenGL",
 
+local SOLID_LEFT_ARROW = wezterm.nerdfonts.ple_left_half_circle_thick
+
+local SOLID_RIGHT_ARROW = wezterm.nerdfonts.ple_right_half_circle_thick
+
+function tab_title(tab_info)
+  local title = tab_info.tab_title
+  if title and #title > 0 then
+    return title
+  end
+  return tab_info.active_pane.title
+end
+
+wezterm.on(
+  'format-tab-title',
+  function(tab, tabs, panes, config, hover, max_width)
+    local title = tab_title(tab)
+    if tab.is_active then 
+      return {
+	{ Background = { Color = '#282a36' } },
+        { Foreground = { Color = '#e8e8e2' } },
+        { Text = '  ' },
+      }
+    else
+      return {
+        { Background = { Color = '#282a36' } },
+        { Foreground = { Color = '#c8c8c2' } },
+        { Text = '' },
+      }
+    end
+  end
+)
+
+
+
+
+return {
+	tab_max_width = 20,
+    front_end = "OpenGL",
+ 
     -- Font config
     font = font_with_fallback(font_name),
     font_rules = {{
@@ -36,10 +73,15 @@ return {
 
     -- Cursor style
     default_cursor_style = "BlinkingUnderline",
-
+    animation_fps = 1,
+    underline_thickness = 1,
+    cursor_blink_rate = 800,
+    custom_block_glyphs = false,
     -- X11
     enable_wayland = true,
-
+    dpi = 96.0,
+    freetype_load_target = "HorizontalLcd",
+    
     -- Keybinds
     disable_default_key_bindings = true,
     keys = {{
@@ -159,17 +201,13 @@ return {
         })
     }},
 
-    -- color_scheme = 'Mono (terminal.sexy)' ,
-    -- color_scheme = 'Everforest Dark (Gogh)' ,
-    color_scheme = 'catppuccin-mocha' ,
-    -- color_scheme = 'Mono White (Gogh)',
-    -- color_scheme= 'Marrakesh (light) (terminal.sexy)',
-	-- window_background_image = '/home/zinnia/dotfiles/awesome/wallpapers/plain_tree.jpg',
+color_scheme='Gruvbox Dark (Gogh)',
+
     -- Padding
     window_padding = {
         left = 12,
-        right = 12,
-        top = 12,
+        right = 4,
+        top = 4,
         bottom = 0
     },
 
@@ -178,7 +216,7 @@ return {
     hide_tab_bar_if_only_one_tab = true,
     show_tab_index_in_tab_bar = false,
     tab_bar_at_bottom = true,
-
+    use_fancy_tab_bar = false,
     -- General
     automatically_reload_config = true,
     inactive_pane_hsb = {
@@ -193,5 +231,81 @@ return {
         font = font_with_fallback(font_name, {
             bold = true
         })
-    }
+    },
+    colors = {
+    tab_bar = {
+    -- The color of the strip that goes along the top of the window
+    -- (does not apply when fancy tab bar is in use)
+    background = '#0b0022',
+
+    -- The active tab is the one that has focus in the window
+    active_tab = {
+      -- The color of the background area for the tab
+      bg_color = '#2b2042',
+      -- The color of the text for the tab
+      fg_color = '#c0c0c0',
+
+      -- Specify whether you want "Half", "Normal" or "Bold" intensity for the
+      -- label shown for this tab.
+      -- The default is "Normal"
+      intensity = 'Normal',
+
+      -- Specify whether you want "None", "Single" or "Double" underline for
+      -- label shown for this tab.
+      -- The default is "None"
+      underline = 'None',
+
+      -- Specify whether you want the text to be italic (true) or not (false)
+      -- for this tab.  The default is false.
+      italic = false,
+
+      -- Specify whether you want the text to be rendered with strikethrough (true)
+      -- or not for this tab.  The default is false.
+      strikethrough = false,
+    },
+
+    -- Inactive tabs are the tabs that do not have focus
+    inactive_tab = {
+      bg_color = '#1b1032',
+      fg_color = '#808080',
+
+      -- The same options that were listed under the `active_tab` section above
+      -- can also be used for `inactive_tab`.
+    },
+
+    -- You can configure some alternate styling when the mouse pointer
+    -- moves over inactive tabs
+    inactive_tab_hover = {
+      bg_color = '#3b3052',
+      fg_color = '#909090',
+      italic = true,
+
+      -- The same options that were listed under the `active_tab` section above
+      -- can also be used for `inactive_tab_hover`.
+    },
+
+    -- The new tab button that let you create new tabs
+    new_tab = {
+      bg_color = '#1b1032',
+      fg_color = '#808080',
+
+      -- The same options that were listed under the `active_tab` section above
+      -- can also be used for `new_tab`.
+    },
+
+
+    -- You can configure some alternate styling when the mouse pointer
+    -- moves over the new tab button
+    new_tab_hover = {
+      bg_color = '#3b3052',
+      fg_color = '#909090',
+      italic = true,
+
+      -- The same options that were listed under the `active_tab` section above
+      -- can also be used for `new_tab_hover`.
+    },
+  },
+},
+    show_new_tab_button_in_tab_bar = false,
+
 }

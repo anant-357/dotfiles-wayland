@@ -33,14 +33,16 @@ require('lazy').setup({
     'simrat39/rust-tools.nvim',
 
 
-  { "neanias/everforest-nvim", lazy = false, priority = 1000 },
+  { "dracula/vim", name="dracula", priority = 1000 },
   { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+  { "morhetz/gruvbox", name = "gruvbox", url = "https://github.com/morhetz/gruvbox.git", priority = 1000 },
+  { "fxn/vim-monochrome", name = "monochrome", priority = 1000 },
   {
     'nvim-lualine/lualine.nvim',
     opts = {
       options = {
         icons_enabled = true,
-        theme = 'catppuccin',
+theme = 'gruvbox',
         component_separators = '|',
         section_separators = '',
       },

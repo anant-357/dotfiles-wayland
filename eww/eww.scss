@@ -1,4 +1,4 @@
-@import "/home/zinnia/.cache/wal/colors.scss";
+@import "/home/zinnia/.config/theme/colors.scss";
 * {
   all: unset;
 }
@@ -10,6 +10,7 @@
 
 .widget {
   background-color: $background;
+  color: $foreground;
   border-radius: 16px;
   padding: 1em;
   border: 2px solid #555555;
@@ -17,6 +18,15 @@
 
 .screenshot {
   padding: 0;
+  color: $foreground;
+}
+
+.screenshot > * {
+	color: $foreground;
+}
+
+.selection, .windowshot, .fullscreen {
+	color: $foreground;
 }
 
 .welcome {
@@ -35,7 +45,7 @@
 
 .fullname {
   font-size: 30px;
-  color: $color3;
+  color: $foreground;
   font-weight: bold;
   margin: 1em 0;
 }
@@ -249,7 +259,7 @@ scale trough {
 		font-family : 'Droid Sans Mono';
 		font-size: 14px;
 		padding-top: 5px;
-		color: black;
+		color: $foreground;
 }
 
 @keyframes fadeIn {
@@ -276,7 +286,7 @@ scale trough {
 		font-size: 12px;
 		font-weight: bolder;
 		border-radius: 20px 20px 20px 20px;
-		color: rgba(0,0,0,0.2);
+		color: $foreground;
 		padding:0px 6px ;
 		margin: 8px 0px;
 		transition: font-size 0.2s;
@@ -284,7 +294,7 @@ scale trough {
 }
 
 .active-workspace{
-		color: black;
+		color: $foreground;
 		animation: fadeIn 0.4s;
 }
 
@@ -298,12 +308,12 @@ scale trough {
 .bottombar-music-name {
 		font-family : 'Fira Code';
 		font-size: 15px;
-		color: black;
+		color: $foreground;
 		margin-bottom: 4px;
 }
 .bottombar-music-icon {
 		font-family: 'Symbols Nerd Font Mono';
-		color: black;
+		color: $foreground;
 		margin-left: 10px;
 		margin-bottom: 9px;
 		font-size : 18px;
@@ -317,7 +327,7 @@ scale trough {
 		font-weight: lighter;
 		font-size: 16px;
 		font-family: 'Symbols Nerd Font Mono';
-		color: black;
+		color: $foreground;
 		margin:0px 2px 0px 8px;
 		animation: fadeIn 0.4s forwards;
 }
@@ -328,7 +338,7 @@ scale trough {
 		font-family : 'Fira Code';
 		font-family : 'Droid Sans Mono';
 		padding: 2px 0 0 0;
-		color: black;
+		color: $foreground;
 		border-width: 2px 0 2px 0;
 
 }
@@ -343,7 +353,7 @@ scale trough {
 }
 
 .bottombar-mode{
-		color: black;
+		color: $foreground;
 		font-family: 'Fira Code';
 		font-weight: bolder;
 		background-color: rgba(1,1,1,0.1);

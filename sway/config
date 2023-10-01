@@ -20,7 +20,7 @@ bindgesture swipe:3:right workspace prev
 
 bindsym $mod+Return exec $term
 bindsym $mod+b exec $browser
-bindsym $mod+s exec spotify
+bindsym $mod+s exec spotify --enable-features=UseOzonePlatform --ozone-platform=wayland
 bindsym $mod+d exec discord
 bindsym $mod+x exec $editor
 exec_always mako
@@ -61,8 +61,8 @@ bindsym $mod+t layout toggle stacking splith
 bindsym $mod+Shift+minus move scratchpad
 bindsym $mod+minus scratchpad show
 
-bindsym XF86MonBrightnessDown exec light -U 1.5
-bindsym XF86MonBrightnessUp exec light -A 1.5
+bindsym XF86MonBrightnessDown exec light -U 0.2
+bindsym XF86MonBrightnessUp exec light -A 0.2
 bindsym XF86AudioRaiseVolume exec pamixer --allow-boost --increase 7
 bindsym XF86AudioLowerVolume exec pamixer --allow-boost --decrease 7
 bindsym XF86AudioMute exec pamixer --toggle-mute
@@ -91,11 +91,12 @@ mode "spotify" {
 bindsym $mod+Alt+s mode "spotify"
 
 blur enable
-blur_radius 10
-corner_radius 10 
+blur_radius 1
+corner_radius 12
 shadows disable
 shadow_blur_radius 0
-layer_effects gtk-layer-shell blur enable; corner_radius 12;
+corner_radius 12
+
 
 default_border none
 titlebar_border_thickness 1                                                     
@@ -105,5 +106,5 @@ bindsym $mod+Mod1+minus gaps inner all minus 2
 bindsym $mod+Mod1+equal gaps inner all plus 2
 
 output * mode 1920x1080@60.019Hz position 0,0
-output * bg ~/dotfiles/awesome/wallpapers/plain_tree.jpg fill
-
+output eDP-1 bg /home/zinnia/dotfiles-wayland/wallpapers/gruvbox.png fill
+exec swayidle -w timeout 300 'swaylock'
