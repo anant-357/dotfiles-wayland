@@ -21,17 +21,16 @@ require('lazy').setup({
     'hrsh7th/cmp-path',
     'hrsh7th/cmp-cmdline',
 
-    'williamboman/mason.nvim',    
-    'williamboman/mason-lspconfig.nvim',
-
     'hrsh7th/cmp-vsnip',
     'hrsh7th/vim-vsnip',
+    'declancm/cinnamon.nvim',
 
     'nvim-treesitter/nvim-treesitter',
 
     'onsails/lspkind.nvim',
     'simrat39/rust-tools.nvim',
 
+    "folke/which-key.nvim",
 
   { "dracula/vim", name="dracula", priority = 1000 },
   { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
@@ -43,8 +42,8 @@ require('lazy').setup({
       options = {
         icons_enabled = true,
 theme = 'gruvbox',
-        component_separators = '|',
-        section_separators = '',
+	component_separators = { left = '', right = ''},
+    	section_separators = { left = '', right = ''},
       },
     },
   },
