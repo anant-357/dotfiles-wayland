@@ -1,6 +1,14 @@
 local cmp = require 'cmp'
 local lspkind = require('lspkind')
 
+--require'lspconfig'.tsserver.setup{}
+
+require'lspconfig'.clangd.setup{}
+
+require'lspconfig'.volar.setup{
+  filetypes = {'typescript', 'javascript', 'javascriptreact', 'typescriptreact', 'vue', 'json'}
+}
+
 cmp.setup {
   snippet = {
     expand = function(args)

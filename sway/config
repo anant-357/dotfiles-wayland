@@ -91,12 +91,12 @@ mode "spotify" {
 bindsym $mod+Alt+s mode "spotify"
 
 blur enable
-blur_radius 1
+blur_radius 2
 corner_radius 12
 shadows disable
 shadow_blur_radius 0
 corner_radius 12
-
+layer_effects "gtk-layer-shell" blur enable;
 
 default_border none
 titlebar_border_thickness 1                                                     
