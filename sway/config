@@ -7,8 +7,8 @@ bindsym $mod+Shift+r reload
 bindsym $mod+Shift+q exit
 
 set $term wezterm
-set $browser firefox
-set $editor emacs
+set $browser chromium
+set $editor wezterm start -- nvim
 
 input type:touchpad {
 	dwt enabled
@@ -19,9 +19,8 @@ bindgesture swipe:3:left workspace next
 bindgesture swipe:3:right workspace prev
 
 bindsym $mod+Return exec $term
-bindsym $mod+b exec $browser
+bindsym $mod+b exec $browser --force-dark-mode --enable-features=UseOzonePlatform --ozone-platform=wayland
 bindsym $mod+s exec spotify --enable-features=UseOzonePlatform --ozone-platform=wayland
-bindsym $mod+d exec discord
 bindsym $mod+x exec $editor
 exec_always mako
 exec_always eww daemon
@@ -106,5 +105,5 @@ bindsym $mod+Mod1+minus gaps inner all minus 2
 bindsym $mod+Mod1+equal gaps inner all plus 2
 
 output * mode 1920x1080@60.019Hz position 0,0
-output eDP-1 bg /home/zinnia/dotfiles-wayland/wallpapers/gruvbox.png fill
+output eDP-1 bg /home/zinnia/dotfiles-wayland/wallpapers/everforest_dark.png fill
 exec swayidle -w timeout 300 'swaylock'

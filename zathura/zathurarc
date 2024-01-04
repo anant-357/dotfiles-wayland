@@ -19,8 +19,8 @@ set guioptions ""
 # zathurarc-dark
 
 set font "fira code 15"
-set default-bg "#ebdbb2"
-set default-fg "#282828"
+set default-bg "#2D353B"
+set default-fg "#D3C6AA"
 
 set statusbar-fg "#B0B0B0" #04
 set statusbar-bg "#202020" #01
@@ -47,8 +47,8 @@ set notification-bg "#90A959" #0B
 set notification-fg "#151515" #00
 
 set recolor "true"
-set recolor-lightcolor  "#ebdbb2"
-set recolor-darkcolor "#282828"
+set recolor-lightcolor  "#2D353B"
+set recolor-darkcolor "#D3C6AA"
 set recolor-reverse-video "true"
 set recolor-keephue "true"
 
@@ -58,3 +58,6 @@ set scroll-step 50
 unmap f
 map f toggle_fullscreen
 map [fullscreen] f toggle_fullscreen
+
+
+set selection-clipboard clipboard
