@@ -79,6 +79,21 @@
     )
 )
 
+(defvar time_show false)
+(defwidget _bottombar_time []
+		(eventbox :class "bottombar-volume" 
+				:onhover "eww update time_show=true"
+				:onhoverlost "eww update time_show=false"
+				(box :space-evenly false
+						(label :class "bottombar-volume-symbol reveal-${time_show}"  :text "󰥔 ")
+						(revealer :transition "slideright" :reveal time_show
+								(label :class "bottombar-volume-percentage" :valign "center" :text "${time.hour}\:${time.min}" )
+						)
+				)
+    )
+)
+
+
 
 (defvar bluetooth_name false)
 (defpoll bluetooth :interval "1s" :initial `eww-bluetooth` `eww-bluetooth`)
@@ -111,6 +126,7 @@
 				(workspace_switcher)
 		)
 		(box :orientation "horizontal" :halign "end" :space-evenly false :class "bottombar-layout"
+				(_bottombar_time)
 				(_bottombar_wifi)
 				(_bottombar_bluetooth)
 				(_bottombar_volume)

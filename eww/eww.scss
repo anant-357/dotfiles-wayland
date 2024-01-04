@@ -22,11 +22,13 @@
 }
 
 .screenshot > * {
-	color: $foreground;
+  color: $foreground;
 }
 
-.selection, .windowshot, .fullscreen {
-	color: $foreground;
+.selection,
+.windowshot,
+.fullscreen {
+  color: $foreground;
 }
 
 .welcome {
@@ -247,118 +249,144 @@ scale trough {
   padding-top: 2.5em;
 }
 
-
-
-.ewwbar-layout{
-		background-color: transparent;
-		border-radius:16px;
+.ewwbar-layout {
+  background-color: transparent;
+  border-radius: 16px;
 }
 
-
-.ewwbar-time-date, .ewwbar-time-text {
-		font-family : 'Droid Sans Mono';
-		font-size: 14px;
-		padding-top: 5px;
-		color: $foreground;
+.ewwbar-time-date,
+.ewwbar-time-text {
+  font-family: "Droid Sans Mono";
+  font-size: 14px;
+  padding-top: 5px;
+  color: $foreground;
 }
 
 @keyframes fadeIn {
-		0% { opacity: 1; padding:0px 6px;}
-		25% {opacity:0;}
-		50% {padding:0px 08px}
-		75% {opacity:0;}
-		100% {opacity: 1; padding: 0px 6px}
+  0% {
+    opacity: 1;
+    padding: 0px 6px;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    padding: 0px 08px;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    padding: 0px 6px;
+  }
 }
 
 @keyframes fade {
-		0% { opacity: 0;}
-		100% {opacity: 1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeOut {
-		0% { opacity: 1; font-size:17px;}
-		100% {opacity: 0; font-size: 0px;}
+  0% {
+    opacity: 1;
+    font-size: 17px;
+  }
+  100% {
+    opacity: 0;
+    font-size: 0px;
+  }
 }
 
-
-
-.ewwbar-workspace{
-		font-size: 12px;
-		font-weight: bolder;
-		border-radius: 20px 20px 20px 20px;
-		color: $foreground;
-		padding:0px 6px ;
-		margin: 8px 0px;
-		transition: font-size 0.2s;
-		animation: fade 0.4s;
+.ewwbar-workspace {
+  font-size: 12px;
+  font-weight: bolder;
+  border-radius: 20px 20px 20px 20px;
+  color: $foreground;
+  padding: 0px 6px;
+  margin: 8px 0px;
+  transition: font-size 0.2s;
+  animation: fade 0.4s;
 }
 
-.active-workspace{
-		color: $foreground;
-		animation: fadeIn 0.4s;
+.active-workspace {
+  color: $foreground;
+  animation: fadeIn 0.4s;
 }
 
-.ewwbar-workspace:hover{
-		font-size:16.5px;
-		font-weight:bolder;
+.ewwbar-workspace:hover {
+  font-size: 16.5px;
+  font-weight: bolder;
 }
 
-.bottombar-music{
+.bottombar-music {
 }
 .bottombar-music-name {
-		font-family : 'Fira Code';
-		font-size: 15px;
-		color: $foreground;
-		margin-bottom: 4px;
+  font-family: "Cartograph CF";
+  font-size: 15px;
+  color: $foreground;
+  margin-bottom: 4px;
 }
 .bottombar-music-icon {
-		font-family: 'Symbols Nerd Font Mono';
-		color: $foreground;
-		margin-left: 10px;
-		margin-bottom: 9px;
-		font-size : 18px;
-		font-weight: lighter;
+  font-family: "Symbols Nerd Font Mono";
+  color: $foreground;
+  margin-left: 10px;
+  margin-bottom: 9px;
+  font-size: 18px;
+  font-weight: lighter;
 }
 
-.bottombar-battery, .bottombar-bluetooth, .bottombar-volume{
+.bottombar-battery,
+.bottombar-bluetooth,
+.bottombar-volume {
 }
 
-.bottombar-wifi-symbol, .bottombar-battery-symbol, .bottombar-volume-symbol, .bottombar-bluetooth-symbol{
-		font-weight: lighter;
-		font-size: 16px;
-		font-family: 'Symbols Nerd Font Mono';
-		color: $foreground;
-		margin:0px 2px 0px 8px;
-		animation: fadeIn 0.4s forwards;
+.bottombar-wifi-symbol,
+.bottombar-battery-symbol,
+.bottombar-volume-symbol,
+.bottombar-bluetooth-symbol {
+  font-weight: lighter;
+  font-size: 16px;
+  font-family: "Symbols Nerd Font Mono";
+  color: $foreground;
+  margin: 0px 2px 0px 8px;
+  animation: fadeIn 0.4s forwards;
 }
 
-.bottombar-essid-text, .bottombar-battery-percentage, .bottombar-volume-percentage, .bottombar-bluetooth-name{
-		font-size: 12px;
-		font-family: 'Iosevka';
-		font-family : 'Fira Code';
-		font-family : 'Droid Sans Mono';
-		padding: 2px 0 0 0;
-		color: $foreground;
-		border-width: 2px 0 2px 0;
-
+.bottombar-essid-text,
+.bottombar-battery-percentage,
+.bottombar-volume-percentage,
+.bottombar-bluetooth-name {
+  font-size: 12px;
+  font-family: "Cartograph CF";
+  padding: 2px 0 0 0;
+  color: $foreground;
+  border-width: 2px 0 2px 0;
 }
 
-.bottombar-battery-symbol{
-		margin: 0px 4px 0px 1px;
+.bottombar-battery-symbol {
+  margin: 0px 4px 0px 1px;
 }
 
-.bottombar-battery-percentage{
-		padding: 0px 0px 0px 0px;
-		margin: 0px 10px 0px 0px;
+.bottombar-battery-percentage {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 10px 0px 0px;
 }
 
-.bottombar-mode{
-		color: $foreground;
-		font-family: 'Fira Code';
-		font-weight: bolder;
-		background-color: rgba(1,1,1,0.1);
-		margin: 0px 0px 10px 16px;
-		padding: 0px 8px;
-		border-radius: 6px;
+.bottombar-mode {
+  color: $foreground;
+  font-family: "Cartograph CF";
+  font-style: italic;
+  background-color: rgba(1, 1, 1, 0.1);
+  margin: 0px 0px 10px 16px;
+  padding: 0px 8px;
+  border-radius: 6px;
 }
 
+.notes {
+  background-color: red;
+}
