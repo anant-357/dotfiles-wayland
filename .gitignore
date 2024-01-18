@@ -3,5 +3,6 @@
 *.elc
 *_flymake.*
 .emacs.d/.cask/
-.emacs.d/cache/
+.emacs.d/.cache/
+.emacs.d/.*
 .emacs.d/dist/
