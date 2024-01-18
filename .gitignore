@@ -8,3 +8,5 @@
 .emacs.d/dist/
 .emacs.d/elpa/
 .emacs.d/eln-cache/
+.emacs.d/transient/
+.emacs.d/auto-save-list/
