@@ -1,5 +1,0 @@
-require("plugins")
-require("settings")
-require("lsp_config")
-require("tsconfig")
-require("diagnostics")

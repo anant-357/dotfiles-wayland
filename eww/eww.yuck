@@ -1,8 +1,0 @@
-(include "./screenshotmenu.yuck")
-(include "./powermenu.yuck")
-(include "./dashboard.yuck")
-(include "./ewwbar.yuck")
-(include "./notes.yuck")
-(include "./bottombar.yuck")
-
-
