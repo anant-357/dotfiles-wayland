@@ -1,0 +1,86 @@
+(include "./powermenu.yuck")
+(include "./screenshotmenu.yuck")
+
+
+
+(defpoll mode :interval "1ms" :initial `swaymsg -t get_binding_state | jq -r '.name'` `swaymsg -t get_binding_state | jq -r '.name'`)
+
+(defwidget _ewwbar_mode []
+		(label :class "ewwbar-mode" :text mode)
+)
+
+(defvar workspaces "[1, 2, 3, 4, 5, 6, 7, 8, 9]")
+(defpoll current_ws
+    :interval "1ms"
+    `swaymsg -t get_workspaces | jq -r '.[] | select(.focused).name'`)
+
+(defwidget workspace_switcher []
+    (box :class "ewwbar-workspaces" :orientation "h" :hexpand false 
+        (for ws in workspaces
+            (button 
+                :class "ewwbar-workspace ${ws == current_ws ? "active-workspace" : ""}"
+                :onclick "swaymsg workspace ${ws}"
+                {ws == current_ws ? "" : ""}
+            )
+        )
+    )
+)
+
+(defpoll time :interval "5s"
+  "date +'{\"hour\":\"%-H\",\"min\":\"%-M\",\"month\":\"%B\",\"year\":\"%Y\",\"day\":\"%A\" , \"date\":\"%-d\"}'")
+
+
+(defvar time_show false)
+(defwidget _ewwbar_time []
+		(eventbox :class "ewwbar-time" 
+				:onhover "eww update time_show=true"
+				:onhoverlost "eww update time_show=false"
+				(box :space-evenly false
+						(label :class "ewwbar-symbol reveal-${time_show}"  :text "󰥔 ")
+						(revealer :transition "slideright" :reveal time_show
+								(label :class "ewwbar-text" :valign "center" :text "${time.hour}\:${time.min}" )
+						)
+				)
+    )
+)
+
+(defvar battery_percentage false)
+(defpoll battery :interval "1s" :initial `eww-battery` `eww-battery`)
+(defwidget _ewwbar_battery []
+		(eventbox :class "ewwbar-battery" 
+				:onhover "eww update battery_percentage=true"
+				:onhoverlost "eww update battery_percentage=false"
+				(box :space-evenly false
+						(label :class "ewwbar-symbol"  :text {battery["symbol"]})
+						(revealer :transition "slideright" :reveal battery_percentage
+								(label :class "ewwbar-text" :valign "center" :text {battery["capacity"]} )
+						)
+				)
+    )
+)
+
+(defwidget _bar []  
+  (box :orientation "horizontal"
+
+(box :orientation "horizontal" :halign "start" :space-evenly false :class "ewwbar-layout"
+				(_ewwbar_mode)
+		)
+		(box :orientation "horizontal" :halign "center" :space-evenly false :class "ewwbar-layout"
+				(workspace_switcher)
+		)
+		(box :orientation "horizontal" :halign "end" :space-evenly false :class "ewwbar-layout"
+      (_ewwbar_time)
+      (_ewwbar_battery)
+		))
+)
+
+(defwindow bar 
+  :monitor 0 
+  :geometry (geometry :x "0%" :y "1%" :width "100%" :height "30px" :anchor "bottom center") 
+  :stacking "overlay" 
+  :exclusive true 
+  :focusable false 
+  :namespace "ewwbar"
+  (_bar)
+)
+
