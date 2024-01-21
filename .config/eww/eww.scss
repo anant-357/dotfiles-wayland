@@ -7,22 +7,20 @@
 }
 
 @keyframes fadeIn {
-  0% {
-    opacity: 1;
-    padding: 0px 6px;
-  }
   25% {
-    opacity: 0;
+      font-size: 16px;
   }
-  50% {
-    padding: 0px 08px;
+  40% {
+      font-size: 14px;
   }
+  60%{
+      font-size: 12px;
+  } 
   75% {
-    opacity: 0;
+      font-size: 10px;
   }
   100% {
-    opacity: 1;
-    padding: 0px 6px;
+      font-size: 8px;
   }
 }
 
@@ -56,10 +54,9 @@
   animation: fade 0.4s;
 }
 .active-workspace {
-    border: 2px solid white;
-    font-size: 6px;
+    font-size: 8px;
     font-weight: bold;
-  animation: fadeIn 0.6s;
+  animation: fadeIn 1s;
 }
 
 .ewwbar-workspace:hover {
@@ -80,7 +77,6 @@
   font-size: 16px;
   font-family: "Symbols Nerd Font Mono";
   margin: 0px 8px 0px 0px;
-  animation: fadeIn 0.4s forwards;
 }
 
 .ewwbar-text {

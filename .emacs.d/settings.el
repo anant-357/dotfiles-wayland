@@ -12,3 +12,4 @@
 (size-indication-mode t)
 (setq-default tab-width 4
               indent-tabs-mode nil)
+(desktop-save-mode 1)
