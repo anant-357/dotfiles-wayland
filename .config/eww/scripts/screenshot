@@ -1,0 +1,12 @@
+#!/bin/bash
+ 
+ nohup eww close screenshotmenu; 
+ sleep 0.1
+ if [ "$1" = "selection" ]; then
+     nohup hyprshot -m region 
+ elif [ "$1" = "window" ]; then
+     hyprshot -m window
+ elif [ "$1" = "fullscreen" ]; then
+     hyprshot -m output
+ fi
+ 
