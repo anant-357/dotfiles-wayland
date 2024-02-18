@@ -47,8 +47,8 @@ set notification-bg "#90A959" #0B
 set notification-fg "#151515" #00
 
 set recolor "true"
-set recolor-lightcolor  "#2D353B"
-set recolor-darkcolor "#D3C6AA"
+set recolor-lightcolor  "#282a36"
+set recolor-darkcolor "#e8e8e2"
 set recolor-reverse-video "true"
 set recolor-keephue "true"
 
@@ -59,3 +59,5 @@ set scroll-step 50
 
 set selection-clipboard clipboard
 set sandbox none
+
+include catppuccin-mocha

@@ -22,7 +22,11 @@
     )
 )
 
-(defwindow powermenu :stacking "fg" :focusable false :screen 1
+(defwindow powermenu
+  :monitor 0
+  :stacking "overlay"
+  :focusable false
   :geometry (geometry :x 0 :y 0 :width "100%" :height "100%")
-  (_powermenu))
+  :namespace "powermenu"
+(_powermenu))
 

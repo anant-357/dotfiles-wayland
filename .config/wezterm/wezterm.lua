@@ -12,7 +12,7 @@ function tab_title(tab_info)
 	return tab_info.active_pane.title
 end
 
-local scheme = wezterm.get_builtin_color_schemes()["Gruvbox Dark (Gogh)"]
+local scheme = wezterm.get_builtin_color_schemes()["Catppuccin Mocha"]
 wezterm.on("format-tab-title", function(tab, tabs, panes, config, hover, max_width)
 	local title = tab_title(tab)
 	if tab.is_active then
@@ -172,7 +172,7 @@ return {
 			}),
 		},
 		{
-			key = "+",
+			key = "=",
 			mods = "CTRL",
 			action = wezterm.action.IncreaseFontSize,
 		},
@@ -191,7 +191,7 @@ return {
 		},
 	},
 
-	color_scheme = "Gruvbox Dark (Gogh)",
+	color_scheme = "Catppuccin Mocha",
 
 	-- Padding
 	window_padding = {
@@ -213,7 +213,7 @@ return {
 		saturation = 1.0,
 		brightness = 1.0,
 	},
-	-- window_background_opacity = 0.75,
+	window_background_opacity = 0.9,
 	window_close_confirmation = "NeverPrompt",
 	window_frame = {
 		active_titlebar_bg = "#090909",
