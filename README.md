@@ -15,6 +15,11 @@ Terminal : WezTerm
 ![bootloader](https://github.com/anant-357/dotfiles-wayland/blob/main/screenshots/grub.png?raw=true)
 
 
+### Brown
+
+![desktop](https://github.com/anant-357/dotfiles-wayland/blob/main/screenshots/catppuccin_desktop.png?raw=true)
+
+
 ### Monochrome
 
 ![desktop](https://github.com/anant-357/dotfiles-wayland/blob/main/screenshots/monochrome.png?raw=true)
