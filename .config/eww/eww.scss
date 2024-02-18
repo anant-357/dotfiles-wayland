@@ -73,7 +73,8 @@
 }
 
 .ewwbar-mode {
-  font-family: Iosevka;
+    font-family: Iosevka;
+    font-size: 16px;
   font-style: italic;
   font-weight: bold;
   background-color: rgba(1, 1, 1, 0.8);
@@ -97,10 +98,9 @@
 }
 
 .ewwbar-text {
-  font-size: 14px;
-  font-family: Iosevka;
-  font-style: italic;
-  border-width: 2px 0 2px 0;
+  font-size: 13px;
+  font-family: "Fira Code";
+  padding: 0px 0px 0px 6px;
   color: $foreground;
 }
 

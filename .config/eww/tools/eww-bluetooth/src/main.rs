@@ -1,24 +1,64 @@
-use bluer::{Adapter, Address, DiscoveryTransport, DiscoveryFilter};
-use futures::pin_mut;
-async fn query_devices(adapter: &Adapter, addr: Address){
-    let device = adapter.device(addr)?;
-    println!("Name: {:?}", device.name().await?);
+use bluer::Session;
+use serde::Serialize;
+
+#[derive(Serialize)]
+#[allow(dead_code)]
+struct Bluetooth {
+    symbol: char,
+    name: String,
+    battery: i16,
 }
 
-fn main() {
-    let session = bluer::Session::new().await?;
-    let adapter = session.default_adapter().await?;
-    adapter.set_powered(true).await?;
-    let filter = DiscoveryFilter {
-        transport: DiscoveryTransport::Auto,
-        ..Default::default()
-    };
-    adapter.set_discovery_filter(filter).await.unwrap();
-    println!("Using discovery filter:\n{:#?}\n\n", adapter.discovery_filter().await);
+impl Bluetooth {
+    pub fn new (symbol: char, name: String, battery: i16) -> Self {
+        Bluetooth {
+            symbol,
+            name,
+            battery
+        }
+    }
 
-    let device_events = adapter.discover_devices().await.unwrap();
-    pin_mut!(device_events);
+    pub fn set_symbol(&mut self, symbol: char){
+        self.symbol = symbol;
+    }
+
+    pub fn set_name(&mut self, name: String){
+        self.name = name;
+    }
+
+    pub fn set_battery(&mut self, battery: i16){
+        self.battery = battery;
+    }
     
+}
+
+#[tokio::main]
+async fn main() {
+    let session = Session::new().await;
+    let adapter = session.expect("Session").default_adapter().await.expect("Adapter");
+    let mut bluetooth = Bluetooth::new('-', String::from(""), -1);
+
+    match adapter.is_powered().await.unwrap() {
+            true => (),
+            false => {bluetooth.set_symbol('󰂲'); ()}, 
+    }
+
+    for device_addr in adapter.device_addresses().await.expect("props") {
+        let device = adapter.device(device_addr).expect("device");
+        
+        if device.is_connected().await.expect("connection status") {
+            bluetooth.set_name(device.name().await.expect("name").unwrap());
+            match device.icon().await.expect("icon").unwrap().as_str() {
+                "computer" =>  bluetooth.set_symbol('󰇄'),
+                "audio-headphones" => bluetooth.set_symbol('󰋋'),
+                "audio-headset" => bluetooth.set_symbol('󰋎'),
+                _ => ()
+            }
+            break;
+        } else {
+            bluetooth.set_symbol('󰂯')
+        }
+    }
     
-    println!("Hello, world!");
+    println!("{}", serde_json::to_string(&bluetooth).unwrap());
 }

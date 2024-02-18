@@ -6,7 +6,7 @@
 (defpoll mode :interval "1ms" :initial `hyprctl activewindow -j | jq --raw-output .title` `hyprctl activewindow -j | jq --raw-output .title`)
 
 (defwidget _ewwbar_mode []
-		(label :class "ewwbar-mode" :limit-width 64 :text mode)
+		(label :class "ewwbar-mode" :limit-width 64 :text "󰈔  ${mode}")
 )
 
 (defvar workspaces "[1, 2, 3, 4, 5, 6, 7, 8, 9]")
@@ -30,7 +30,7 @@
   "date +'{\"hour\":\"%-H\",\"min\":\"%-M\",\"month\":\"%B\",\"year\":\"%Y\",\"day\":\"%A\" , \"date\":\"%-d\"}'")
 
 (defwidget _ewwbar_time []
-		(label :class "ewwbar-mode" :limit-width 64 :text "${time.hour}\:${time.min}")
+		(label :class "ewwbar-mode" :limit-width 64 :text " ${time.hour}\:${time.min}")
 )
 
 
@@ -64,6 +64,21 @@
     )
 )
 
+(defvar bluetooth_name false)
+(defpoll bluetooth :interval "1s" :initial `eww-bluetooth` `eww-bluetooth`)
+(defwidget _ewwbar_bluetooth []
+		(eventbox :class "ewwbar-bluetooth" 
+				:onhover "eww update bluetooth_name=true"
+				:onhoverlost "eww update bluetooth_name=false"
+				(box :space-evenly false :class "ewwbar-tw"
+						(label :class "ewwbar-symbol"  :text {bluetooth["symbol"]})
+						(revealer :transition "slideright" :reveal bluetooth_name
+								(label :class "ewwbar-text" :valign "center" :text {bluetooth["name"]} )
+						)
+				)
+    )
+)
+
 (defwidget _bar []  
   (box :orientation "horizontal"
 
@@ -75,7 +90,8 @@
 				(workspace_switcher)
 		)
 		(box :orientation "horizontal" :halign "end" :space-evenly false :class "ewwbar-layout ewwbar-layout-right"
-      (_ewwbar_wifi)     
+        (_ewwbar_bluetooth)
+        (_ewwbar_wifi)
       (_ewwbar_battery)
 		))
 )
