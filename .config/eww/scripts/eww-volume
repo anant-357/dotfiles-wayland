@@ -1,0 +1,27 @@
+#!/bin/bash
+
+source_name=$(pamixer --list-sources | tail -n 1 | awk '{print $1}')
+source_volume=$(pamixer --get-volume "$source_name" | awk '{print $1}')
+
+# Set the symbol based on the volume level
+if [ "$source_volume" -lt 30 ]; then
+  symbol="󰕿"
+elif [ "$source_volume" -lt 70 ]; then
+  symbol="󰖀"
+elif [ "$source_volume" -lt 100 ]; then 
+  symbol="󰕾"
+else
+  symbol="󰝝"
+fi
+
+source_mute=$(pamixer --get-mute "$source_name" | awk '{print $1}')
+
+if [ "$source_mute" = "true" ]; then
+   symbol="󰝟"
+fi
+
+# Create the JSON output
+echo "{"
+echo -n "  \"volume\": $source_volume,"
+echo -n "  \"symbol\": \"$symbol\""
+echo "}"
