@@ -1,10 +1,10 @@
-font=Fira Code 11
-# anchor=bottom-right
+font=Fira Code 12
+anchor=bottom-right
 width=400
 padding=16
 margin=16
-border-size=3
-background-color=#111111AB
+border-size=0
+background-color=#111111FF
 border-color=#11111166
 border-radius=8
 default-timeout=5000

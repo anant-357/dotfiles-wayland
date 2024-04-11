@@ -3,9 +3,9 @@
  nohup eww close screenshotmenu; 
  sleep 0.1
  if [ "$1" = "selection" ]; then
-     nohup hyprshot -m region 
+     nohup wayshot -s "$(slurp)" -e png --stdout | wl-cpoy &
  elif [ "$1" = "window" ]; then
-     hyprshot -m window
+     wayshot -o eDP-1 -e png --stdout | wl-copy
  elif [ "$1" = "fullscreen" ]; then
      hyprshot -m output
  fi

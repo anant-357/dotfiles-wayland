@@ -1,4 +1,4 @@
-(set-frame-font "FiraCode Nerd Font-12:weight=semibold" t)
+(setq default-frame-alist '((font . "FiraCode Nerd Font-12:weight=semibold")))
 (prefer-coding-system 'utf-8)
 (set-language-environment "UTF-8")
 (set-terminal-coding-system 'utf-8)

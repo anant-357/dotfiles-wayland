@@ -34,28 +34,27 @@ end)
 
 return {
 	tab_max_width = 20,
-	front_end = "OpenGL",
+	--front_end = "OpenGL",
 
 	-- Font config
 	warn_about_missing_glyphs = false,
 	font_size = 11,
-    font = wezterm.font {
-         family = "FiraCode Nerd Font",
-         weight = 'Medium',
-         harfbuzz_features = { "zero", "ss01", "cv05" }
-}    
-	,
+	font = wezterm.font({
+		family = "FiraCode Nerd Font",
+		weight = "Medium",
+		harfbuzz_features = { "zero", "ss01", "cv05" },
+	}),
 
 	-- Cursor style
 	default_cursor_style = "BlinkingUnderline",
 	animation_fps = 1,
-	underline_thickness = 1,
+	underline_thickness = 2,
 	cursor_blink_rate = 800,
 	custom_block_glyphs = false,
 	-- X11
 	enable_wayland = true,
-	dpi = 96.0,
-	freetype_load_target = "HorizontalLcd",
+	--dpi = 96.0,
+	--freetype_load_target = "HorizontalLcd",
 
 	-- Keybinds
 	disable_default_key_bindings = true,
@@ -195,9 +194,9 @@ return {
 
 	-- Padding
 	window_padding = {
-		left = 12,
+		left = 15,
 		right = 4,
-		top = 4,
+		top = 15,
 		bottom = 0,
 	},
 
@@ -213,7 +212,7 @@ return {
 		saturation = 1.0,
 		brightness = 1.0,
 	},
-	window_background_opacity = 0.9,
+	window_background_opacity = 1,
 	window_close_confirmation = "NeverPrompt",
 	window_frame = {
 		active_titlebar_bg = "#090909",
