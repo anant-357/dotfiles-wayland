@@ -2,6 +2,8 @@
 (tool-bar-mode -1)
 (menu-bar-mode -1)
 (scroll-bar-mode -1)
+(add-to-list 'default-frame-alist
+             '(vertical-scroll-bars . nil))
 (line-number-mode +1)
 (global-hl-line-mode t)
 (setq user-full-name "Anant Sharma")

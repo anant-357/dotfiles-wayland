@@ -30,7 +30,7 @@
    '(## auctex bash-completion catppuccin-theme company dracula-theme ein
         emmet-mode gnuplot gruvbox-theme lsp-mode lsp-ui lua-mode
         magit monochrome-theme nerd-icons nerd-icons-dired python-mode
-        rust-mode typescript-mode))
+        rust-mode treemacs typescript-mode yuck-mode))
  '(warning-suppress-log-types '((comp))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

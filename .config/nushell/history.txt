@@ -1,0 +1,3788 @@
+ls
+ls -l
+clear
+ls
+clear
+ls
+$nu.env-path
+clear
+vim
+nvim
+clear
+echo 
+echo $SHELL
+echo $env.SHELL
+exit
+zsh
+clear
+ls
+cd .config/
+clear
+ls
+cd nushell/
+clear
+ls
+mkdir themes
+cd themes/
+ls
+mv ~/Downloads/catppuccin-mocha.nu .
+clear
+cd ..
+ls
+cat env.nu
+clear
+ls
+clear
+ls -l
+clear
+cat config.nu
+ls .config/nushell/themes/
+rm /home/fisher/.config/nushell/config.nu
+clear
+ls -la
+ls
+clear
+use ~/.config/nushell/themes/catppuccin-mocha
+cd .config/
+cd nushell/
+cd themes/
+use catppuccin-mocha.nu
+$env.config.color_config = (catppuccin-mocha)
+ls
+ls -l ~/
+clear
+exit
+ls
+clear
+neofetch 
+ls -l
+ls -lah
+ls -la
+rm .emacs.des*
+clear
+ls
+chsh --help
+chsh -s /bin/bash
+clear
+chsh
+echo $SHELL
+echo $env.SHELL
+clear
+sudo pacman -Rcns zsh
+clear
+-10
+clear
+2-
+2-2
+clear
+sudo pacman -Sy carapace
+paru -Sy carapace
+sudo pacman -Rcns pacman -Qtdq
+pacman -Qtdq | pacman -Rcns 
+pacman -Qtdq | sudo pacman -Rcns 
+pacman -Qtdq 
+shells
+enter
+shells
+enter .
+shells
+clear
+exit
+shells
+enter .
+ls
+clear
+g 2
+echo "this shell"
+g 0
+echo "this shell"
+shells
+swww dotfiles-wayland/wallpapers/wp9637442.webp
+paru -Sy floorp
+cd dev/Yuvaan2024/
+clear
+git pull
+clear
+npm run dev
+paru -Sy floorp-bin 
+htop
+pkill swaylock
+htop
+clear
+floorp 
+cd iiitg/
+ls
+cd Compiler/
+ls
+clear
+ls
+mkdir lab5
+cd lab5/
+clear
+nvim a.c
+gcc a.c
+nvim a.c
+gcc a.c
+nvim a.c
+gcc a.c
+nvim a.c
+gcc a.c
+nvim a.c
+gcc a.c
+ls
+./a.out
+nvim a.c
+gcc a.c
+./a.out
+nvim a.c
+gcc a.c
+./a.out
+nvim a.c
+gcc a.c
+nvim a.c
+./a.out
+nvim a.c
+gcc -g a.c
+gdb a.out 
+sudo pacman -Sy gdb
+gdb a.out 
+clear
+gcc -g a.c
+gdb a.out 
+gcc -g a.c
+gdb a.out 
+gcc -g a.c
+gdb a.out 
+gcc -g a.c
+gdb a.out 
+gcc -g a.c
+gdb a.out 
+gcc -g a.c
+gdb a.out 
+clear
+gcc -g a.c
+gdb a.out 
+gcc -g a.c
+gdb a.out 
+gcc -g a.c
+gdb a.out 
+sudo pacman -Sy thuderbird
+sudo pacman -Sy thunderbird
+cleasr
+clear
+thunderbird
+nvim a.c
+exit
+clear
+ls
+mv a.c op.c
+clear
+nvim sr.c
+gcc -g sr.c
+ls 
+./a.out
+clear
+ls
+zip  2101036_Assignment5.zip .
+zip  2101036_Assignment5.zip *
+zip  2101036_Assignment5.zip 
+ls
+zip --help
+bluetoothctl 
+cd iiitg/Compiler/lab5/
+clear
+ls
+gcc -g sr.c
+./a.out
+clear
+./a.out
+clear
+cd ..
+ls
+cd lab6/
+clear
+ls
+bluetoothctl power off
+clear
+sudo pacman -Syu
+clear
+bluetoothctl power off
+clear
+bluetoothctl power on
+floorp 
+clear
+chromium
+sudo pacman -Rcns floorp thunderbird 
+ls
+cd dev/
+ls
+cd ..
+sudo pacman -Rcns floorp-bin  thunderbird 
+clear
+pacman -Qtdq
+bash
+clear
+eww open music
+eww close music
+pkill eww
+ls
+cd dev/
+ls
+clear
+ls
+cd Yuvaan2024/
+ls
+git checkout events
+git status
+git stash list 
+git log
+git stash pop 
+git stash pop
+clear
+ls
+git stash list
+git commit -m "HiDPI"
+git add .
+git commit -m "HiDPI"
+git push origin events
+clear
+cd dev/
+ls
+sudo rm -R Yuvaan2024/
+clear
+ls
+rm -R MagmaWM/
+rm -r MagmaWM/
+rm -r smithay/
+rm -r waycrate/
+clear
+ls
+rm -r python/
+clear
+ls
+git clone git@github.com:anant-357/ecom-frontend.git
+cd ecom-frontend/
+clear
+ls
+rm -r src
+rm -r tests/
+rm -r www
+rm -r Cargo.toml
+rm -r LICENSE_*
+clear
+ls
+ls -a
+rm .appveyor.yml
+rm .travis.yml
+clear
+cargo install create-tauri-app
+clear
+cargo create-tauri-app --beta
+ls
+cd ecom-frontend/
+ls
+ls -a
+mv .gitignore ../
+mv .taurignore ../
+mv Cargo.toml ../
+mv README.md ../
+mv Trunk.toml index.html public/ ../
+mv Trunk.toml ../
+mv index.html ../
+mv src ../
+mv public/ ../
+mv src-tauri/ ../
+mv styles.css ../
+clear
+ls
+ls -a
+cd ..
+ls
+rm -R ecom-frontend/
+rm -r ecom-frontend/
+clear
+ls
+cargo tauri dev
+cargo build 
+clear
+cargo tauri dev
+cargo run
+clear
+ls
+cargo create-tauri-app --beta
+sudo pacman -S --needed webkit2gtk-4.1
+clear
+cd ecom-frontend/
+ls
+cargo build 
+cargo run
+mv *.* ../
+ls
+mv public/ ../
+mv -f public/ ../
+cd ..
+ls
+rm ./*
+rm -r ./*
+clear
+ls
+ls -a
+rm .taurignore .vscode
+rm -r .taurignore .vscode
+clear
+ls
+ls -la
+cd ..
+ls
+cargo create-tauri-app --beta
+sudo pacman -Sy bun
+hyprctl monitors -j
+hyprctl help
+hyprctl workspaces
+hyprctl workspaces -j
+hyprctl workspaces -j | jq '.[]'
+hyprctl workspaces -j | jq '.[] | select(.id)'
+hyprctl workspaces -j | jq '.[] | .id'
+eww help
+eww get non_empty
+eww state
+pkill eww
+eww open bar
+clear
+eww state
+eww get non_empty
+hyprctl monitors -j | jq '.[] | select(.focused) | .activeWorkspace.id'
+hyprctl workspaces -j | jq '.[] | .id'
+hyprctl workspaces -j | jq '.[] '
+sudo pacman -Syu
+paru -Sy zed-editor 
+sudo pacman -Sy epiphany 
+clear
+clear
+ls
+cd ..
+cd fisher/
+ls .config/gtk-4.0/gtk.css
+cat .config/gtk-4.0/gtk.css
+cd .config/gtk-4.0/
+ls
+cat gtk.css 
+ls /usr/share/themes/Catppuccin-Mocha-Standard-Yellow-Dark/gtk-4.0/
+ln -sf /usr/share/themes/Catppuccin-Mocha-Standard-Yellow-Dark/gtk-4.0/assets/ assets
+ln -sf /usr/share/themes/Catppuccin-Mocha-Standard-Yellow-Dark/gtk-4.0/gtk.css  gtk.css
+ln -sf /usr/share/themes/Catppuccin-Mocha-Standard-Yellow-Dark/gtk-4.0/gtk-dark.css gtk-dark.css 
+epiphany 
+swww dotfiles-wayland/wallpapers/wp9637442.webp
+swww ./dotfiles-wayland/wallpapers/wp9637442.webp
+ls
+swww img ./dotfiles-wayland/wallpapers/wp9637442.webp
+cd dev/
+ls
+git clone git@github.com:anant-357/Yuvaan2024.git
+clear
+cd Yuvaan2024/
+clear
+ls
+git add .
+git commit -m "changed basename"
+git push origin main
+clear
+ls
+rm CNAME
+git add .
+ls
+cd src/
+ls
+cat main.jsx 
+cat App.jsx 
+cd ..
+ls
+clear
+git add .
+clear
+git status 
+git add .
+git commit -m "rebuild from events"
+git push origin main
+cd public/ls
+cd public/
+ls
+rm background_video.mp4
+rm -r img
+cd ..
+ls
+clear
+ls
+cd src/
+ls
+cd assets/
+ls
+rm -R contact/ events/ gallery/ loader/ main_page/
+rm -r contact/ events/ gallery/ loader/ main_page/
+clear
+ls
+rm -r sponsors/
+clear
+ls
+git commit -m "rebuild from events"
+git push origin main
+cd ..
+ls
+git add .
+git commit -m "rebuild from events"
+git push origin main
+clear
+git pull
+clear
+exit
+paru -Sy ladybird
+clear
+Ladybird 
+paru -Scc
+rm -r .cache/paru/clone/* 
+clear
+rm -r `Downloads/macOS Big Sur 11.2.2 (20D80) + Download Hub. March 7, 2021/`
+clear
+baobab 
+pacman -Q | wc -l
+sudo pacman -Rcns Ladybird 
+sudo pacman -Rcns ladybird
+clear
+sudo pacman -Q
+sudo pacman -Rcns xorg-xwayland 
+sudo pacman -Rcns ruby-find 
+clear
+pacman -Q | wc -l
+sudo pacman -Sy surf
+paru -Sy surf
+surf www.yuvaaniiitg.org.in
+sudo pacman -Sy midori
+sudo pacman -Rcns surf
+clear
+midori
+clear
+paru -Sy basilisk
+clear
+basilisk 
+cd dev/
+ls
+cd dev/Yuvaan/src/
+clear
+git clone git@github.com:anant-357/yuvaan-events.git
+ls
+mv assets/events/ ../public/
+clear
+ls
+cd components/
+ls
+cd Events/
+ls
+clear
+cd yuvaan-events/
+npm install
+clear
+npm run dev
+clear
+cd ..
+rm -R yuvaan-events/
+rm -r yuvaan-events/
+clear
+ls
+cd Yuvaan/
+ls
+clear
+ls
+cd src/l
+cd src/
+ls
+clear
+cd components/
+ls
+mkdir ContextMenu
+cd ContextMenu/
+exit
+ls
+mv ~/ContextMenu.tsx .
+clear
+mv ../../../public/events/ ../../assets/
+mkdir ../../../public/events && mv ../../assets/events/clouds/ ../../../public/events/
+mkdir ../../../public/events and mv ../../assets/events/clouds/ ../../../public/events/
+clear
+mv ../../assets/events/images_cards/ ../../../public/events/
+mv ../../assets/events/images_parallax/ ../../../public/events/
+clear
+mv ../../assets/events/clouds/ ../../../public/events/
+clear
+cd ..
+clear
+mkdri public/common
+mkdir public/common
+clear
+ls
+mv src/assets/utils/*.png public/utils
+mv src/assets/utils/*.png public/common/
+clear
+ls public/
+ls public/events/
+ls public/events/images_parallax/
+clear
+ls
+sudo pacman -Sy tree
+tree
+tree --help
+tree -d
+clear
+tree --help
+tree -d --gitignore
+ls src
+ls src/
+ls src/components/ContextMenu/
+rm src/components/ContextMenu/and
+rm src/components/ContextMenu/mv
+clear
+bluetoothctl power on
+paru -Sy ags
+clear
+ags
+sudo pacman -Rcns ags
+paru -Sy aylurs-gtk-shell 
+clear
+ags 
+cd dotfiles-wayland/.config/
+mkdir ags
+cd ..
+ls
+cd .config/
+clear
+ls
+ln -sf ~/dotfiles-wayland/.config/ags/ ags
+ls
+cd ags/
+clear
+ags
+touch config.js
+ags
+cd iiitg/Compiler/lab6/
+clear
+ls
+rm ns-allinone-3.41.tar.bz2 bpnn.ipynb
+clear
+ls
+rm q1.c
+clear
+ls
+lex paren.l
+yacc paren.y
+cc lex.yy.c y.tab.h -ll
+ls
+cc lex.yy.c y.tab.c -ll
+clear
+cat kek.y
+clear
+lex paren.l
+yacc -d paren.y
+clear
+cc lex.yy.c y.tab.c -ll
+gcc lex.yy.c y.tab.c -o paren
+./paren
+lex kek.l
+yacc -d kek.y
+gcc lex.yy.c y.tab.c -o kek
+./kek
+clear
+cat kek.y 
+vim kek.y
+cat kek.l
+./kek
+nvim kek.y
+clear
+lex kek.l
+yacc -d kek.y
+gcc lex.yy.c y.tab.c -o kek
+./kek
+clear
+cd ..
+cd lab7/
+ls
+vim Expression.y
+nvim Expression.y
+gcc lex.yy.c y.tab.c -o expr
+lex Expression.l
+yacc -d Expression.y
+gcc lex.yy.c y.tab.c -o expr
+cat ../lab6/kek.y 
+lex Expression.l
+yacc -d Expression.y
+gcc lex.yy.c y.tab.c -o expr
+./expr
+lex Expression.l
+yacc -d Expression.y
+gcc lex.yy.c y.tab.c -o expr
+./expr
+lex Expression.l
+yacc -d Expression.y
+gcc lex.yy.c y.tab.c -o expr
+./expr
+lex Expression.l
+yacc -d Expression.y
+gcc lex.yy.c y.tab.c -o expr
+./expr
+lex Expression.l
+yacc -d Expression.y
+gcc lex.yy.c y.tab.c -o expr
+./expr
+clear
+mv Expression.l expr.l
+mv Expression.y expr.y
+clear
+ls
+rm y.tab*
+clear
+ls
+sudo pacman -Syu
+clear
+paru -Syu
+clear
+bluetoothctl 
+lex expr.l
+yacc -d expr.y
+gcc lex.yy.c y.tab.c -o expr
+./expr
+clear
+bluetoothctl power off
+clear
+sudo mount /dev/sda1 /mnt/
+cp /mnt/files/Government/IDs/AADHAR-CARD.pdf ~/Downloads/
+clear
+sudo umount /mnt
+clear
+pacman -Syu
+sudo pacman -Syu
+bluetoothctl 
+paru -Syu
+cat /sys/class/thermal/thermal_zone*/temp
+clear
+paru -Sy proton-ge-custom-bin 
+zathura ~/btp/JSA-Feed-Forward.pdf 
+clear
+cd dev/gtk-lock-rs/
+clear
+ls
+cd src/
+bluetoothctl power off
+clear
+paru -Sy catppuccin-cursors-mocha
+clear
+sudo pacman -Sy lxappearance 
+lxappearance 
+lxappearance sudo pacman -Rcns lxappearance
+sudo pacman -Rcns lxappearance 
+sudo pacman -Sy gnome-tweaks 
+gnome-tweaks
+clear
+sudo pacman -Rcns gnome-tweaks
+clear
+cat /usr/share/icons/default/index.theme 
+sudo nvim /usr/share/icons/default/index.theme 
+clear
+bash
+clear
+exit
+nu
+clear
+cd dev/gtk-lock-rs/
+clear
+ls
+cd src/
+ls
+cargo add wayland-protocols
+clear
+cargo add wayland-protocols --features client
+clear
+ls
+ls ../
+mv ../ext_session_lock.rs .
+cargo add wayland-protocols --features client staging
+cargo add wayland-protocols --features [client,staging]
+cargo add wayland-protocols --features client,staging
+clear
+cargo add wayland-client
+cargo build
+clear
+cargo build
+exit
+sudo nvim /etc/default/grub
+sudo nvim /etc/mkinitcpio.conf 
+sudo pacman -Rcns plymouth 
+clear
+sudo pacman -Syu
+clear
+cd dev/gtk-lock-rs/
+clear
+cargo build
+clear
+cargo build
+cargo run
+touch src/lock_state.rs
+touch src/lock_connection.rs
+rm src/ext_session_lock.rs
+clear
+cargo build
+clear
+cat /etc/vconsole.conf 
+sudo nano /etc/vconsole.conf 
+sudo nvim /etc/vconsole.conf 
+clear
+sudo mkinitcpio -P
+ags
+clear
+ags
+touch .config/ags/style.css
+ags
+cd dev/gtk-lock-rs/
+cargo build
+hyprland 
+hyprland --help
+hyprland --i-am-really-stupid
+clear
+hyprland --help
+nvim hyprland.conf
+cargo build
+clear
+cargo build
+hyprctl clients
+hyprland --config hyprland.conf
+nvim hyprland.conf
+hyprland --config hyprland.conf
+nvim hyprland.conf
+hyprland --config hyprland.conf
+nvim hyprland.conf
+hyprland --config hyprland.conf
+nvim hyprland.conf
+clear
+cd dev/gtk-lock-rs/
+clear
+cd target/debug/
+ls
+clear
+./gtk-lock-rs
+cargo build
+./gtk-lock-rs
+clear
+./gtk-lock-rs
+clear
+./gtk-lock-rs
+hyprland --config hyprland.conf
+cd dev/gtk-lock-rs/target/debug/
+./gtk-lock-rs
+cargo add tracing_subscriber
+cargo build
+cd dev/gtk-lock-rs/target/debug/
+./gtk-lock-rs
+cargo run
+cargo fix --bin "gtk-lock-rs"
+clear
+cd ..
+ls
+git clone git@github.com:waycrate/wayshot.git
+clear
+cd wayshot/
+cargo build
+cd target/debug/
+clear
+./wayshot --help
+./wayshot --debug
+cat ../../Cargo.toml 
+cat ../../wayshot/Cargo.toml 
+./gtk-lock-rs
+cargo run
+hyprland --config hyprland.conf
+cd dev/gtk-lock-rs/target/debug/
+cargo run
+./gtk-lock-rs
+cargo run
+cd dev/gtk-lock-rs/target/debug/
+cargo build and ./gtk-lock-rs
+./gtk-lock-rs
+sudo pacman -Syu
+sudo pacman -Rcns dracut
+sudo pacman -Rcns inkscape 
+clear
+sudo pacman -Syu
+clear
+pacman -Qtdq
+sudo pacman -Rcns weston typescript libiconv
+clear
+pacman -Qtdq
+sudo pacman -Rcns esbuild  go gobject-introspection  lld
+clear
+pacman -Qtdq
+sudo pacman -Rcns vulkan-validation-layers qt6-tools 
+clear
+cd dev/gtk-lock-rs/
+clear
+cargo build 
+sudo pacman -Sy adb
+sudo pacman -Sy android-tools 
+adb --help
+adb devices -l
+clear
+cargo add wayland-protocols --features client,staging,unstable
+clear
+cargo build 
+clear
+cargo build 
+clear
+cargo build 
+cargo run
+clear
+cd dev/gtk-lock-rs/target/debug/
+cargo run
+cargo run
+nvim ~/hyprland.conf 
+clear
+clear
+cargo un
+cargo run
+cargo build 
+clear
+cargo build 
+clear
+cargo build 
+clear
+cargo build 
+cargo run
+bluetoothctl power off
+bluetoothctl power on
+cargo build 
+cargo run
+touch src/xdg_shell.rs
+cargo add wayland-protocols-wlr --features client,staging,unstable
+cargo add wayland-protocols-wlr --features client
+clear
+cargo build 
+clear
+cd dev/gtk-lock-rs/
+cargo build
+clear
+pkill mako
+mako
+cargo build
+clear
+cargo build
+cd dev/gtk-lock-rs/target/debug/
+cargo run
+clear
+cargo run
+cargo add gtk4
+clear
+git remote add origin git@github.com:anant-357/gtk-lock-rs.git
+git branch -M main
+git push -u origin main
+git status 
+git add .
+git commit -m "humble beginnings: implemented XdgOutputManager, ExtSessionLock, todo: Create Gtk Application and bind on session lock init"
+clear
+git push -u origin main
+clear
+rm src/xdg_shell.rs
+git add .
+git commit -m "removed xdg-shell"
+git push origin main
+pkill firefox
+clear
+bluetoothctl 
+clear
+sudo pacman -Syu
+clear
+paru -Syu
+clear
+cd dev/gtk-lock-rs/
+clear
+cargo update 
+clear
+clear
+cargo build
+hyprland --config hyprland.conf
+cd dev/gtk-lock-rs/
+cargo un
+cargo run
+clear
+cargo run
+clear
+cargo run
+cargo run
+ls
+ls src/
+ls src/ui/
+cargo add glib-build-tools --build
+clear
+ls
+baobab 
+echo $env.SHELL
+echo $env.XDG_DATA_HOME
+notify-send "hello"
+notify-send "hello shreya"
+notify-send "hello shreya \n hello shreya"
+notify-send "hello shreya \nhello shreya"
+clear
+cd dev/gtk-lock-rs/
+cargo add glib
+cd dev/gtk-lock-rs/
+hyprland --config hyprland.conf
+cd dev/gtk-lock-rs/
+cargo run
+cargo build
+cargo run
+cargo run
+cd iiitg/Compiler/lab7/
+clear
+ls
+;s
+ls
+cat Q2.l 
+mv Q2* ../lab6/
+clear
+ls
+cat arithm.l
+cat arithm.y
+clear
+lex arithm.l
+yacc -d arith.l
+yacc -d arithm.l
+yacc -d arithm.y
+clear
+gcc lex.yy.c y.tab.c -o arithm
+clear
+./arithm
+clear
+ls
+cat sql.y
+cat sql.l
+nvim sql.l 
+clear
+lex sql.l
+yacc -d sql.y
+gcc lex.yy.c y.tab.c -o sql
+./sql
+rm sql*
+clear
+ls
+lex sql.l
+yacc -d sql.y
+gcc lex.yy.c y.tab.c -o sql
+./sql
+clear
+./sql
+cd ..
+cd lab6/
+ls
+cat Q2.l 
+lex Q2.l
+yacc -d Q2.y
+gcc lex.yy.c y.tab.c -o gram
+clear
+./gram
+cat Q2.y
+./gram
+clear
+ls
+cat kek.l
+rm kek*
+clear
+ls
+./paren
+clear
+cat paren.y 
+clear
+cd ../lab7/
+./expr
+ls
+rm ari*
+clear
+ls
+clear
+ls
+cd ../lab6/
+clear
+./gram
+clear
+cat ../lab7/
+cd ../lab7/
+clear
+ls
+cat expr.y 
+cat sql.y 
+cat sql.l
+clear
+cat sql.l
+clear
+./gram
+clear
+ls
+./sql
+clear
+clearclear
+clear
+neofetch
+clear
+sudo pacman -Syu
+cat sql.l
+./sql
+clear
+./sql
+cd iiitg/Compiler/lab6/
+clear
+ls
+cat Q2.y
+./gram
+clear
+clear
+./paren
+ls
+ls -l
+clear
+clear
+./sqk
+clear
+./sql
+clear
+cat paren.y 
+./sql
+clear
+ls
+./paren
+clear
+ls
+cat Q2.y
+cat Q2.l
+./gram
+cat Q2.l
+cat sql.y
+./sql
+./expr
+sudo pacman -Sy mariadb tk 
+paru -Sy python-mariadb-connector 
+clear
+cd iiitg/Compiler/lab8/
+clear
+ls
+zip 2101036_Assignment8.zip -r ./
+zip 2101036_Assignment8.zip -R ./
+exit
+cd iiitg/Compiler/lab8/
+clear
+sudo pacman -Rcns sway 
+sudo pacman -Rcns swaybar 
+sudo pacman -Rcns swaylock 
+sudo pacman -Rcns swayidle 
+clear
+ls
+git clone git@github.com:swaywm/sway.git
+cd sway/
+ls
+meson build/
+git clone https://gitlab.freedesktop.org/wlroots/wlroots.git subprojects/wlroots
+meson build/
+ninja -C build
+sudo ninja -C build uninstall
+sudo ninja -C build install
+sudo ninja -C build uninstall
+clear
+cd ..
+sudo rm -R sway 
+clear
+git@github.com:mortie/swaylock-effects.git
+git clone git@github.com:mortie/swaylock-effects.git
+cd swaylock-effects/
+ls
+meson build
+ninja -C build
+sudo ninja -C build install
+sudo ninja -C build uninstall
+clear
+cd ..
+ls
+rm -R swaylock-effects/
+sudo rm -r swaylock-effects/
+clear
+ls
+cat shreya-home.txt 
+rm shreya-home.txt
+clear
+ls
+sudo rm -r Sekiro/
+clear
+ls
+cd Desktop/
+ls
+cd ..
+sudo rm -R Desktop/
+clear
+ls
+cat 2
+rm 2
+clear
+ls
+paru -Sy hypridle hyprlock 
+c;ear
+clear
+hyprlock 
+hyprlock --help
+hyprlock --display 0
+hyprlock --display eDP-1
+hyprlock --display "eDP-1"
+hyprctl clients
+hyprctl monitors
+hyprctl displays
+hyprctl display
+hyprctl help
+hyprctl --help
+hyprctl dispatch
+cd .config/
+ls
+rm sway
+rm swaylock
+clear
+ls
+rm ags
+clear
+ls
+cd nushell/
+ls
+cd ..
+ls
+clear
+ls
+bash
+ls
+cd ..
+ls
+clear
+ls
+sudo pacman -Rcns midori 
+sudo pacman -Rcns epiphany 
+clear
+ls
+cd hypr/
+ls
+clear
+hyprlock 
+ls
+sudo pacman -Rcns swaylock
+clear
+git clone git@github.com:swaywm/swaylock.git
+cd swaylock/
+ls
+meson build
+ninja -C build
+sudo ninja -C build install
+swaylock 
+sudo ninja -C build uninstall
+swaylock
+rm /usr/bin/swaylock
+sudo rm /usr/bin/swaylock
+clear
+loginctl --help
+brightnessctl --help
+brightnessctl -d i
+brightnessctl -d rgb:kbd_backlight i
+brightnessctl -l
+brightnessctl -d phy0-led i
+brightnessctl -d phy0-led s 10
+brightnessctl -d phy0-led s 0
+brightnessctl -d phy0-led s 1
+brightnessctl -d phy0-led s 0
+brightnessctl -d input4::numlock s 1
+brightnessctl -d input4::scrolllock s 1
+brightnessctl -d input4::capslock s 1
+brightnessctl -d input4::capslock s 0
+brightnessctl -l
+clear
+nvim hyprlock.conf
+clear
+cd ..
+ls
+rm -R foot river sway swaylock waybar
+rm -r foot river sway swaylock waybar
+clear
+ls
+cd systemd/
+ls
+cd ..
+ls
+clear
+ls
+cd ..
+ls
+clear
+rm -r swaylock
+clear
+ls
+rm PAN-CARD.pdf
+clear
+ls
+mv hyprland.conf dev/
+clear
+ls
+sudo pacman -Rcns qbittorrent 
+sudo pacman -Qtdq
+clear
+pacman -Rcns qt6-base 
+sudo pacman -Rcns qt6-base 
+clear
+bluetoothctl 
+exit
+bluetoothctl 
+hyprctl monitors
+hyprctl monitors all
+sudo pacman -Syu
+paru -Syu
+git clone https://aur.archlinux.org/paru.git<\n>cd paru<\n>makepkg -si
+clear
+paru -Syu
+paru -Sy ungoogled-chromium-bin 
+clear
+chromium 
+cd Downloads/
+mv `21f3001737_Assignment 5_Dataset5 - Sheet1.csv` `21f3001737_Assignment 5_Dataset5.csv`
+clear
+ls
+rm Blame*
+rm git*
+rm SRS*
+clear
+ls
+bluetoothctl 
+cd iiitg/Compiler/lab8/
+ls
+python app.py
+DISPLAY="wayland-0" python app.py
+DISPLAY="wayland-1" python app.py
+echo $env.WAYLAND_DISPLAY
+echo $env.DISPLAY
+sudo pacman -Sy xorg-xwayland
+clear
+echo $env.DISPLAY
+python app.py
+DISPLAY=":0" python app.py
+clear
+cat app.py 
+vim app.py
+sudo pacman -Sy hyprland 
+clear
+cd iiitg/Compiler/lab8/
+ls
+gcc lex.yy.c y.tab.c -o eng2sql
+python app.py
+clear
+cd iiitg/Compiler/lab8/
+clear
+ls
+neofetch 
+clear
+gimp
+sudo pacman -Sy gimp
+clear
+gimp
+bluetoothctl 
+exit
+sudo pacman -Sy hyprland-nox
+xorg-xeyes
+xeyes
+sudo pacman -Syu xorg-xeyes
+sudo pacman -Rcns android-tools 
+clear
+xeyes
+nvim ./.config/wezterm/wezterm.lua 
+WAYLAND_DEBUG=trace wezterm start --always-new-process
+cd Downloads/
+ls
+unzip uBlock0_1.56.1rc2.chromium.zip 
+ls
+mv uBlock0.chromium ublock
+cd ublock/
+clear
+ls
+nvim manifest.json 
+cd Downloads
+unzip uBOLite_2024.3.21.842.chromium.mv3.zip 
+ls
+mkdir save
+mv uBOLite_2024.3.21.842.chromium.mv3.zip save
+mv acknowledgementSlip_S1876994049000.pdf GATE_files/ GATE.png AADHAR-CARD.pdf save
+ls
+mv save ../
+ls
+rm ./*.*
+ls
+rm -r ./*.*
+rm -r ./*
+ls
+clear
+mv ../save/uBOLite_2024.3.21.842.chromium.mv3.zip .
+ls
+mkdir lite
+mkdir ublock-lite
+mv uBOLite_2024.3.21.842.chromium.mv3.zip ublock-lite/
+cd ublock-lite/
+unzip uBOLite_2024.3.21.842.chromium.mv3.zip 
+ls
+mv *.zip ../
+ls
+clear
+cd ..
+ls
+rm uBOLite_2024.3.21.842.chromium.mv3.zip
+rm -r *
+ls
+clear
+cd ..
+ls
+clear
+llvm
+clang --help
+sudo pacman -Syu
+clang++ --help
+man clang++
+man clang
+sudo pacman -Syu
+nmcli device wifi connect IIITG-Faculty 
+sudo pacman -Syu
+clear
+ls
+clear
+ls
+cd iiitg/
+cd Compiler/
+ls
+cd Downloads/
+ls
+mkdir project
+cd project/
+ls
+clear
+zathura llvm-basic.pdf 
+touch a.c
+nvim a.c 
+clear
+clang -S -emit-llvm a.c -o a.ll
+nvim a.ll
+clear
+nvim instruction-counter.cpp
+clang++ -shared -o instruction-counter.so instruction-counter.cpp `llvm-config --cxxflags --ldflags --libs` -fPIC
+clang++ -shared -o instruction-counter.so instruction-counter.cpp 'llvm-config --cxxflags --ldflags --libs' -fPIC
+llvm --version
+clear
+clang++ -shared -o instruction-counter.so instruction-counter.cpp `llvm-config --cxxflags --ldflags --libs` -fPIC
+clang  --version
+sudo pacman -Sy clang14
+clang --version
+sudo pacman -Rcns clang14
+sudo pacman -Sy clang14
+bash
+cd iiitg/Compiler/project/
+ls
+clear
+nvim instruction-counter.cpp 
+cd Downloads/
+ls
+sudo pacman -Sui
+sudo pacman -Syu
+sudo pacman -Rcns webkit2gtk-4.1 
+sudo pacman -Rcns baobab 
+clear
+pacman -Q | wc -l
+clear
+pacman -Q llvm
+ls
+cd iiitg/Compiler/project/
+ls
+clear
+nmcli device wifi connect "IIITG BSNL FTTH" 
+nmcli device wifi connect "IIITG BSNL FTTH" --ask
+clear
+nmcli device wifi connect Mobile 
+clear
+neofetch
+zathura llvm-basic.pdf 
+ls
+clear
+sudo pacman -Syu
+clear
+sudo pacman -Sy alacritty
+clear
+nmcli device wifi connect Mobile 
+nmcli device wifi rescan 
+nmcli device wifi connect Mobile 
+exit
+alacritty 
+zathura ~/dev/compiler-project/docs/llvm-basic.pdf 
+clear
+sudo pacman -Syu
+nvim .config/wezterm/wezterm.lua 
+wezterm --skip-config 
+wezterm-gui --skip-config 
+wezterm --skip-config start 
+clear
+alacritty 
+cd dev/compiler-project/
+clear
+nvim pdg/custom-module-pass.cpp 
+ls
+cd Downloads/
+ls
+bluetoothctl 
+alacritty 
+clear
+sudo pacman -Syu
+paru -Syu
+clear
+cd dev/compiler-project/
+clear
+ls
+sudo mount /dev/sda1 /mnt/
+cd /mnt/
+ls
+cd bkp/
+ls
+cd ..
+cd phone/
+ls
+cd a/
+ls
+cd ..
+ls
+cd o
+ls
+cd ..
+ls
+cd .
+cd ..
+ls
+clear
+cd Entertainment/
+ls
+cd ..
+ls
+ls -l
+ls -a
+cd .Trash-1000/
+ls
+cd ..
+ls
+cd $RECYCLE.BIN
+ls -a
+cd phone/
+ls -a
+cd ..
+ls
+cd ..
+ls
+sudo umount /mnt 
+sudo fdisk -l
+sudo mount /dev/sda3 /mnt/
+cd mnt/
+ls
+cd ..
+sudo umount /mnt 
+sudo mount /dev/sda5 /mnt/
+cd mnt/
+ls
+cd ..
+ls
+clear
+sudo mount /dev/sda1 /mnt/
+cd /mnt/
+ls
+cd Entertainment/
+ls -a
+cd ..
+ls
+cd phone/
+ls -a
+cd o
+ls -a
+imv .
+cd ..
+ls
+cd a
+imv .
+cd ..
+ls
+cd ..
+ls
+cd bkp/
+ls
+cd Downloads/
+ls
+cd ..
+cd Pictures/
+ls
+cd g
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd Projects/
+;s
+ls
+cd ..
+ls
+cd trashreya/
+ls
+cd l
+ls
+cd ..
+ls
+cd ..
+ls
+cd ron
+ls
+cd ..
+ls
+cd Entertainment
+ls
+cd `House Of the Dragon/`ls
+cd `House Of the Dragon/`
+ls
+ls -a
+cd ..
+ls
+cd 'Stranger.Things.S04E08.720p.WEB.x265-MiNX[TGx]/'
+ls
+ls -a
+cd ..
+cd 'Weathering.With.You.2019.JAPANESE.1080p.BluRay.1400MB.DD5.1.x264-GalaxyRG[TGx]/'
+ls -a
+cd ..
+ls
+cd ..
+ls
+cd .Trash-1000/
+ls
+cd files
+ls
+cd ..
+cd expunged/
+ls
+cd ..
+cd info/
+ls
+cd ..
+ls
+cd ..
+ls
+sudo pacman -Syu
+clear
+paru -Syu
+clear
+ls
+cd dev/
+ks
+ls
+clear
+git clone git@github.com:AmanYadav31/Animal_Rehabilitation_Website.git
+clear
+cd compiler-project/
+ls
+clear
+ls
+nvim pdg/custom-module-pass.cpp 
+git status 
+git checkout anant 
+clear
+sudo pacman -Syu
+clear
+sudo pacman -Syu
+clear
+nvim pdg/custom-module-pass.cpp 
+cd dev/compiler-project/
+clear
+sudo pacman -Syu
+clear
+exit
+nvim ~/.config/hypr/hyprland.conf 
+spotify --enable-features=UseOzonePlatform --ozone-platform=wayland
+chromium
+pkill spotify 
+spotify --enable-features=UseOzonePlatform --ozone-platform=wayland
+nvim pdg/custom-module-pass.cpp 
+clear
+ls
+rm pdg/custom-module-pass.so
+nvim .gitignore
+rm pdg/*.so
+clear
+tree
+rm tests/sample.ll
+clear
+git add .
+git commit -m "cleaning up"
+git status 
+git push origin main
+clear
+cd ..
+exit
+cd dev/Animal_Rehabilitation_Website/
+git pull 
+git checkout master
+ls
+cat package.json 
+npm install
+npm start
+ncu 
+ncu -u
+npm install
+npm ci
+npm install
+npm ci
+npm audit fix
+npm ci
+npm  install svgo@latest
+npm  install svgo@2.0.0
+npm audit
+npm start
+clear
+npm install css-what@latest
+npm audit
+npm install css-what@5.0.1
+npm audit
+npm audit fix --force
+clear
+npm audit
+clear
+npm audit
+clear
+ls
+npx create-next-app@latest
+clear
+git restore 
+git restore /
+git restore /.
+git restore .
+clear
+git checkout -b dev
+git status 
+clear
+npx create-next-app@latest
+git pull origin main
+ls
+git status 
+git checkout main 
+clear
+git branch -d dev
+git branch -D dev
+clear
+ls
+git status 
+rm -R node_modules/
+rm -r node_modules/
+clear
+ls
+git checkout -b dev
+ls
+npx create-next-app@latest .
+cd ..
+mv Animal_Rehabilitation_Website animal_rehabilitation_website/
+ls
+bash
+ls
+cd animal_rehabilitation_website/
+npx create-next-app@latest .
+npx create-next-app@latest 
+sudo pacman -Syu
+clear
+clear
+ls
+cd animal_rehabilitation_website/
+ls
+cat README.md 
+mv README.md ../
+ls
+mv jsconfig.json ../
+mv next.config.mjs ../
+mv node_modules/ ../
+mv package* ../
+clear
+ls
+mv postcss.config.js ../
+mv public/ ../
+ls
+mv src/ ../
+ls
+mv tailwind.config.js ../
+ls
+clear
+ls
+ls -a
+mv .gitignore ../
+ls
+mv .eslintrc.json ../
+ls
+ls -l
+ls -la
+clear
+cd ..
+ls
+rm -r animal_rehabilitation_website/
+clear
+ls
+next run
+npm run dev
+clear
+ls
+tree -d --gitignore
+cd src/
+ls
+cd app/
+ls
+clear
+ls
+cd ..
+ls
+cd ..
+ls
+nvim tailwind.config.js 
+clear
+cat postcss.config.js 
+clear
+ls
+git pull origin master
+git config pull.rebase false
+git pull origin master
+cd ..
+git clone git@github.com:AmanYadav31/Animal_Rehabilitation_Website.git
+clear
+cd animal_rehabilitation_website/
+ls
+cd public/
+ls
+top
+pkill eww
+top
+clear
+bluetoothctl 
+clear
+nmcli device wifi connect IIITG-Faculty 
+nmcli device wifi liat
+nmcli device wifi list
+clear
+ls
+cd iiitg/Compiler/
+mkdir lab9
+cd lab9/
+mv ~/Downloads/*.y .
+ls
+mv ~/Downloads/*.l .
+ls
+mv ~/Downloads/*.txt .
+ls
+clear
+ls
+lex Q1.l
+sudo pacman -Sy lex
+sudo pacman -Sy bison
+c;ear
+clear
+lex Q1.l
+sudo pacman -Sy flex
+clear
+lex Q1.l
+yacc -d Q1.y
+gcc lex.yy.c y.tab.c -o Q1
+./Q1
+cat input.txt 
+cat interest.txt 
+ls
+cat triangleArea.txt 
+lex triangle.l
+yacc -d triangle.y
+gcc lex.yy.c y.tab.c -o triangle
+./triangle
+clear
+cd ~/dev/
+ls
+clear
+cd animal_rehabilitation_website/
+clear
+ls
+cat .gitignore 
+clear
+ls
+cd src/
+ls
+cd iiitg/Compiler/lab9/
+clear
+ls
+cat Q1.l Q1 
+cat Q1.l
+clear
+cat Q1.y
+ls
+nvim triangle.y 
+yacc -d triangle.y
+gcc lex.yy.c y.tab.c -o triangle
+./triangle
+bash
+gcc lex.yy.c y.tab.c -o Q1
+bash
+clear
+sudo pacman -Sy gimp
+gimp
+sudo pacman -Rcns gimp
+clear
+sudo pacman -Sy inkscape
+inkscape 
+nvim passlist
+ls
+cat passlist 
+sudo pacman -Syu
+clear
+paru -Syu
+sudo pacman -Sy base-devel
+htop
+ps aux
+ps -aux
+paru -Syu
+top -o %MEM -c -d 2 -u fisher
+clear
+noefetcj
+noefetch
+neofetch
+clear
+sudo pacman -Scc
+clear
+paru -Scc
+clear
+ls .cache/paru/clone/
+rm -r .cache/paru/clone/
+ls .cache/paru/clone/
+mkdir .cache/paru/clone/
+clear
+pacman -Q | wc -l
+clear
+neofetch
+sudo pacman -Syu
+clear
+paru -Syu
+clear
+sudo pacman -Syu
+clear
+paru -Syu
+clear
+bluetoothctl 
+exit
+cat passlist 
+bluetoothctl power off
+sudo pacman -Syu
+clear
+paru -syu
+paru -Syu
+clear
+paru -Sy zed-editor
+cd dev/
+git clone https://github.com/zed-industries/zed.git
+cd zed/
+git submodule update --init --recursive
+rustup update 
+clear
+cargo run
+vkcube -m x11
+WAYLAND_DISPLAY='' cargo run
+cargo run
+vulkaninfo --summary
+sudo pacman -Sy vulkaninfo 
+sudo pacman -Sy vulkan-icd-loader
+sudo pacman -Sy vulkan-intel
+sudo pacman -Sy nvidia-utils
+clear
+vulkaninfo
+vulkaninfo --summary
+clear
+cargo run
+bluetoothctl 
+vkdevicechooser
+cd dev/zed/
+ls
+cargo run
+sudo pacman -Sy lapce
+clear
+lapce
+sudo pacman -Sy font-manager 
+font-manager
+clear
+nmcli device wifi connect Mobile 
+nmcli device wifi connect IIITG-Student
+nmcli device wifi connect IIITG-Faculty
+nmcli device wifi connect Mobile 
+nmcli device wifi list
+nmcli device wifi connect "Zinnia G Mobile" 
+clear
+lapce --help
+lapce --version
+clear
+ls
+cd dev/ls
+cd dev
+ls
+clear
+ls
+cd gtk-lock-rs
+lapce .
+clear
+nmcli device wifi connect Mobile 
+clear
+inkscape 
+ls
+cd dev/l
+cd dev
+ls
+clear
+ls
+cd compiler-project/
+ls
+clear
+nvim pdg/ddg-pass.cpp 
+clang++ -S -emit-llvm tests/sample.cpp -o tests/sample.ll
+nvim pdg/ddg-pass.cpp 
+cd dev/compiler-project/
+clear
+ls
+nvim pdg/ddg-pass.cpp 
+clear
+git add .
+git status 
+cat .gitignore 
+rm tests/sample.ll
+clear
+git commit -m "corrected ddg, added bfs"
+git status 
+git push origin main
+clear
+cd dev/compiler-project/
+ls
+cd docs
+rm 2054-article-p50.pdf
+clear
+git add .
+git commit -m "removing 2054 doc"
+git push origin main
+clear
+cd ..
+clear
+cd dev/
+ls
+cd compiler-project/
+ls
+clear
+ls
+git status 
+git add .
+git commit -m "finished ddg and secure/not-secure, todo: add cdg"
+git push origin main
+clear
+nvim README.md 
+clear
+nvim pdg/instruction-counter.cpp 
+clear
+git status 
+exit
+paru -Sy snort
+clear
+sudo pacman -Syu
+clear
+paru -Syu
+clear
+cat /etc/snort/rules/local.rules 
+cat /etc/snort/rules/snort.rules 
+clear
+sudo touch /etc/snort/rules/rulefile_2101036.rules
+clear
+sudo pacman -Rcns Hyprland 
+sudo pacman -Rcns hyprland 
+sudo pacman -Sy hyprland-nox
+cd dev/compiler-project/
+ls
+paru -Sy hyprland-nox
+clear
+cd dev/Animal_Rehabilitation_Website/
+ls
+clear
+ls
+cd ..
+ls
+npx create-next-app@latest 
+exit
+neofetch
+clear
+sudo pacman -Syu
+clear
+cd .config/nushell/
+ls
+mv themes themes.old
+exit
+sudo pacman -Syu
+mv themes.old themes
+neofetch
+clear
+nvim config.nu 
+clear
+nvim ~/.config/hypr/hyprland.conf 
+nvim ~/.config/kickoff/config.toml 
+clear
+sudo pacman -Syu
+sudo pacman -Rcns mysql 
+sudo pacman -Rcns mariadb 
+clear
+pacman -Q
+sudo pacman -Rcns wezterm 
+clear
+pacman -Q
+sudo pacman -Rcns xorg-xwayland 
+clear
+pacman -Q
+sudo pacman -Rcns lapce 
+sudo pacman -Rcns zed-editor
+sudo pacman -Rcns tree-sitter 
+sudo pacman -Rcns swaylock
+sudo pacman -Rcns swaylock-effects 
+sudo pacman -Rcns qbittorrent qt6-declarative 
+clear
+pacman -Q | wc -l
+pacman -Q 
+clear
+ls
+exit
+ls
+exit
+cd dev
+cd compiler-project/
+cd /
+cd home/
+clear
+nvim ~/.config/nushell/config.nu 
+sudo pacman -SYu
+sudo pacman -Syu
+nvim hello
+clear
+nvim ~/.config/kitty/kitty.conf 
+:q
+clear
+nvim ~/.config/hypr/hyprland.conf 
+clear
+neofetch
+sudo pacman -Syu
+clear
+bluetoothctl 
+$env.config.shell_integration = true
+nvim ~/.config/nushell/config.nu 
+nvim ~/.config/kitty/kitty.conf 
+nvim hello.js
+npm hello.js
+mkdir hello
+mv hello.js hello/
+cd hello/
+clear
+npm init
+npm run
+npm init
+npm run
+clear
+npm start
+cd dev/compiler-project/
+cd ..
+cd dev/compiler-project/
+clear
+ls
+opt --bugpoint-enable-legacy-pm -load ./pdg/pdg-pass.so -pdg-pass < ./tests/sample.ll > /dev/null
+opt --help | grep "bugpoint"
+clang++ -S -emit-llvm tests/sample.cpp -o tests/sample.ll
+clang++ -shared -o ./pdg/pdg-pass.so ./pdg/pdg-pass.cpp `llvm-config --cxxflags --ldflags --libs` -fPIC
+cd dev/compiler_submission/
+cat README.md 
+clear
+cat ~/Downloads/bres.json 
+clear
+cat ~/Downloads/bres.json 
+echo
+exit
+exit
+exit
+exit
+kitten icat ~/Downloads/Output.jpg
+clear
+kitten themes -l
+kitten themes -h
+kitten themes
+clear
+cd Downloads/
+ls
+mkdir save
+mv save ../
+mv save ../save1
+ls
+mv ./* ../save1/
+ls
+clear
+cd ..
+ls
+cd hello/ls
+ls
+cd hello
+ls
+cd ..
+rm -r hello
+clear
+ls
+mv passlist .passlist
+clear
+ls
+rm -r paru
+clear
+ls
+sudo pacman -Syu
+clear
+cd dev/compiler_submission/
+ls
+cd dev/compiler_submission/
+cd dev/compiler_submission/
+clear
+clear
+sudo pacman -Syu
+clear
+paru -Syu
+clear
+nvim ~/Downloads/hardware.py 
+cd Downloads/
+python hardware2.py 
+scp hardware2.py shreya.malik21b@172.16.2.17:
+python --versin
+python --version
+sudo pacman -Rcns thunar
+clear
+sudo pacman -Rcns inkscape 
+clear
+sudo pacman -Rcns llvm
+sudo pacman -Rcns clang 
+clear
+clang
+clear
+pacman -Q | wc -l
+pacman -Q
+pacman -Rcns python-annotated-types 
+sudo pacman -Rcns python-annotated-types 
+sudo pacman -Q | grep python
+sudo pacman -Rcns python-mariadb-connector 
+sudo pacman -Rcns python-requests 
+sudo pacman -Rcns python-tqdm 
+clear
+sudo pacman -Q
+sudo pacman -Rcns xorg-xset
+sudo pacman -Rcns xorg-xprop 
+sudo pacman -Qtdq
+sudo pacman -Rcns vulkan-tools libutempter 
+clear
+sudo pacman -Sy nnn
+clear
+nnn
+sudo pacman -Sy nnn-nerd
+paru -Sy nnn-nerd
+clear
+nvim ~/Downloads/hardware2.py 
+clear
+nnn -e
+nnn --help
+echo $env.NNN_FIFO
+paru -Rcns nnn-nerd 
+sudo pacman -Sy yazi
+sudo pacman -Sy yazi ffmpegthumbnailer unarchiver jq poppler fd ripgrep fzf zoxide
+clear
+yazi
+cd .config/yazi/
+ls
+cd flavors/
+ls
+nvim mocha.toml
+git clone git@github.com:yazi-rs/flavors.git
+mv flavors/catppuccin-mocha.yazi .
+ls
+rm mocha.toml
+ls
+pwd
+cd flavors/
+ls
+cd ..
+rm -r flavors/
+ls
+clear
+ls .config/yazi/flavors/
+nvim theme.toml
+ls
+swww ~/Downloads/wallhaven-851g8o_1920x1080.png
+swww i ~/Downloads/wallhaven-851g8o_1920x1080.png
+swww img ~/Downloads/wallhaven-851g8o_1920x1080.png
+clear
+nvim ~/.config/hypr/hyprland.conf 
+swww img ~/Downloads/wallhaven-kx6rjm_1920x1080.png
+swww img ~/Downloads/wallhaven-p9x8rm_1920x1080.png
+eww open music
+eww open noe
+eww open now
+sudo fdisk  -l
+sudo mount /dev/sdb1 /mnt
+cd /mnt/
+ls
+cd 'Game Of Thrones S08 Complete Season 8 720p x264 AC3 5.1 [MKV]/'
+ls
+cd ..
+ls
+pwd
+cd ..
+ls
+cd mnt/
+ls
+cd ..
+sudo fdisk -l
+sudo mount /dev/sdc1 /mnt
+cd mnt/
+cd 'Game Of Thrones S08 Complete Season 8 720p x264 AC3 5.1 [MKV]/'
+mpv Game.of.Thrones.S08E03.The.Long.Night.720p.mkv 
+nvim ~/.config/kitty/kitty.conf 
+nvim ~/.config/nushell/config.nu 
+sudo pacman -Syu
+paru -Syu
+sudo mount /dev/sda1 /mnt/
+cd /mnt/
+ls
+cd x
+ls
+cd phone/
+ls
+cd ../..
+ls
+cd bkp/
+ls
+cd Pictures/
+ls
+cd g
+ls
+imv .
+mpv ./
+swww img ~/Downloads/wallhaven-851g8o_1920x1080.png
+clear
+neofetch
+pkill eww
+neofetch
+clear
+pkill swww
+neofetch
+clear
+top | grep hypr
+ptop
+htop
+top
+clear
+ps -aux | grep hypr
+ps --help
+ps 
+ps | grep hypr
+sudo pacman -Q
+nvim /etc/snort/rules/rulefile_2101036.rules 
+chmod +r /etc/snort/rules/rulefile_2101036.rules 
+sudo chmod +r /etc/snort/rules/rulefile_2101036.rules 
+sudo chmod 777 /etc/snort/rules/rulefile_2101036.rules 
+ls /etc/snort/rules/rulefile_2101036.rules 
+ls -l /etc/snort/rules/rulefile_2101036.rules 
+sudo chmod 333 /etc/snort/rules/rulefile_2101036.rules 
+ls -l /etc/snort/rules/rulefile_2101036.rules 
+sudo chmod 555 /etc/snort/rules/rulefile_2101036.rules 
+ls -l /etc/snort/rules/rulefile_2101036.rules 
+sudo chmod 666 /etc/snort/rules/rulefile_2101036.rules 
+ls -l /etc/snort/rules/rulefile_2101036.rules 
+ls -l /etc/snort/rules/
+nvim /etc/snort/rules/rulefile_2101036.rules 
+cat /etc/snort/rules/snort.rules 
+cat /etc/snort/rules/local.rules 
+clear
+snort -c /etc/snort/snort.conf -r ~/Downloads/tftp_rrq.pcap -A console -l ./log -K ascii
+snort -c /etc/snort/snort.conf -r ~/Downloads/tftp_rrq.pcap -A console
+snort -r ~/Downloads/tftp_rrq.pcap -A console
+snort --help
+snort --help-commands
+snort
+snort -r ~/Downloads/tftp_rrq.pcap
+snort -c /etc/snort/snort.lua -r ~/Downloads/tftp_rrq.pcap -A console
+snort -c /etc/snort/snort.lua -r ~/Downloads/tftp_rrq.pcap 
+sudo nvim /etc/snort/snort.lua 
+snort -c /etc/snort/snort.lua --daq-dir /usr/local/lib/daq -r ~/Downloads/tftp_rrq.pcap 
+sudo pacman -Sy libpcap
+yazi
+paru -Sy libdaq
+clear
+snort -c /etc/snort/snort.lua -R /etc/snort/rules/rulefile_2101036.rules
+snort -c /etc/snort/snort.lua --daq-dir /lib/daq/ -r ~/Downloads/tftp_rrq.pcap 
+clear
+swww img ~/Downloads/wallhaven-4gxwl0_1920x1080.png
+swww img ~/Downloads/wallhaven-54lqq0_1920x1080.png
+cd dev/
+ls
+rm -r Animal_Rehabilitation_Website animal_rehabilitation_website arw
+clear
+ls
+rm -r compiler_submission
+clear
+ls
+rm -r zed
+clear
+git clone git@github.com:AmanYadav31/Animal_Rehabilitation_Website.git
+cd Animal_Rehabilitation_Website/
+ls
+git checkout master
+ls
+rm package-lock.json
+rm package.json
+clear
+npm init
+ls
+npm init
+git restore .
+ls
+rm package-lock.json
+nvim package.json 
+clear
+npm i
+npm run
+npm start
+ls
+npm i react-scripts
+npm remove react-scripts
+clear
+npm i next@latest react@latest react-dom@latest
+npm i next@latest react@latest react-dom@latest --save
+nvim package.json 
+npm dev
+ls
+cd dev/Animal_Rehabilitation_Website/
+ls
+cd src/
+ls
+cd pages/
+ls
+cd ..
+ls
+mv index.js App.js index.css pages/
+npm run dev
+cat index.css
+cat pages/index.css
+cd ..
+ls
+npm i tailwindcss
+npm run dev
+npm i react-router-dom
+npm run dev
+npm i framer-motion
+npm i react-icons
+npm i react-redux
+npm i react-slick
+npm i react-toastify
+npm i gsap
+npm i react-paginate
+npm i redux-persist
+npm i slick-carousel
+npm i @reduxjs/toolkit
+clear
+ls
+nvim package.json 
+rm package*
+ls
+rm -r node_modules/
+ls
+clear
+cd dev/Animal_Rehabilitation_Website/
+ls
+clear
+npm run dev
+rm ./src/assets/pdf/pdf1.pdf
+npm i
+rm ./src/assets/pdf/pdf1.pdf
+pwd
+npm i postcss
+npm run dev
+npm i autoprefixer
+npm i tailwind-scrollbar
+npm run dev
+clear
+touch src/pages/_app.js
+nvim ./src/pages/App.js 
+clear
+npm run dev
+nvim ./src/pages/App.js 
+ls
+npm remove gsap
+npm run dev
+nvim src/pages/_app.js 
+rm ./src/pages/index.js
+npm run dev
+nvim ./src/components/home/SpecialOffers/SpecialOffers.js 
+rm ./src/pages/index.js
+clear
+ls
+git status 
+git restore
+git restore ./
+ls
+clear
+git status 
+cd ..
+ls
+rm -r Animal_Rehabilitation_Website/
+clear
+ls
+git clone git@github.com:AmanYadav31/Animal_Rehabilitation_Website.git
+cd Animal_Rehabilitation_Website/
+ls
+clear
+git checkout master
+ls
+npm install --save-dev vite @vitejs/plugin-react vite-plugin-svgr
+rm -r node_modules/
+clear
+ls
+rm package-lock.json
+clear
+ls
+clear
+ls
+nvim vite.config.js
+mv public/index.html .
+nvim index.html 
+nvim vite-env.d.js
+ls
+npm uninstall react-scripts
+nvim package.json 
+npm run start
+ls
+cd src/
+ls
+cd ..
+nvim index.html 
+clear
+cd ..
+ls
+cd Animal_Rehabilitation_Website/
+ls
+mv src/index.js src/index.jsx
+nvim index.html 
+npm start
+cd src/
+ls
+mv App.js App.jsx
+clear
+mv components/doctorPage/doctorPage.js components/doctorPage/doctorPage.jsx
+ls
+cd pages/
+ls
+find About/ -name "*.js" -exec mv {} {}x \;
+bash
+clear
+nvim ~/.bashrc 
+npm start
+clear
+nvim package.json 
+ncu 
+ncu -u
+npm ci
+npm install
+npm ci
+clear
+bash
+exit
+clear
+ls
+pwd
+npm start
+mv vite.config.js vite.config.mjs
+clear
+npm start
+git status 
+git add .
+git checkout -b dev
+git status 
+git commit -m "Shifted from create-react-app to vite"
+clear
+git stats
+git status
+git push origin dev
+clear
+exit
+nvim ./src/components/home/YearProduct/YearProduct.jsx 
+clear
+ls
+cd ..
+ls
+git clone git@github.com:mohammad-faazel/Build-full-ecommerce-website-using-React-Next-14-Sanity-Redux-Toolkit-Stripe-payment-Full-video.git
+cd Build-full-ecommerce-website-using-React-Next-14-Sanity-Redux-Toolkit-Stripe-payment-Full-video/
+ls
+ncu 
+ncu -u
+sudo pacman -Sy yarn
+yarn install
+ls
+npm install
+clear
+npm run dev
+npm install
+npm run dev
+nvim .env 
+cd dev/Build-full-ecommerce-website-using-React-Next-14-Sanity-Redux-Toolkit-Stripe-payment-Full-video/
+ls
+cat .env
+nvim .env 
+npm run dev
+clear
+cat package.json 
+npm run start
+rm -r .next
+clear
+npm run start
+clear
+tree
+tree --help
+tree -L 2
+:3000/_next/static/c…user)/layout.js:158 clear
+clear
+tree --help
+tree --help | grep git
+tree -L 2 --gitignore
+tree -L 3 --gitignore
+cd dev/Build-full-ecommerce-website-using-React-Next-14-Sanity-Redux-Toolkit-Stripe-payment-Full-video/
+npm run start
+npm run dev
+cd ..
+ls
+git clone git@github.com:noorjsdivs/orebiyt.git
+cd orebiyt/
+ls
+cat .env 
+mv ../Build-full-ecommerce-website-using-React-Next-14-Sanity-Redux-Toolkit-Stripe-payment-Full-video/.env 
+mv ../Build-full-ecommerce-website-using-React-Next-14-Sanity-Redux-Toolkit-Stripe-payment-Full-video/.env ./env.old
+ls
+cat env.old 
+cat .env
+mv env.old .env
+clear
+npm run dev
+npm install
+sudo pacman -Syu
+clear
+yarn install
+npm run dev
+clear
+npm run start
+clear
+cd ..
+ls
+mkdir orebi
+mkdir trash
+mv Build-full-ecommerce-website-using-React-Next-14-Sanity-Redux-Toolkit-Stripe-payment-Full-video/ trash/
+mv orebiyt/ trash/
+ls
+cd orebi/
+ls
+git clone git@github.com:ishraque-dev/orebi-e-commerce.git
+ls
+git clone git@github.com:ishraque-dev/orebi-backend.git
+clear
+ls
+cd orebi-e-commerce/
+ls
+npm install
+cd dev/orebi/orebi-backend/
+yarn install
+yarn install
+npm run dev
+npm run 
+npm run start
+npm run dev
+cat package.json 
+npm run dev
+cd ..
+ls
+cd ..
+ls
+rm -r orebi
+cd Animal_Rehabilitation_Website/
+ls
+clear
+ls
+cd ..
+ls
+mkdir Animal_Rehabilitation_Backend
+cd Animal_Rehabilitation_Backend/
+npm init
+clear
+ls
+git init
+git remote add origin git@github.com:anant-357/Animal_Rehabilitation_Backend.git
+git branch -M main
+git push -u origin main
+git add .
+git commit -m "starting"
+git push -u origin main
+clear
+npm install express --save
+npm install mongoose --save
+clear
+ls
+mkdir src
+cd src
+ls
+nvim index.ks
+nvim index.js
+npm install -g nodemon
+sudo npm install -g nodemon
+clear
+ls
+cd ..
+ls
+nvim package.json 
+clear
+cd ..
+cd ~
+exit
+ls
+cd dev/Animal_Rehabilitation_Backend/
+ls
+clear
+cd src/
+ls
+mkdir models
+cd models/
+ls
+nvim user.js
+clear
+nvim user.js
+clear
+cd ..
+ls
+npm start
+clear
+npm start
+ls
+mkdir src/routes
+mkdir src/controllers
+mkdir src/middlewares
+curl --help
+curl -X GET http://localhost:8080/
+cd dev/Animal_Rehabilitation_Backend/
+ls
+mkdir src/db
+nvim src/db/db.js
+nvim .env
+clear
+npm install --save dotenv
+git status
+nvim .gitignore
+git status 
+nvim .gitignore
+git status 
+git add .
+git commit -m "Added Skeleton and User Model"
+git push -u origin main
+clear
+touch ./src/routes/index.js
+ls
+mkdir ./src/utils
+touch ./src/utils/appError.js
+npm start
+touch ./src/routes/userRouter.js
+touch ./src/routes/centerRouter.js
+clear
+npm start
+curl -X GET http://localhost:8080/hello/
+clear
+curl -X GET http://localhost:8080/
+mkdir src/controllers/user
+mkdir src/controllers/center
+touch src/controllers/user/user.js
+touch src/controllers/center/center.js
+paru -Sy mongodb-bin
+clear
+touch src/utils/catchAsync.js
+nvim src/utils/catchAsync.js 
+clear
+git status 
+git pull origin main
+git add .
+tree -L 3 --gitignore
+git commit -m "Added utils and routers"
+git pull origin main
+git config pull.rebase false
+git pull origin main
+clear
+git status 
+git push origin main
+clear
+sudo systemctl enable --now mongodb.service
+nvim .env 
+clear
+curl --help
+curl -X POST http://localhost:8080/user/create --data {name: "A", email: "a@b.com", p_number: "123231", password: "Hello", city: "KKK"}
+curl -X POST http://localhost:8080/api/user/create --data {name: "A", email: "a@b.com", p_number: "123231", password: "Hello", city: "KKK"}
+curl -X GET http://localhost:8080/api/user/
+curl -X POST http://localhost:8080/api/user/create --data {name: "A", email: "a@b.com", p_number: "123231", password: "Hello", city: "KKK"}
+curl -X GET http://localhost:8080/api/user/get/
+curl -X POST http://localhost:8080/api/user/create --data {name: "A", email: "a@b.com", p_number: "123231", password: "Hello", city: "KKK"}
+curl --help
+curl -X POST -H "Content-Type: application/json" http://localhost:8080/api/user/create --data {name: "A", email: "a@b.com", p_number: "123231", password: "Hello", city: "KKK"}
+curl -X POST -H "Content-Type: application/json" http://localhost:8080/api/user/create --data '{"name":"A","email":"a@b.com","p_number":"123231","password":"Hello","city":"KKK"}'
+curl -X POST -H "Content-Type: application/json" http://localhost:8080/api/user/create --data '{\"name\":\"A\",\"email\":\"a@b.com\",\"p_number\":\"123231\",\"password\":\"Hello\",\"city\":\"KKK\"}'
+mongosh
+clear
+paru -Sy postman-bin
+clear
+postman 
+curl -X GET http://localhost:8080/api/user/get
+nvim index.js 
+git status 
+nvim ../.gitignore 
+git status 
+git add .
+git commit -m "Added controllers for user"
+postman --enable-features=UseOzonePlatform --ozone-platform=wayland
+git push origin main
+exit
+npm start
+exit
+cd dev/
+ls
+pwd
+clear
+clear
+cd Animal_Rehabilitation_Backend/
+exit
+ls
+ls
+nvim src/
+npm start
+nvim .
+git status
+git restore .
+clear
+git status 
+clearw
+clear
+npm install --save nodemailer
+clear
+git status 
+touch src/utils/mailVerification.js
+touch src/utils/mailVerificationTemplate.js
+touch src/middlewares/auth.js
+npm install --save bcrypt
+npm install --save jsonwebtoken
+swww img ~/Downloads/wallhaven-4gxwl0_1920x1080.png
+swww img ~/Downloads/wallhaven-54lqq0_1920x1080.png
+swww img ~/Downloads/wallhaven-768zy3_1920x1080.png
+swww img ~/Downloads/wallhaven-851g8o_1920x1080.png
+swww img ~/Downloads/wallhaven-95wey8_1920x1080.png
+nvim .
+clear
+git pull
+clear
+git status 
+git add .
+git status 
+git push origin main
+git commit -m "Added User Authentication"
+git push origin main
+clear
+clear
+nvim .
+rm src/middlewares/auth.js
+clear
+git add .
+git commit -m "-"
+git push origin main
+swww img ~/Downloads/wallhaven-e76pew_1920x1080.png
+swww img ~/Downloads/wallhaven-j3qq15_1920x1080.png
+swww img ~/Downloads/wallhaven-kx6rjm_1920x1080.png
+swww img ~/Downloads/wallhaven-lmwglr_1920x1080.png
+swww img ~/Downloads/wallhaven-nr7zq0_1920x1080.png
+swww img ~/Downloads/wallhaven-p9x8rm_1920x1080.png
+swww img ~/Downloads/wallhaven-r0w5p0_1920x1080.png
+swww img ~/Downloads/wallhaven-rdvyjw_1920x1080.png
+cd dev/
+ls
+cd Animal_Rehabilitation_Backend/
+clear
+ls
+clear
+luffy
+clear
+git status 
+cat .env
+mongosh
+nvim .env 
+clear
+npm start
+nvim .
+nvim .env 
+git status 
+git add .
+nvim .env
+git pull 
+git status 
+git commit -m "tested email verif, commenting for now"
+git push origin main
+clear
+ls
+cd dev/Animal_Rehabilitation_Website/
+ls
+mv src/redux/orebiSlice.jsx src/redux/userSlice.jsx
+npm start
+rm -r src/pages/Cart
+clear
+nvim .
+clear
+ls
+cp src/redux/userSlice.jsx src/redux/centerSlice.jsx
+npm start
+npm install --save cors
+npm start
+git status 
+git add .
+git commit -m "added UserSlice, CenterSlice(Empty), with UserSlice having an async thunk to handle login, Used in src/pages/Account/SignIn.jsx"
+git push origin main
+git push origin edv
+git push origin dev
+ckear
+clear
+sudo pacman -Sy google-glog 
+paru -Sy google-chrome 
+paru -Sy google-chrome-dev
+nvim .
+clear
+git status 
+git add .
+git commit -m "started registration, removing cart"
+git push origin dev
+mv src/_components/ src/x
+mv src/x src/_components
+git add .
+ls
+git status 
+git commit -m "registration complete"
+git push origin dev
+clear
+clear
+google-chrome-unstable 
+google-chrome-unstable  --enable-features=UseOzonePlatform --ozone-platform=wayland
+git status 
+git add .
+git commit -m "login complete"
+git push origin dev
+clear
+git status 
+git add .
+git commit -m "fixed user api"
+git push origin main
+clear
+cat .env 
+cat .env
+ls
+clear
+rm -r src/pages/Offer/
+npm start
+git pull
+touch src/seeds.txt
+nvim .
+clear
+git status 
+git add .
+nvim src/seeds.txt 
+nvim src/seeds.txt 
+git add .
+git commit -m "added endpoints for many creations of user and centre, seeds.txt for direct input to postman"
+clear
+git push origin main
+git pull
+git status 
+git pull origin dev
+clear
+nvim .
+git status 
+git add .
+git commit -m "Centers connected!";
+clear
+git status 
+git pull origin dev
+git push origin dev
+nvim .
+clear
+git status 
+git add .
+git commit -m "Centers connected!";
+git push origin main
+clear
+git status 
+clear
+git status 
+git pull 
+clear
+sudo pacman -Syu
+clear
+sudo pacman -U ~/Downloads/warp-terminal-v0.2024.04.02.08.02.stable_01-1-x86_64.pkg.tar.zst 
+warp-terminal 
+clear
+git pull 
+git pull origin dev
+clear
+git status 
+git pull origin dev
+nvim .
+git stash
+git pull origin master
+git status 
+git config pull.rebase false
+clear
+git pull origin master
+nvim package.json 
+nvim src/App.jsx 
+nvim src/pages/Account/SignUp.jsx 
+clear
+git status 
+rm package-lock.json
+npm i
+ncu 
+npm i
+npm audit
+clear
+git status 
+npm start
+tree -L 3 --gitignore
+tree -L 4 --gitignore
+find src/pages/ProfileMain/ -name "*.js" -exec mv {} {}x \;
+bash
+tree -L 4 --gitignore
+npm start
+npm audit
+git stash help
+git help
+git help stash
+git stash list
+git stash pop
+bash
+clear
+clear
+git status 
+git add .
+git status 
+git commit -m "Header Fixed";
+git push origin dev
+clear
+nvim .
+nvim src/seeds.txt 
+git status 
+git stash list
+git help stash
+git stash clear
+git stash list
+git stash
+git pull origin master
+nvim src/App.jsx 
+clear
+nvim src/components/home/Header/
+clear
+git status 
+git add .
+git status 
+git commit -m "merged with master"
+clear
+git status 
+git stash pop
+bash
+npm start
+git status 
+git add .
+git status 
+git commit -m "profile in navbar, other fixes"
+clear
+git push origin dev
+clear
+git status 
+git add .
+git commit -m "fixes"
+git push origin dev
+clear
+nvim .
+git status 
+git commit -m "Progress Variables"
+git add .
+git commit -m "Progress Variables"
+nvim ,
+nvim .
+git status 
+git add .
+git commit -m "Filtered endpoints and fixed models"
+git push origin main
+clear
+git status 
+git pull
+clear
+git add .
+git status 
+git commit -m "Added Create Booking"
+git push origin main
+nvim .
+clear
+git add .
+git commit -m "Updated deleteUser to delete bookings recursively!"
+clear
+git push origin main
+git status 
+git pull origin master
+bash
+clear
+nvim .
+clear
+git status 
+git add .
+git status 
+git commit -m "merging with master"
+git status 
+clear
+git pull origin Aman
+clear
+git status 
+pkill chromium 
+git status 
+git add .
+git commit -m "Centers loading once per reload in src/components/pageProps/shopPage/Pagination.jsx"
+git push origin main
+git push origin dev
+clear
+pwd
+clear
+git pull origin Aman
+clear
+git pull origin Aman
+nvim src/redux/userSlice.jsx 
+paru -Syu
+nvim .
+clear
+git status 
+git add .
+git commit -m "Merging changes"
+git push origin dev
+powertop
+sudo pacman -Sy powertop
+clear
+powertop
+powertop --auto-tune 
+sudo powertop --auto-tune 
+sudo powertop
+clear
+sudo pacman -Sy rg bat fzf eza
+sudo pacman -Sy ripgrep bat fzf eza
+eza 
+eza -l
+eza -tree
+eza --tree
+clear
+cd dev/
+ls
+cd Animal_Rehabilitation_Backend/
+ls
+bat package.json 
+clear
+sudo pacman -Rcns eza
+clear
+cat ./Desktop/chrome-pmgfegnpdcflnhbjhhgdanlnnagnolfk-Default.desktop 
+ll
+clear
+rm -r src/components/SpecialCase/
+clear
+git status 
+git add .
+git commit -m "getCities"
+git pull origin Aman
+clear
+git status 
+git add .
+git commit -m "merged"
+git push origin main
+clear
+nvim .
+google-chrome-unstable  --enable-features=UseOzonePlatform --ozone-platform=wayland
+clear
+git status 
+git status 
+nvim .
+clear
+powertop 
+sudo powertop 
+sudo powertop --auto-tune 
+sudo systemctl enable --now powertop 
+sudo powertop --calibrate 
+sudo systemctl enable powetop.service
+sudo systemctl enable powertop.service
+nmcli
+nmcli device wifi connect 
+nmcli device wifi list
+nmcli device wifi rescan
+nmcli device  show wifi
+nmcli device  show wlp0s20f3 
+nmcli device status 
+nmcli device set wlp0s20f3 autoconnect yes 
+ip
+ip link 
+ip link set wlp0s20f3 state up
+sudo ip link set wlp0s20f3 state up
+ip link 
+clear
+sudo ip link set wlp0s20f3  up
+sudo rfkill unblock eww-wifi 
+sudo rfkill unblock wifi 
+sudo ip link set wlp0s20f3  up
+sudo systemctl enable powertop.service
+sudo systemctl enable --user powertop.service
+sudo systemctl status powertop.service
+sudo nvim /etc/systemd/powertop.service
+sudo systemctl enable powertop.service
+sudo systemctl daemon-reload    
+sudo systemctl enable powertop.service
+nvim /etc/systemd/user/
+ls /etc/systemd/system/
+sudo nvim /etc/systemd/system/powertop.service
+ls /etc/systemd/system/
+sudo systemctl enable powertop.service
+clear
+sudo systemctl enable --now powertop.service
+clear
+powetop
+powertop
+sudo powertop
+clear
+cd dev/Animal_Rehabilitation_Backend/
+ls
+git status 
+git add .
+git commit -m "cities"
+git pull origin Aman
+nvim src/routes/centerRouter.js 
+nvim src/controllers/center/center.js 
+clear
+git add .
+git commit -m "merging with aman"
+git push origin main
+cd dev/Animal_Rehabilitation_Website/
+git status 
+clear
+git add .
+git commit -m "Connecting Center Page to Backend"
+clear
+git pull origin Aman
+bluetoothctl power of
+bluetoothctl power off
+nvim src/_components/Doctor_list.jsx 
+nvim src/pages/ProfileMain/Feedback.jsx 
+nvim src/redux/userSlice.jsx 
+git status 
+git add .
+git commit -m "Merging with Aman"
+git push origin dev
+clear
+git status 
+clear
+npm i
+npm i
+clear
+npm start
+ncu 
+clear
+npm .
+clear
+npm start
+powertop
+nvim .
+clear
+git status 
+google-chrome-unstable  --enable-features=UseOzonePlatform --ozone-platform=wayland
+swww img ~/Downloads/wallhaven-4gxwl0_1920x1080.png
+swww img ~/Downloads/wallhaven-54lqq0_1920x1080.png
+swww img ~/Downloads/wallhaven-768zy3_1920x1080.png
+cd dev/Animal_Rehabilitation_Website/
+cd dev/Animal_Rehabilitation_Backend/
+clear
+clear
+git add .
+git push origin dev
+git commit -m "Fixed Pagination, added filtering by city, handleForm in updateDetails"
+git push origin dev
+clear
+git pull origin Aman
+clear
+bluetoothctl power on
+sudo systemctl start bluetooth
+rfkill unblock bluetooth
+bluetoothctl
+exit
+clear
+exit
+neofetch
+--clear
+clear
+neofetch
+postman --enable-features=UseOzonePlatform --ozone-platform=wayland
+sudo pacman -Syu
+paru -Syu
+git statu
+git status 
+git add .
+git commit -m "CreateBooking, User Dashboard Bookings"
+git pull origin dev
+nvim src/pages/ProfileMain/UpdateDetails.jsx 
+git status 
+git add .
+git commit -m "merging updateDetails changes"
+clear
+git status 
+git push origin dev
+nvim .
+git status 
+git add .
+git commit -m "User Dashboard bookings"
+git pull origin dev
+clear
+git pull origin Aman
+nvim src/App.jsx 
+git add .
+git commit -m "merged with Adarsh"
+git push origin dev
+bash
+npm start
+git add .
+git push origin dev
+git commit -m "createBooking -> createBookings"
+git push origin dev
+clear
+git checkout Aman
+git checkout master
+git checkout Aman
+git checkout dev
+git add .
+git commit -m "Feedback on center page, diff page for create booking"
+git push origin dev
+git status 
+git add .
+git commit -m "changes"
+git pull origin Aman
+git status 
+git add .
+git commit -m "merging with Aman"
+git push origin dev
+git push origin main
+git pull origin dev
+clear
+git status 
+git pull origin dev
+clear
+nvim .
+clear
+git status 
+git add .
+git commit -m "Added feedback"
+git pull origin dev
+git push origin dev
+git add .
+git commit -m "Sign up, Sign In dynamic without scroll"
+git pull origin dev
+nvim src/pages/ProfileMain/Dashboard.jsx 
+clear
+git status 
+git add .
+git commit -m "merging"
+git push origin dev
+git pull origin Aman
+nvim src/App.jsx 
+git add .
+git status 
+git commit -m "merging with error page"
+git push origin dev
+clear
+git add .
+git commit -m "changes"
+git pull origin Aman
+clear
+git status 
+git push origin main
+clear
+nvim src/pages/ProfileMain/Error.jsx 
+git pull origin main
+git status 
+git add .
+git commit -m "changes"
+git pull origin main
+clear
+git status 
+git add .
+git status 
+git commit -m "create bookings no need to update doctor booking array"
+clear
+git push origin main
+git pull 
+nvim src/controllers/center/doctor.js 
+git status 
+git add .
+git commit -m "merging"
+git push origin main
+clear
+git status 
+npm start
+clear
+git add .
+git commit -m "bookings"
+git push origin main
+git push origin dev
+git pull
+git status
+git pull origin dev
+git push origin dev
+clear
+google-chrome-unstable  --enable-features=UseOzonePlatform --ozone-platform=wayland
+nvim .
+git status 
+npm start
+clear
+cd dev
+cd dev/Animal_Rehabilitation_Website/
+git pull 
+cd Animal_Rehabilitation_Backend/
+git pull origin mani
+git pull origin dev
+git pull origin main
+npm start
+npm start
+npm i
+npm i
+git add .
+git commit -m "Center Dashboard"
+git push origin dev
+clear
+nvim src/seeds.txt 
+git add .
+git commit -m "changes"
+git push origin main
+google-chrome-unstable  --enable-features=UseOzonePlatform --ozone-platform=wayland
+bluetoothctl power off
+clear
+sudo pacman -Syu
+paru -Syu
+clear
+cd dev/Animal_Rehabilitation_Website/
+cd ~/dev/Animal_Rehabilitation_Backend/
+sudo pacman -Syu
+clear
+sudo pacman -Sy wireshark-cli 
+clear
+tshark --help
+tshark -r ~/Downloads/tftp_rrq.pcap 
+tshark -r ~/Downloads/FTPv6-1.cap 
+tshark -r ~/Downloads/FTPv6-1.cap | head -n 20
+snort -c /etc/snort/snort.lua --daq-dir /lib/daq/ -r ~/Downloads/FTPv6-1.cap 
+snort -c /etc/snort/snort.lua --daq-dir /lib/daq/ -r `~/Downloads/FTP- Unknown-56.pcap`
+bash
+snort -c /etc/snort/snort.lua --daq-dir /lib/daq/ -r ~/Downloads/FTPU.pcap
+tshark -r ~/Downloads/FTPU.pcap 
+sudo nvim /etc/snort/snort.lua 
+snort -c /etc/snort/snort.lua --daq-dir /lib/daq/ -r ~/Downloads/FTPU.pcap -A alert_csv
+ls
+bat /etc/snort/snort.lua 
+snort -c /etc/snort/snort.lua --daq-dir /lib/daq/ -r ~/Downloads/FTPU.pcap -A full
+bat /etc/snort/snort_defaults.lua 
+clear
+bat /etc/snort/rules/rulefile_2101036.rules 
+sudo nvim /etc/snort/rules/rulefile_2101036.rules 
+cd /var/log/snort/
+snort -c /etc/snort/snort.lua --daq-dir /lib/daq/ -r ~/Downloads/FTPU.pcap -A full -R /etc/snort/rules/rulefile_2101036.rules
+bat /etc/snort/snort.lua 
+clear
+snort -c /etc/snort/snort.lua --daq-dir /lib/daq/ -r ~/Downloads/FTPU.pcap -A console -R /etc/snort/rules/rulefile_2101036.rules
+snort -c /etc/snort/snort.lua --daq-dir /lib/daq/ -r ~/Downloads/FTPU.pcap -A full -R /etc/snort/rules/rulefile_2101036.rules
+snort --daq-list
+snort --daq-list --daq-dir /lib/daq/
+snort --daq-dir /lib/daq/ --daq-dir
+snort --daq-dir /lib/daq/ --daq-list
+snort -c /etc/snort/snort.lua -A console --daq-dir /lib/daq/ -r ~/Downloads/FTPU.pcap -R /etc/snort/rules/rulefile_2101036.rules
+sudo nvim /etc/snort/rules/rulefile_2101036.rules 
+snort -c /etc/snort/snort.lua -A console --daq-dir /lib/daq/ -r ~/Downloads/FTPU.pcap -R /etc/snort/rules/rulefile_2101036.rules
+snort -c /etc/snort/snort.lua -A console --daq-dir /lib/daq/ -r ~/Downloads/tftp_rrq.pcap -R /etc/snort/rules/rulefile_2101036.rules
+sudo systemctl list 
+sudo systemctl --help
+sudo systemctl list-units
+df -h
+sudo systemctl stop getty
+sudo pacman -Rcns agetty 
+sudo pacman -Rcns agreety 
+sudo pacman -Rcns greetd 
+clear
+sudo systemctl start getty@tty2.service 
+snort -c /etc/snort/snort.lua -A console --daq-dir /lib/daq/ -r ~/Downloads/FTPU.pcap -R /etc/snort/rules/rulefile_2101036.rules
+tshark -r ~/Downloads/FTPU.pcap
+ls
+snort -c /etc/snort/snort.lua -A full --daq-dir /lib/daq/ -r ~/Downloads/FTPU.pcap -R /etc/snort/rules/rulefile_2101036.rules
+clear
+tshark -r ~/Downloads/linx-setup-pingpong-shutdown.pcap 
+tshark -r ~/Downloads/x400-ping-success.pcap 
+tshark -r ~/Downloads/ipv4frags.pcap 
+snort -c /etc/snort/snort.lua -A full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/ipv4frags.pcap
+clear
+ls
+cd dev/
+ls
+mkdir snort
+cd snort/
+ls
+mkdir pcap
+mv ~/Downloads/FTPU.pcap pcap/
+mv ~/Downloads/ipv4frags.pcap pcap/II.pcap
+clear
+tshark -r ~/Downloads/telnet-cooked.pcap 
+tshark -r ~/Downloads/telnet-raw.pcap 
+tshark -r ~/Downloads/telnet-cooked.pcap 
+tshark -r ~/Downloads/telnet-cooked.pcap | head -n 15
+tshark -r ~/Downloads/telnet-raw.pcap | head -n 15
+tshark -r ~/dev/snort/pcap/FTPU.pcap  | head -n 15
+mv ~/Downloads/ftp.pcap ~/dev/snort/pcap/I.pcap
+clear
+snort -c /etc/snort/snort.lua -A full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/telnet-cooked.pcap
+tshark -r ~/Downloads/ssh1.pcap   | head -n 15
+tshark -r ~/Downloads/ssh1.pcap  
+~/Downloads/ssh1.pcap | head -n  16 > ~/Downloads/IIII.pcap
+bash
+clear
+tshark -r ~/Downloads/IIII.pcap 
+tshark -r ~/Downloads/ssh-sha1.pcap 
+snort -c /etc/snort/snort.lua -A full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/ssh-sha1.pcap
+snort -c /etc/snort/snort.lua -A full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/ssh1.pcap
+mv ~/Downloads/ssh1.pcap ~/dev/snort/pcap/IIII.pcap
+tshark -r ~/Downloads/http.cap 
+snort -c /etc/snort/snort.lua -A full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/http.cap
+mv ~/Downloads/http.pcap ~/dev/snort/pcap/V.pcap
+mv ~/Downloads/http.cap ~/dev/snort/pcap/V.cap
+tshark -r ~/Downloads/netlink.pcap 
+tshark -r ~/Downloads/dns.cap 
+tshark -r ~/Downloads/dns.cap | grep ubuntu
+nvim ~/Downloads/dns.cap 
+snort --help-options A
+snort -c /etc/snort/snort.lua -A alert_csv --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/http.cap
+snort -c /etc/snort/snort.lua -A alert_csv --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/dev/snort/pcap/IIII.pcap
+ls
+snort -c /etc/snort/snort.lua -A alert_csv --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/dev/snort/pcap/IIII.pcap
+bluetoothctl power on
+bluetoothctl
+sudo pacman -Syu
+paru -Syu
+shutdown now
+paru -Sy archimedes
+clear
+cd ..
+ls
+cd fisher/
+ls
+cd Downloads/
+ks
+ls
+mkdir aris
+mkdir acm
+mv aris-2.2.tar.gz aris/
+cd aris/
+tar -xvf aris-2.2.tar.gz 
+ls
+cd aris-2.2/
+ls
+./configure --prefix=/usr
+make
+clear
+cd ..
+ls
+cd ..
+ls
+rm -r aris
+paru -Sy c-graph
+sudo pacman -SyU gcc-fortran
+sudo pacman -Syu gcc-fortran
+sudo pacman -SyU gcc-fortran
+paru -Sy c-graph
+clear
+c-graph 
+sudo pacman -Sy gnuplot
+clear
+sudo pacman -Rcns gnuplot
+paru -Rcns c-graph
+sudo pacman -Rcns gcc-fortran
+exit
+clear
+sudo pacman -Syu 
+clear
+nvim ~/.config/eww/bar.yuck 
+clear
+nvim ~/.config/eww/bar.yuck 
+sudo pacman -Sy z
+sudo pacman -Sy zoxide
+z ~/.config/
+zoxide --help
+$nu.env-path
+nvim $nu.env-path
+nvim $nu.config-path
+z ~/.config/
+zoxide --help
+zoxide
+bluetoothctl 
+clear
+bluetoothctl 
+clear
+exit
+nvim ~/.config/eww/bar.yuck 
+snort --help-config alert_csv
+sudo nvim /etc/snort/snort.lua 
+snort --help-config alert_csv
+snort -c /etc/snort/snort.lua -A alert_csv --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/dev/snort/pcap/IIII.pcap
+ls
+bat alert_csv.txt 
+snort -c /etc/snort/snort.lua -A alert_csv --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/dev/snort/pcap/I.pcap
+bat alert_csv.txt 
+cat /etc/snort/rules/rulefile_2101036.rules 
+clear
+bat --list-themes 
+bash
+bat alert_csv.txt 
+mkdir dev/snort/outputs
+mv alert_csv.txt dev/snort/outputs/alert_csv_1.txt
+snort -c /etc/snort/snort.lua -A alert_csv --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/dev/snort/pcap/II.pcap
+bat alert_csv.txt 
+mv alert_csv.txt dev/snort/outputs/alert_csv_II.txt
+snort -c /etc/snort/snort.lua -A alert_csv --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/dev/snort/pcap/III.pcap
+snort -c /etc/snort/snort.lua -A alert_csv --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/dev/snort/pcap/IIII.pcap
+bat alert_csv.txt 
+sudo nvim /etc/snort/snort.lua 
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/dev/snort/pcap/IIII.pcap
+bat alert_csv.txt 
+bat alert_full.txt 
+mv alert_full.txt dev/snort/outputs/alert_full_IV.txt
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/dev/snort/pcap/V.pcap
+mv ~/Downloads/
+mv ~/Downloads/telnet-cooked.pcap ~/dev/snort/pcap/III.pcap
+mv ~/Downloads/dns.cap ~/dev/snort/pcap/VI.cap
+clear
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/dev/snort/pcap/III.pcap
+bat alert_full.txt 
+mv alert_full.txt dev/snort/outputs/alert_full_III.txt
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/dev/snort/pcap/I.pcap
+mv alert_full.txt dev/snort/outputs/alert_full_I.txt
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/dev/snort/pcap/II.pcap
+mv alert_full.txt dev/snort/outputs/alert_full_II.txt
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/dev/snort/pcap/III.pcap
+cat alert_full.txt 
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/dev/snort/pcap/IV.pcap
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/IIII.pcap
+bat alert_full.txt 
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/ssh-sha1.pcap
+bat alert_full.txt 
+tshark -r ~/Downloads/dns-remoteshell.pcap 
+tshark -r ~/Downloads/dns-remoteshell.pcap | grep 22
+tshark -r ~/Downloads/ssh-sha1.pcap 
+sudo nvim /etc/snort/rules/rulefile_2101036.rules 
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/ssh-sha1.pcap
+bat alert_full.txt 
+nvim .
+clear
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/ssh-sha1.pcap
+bat alert_full.txt 
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/ssh-sha1.pcap
+bat alert_full.txt 
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/ssh-sha1.pcap
+bat alert_full.txt 
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/ssh-sha1.pcap
+bat alert_full.txt 
+tshark -r ~/Downloads/ssh-sha1.pcap 
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/ssh-sha1.pcap
+bat alert_full.txt 
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/ssh-sha1.pcap
+bat alert_full.txt 
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/ssh-sha1.pcap
+bat alert_full.txt 
+nvim /etc/snort/rules/rulefile_2101036.rules 
+rm alert_*
+clear
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/ssh-sha1.pcap
+tshark -r ~/Downloads/ssh1.pcap 
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/ssh1.pcap
+bat alert_full.txt 
+exit
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/ssh1.pcap
+bat alert_full.txt 
+rm alert_full.txt
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/ssh1.pcap
+bat alert_full.txt 
+mv alert_full.txt dev/snort/outputs/alert_full_IV.txt
+ls dev/snort/outputs/
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/dev/snort/pcap/V.pcap
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/dev/snort/pcap/V.cap
+mv alert_full.txt dev/snort/outputs/alert_full_V.txt
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/dev/snort/pcap/VI.cap
+bat alert_full.txt 
+mv alert_full.txt dev/snort/outputs/alert_full_VI.txt
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/ssh1.pcap
+bat alert_full.txt 
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/ssh1.pcap
+bat alert_full.txt 
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/ssh1.pcap
+bat alert_full.txt 
+rm alert_full.txt
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/ssh1.pcap
+bat alert_full.txt 
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/ssh1.pcap
+bat alert_full.txt 
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/ssh1.pcap
+bat alert_full.txt 
+rm alert_full.txt
+sudo nvim /etc/snort/rules/rulefile_2101036.rules 
+nvim /etc/snort/rules/rulefile_2101036.rules 
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/ssh1.pcap
+rm alert_full.txt
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/ssh1.pcap
+bat alert_full.txt 
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/ssh1.pcap
+bat alert_full.txt 
+bat alert_full.txt | grep FIN
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/ssh1.pcap
+bat alert_full.txt 
+rm alert_full.txt
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/ssh1.pcap
+bat alert_full.txt 
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/ssh1.pcap
+rm alert_full.txt
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/ssh1.pcap
+bat alert_full.txt 
+rm alert_full.txt
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/ssh1.pcap
+bat alert_full.txt 
+rm alert_full.txt
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/Downloads/ssh1.pcap
+bat alert_full.txt 
+clear
+tshark -r ~/dev/snort/pcap/FTPU.pcap 
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/dev/snort/pcap/I.cap
+snort -c /etc/snort/snort.lua -A alert_full --daq-dir /lib/daq/ -R /etc/snort/rules/rulefile_2101036.rules -r ~/dev/snort/pcap/FTPU.pcap
+bat alert_full.txt 
+nvim alert_full.txt 
+mv alert_full.txt dev/snort/outputs/alert_full_VIII.txt
+ls dev/snort/outputs/
+cd dev/snort/outputs/
+rm *csv*
+ls
+cp alert_full_VI.txt alert_full_VII.txt
+nvim alert_full_VIII.txt 
+nvim alert_full_VII.txt 
+clear
+ls
+cd ..
+ls
+clear
+z .config/
+ls
+kickoff
+nnn
+yazi
+zed
+lapce
+rm -r GIMP SerenityOS Postman Thunar create-next-app-nodejs/ ep font-manager gnuplot lapce-stable midori nnn qBittorrent zed
+rm -r GIMP SerenityOS Postman Thunar create-next-app-nodejs/ epiphany/ font-manager gnuplot lapce-stable midori nnn qBittorrent zed
+clear
+ls
+mv kickoff bat yazi ~/dotfiles-wayland/.config/
+ls
+rm -r matplotlib/
+rm -r htop
+ln -sf ~/dotfiles-wayland/.config/kickoff kickoff
+ls
+cd kickoff/
+ls
+cd ..
+ls
+clear
+ln -sf ~/dotfiles-wayland/.config/bat bat
+ln -sf ~/dotfiles-wayland/.config/yazi yazi
+clear
+ls
+cd ..
+cd .config/
+ls
+ln -sf ~/dotfiles-wayland/.config/yazi yazi
+ls
+cd yazi/
+ls
+rm  yazi
+cd -
+ln -sf ~/dotfiles-wayland/.config/bat bat
+cd bat/
+ls
+rm bat
+z -
+clear
+ls
+neo
+neofetch 
+neofetch
+clear
+neofetch
+clear
+neofetch
+neofetch --refresh-rate
+clear
+neofetch --refresh-rate
+clear
+neofetch --refresh-rate
+exit
+clear
+neofetch --refresh-rate
+nvim .config/neofetch/config.conf 
+clear
+ls
+cd .config/
+ls
+mv neofetch/ ~/dotfiles-wayland/.config/
+ln -sf ~/dotfiles-wayland/.config/neofetch neofetch
+ls
+rm -r nextjs-nodejs/
+clear
+ls
+inkscape 
+sudo pacman -Sy inkscape
+clear
+ls
+cd ~/dev/snort/
+ls
+echo "# snort" >> README.md
+git init<\n>git add .
+ls
+git commit -m "first commit"<\n>git branch -M main
+git remote add origin git@github.com:anant-357/snort.git<\n>git push -u origin main
+clear
+git add .
+ls
+bash
+git add .
+ls
+git commit -m "first commit"<\n>git branch -M main
+git remote add origin git@github.com:anant-357/snort.git<\n>git push -u origin main
+git push origin main
+cd ~/dotfiles-wayland/
+clear
+ls
+git status 
