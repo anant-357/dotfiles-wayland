@@ -3,7 +3,7 @@
 (include "./bar.yuck")
 
 (defpoll music_data
-         :interval "50ms"
+         :interval "1000ms"
          :initial `eww-spotify status`
          `eww-spotify status`
          )

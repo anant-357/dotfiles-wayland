@@ -32,8 +32,9 @@
                  (button
                   :class "ewwbar-workspace ${ws == current_ws ? "active-workspace" : ""}"
                   :onclick "hyprctl dispatch workspace ${ws}"
-                  {ws == current_ws ? "" : ""}
-                  ;{ws == current_ws ? "" : ""}
+                   ;{ws == current_ws ? "" : ""}
+                  ;{ws == current_ws ? "|" : "_"}
+                  {ws == current_ws ? "" : "_"}
                   )
                  )
             )
@@ -115,10 +116,10 @@
  (_ewwbar_time)
 (_ewwbar_mode)
 		)
-		(box :orientation "horizontal" :halign "center" :space-evenly false :class "ewwbar-layout"
+		(box :orientation "horizontal" :halign "center" :space-evenly false :class ""
 				(workspace_switcher)
 		)
-		(box :orientation "horizontal" :halign "end" :space-evenly false :class "ewwbar-layout ewwbar-layout-right"
+		(box :orientation "horizontal" :halign "end" :space-evenly false :class "ewwbar-layout-right"
         (_ewwbar_volume)
         (_ewwbar_bluetooth)
         (_ewwbar_wifi)

@@ -1,14 +1,14 @@
 
 (defwidget _close_powermenu []
-  (button :class "close" :onclick "eww-powermenu close" ""))
+  (button :class "close" :onclick "eww-powermenu close" "󰅖"))
 (defwidget _logout []
-  (button :class "logout" :onclick "pkill awesome" ""))
+  (button :class "logout" :onclick "pkill hyprland" "󰍃"))
 (defwidget _sleep []
-  (button :class "sleep" :onclick "systemctl suspend" ""))
+  (button :class "sleep" :onclick "systemctl suspend" ""))
 (defwidget _reboot []
-  (button :class "reboot" :onclick "systemctl reboot" ""))
+  (button :class "reboot" :onclick "systemctl reboot" "󰑐"))
 (defwidget _poweroff []
-  (button :class "poweroff" :onclick "systemctl poweroff" ""))
+  (button :class "poweroff" :onclick "systemctl poweroff" "󰐥"))
 
 (defwidget _powermenu []
   (box :class "window" :vexpand true :hexpand true :halign "baseline"

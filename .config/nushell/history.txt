@@ -3786,3 +3786,153 @@ cd ~/dotfiles-wayland/
 clear
 ls
 git status 
+git add .
+git commit -m "update"
+clear
+git push origin main
+clear
+nvim .config/eww/eww.scss 
+clear
+exit
+clear
+bluetoothctl 
+exit
+cd Downloads/
+ls
+mkdir bw
+mv *.png ~/dotfiles-wayland/wallpapers/
+ls
+mv ssh1.pcap ../
+ls
+clear
+ls
+mv bWAPPv2.2.zip bw/
+cd bw/
+ls
+unzip bWAPPv2.2.zip 
+ls
+bat INSTALL.txt 
+ls
+cd bWAPP/
+ls
+chromium index.php 
+cd ..
+ls
+nvim /bin/eww-battery 
+clear
+nvim ~/.config/eww/tools/eww-battery/src/main.rs 
+z ~/.config/eww/tools/eww-battery/src/main.rs 
+z /home/fisher/.config/eww/tools/eww-battery/src/main.rs 
+z ..
+z ~/.config/eww/tools/eww-battery/src/main.rs 
+z .config/eww/tools/eww-battery/src/main.rs 
+z .config/eww/tools/eww-battery/src/main.rs
+z .config/eww/tools/eww-battery/src/
+ls
+rm `#main.rs#`
+cd ..
+ls
+clear
+cargo run
+clear
+cargo run
+clear
+nvim ./src/main.rs 
+clear
+cargo run
+cd ..
+cd eww-battery/
+ls
+cargo build --release
+clear
+cd target/release/
+ls
+chmod +x eww-battery 
+mv eww-battery /bin/
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd eww-wifi/
+ls
+clear
+nvim src/main.rs 
+clear
+exit
+exit
+nvim ~/.config/eww/bar.yuck 
+exit
+nvim ~/.config/hypr/hyprlock.conf 
+swww img ~/dotfiles-wayland/wallpapers/wallhaven-j3qq15_1920x1080.png
+clear
+sudo pacman -Q | feather
+nvim ~/.config/eww/eww.scss 
+sudo pacman -Sy niri
+paru -Sy niri
+clear
+cd ..
+ls
+cd fisher/.config/niri/
+ls
+clear
+sudo pacman -Syu python-pywal
+clear
+wal --help\
+wal -i ~/dotfiles-wayland/wallpapers/wallhaven-j3qq15_1920x1080.png
+wal --help
+wal -i ~/dotfiles-wayland/wallpapers/wallhaven-j3qq15_1920x1080.png -l
+wal --theme
+eww open music
+paru -Sy openrgb-bin 
+clear
+openrgb 
+sudo pacman -Sy qt6-wayland 
+eww close music
+eww open music
+clear
+openrgb 
+clear
+openrgb 
+openrgb --help
+openrgb 
+file /sys/bus/wmi/devices/7A4DDFE7-5B5D-40B4-8595-4408E0CC7F56/
+git clone https://github.com/JafarAkhondali/acer-predator-turbo-and-rgb-keyboard-linux-module<\n>cd "acer-predator-turbo-and-rgb-keyboard-linux-module"<\n>chmod +x ./*.sh<\n>sudo ./install_service.sh
+clear
+./facer_rgb.py -m 0 -z 1 -cR 0 -cB 255 -cG 0
+sudo ./facer_rgb.py -m 0 -z 1 -cR 0 -cB 255 -cG 0
+bat ./install_service.sh 
+sudo systemctl start turbo-fan
+sudo ./facer_rgb.py -m 0 -z 1 -cR 0 -cB 255 -cG 0
+sudo ./facer_rgb.py -m 3
+cd acer-predator-turbo-and-rgb-keyboard-linux-module/
+ls
+./facer_rgb.py -m 0 -z 1 -cR 0 -cB 255 -cG 0
+sudo ./facer_rgb.py -m 0 -z 1 -cR 0 -cB 255 -cG 0
+sudo ./uninstall_service.sh
+sudo ./install.sh
+sudo pacman -Sy linux-headers
+sudo ./install.sh
+sudo ./uninstall.sh
+sudo ./install_service.sh
+sudo pacman -Sy rsync
+sudo ./uninstall_service.sh
+sudo ./install_service.sh
+clear
+./facer_rgb.py -m 0 -z 1 -cR 0 -cB 255 -cG 0
+./facer_rgb.py -m 0 -z 1,2,3,4 -cR 0 -cB 255 -cG 0
+./facer_rgb.py -m 0 -z 1 -cR 0 -cB 128 -cG 0
+./facer_rgb.py -m 0 -z 1 -cR 100 -cB 128 -cG 100
+./facer_rgb.py -m 0 -z 1 -cR 100 -cB 255 -cG 100
+./facer_rgb.py -m 0 -z 2 -cR 100 -cB 255 -cG 100
+./facer_rgb.py -m 0 -z 3 -cR 100 -cB 255 -cG 100
+./facer_rgb.py -m 0 -z 4 -cR 100 -cB 255 -cG 100
+eww open music
+cd .config/eww
+ls
+nvim screenshotmenu.yuck 
+nvim scripts/screenshot 
+sleep 1;wayshot -o eDP-1 -e png --stdout | wl-copy
+kitten icat ~/screenshot.jpg
+exit

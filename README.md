@@ -14,22 +14,22 @@ Terminal : WezTerm
 
 ![bootloader](https://github.com/anant-357/dotfiles-wayland/blob/main/screenshots/grub.png?raw=true)
 
+### Latte
+
+![desktop](https://github.com/anant-357/dotfiles-wayland/blob/main/screenshots/latte.jpg?raw=true)
 
 ### Brown
 
 ![desktop](https://github.com/anant-357/dotfiles-wayland/blob/main/screenshots/catppuccin_desktop.png?raw=true)
 
-
 ### Monochrome
 
 ![desktop](https://github.com/anant-357/dotfiles-wayland/blob/main/screenshots/monochrome.png?raw=true)
-
 
 ### Gruvbox
 
 ![desktop](https://github.com/anant-357/dotfiles-wayland/blob/main/screenshots/gruvbox_work.png?raw=true)
 ![desktop](https://github.com/anant-357/dotfiles-wayland/blob/main/screenshots/gruvbox_desktop.png?raw=true)
-
 
 ### Dracula
 

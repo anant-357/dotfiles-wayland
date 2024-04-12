@@ -35,7 +35,7 @@ fn main() {
 
     let battery_info = match battery.state() {
         battery::State::Charging => Battery::new(
-            '󰛨',
+            '󱐋',
             (battery.energy().value * 100. / battery.energy_full().value) as u32,
             1,
             Time {
@@ -43,18 +43,34 @@ fn main() {
                 hour: (battery.time_to_full().unwrap().value as u32 / 3600),
             },
         ),
-        battery::State::Discharging => Battery::new(
-            '󰖌',
-            (battery.energy().value * 100. / battery.energy_full().value) as u32,
-            0,
-            Time {
-                minutes: ((battery.time_to_empty().unwrap().value / 60.0) % 60.0) as u32,
-                hour: (battery.time_to_empty().unwrap().value as u32 / 3600),
-            },
-        ),
-
+        battery::State::Discharging => {
+            let charge = (battery.energy().value * 100. / battery.energy_full().value) as u32;
+            let icon = match charge {
+                100 => '󰖨',
+                95..=99 => '󰁹',
+                85..=94 => '󰂂',
+                75..=84 => '󰂁',
+                65..=74 => '󰂀',
+                55..=64 => '󰁿',
+                45..=54 => '󰁾',
+                35..=44 => '󰁽',
+                25..=34 => '󰁼',
+                15..=24 => '󰁻',
+                5..=14 => '󰁺',
+                _ => '󰚌',
+            };
+            Battery::new(
+                icon,
+                (battery.energy().value * 100. / battery.energy_full().value) as u32,
+                0,
+                Time {
+                    minutes: ((battery.time_to_empty().unwrap().value / 60.0) % 60.0) as u32,
+                    hour: (battery.time_to_empty().unwrap().value as u32 / 3600),
+                },
+            )
+        }
         battery::State::Empty => Battery::new(
-            '󰋔',
+            '󰚌',
             0,
             1,
             Time {
@@ -63,7 +79,7 @@ fn main() {
             },
         ),
         battery::State::Full => Battery::new(
-            '󰣐',
+            '󰖨',
             100,
             1,
             Time {
