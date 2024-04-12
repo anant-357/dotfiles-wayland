@@ -1,11 +1,11 @@
 (defwidget _close_screenshotmenu []
-  (button :class "close" :onclick "eww close screenshotmenu" ""))
+  (button :class "close" :onclick "eww close screenshotmenu" "󰅖"))
 (defwidget _selection []
-  (button :class "selection" :onclick "bash ./scripts/screenshot selection" "󱈀"))
+  (button :class "selection" :onclick "bash ./scripts/screenshot selection" "󰒉"))
 (defwidget _windowshot []
-  (button :class "windowshot" :onclick "bash ./scripts/screenshot window" ""))
+  (button :class "windowshot" :onclick "bash ./scripts/screenshot window" "󰖯"))
 (defwidget _fullscreen []
-  (button :class "fullscreen" :onclick "bash ./scripts/screenshot fullscreen" ""))
+  (button :class "fullscreen" :onclick "bash ./scripts/screenshot fullscreen" "󰊓"))
 
 (defwidget _screenshotmenu []
   (box :class "screenshotmenu-box" :space-evenly true :orientation "horizontal" :spacing 60 :vexpand true :hexpand true :halign "center" :valign "start"
