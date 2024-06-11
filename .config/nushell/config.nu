@@ -1,30 +1,30 @@
 let catppuccin = {
-rosewater: "#dc8a78"
-    flamingo: "#dd7878"
-    pink: "#ea76cb"
-    mauve: "#8839ef"
-    red: "#d20f39"
-    maroon: "#e64553"
-    peach: "#fe640b"
-    yellow: "#df8e1d"
-    green: "#40a02b"
-    teal: "#179299"
-    sky: "#04a5e5"
-    sapphire: "#209fb5"
-    blue: "#1e66f5"
-    lavender: "#7287fd"
-    text: "#4c4f69"
-    subtext1: "#5c5f77"
-    subtext0: "#6c6f85"
-    overlay2: "#7c7f93"
-    overlay1: "#8c8fa1"
-    overlay0: "#9ca0b0"
-    surface2: "#acb0be"
-    surface1: "#bcc0cc"
-    surface0: "#ccd0da"
-    crust: "#dce0e8"
-    mantle: "#e6e9ef"
-    base: "#eff1f5"
+ rosewater: "#f5e0dc"
+    flamingo: "#f2cdcd"
+    pink: "#f5c2e7"
+    mauve: "#cba6f7"
+    red: "#f38ba8"
+    maroon: "#eba0ac"
+    peach: "#fab387"
+    yellow: "#f9e2af"
+    green: "#a6e3a1"
+    teal: "#94e2d5"
+    sky: "#89dceb"
+    sapphire: "#74c7ec"
+    blue: "#89b4fa"
+    lavender: "#b4befe"
+    text: "#cdd6f4"
+    subtext1: "#bac2de"
+    subtext0: "#a6adc8"
+    overlay2: "#9399b2"
+    overlay1: "#7f849c"
+    overlay0: "#6c7086"
+    surface2: "#585b70"
+    surface1: "#45475a"
+    surface0: "#313244"
+    base: "#1e1e2e"
+    mantle: "#181825"
+    crust: "#11111b"
 }
 
 
@@ -158,7 +158,15 @@ $env.config = {
     use_ansi_coloring: true
     bracketed_paste: true # enable bracketed paste, currently useless on windows
     edit_mode: vi # emacs, vi
-    shell_integration: true # enables terminal shell integration. Off by default, as some terminals have issues with this.
+    shell_integration: {
+         osc2: true
+        osc7: true
+        osc8: true
+        osc9_9: false
+        osc133: true
+        osc633: true
+        reset_application_mode: true
+      } # enables terminal shell integration. Off by default, as some terminals have issues with this.
     render_right_prompt_on_last_line: false # true or false to enable or disable right prompt to be rendered on last line of the prompt.
     use_kitty_protocol: true # enables keyboard enhancement protocol implemented by kitty console, only if your terminal support this.
     highlight_resolved_externals: false # true enables highlighting of external commands in the repl resolved by which.
@@ -761,4 +769,3 @@ $env.config = {
         }
     ]
 }
-source ~/.zoxide.nu
