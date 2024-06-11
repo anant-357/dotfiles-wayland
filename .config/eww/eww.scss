@@ -1,12 +1,15 @@
 @import "/home/fisher/.config/theme/colors.scss";
 
+$bg: #282828;
+$fg: #ebdbb2;
+
 * {
   all: unset;
 }
 
 .bar {
   background: rgba(0, 0, 0, 0);
-}
+  }
 
 @keyframes fadeIn {
   0% {
@@ -20,14 +23,46 @@
 .ewwbar-workspaces {
   border-radius: 8px;
   padding: 0px 6px;
-  background-color: rgba(1, 1, 1, 0.4);
+  background-color: $bg;
+  //background-color: rgba(1, 1, 1, 0.4);
 }
 
 .borders {
-  border: 5px solid rgba(255, 255, 255, 0.1);
+//  border: 3px solid rgba(255, 255, 255, 1);
+   border: 3px solid $fg;
+}
+
+.popup-box {
+  background: $bg;
+  border: 3px solid $fg;
+  border-radius: 8px;
+}
+
+.popup-box scale trough highlight {
+  all: unset;
+  background-color: $fg;
+  color: #000000;
+  border-radius: 10px;
+}
+
+.popup-box scale trough {
+  all: unset;
+  background-color: $bg;
+  border-radius: 2px;
+  min-height: 150px;
+  min-width: 6px;
+  margin: 20px 15px 10px 15px;
+}
+
+.popup-label {
+  font-size: 24px;
+  color: $fg;
+  min-width: 26px;
+  margin: 0px 15px 10px 15px;
 }
 
 .ewwbar-workspace {
+color: $fg;
   font-size: 18px;
   padding: 0px 0px;
   margin: 0px 6px;
@@ -35,12 +70,13 @@
   transition: font-size 0.25s;
 }
 .active-workspace {
+  color: $fg;
   font-size: 18px;
   font-weight: bold;
 }
 
 .active-workspace:hover {
-  color: black;
+  color: white;
 }
 
 .ewwbar-mode {
@@ -48,7 +84,8 @@
   font-size: 16px;
   font-style: italic;
   font-weight: bold;
-  background-color: rgba(1, 1, 1, 0.4);
+  background-color: $bg;
+  color: $fg;
   margin: 0px 5px;
   padding: 0px 14px;
   border-radius: 8px;
@@ -65,7 +102,7 @@
   font-weight: normal;
   font-size: 16px;
   font-family: "Symbols Nerd Font Mono";
-  color: $foreground;
+  color: $fg;
 }
 
 .ewwbar-text {
@@ -73,7 +110,7 @@
   font-family: "Iosevka";
   font-weight: bold;
   padding: 0px 0px 0px 6px;
-  color: $foreground;
+  color: $fg;
 }
 
 .music-box {
@@ -106,7 +143,9 @@
 }
 
 .ewwbar-layout-right {
-  padding-right: 12px;
+  margin-right: 12px;
+  border-radius: 8px;
+  background-color: $bg;
 }
 
 .ewwbar-layout {
@@ -117,7 +156,7 @@
   font-size: 40px;
   padding: 20px 30px;
   margin: 20px;
-  background: rgba(0, 0, 0, 0.2);
+  background: $bg;
   border-radius: 8px;
 }
 .window {

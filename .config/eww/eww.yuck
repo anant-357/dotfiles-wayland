@@ -1,6 +1,7 @@
 (include "./powermenu.yuck")
 (include "./screenshotmenu.yuck")
 (include "./bar.yuck")
+(include "./popup.yuck")
 
 (defpoll music_data
          :interval "1000ms"
