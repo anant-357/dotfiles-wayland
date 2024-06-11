@@ -1,40 +1,32 @@
 
 (defpoll mode
          :interval "100ms"
-         `hyprctl activewindow -j | jq --raw-output .title`
+         `niri msg -j focused-window | jq --raw-output .title`
          )
 
 (defwidget _ewwbar_mode []
            (label
-            :class "ewwbar-mode"
+            :class "ewwbar-mode borders"
             :limit-width 56
             :text "${mode}"
             )
            )
 
-(defvar workspaces
-  "[1, 2, 3, 4, 5, 6, 7, 8, 9]"
-  )
-
-(defpoll non_empty :interval "10ms" `hyprctl workspaces -j | jq '.[] | .id'`)
-
-(defpoll current_ws
-         :interval "1ms"
-         `hyprctl monitors -j | jq '.[] | select(.focused) | .activeWorkspace.id'`
-         )
+(defpoll ws_info :interval "10ms" :initial `eww-workspace` `eww-workspace`)
+(defvar wss "[1,2,3,4,5,6,7,8,9]")
 
 (defwidget workspace_switcher []
            (box
-            :class "ewwbar-workspaces"
+            :class "ewwbar-workspaces borders"
             :orientation "h"
             :hexpand false
-            (for ws in workspaces
+            (for ws in wss
                  (button
-                  :class "ewwbar-workspace ${ws == current_ws ? "active-workspace" : ""}"
+                  :class "ewwbar-workspace ${ws == ws_info["cws"] ? "active-workspace" : ""}"
                   :onclick "hyprctl dispatch workspace ${ws}"
                    ;{ws == current_ws ? "" : ""}
                   ;{ws == current_ws ? "|" : "_"}
-                  {ws == current_ws ? "" : "_"}
+                  {ws == ws_info["cws"] ? "" : "_"}
                   )
                  )
             )
@@ -44,7 +36,7 @@
   "date +'{\"hour\":\"%-H\",\"min\":\"%-M\",\"month\":\"%B\",\"year\":\"%Y\",\"day\":\"%A\" , \"date\":\"%-d\"}'")
 
 (defwidget _ewwbar_time []
-		(label :class "ewwbar-mode" :limit-width 64 :text " ${time.hour}\:${time.min}")
+		(label :class "ewwbar-mode borders" :limit-width 64 :text " ${time.hour}\:${time.min}")
 )
 
 
@@ -93,45 +85,39 @@
     )
 )
 
-(defvar volume_name false)
-(defpoll volume :interval "100ms" :initial `eww-volume` `eww-volume`)
-(defwidget _ewwbar_volume []
-		(eventbox :class "ewwbar-volume" 
-				:onhover "eww update volume_name=true"
-				:onhoverlost "eww update volume_name=false"
-				(box :space-evenly false :class "ewwbar-tw"
-						(label :class "ewwbar-symbol"  :text {volume["symbol"]})
-						(revealer :transition "slideright" :reveal volume_name
-								(label :class "ewwbar-text" :valign "center" :text {volume["volume"]} )
-						)
-				)
+
+
+
+(defvar ewwbar_visible true)
+
+(defwidget _bar []
+  (eventbox :class "ewwbar-hover" 
+    :onhover "eww update ewwbar_visible=true"
+    :onhoverlost "eww update ewwbar_visible=true"
+    (revealer :transition "sliderup" :reveal ewwbar_visible
+      (box :orientation "horizontal"
+        (box :orientation "horizontal" :halign "start" :space-evenly false :class "ewwbar-layout"
+          (_ewwbar_time)
+          (_ewwbar_mode)
+          )
+        (box :orientation "horizontal" :halign "center" :space-evenly false :class ""
+          (workspace_switcher)
+          )
+        (box :orientation "horizontal" :halign "end" :space-evenly false :class "ewwbar-layout-right borders"
+          (_ewwbar_bluetooth)
+          (_ewwbar_wifi)
+          (_ewwbar_battery)
+          )
+        )
+      )
     )
-)
-
-
-(defwidget _bar []  
-  (box :orientation "horizontal"
-
-(box :orientation "horizontal" :halign "start" :space-evenly false :class "ewwbar-layout"
- (_ewwbar_time)
-(_ewwbar_mode)
-		)
-		(box :orientation "horizontal" :halign "center" :space-evenly false :class ""
-				(workspace_switcher)
-		)
-		(box :orientation "horizontal" :halign "end" :space-evenly false :class "ewwbar-layout-right"
-        (_ewwbar_volume)
-        (_ewwbar_bluetooth)
-        (_ewwbar_wifi)
-      (_ewwbar_battery)
-		))
-)
+  )
 
 (defwindow bar 
   :monitor 0 
-  :geometry (geometry :x "0%" :y "1%" :width "100%" :height "30px" :anchor "bottom center") 
+  :geometry (geometry :x "0%" :y "1%" :width "100%" :height "34px" :anchor "bottom center") 
   :stacking "fg" 
-  :exclusive true 
+  :exclusive true
   :focusable false 
   :namespace "ewwbar"
   (_bar)
