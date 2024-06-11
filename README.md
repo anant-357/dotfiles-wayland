@@ -14,6 +14,10 @@ Terminal : WezTerm
 
 ![bootloader](https://github.com/anant-357/dotfiles-wayland/blob/main/screenshots/grub.png?raw=true)
 
+### Gruvbox (Niri)
+
+![desktop](https://github.com/anant-357/dotfiles-wayland/blob/main/screenshots/gruvbox_niri_desktop.png?raw=true)
+
 ### Latte
 
 ![desktop](https://github.com/anant-357/dotfiles-wayland/blob/main/screenshots/latte.jpg?raw=true)
@@ -26,10 +30,10 @@ Terminal : WezTerm
 
 ![desktop](https://github.com/anant-357/dotfiles-wayland/blob/main/screenshots/monochrome.png?raw=true)
 
-### Gruvbox
+### Gruvbox (Sway)
 
-![desktop](https://github.com/anant-357/dotfiles-wayland/blob/main/screenshots/gruvbox_work.png?raw=true)
-![desktop](https://github.com/anant-357/dotfiles-wayland/blob/main/screenshots/gruvbox_desktop.png?raw=true)
+![desktop](https://github.com/anant-357/dotfiles-wayland/blob/main/screenshots/gruvbox_sway_work.png?raw=true)
+![desktop](https://github.com/anant-357/dotfiles-wayland/blob/main/screenshots/gruvbox_sway_desktop.png?raw=true)
 
 ### Dracula
 
