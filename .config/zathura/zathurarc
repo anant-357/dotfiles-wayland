@@ -1,56 +1,19 @@
-# Zathura configuration file
-# See man `man zathurarc'
-
-# Open document in fit-width mode by default
 set adjust-open "best-fit"
-
-# One page per row by default
 set pages-per-row 1
-
-#stop at page boundries
 set scroll-page-aware "true"
 set scroll-full-overlap 0.01
 set scroll-step 100
-
-#zoom settings
+set smooth-scroll "true"
 set zoom-min 10
 set guioptions ""
+set page-padding 0
 
-# zathurarc-dark
+include gruvbox
 
 set font "fira code 15"
-set default-bg "#2D353B"
-set default-fg "#D3C6AA"
-
-set statusbar-fg "#B0B0B0" #04
-set statusbar-bg "#202020" #01
-
-set inputbar-bg "#151515" #00 currently not used
-set inputbar-fg "#FFFFFF" #02
-
-set notification-error-bg "#AC4142" #08
-set notification-error-fg "#151515" #00
-
-set notification-warning-bg "#AC4142" #08
-set notification-warning-fg "#151515" #00
-
-set highlight-color "#F4BF75" #0A
-set highlight-active-color "#6A9FB5" #0D
-
-set completion-highlight-fg "#151515" #02
-set completion-highlight-bg "#90A959" #0C
-
-set completion-bg "#303030" #02
-set completion-fg "#E0E0E0" #0C
-
-set notification-bg "#90A959" #0B
-set notification-fg "#151515" #00
-
-set recolor "true"
-set recolor-lightcolor  "#282a36"
-set recolor-darkcolor "#e8e8e2"
 set recolor-reverse-video "true"
 set recolor-keephue "true"
+set recolor "true"
 
 
 set render-loading "false"
@@ -60,4 +23,3 @@ set scroll-step 50
 set selection-clipboard clipboard
 set sandbox none
 
-include catppuccin-mocha
