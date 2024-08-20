@@ -1,3 +1,4 @@
+;; -*- lexical-binding: t -*- 
 (global-set-key (kbd "C-<tab>") 'tab-bar-switch-to-next-tab)
 (global-set-key (kbd "C-S-<tab>") 'tab-bar-switch-to-prev-tab)
 (global-set-key (kbd "C-t") 'tab-bar-new-tab)
