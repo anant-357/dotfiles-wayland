@@ -1,0 +1,114 @@
+@define-color color_bg #bg-color;
+@define-color color_bg_dark #bg-color;
+@define-color color_border #bg-color;
+@define-color color_border_active #ffffff;
+@define-color color_text #fg-color;
+@define-color color_urgent #8f0a0a;
+
+/* -- base styles -- */
+
+* {
+    font-family: CaskaydiaCove Nerd Font, sans-serif;
+    font-size: 12px;
+    border: none;
+    padding: 0px; 
+    margin: 0px;
+}
+
+.background {
+    background-color: transparent;
+}
+
+box, menubar, button {
+    background-color: @color_bg;
+    background-image: none;
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+button, label {
+    color: @color_text;
+}
+
+button:hover {
+    background-color: @color_bg_dark;
+}
+
+scale trough {
+    min-width: 1px;
+    min-height: 2px;
+}
+
+.popup {
+    padding: 1em;
+}
+
+.focused {
+    font-weight: bold;
+}
+
+
+
+/* -- clipboard -- */
+
+.clipboard > * {
+    font-size: 14px;
+}
+
+.popup-clipboard .item {
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid @color_border;
+}
+
+
+/* -- clock -- */
+
+.clock {
+    font-weight: bold;
+}
+
+.popup-clock .calendar-clock {
+    color: @color_text;
+    font-size: 2.5em;
+    padding-bottom: 0.1em;
+}
+
+.popup-clock .calendar {
+    background-color: @color_bg;
+    color: @color_text;
+}
+
+.popup-clock .calendar .header {
+    padding-top: 1em;
+    border-top: 1px solid @color_border;
+    font-size: 1.5em;
+}
+
+.popup-clock .calendar:selected {
+    background-color: @color_border_active;
+}
+
+.music {
+       margin:0px 4px;
+}
+
+/* -- volume -- */
+
+.volume > * {
+    font-size: 13px;
+}
+
+.popup-volume .device-box {
+    border-right: 1px solid @color_border;
+}
+
+/* -- custom: power menu -- */
+
+.popup-power-menu {
+}
+
+.popup-power-menu .power-btn {
+    padding: 0.1em 1em;
+}
+
+
