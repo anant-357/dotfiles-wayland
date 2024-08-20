@@ -1,9 +1,0 @@
-#!/bin/bash
-eww close screenshotmenu
-if [ "$1" = "selection" ]; then
-	nohup wayshot -s "$(slurp)" -e png --stdout | wl-cpoy &
-elif [ "$1" = "window" ]; then
-	wayshot -o eDP-1 -e png --stdout | wl-copy
-elif [ "$1" = "fullscreen" ]; then
-	hyprshot -m output
-fi
