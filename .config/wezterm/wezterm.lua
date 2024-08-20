@@ -12,35 +12,35 @@ function tab_title(tab_info)
 	return tab_info.active_pane.title
 end
 
-local scheme = wezterm.get_builtin_color_schemes()["Catppuccin Mocha"]
+local scheme = wezterm.get_builtin_color_schemes()["Gruvbox Dark (Gogh)"]
 wezterm.on("format-tab-title", function(tab, tabs, panes, config, hover, max_width)
 	local title = tab_title(tab)
 	if tab.is_active then
 		return {
 			{ Background = { Color = scheme.background } },
 			{ Foreground = { Color = scheme.foreground } },
-			--{ Text = ' ' },
-			{ Text = "󰕋 " },
+			{ Text = ' ' },
+			--{ Text = "󰕋 " },
 		}
 	else
 		return {
 			{ Background = { Color = scheme.background } },
 			{ Foreground = { Color = scheme.foreground } },
-			--{ Text = ' ' },
-			{ Text = "󰦰 " },
+			{ Text = ' ' },
+			--{ Text = "󰦰 " },
 		}
 	end
 end)
 
 return {
 	tab_max_width = 20,
-	--front_end = "OpenGL",
+	front_end = "WebGpu",
 
 	-- Font config
 	warn_about_missing_glyphs = false,
 	font_size = 11,
 	font = wezterm.font({
-		family = "FiraCode Nerd Font",
+		family = "CaskaydiaCove Nerd Font Mono",
 		weight = "Medium",
 		harfbuzz_features = { "zero", "ss01", "cv05" },
 	}),
@@ -49,12 +49,13 @@ return {
 	default_cursor_style = "BlinkingUnderline",
 	animation_fps = 1,
 	underline_thickness = 2,
-	cursor_blink_rate = 800,
+	cursor_blink_rate = 1000,
 	custom_block_glyphs = false,
 	-- X11
 	enable_wayland = true,
 	--dpi = 96.0,
 	--freetype_load_target = "HorizontalLcd",
+	default_prog = { '/bin/fish', '-l' },
 
 	-- Keybinds
 	disable_default_key_bindings = true,
@@ -190,7 +191,7 @@ return {
 		},
 	},
 
-	color_scheme = "Catppuccin Mocha",
+	color_scheme = "Gruvbox Dark (Gogh)",
 
 	-- Padding
 	window_padding = {
@@ -212,11 +213,11 @@ return {
 		saturation = 1.0,
 		brightness = 1.0,
 	},
-	window_background_opacity = 1,
-	window_close_confirmation = "NeverPrompt",
+
+    window_close_confirmation = "NeverPrompt",
 	window_frame = {
 		active_titlebar_bg = "#090909",
-		font = wezterm.font("FiraCode Nerd Font", {
+		font = wezterm.font("CaskaydiaCove Nerd Font", {
 			weight = "Bold",
 		}),
 	},

@@ -1,8 +1,0 @@
-[Unit]
-Description=Sway Wayland Compositor
-
-[Service]
-ExecStart=/home/zinnia/sway
-
-[Install]
-WantedBy=default.target
