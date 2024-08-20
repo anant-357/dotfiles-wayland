@@ -1,0 +1,13 @@
+[user]
+	email = anantsh.88@gmail.com
+	name = Anant Sharma
+	signingkey = /home/fisher/.ssh/21f3001737.pub
+[gpg]
+	format = ssh
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[init]
+	defaultBranch = main

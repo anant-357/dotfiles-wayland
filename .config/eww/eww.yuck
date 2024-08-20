@@ -1,5 +1,0 @@
-;(include "./powermenu.yuck")
-;(include "./screenshotmenu.yuck")
-(include "./bar.yuck")
-;(include "./popup.yuck")
-
