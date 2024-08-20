@@ -2,10 +2,10 @@
 
 Linux Distribution : Arch Linux
 
-Desktop Environment : Swayfx<br/>
-Status Bar : Eww<br/>
+Desktop Environment : Niri<br/>
+Status Bar : Ironbar<br/>
 
-Shell : Bash<br/>
+Shell : Fish<br/>
 Terminal : WezTerm
 
 ## screenshots
