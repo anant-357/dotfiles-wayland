@@ -1,3 +1,4 @@
+;; -*- lexical-binding: t -*- 
 (setq mode-line-position (list "󰧞%l,%c󰧞"))
 (setq-default mode-line-format `("%e"
                                  x-mode-line-buffer-name
