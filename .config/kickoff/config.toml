@@ -1,17 +1,18 @@
-padding = 20
+padding = 320
+margin = 100
 
 fonts = ['Iosevka'] # list of otf or ttf fonts. later elements work as fallback
-font_size = 20.0
+font_size = 32.0
 
 [history]
 decrease_interval = 48 # interval to decrease the number of launches in hours
 
 [colors]
-background = '#11111bbb'
-prompt = '#89b4fa'
-text = '#cdd6f4ff'          # for search results
+background = '#282828'
+prompt = '#ffffff'
+text = '#dacaa1ee'          # for search results
 text_query = '#fab387'      # for the search query
-text_selected = '#61afefff' # for the currently selected result
+text_selected = '#ebdbb2ff' # for the currently selected result
 
 [keybindings]
 paste = ["ctrl+v"]
