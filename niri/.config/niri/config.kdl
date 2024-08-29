@@ -37,8 +37,10 @@ environment {
     WLR_BACKEND "vulkan";
     WLR_NO_HARDWARE_CURSORS "1";
     DISPLAY ":0";
-    BROWSER "vivaldi";
+    BROWSER "zen-browser";
     EDITOR "emacs";
+    LAUNCHER "rofi -show drun";
+    TERMINAL "wezterm";
 }
 
 layout {
@@ -86,13 +88,10 @@ spawn-at-startup "emacs --daemon"
 
 binds {
     Mod+Shift+Slash { show-hotkey-overlay; }
-    Mod+Return { spawn "wezterm"; }
-    Mod+x { spawn "sh" "-c" "emacs"; }
-    Mod+r { spawn "yofi"; }
-    Mod+Ctrl+L { spawn "hyprlock"; }
-    Mod+c {spawn "sh" "-c" "$BROWSER";}
-    Mod+b {spawn "brave-beta" "--enable-features=UseOzonePlatform" "--ozone-platform=wayland";}
-    Mod+s {spawn "spotify" "--enable-features=UseOzonePlatform" "--ozone-platform=wayland";}
+    Mod+Return { spawn "sh" "-c" "$TERMINAL"; }
+    Mod+x { spawn "sh" "-c" "$EDITOR"; }
+    Mod+r { spawn "sh" "-c" "$LAUNCHER"; }
+    Mod+b {spawn "sh" "-c" "$BROWSER"; }
     XF86AudioRaiseVolume { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "4%+"; }
     XF86AudioLowerVolume { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "4%-"; }
     XF86AudioMute {spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SINK@" "toggle";}

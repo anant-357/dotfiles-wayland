@@ -6,6 +6,7 @@ user_configs=(
     mako
     mpd
     niri
+    rofi
     systemd
     wezterm
     zathura
