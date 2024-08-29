@@ -12,3 +12,5 @@
 *emacs/auto-save-list/
 target/
 *.desktop
+*mpd/pid
+*mpd/database
