@@ -11,3 +11,4 @@
 .emacs.d/transient/
 .emacs.d/auto-save-list/
 target/
+*.desktop
