@@ -2,11 +2,19 @@
 
 Linux Distribution : Arch Linux
 
-Desktop Environment : Niri<br/>
-Status Bar : Ironbar<br/>
-
-Shell : Fish<br/>
-Terminal : WezTerm
+**Window Manager** : Niri<br/>
+**Status Bar** : Ironbar<br/>
+**Shell** : Fish<br/>
+**Terminal** : WezTerm<br/>
+**Launcher** : Rofi<br/>
+**Editor** : Emacs<br/>
+**Music** : MPD+MPC<br/>
+**Browser** : Zen<br/>
+**Notifications** : Mako<br/>
+**Screenshot** : Niri<br/>
+**PDF** : Zathura<br/>
+**Image Viewer** : imv<br/>
+**Video Player** : mpv<br/>
 
 ## screenshots
 
@@ -17,25 +25,3 @@ Terminal : WezTerm
 ### Gruvbox (Niri)
 
 ![desktop](https://github.com/anant-357/dotfiles-wayland/blob/main/screenshots/gruvbox_niri_desktop.png?raw=true)
-
-### Latte
-
-![desktop](https://github.com/anant-357/dotfiles-wayland/blob/main/screenshots/latte.jpg?raw=true)
-
-### Brown
-
-![desktop](https://github.com/anant-357/dotfiles-wayland/blob/main/screenshots/catppuccin_desktop.png?raw=true)
-
-### Monochrome
-
-![desktop](https://github.com/anant-357/dotfiles-wayland/blob/main/screenshots/monochrome.png?raw=true)
-
-### Gruvbox (Sway)
-
-![desktop](https://github.com/anant-357/dotfiles-wayland/blob/main/screenshots/gruvbox_sway_work.png?raw=true)
-![desktop](https://github.com/anant-357/dotfiles-wayland/blob/main/screenshots/gruvbox_sway_desktop.png?raw=true)
-
-### Dracula
-
-![desktop](https://github.com/anant-357/dotfiles-wayland/blob/main/screenshots/dracula_work.png?raw=true)
-![desktop](https://github.com/anant-357/dotfiles-wayland/blob/main/screenshots/dracula_desktop.png?raw=true)
