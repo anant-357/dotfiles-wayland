@@ -22,7 +22,6 @@ length=10
 play = ""
 pause = ""
 
-
 [[center]]
 type = "focused"
 show_icon = false

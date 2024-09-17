@@ -18,7 +18,7 @@ output "eDP-1" {
     mode "1920x1080@60.019"
     scale 0.8
     variable-refresh-rate
-    background-color "#282828"
+    background-color "#ebdbb2"
 }
 
 prefer-no-csd
@@ -40,12 +40,12 @@ environment {
     BROWSER "zen-browser";
     EDITOR "emacs";
     LAUNCHER "rofi -show drun";
-    TERMINAL "wezterm";
+    TERMINAL "kitty";
 }
 
 layout {
-    gaps 0
-    preset-column-widths {
+    gaps 10
+preset-column-widths {
         proportion 0.1
         proportion 0.25
         proportion 0.33333
@@ -60,20 +60,20 @@ layout {
     }
     border {
         width 1
-        active-color "ebdbb2"
-        inactive-color "ebdbb2"
-        
+        active-color "282828"
+        inactive-color "282828"
     }
     struts {
-        left 0
-        right 0
-        top 0
-        bottom 0
+        left 4
+        right 4
+        top 2
+        bottom 2
     }
 }
 
+
 window-rule {
-            geometry-corner-radius 6
+    geometry-corner-radius 8
     clip-to-geometry true
 }
 

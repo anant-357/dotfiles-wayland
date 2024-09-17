@@ -1,0 +1,15 @@
+anchor_to_edges = true
+position = "bottom"
+icon_theme = "Paper"
+
+[[start]]
+type = "workspaces"
+all_monitors = false
+
+[start.name_map]
+1 = "󰙯"
+2 = "icon:firefox"
+3 = ""
+Games = "icon:steam"
+Code = ""
+

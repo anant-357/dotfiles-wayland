@@ -40,12 +40,12 @@ environment {
     BROWSER "zen-browser";
     EDITOR "emacs";
     LAUNCHER "rofi -show drun";
-    TERMINAL "wezterm";
+    TERMINAL "kitty";
 }
 
 layout {
-    gaps 0
-    preset-column-widths {
+    gaps 10
+preset-column-widths {
         proportion 0.1
         proportion 0.25
         proportion 0.33333
@@ -64,16 +64,16 @@ layout {
         inactive-color "fg-color"
     }
     struts {
-        left 0
-        right 0
-        top 0
-        bottom 0
+        left 4
+        right 4
+        top 2
+        bottom 2
     }
 }
 
 
 window-rule {
-    geometry-corner-radius 6
+    geometry-corner-radius 8
     clip-to-geometry true
 }
 
