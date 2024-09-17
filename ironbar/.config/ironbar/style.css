@@ -1,8 +1,8 @@
-@define-color color_bg #282828;
-@define-color color_bg_dark #282828;
-@define-color color_border #282828;
+@define-color color_bg #ebdbb2;
+@define-color color_bg_dark #ebdbb2;
+@define-color color_border #ebdbb2;
 @define-color color_border_active #ffffff;
-@define-color color_text #ebdbb2;
+@define-color color_text #282828;
 @define-color color_urgent #8f0a0a;
 
 /* -- base styles -- */

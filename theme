@@ -1,0 +1,100 @@
+#!/bin/perl
+use strict;
+use warnings;
+use File::Copy;
+use File::Slurp;
+
+sub parse_args {
+    my $theme = "dark";
+    if (!@ARGV) {
+        print "No argument supplied, defaulting to 'dark'\n";   
+    } else {
+        $theme = shift @ARGV;
+        if ($theme ne "light" && $theme ne "dark") {
+            print "Argument supplied is neither 'light' nor 'dark', defaulting to 'dark'\n";
+            $theme = "dark";
+        } 
+    }
+    if (@ARGV) {
+        print "Only one argument is expected, other arguments are ignored!\n";
+    }
+    return $theme;
+}
+
+my %config = (
+    ironbar => "/ironbar/style.css",
+    wezterm => "/wezterm/wezterm.lua",
+    zathura => "/zathura/gruvbox",
+    niri => "/niri/config.kdl",
+    emacs => "/emacs/theme.el",
+    rofi => "/rofi/config.rasi",
+    gtk => "",
+    );
+
+my $theme = parse_args();
+my $xdg_config_dir = $ENV{'XDG_CONFIG_DIR'};
+$xdg_config_dir ||= "$ENV{'HOME'}/.config";
+
+foreach my $key (keys %config) {
+    my $file_path = $xdg_config_dir.$config{$key};
+    my $template_path = $file_path.".template";
+    my $file_content;
+    if($key eq "wezterm") {
+        $file_content = read_file($template_path);
+        if($theme eq "dark") {
+            $file_content =~ s/Theme Name/Gruvbox Dark (Gogh)/g;
+        } else {
+            $file_content =~ s/Theme Name/Gruvbox (Gogh)/g;
+        }
+        write_file($file_path, $file_content);
+    }
+    elsif($key eq "gtk") {
+        my $gtk3_file_path = $xdg_config_dir."/gtk-3.0/settings.ini";
+        my $gtk3_template_path = $gtk3_file_path.".template";
+        my $gtk3_file_content = read_file($gtk3_template_path);
+        my $gtk2_file_path = $ENV{'HOME'}."/.gtkrc-2.0";
+        my $gtk2_template_path = $gtk2_file_path.".template";
+        my $gtk2_file_content = read_file($gtk2_template_path);
+
+        if($theme eq "dark") {
+            system("gsettings", "set", "org.gnome.desktop.interface", "gtk-theme", "'Gruvbox-Dark'");
+            system("gsettings", "set", "org.gnome.desktop.interface", "color-scheme", "'prefer-dark'");
+            $gtk3_file_content =~ s/<Theme-Name>/Gruvbox-Dark/g;
+            $gtk3_file_content =~ s/<DARK>/1/g;
+            $gtk2_file_content =~ s/<Theme-Name>/Gruvbox-Dark/g;
+        } else {
+            system("gsettings", "set", "org.gnome.desktop.interface", "gtk-theme", "'Gruvbox-Light'");
+            system("gsettings", "set", "org.gnome.desktop.interface", "color-scheme", "'prefer-light'");
+            $gtk3_file_content =~ s/<Theme-Name>/Gruvbox-Light/g;
+            $gtk3_file_content =~ s/<DARK>/0/g;
+            $gtk2_file_content =~ s/<Theme-Name>/Gruvbox-Light/g;
+        }
+        write_file($gtk3_file_path, $gtk3_file_content);
+        write_file($gtk2_file_path, $gtk2_file_content);
+        
+    } elsif($key eq "rofi") {
+        my $file_content = read_file($template_path);
+        if($theme eq "dark") {
+            $file_content =~ s/<theme-name>/gruvbox-dark/g;
+        } else {
+            $file_content =~ s/<theme-name>/gruvbox-light/g;
+        }
+        write_file($file_path, $file_content);
+    }else {
+        $file_content = read_file($template_path);
+        if($theme eq "dark") {
+            $file_content =~ s/bg-color/282828/g;
+            $file_content =~ s/bg-border-color/393939/g;
+            $file_content =~ s/fg-color/ebdbb2/g;
+            $file_content =~ s/theme-name/gruvbox-dark-medium/g;
+        } else {
+            $file_content =~ s/bg-color/ebdbb2/g;
+            $file_content =~ s/bg-border-color/dacaa1/g;
+            $file_content =~ s/fg-color/282828/g;
+            $file_content =~ s/theme-name/gruvbox-light-medium/g;
+        }
+        write_file($file_path, $file_content);
+    }
+}
+
+

@@ -3,13 +3,16 @@ user_configs=(
     emacs
     fish
     ironbar
+    kitty
     mako
     mpd
     niri
+    nvim
     rofi
     systemd
-    wezterm
+    tmux
     zathura
+    zellij
 )
 
 user_home_configs=(
