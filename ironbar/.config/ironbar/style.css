@@ -9,7 +9,8 @@
 
 * {
     font-family: CaskaydiaCove Nerd Font, sans-serif;
-    font-size: 12px;
+    font-size: 13px;
+    font-weight: bolder;
     border: none;
     padding: 0px; 
     margin: 0px;
@@ -26,12 +27,16 @@ box, menubar, button {
     border-radius: 0px;
 }
 
-button, label {
-    color: @color_text;
+label {
+    margin: 8px 4px 0px 4px;
+    padding: 8px 10px;
+    background-color: @color_text;
+    color: @color_bg;
+    border-radius: 8px;
 }
 
-button:hover {
-    background-color: @color_bg_dark;
+button {
+    background-color: transparent;
 }
 
 scale trough {
@@ -89,7 +94,7 @@ scale trough {
 }
 
 .music {
-       margin:0px 4px;
+       margin:0px 8px;
 }
 
 /* -- volume -- */

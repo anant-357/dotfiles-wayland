@@ -14,3 +14,6 @@ target/
 *.desktop
 mpd/.config/mpd/pid
 mpd/.config/mpd/database
+
+nvim/.config/nvim/lazy-lock.json
+
