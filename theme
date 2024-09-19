@@ -23,10 +23,8 @@ sub parse_args {
 
 my %config = (
     ironbar => "/ironbar/style.css",
-    wezterm => "/wezterm/wezterm.lua",
     zathura => "/zathura/gruvbox",
     niri => "/niri/config.kdl",
-    emacs => "/emacs/theme.el",
     rofi => "/rofi/config.rasi",
     gtk => "",
     );
