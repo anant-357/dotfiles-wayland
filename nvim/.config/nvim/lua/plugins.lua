@@ -8,4 +8,7 @@
 	 { "nvim-telescope/telescope.nvim", tag = '0.1.8', requires = {{ "nvim-lua/plenary.nvim" }}},
 	 { "nvim-treesitter/nvim-treesitter" },
 	 { "VonHeikemen/lsp-zero.nvim" , branch = 'v4.x'},
+     { "folke/which-key.nvim", event = "VeryLazy", keys = {{ "<leader>?", function() require("which-key").show({ global = false }) end, desc = "Buffer Local Keymaps (which-key)", },},},
+     { "folke/neoconf.nvim" },
+     { "nvim-tree/nvim-web-devicons" }
  }
