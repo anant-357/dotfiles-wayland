@@ -1,3 +1,6 @@
+
+require("neoconf").setup({})
+
 local lsp_zero = require('lsp-zero')
 
 local lsp_attatch = function(client, bufnr)
@@ -40,8 +43,7 @@ cmp.setup({
 	mapping = cmp.mapping.preset.insert({
 		['<CR>'] = cmp.mapping.confirm({ select = false }),
 		['<C-Space>'] = cmp.mapping.complete(),
-		
-		['<C-f>'] = cmp_action.vim_snippet_jump_forward(),
+        ['<C-f>'] = cmp_action.vim_snippet_jump_forward(),
 		['<C-b>'] = cmp_action.vim_snippet_jump_backward(),
 
 		['<C-u>'] = cmp.mapping.scroll_docs(-4),
