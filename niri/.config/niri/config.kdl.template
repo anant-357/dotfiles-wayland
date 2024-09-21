@@ -38,7 +38,7 @@ environment {
     WLR_NO_HARDWARE_CURSORS "1";
     DISPLAY ":0";
     BROWSER "zen-browser";
-    EDITOR "emacs";
+    EDITOR "nvim";
     LAUNCHER "rofi -show drun";
     TERMINAL "kitty";
 }
