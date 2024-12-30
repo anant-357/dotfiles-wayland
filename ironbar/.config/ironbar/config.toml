@@ -1,8 +1,0 @@
-anchor_to_edges = true
-position = "bottom"
-
-[[start]]
-type = "workspaces"
-all_monitors = false
-
-
