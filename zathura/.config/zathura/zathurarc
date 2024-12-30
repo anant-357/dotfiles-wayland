@@ -8,7 +8,7 @@ set zoom-min 10
 set guioptions ""
 set page-padding 0
 
-include gruvbox
+include catppuccin-frappe
 
 set font "fira code 15"
 set recolor-reverse-video "true"
