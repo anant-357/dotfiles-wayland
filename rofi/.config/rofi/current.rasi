@@ -1,45 +1,21 @@
 element {
     padding: 10px ;
     cursor:  pointer;
-    spacing: 5px ;
+    border-color: var(normal-background);
     border:  0;
 }
 element normal.normal {
     background-color: var(normal-background);
     text-color:       var(normal-foreground);
 }
-element normal.urgent {
-    background-color: var(urgent-background);
-    text-color:       var(urgent-foreground);
-}
-element normal.active {
-    background-color: var(normal-background);
-    text-color:       var(active-foreground);
-}
 element selected.normal {
     background-color: var(selected-normal-background);
-    text-color:       var(selected-normal-foreground);
-    font-weight: bold;
-}
-element selected.urgent {
-    background-color: var(urgent-background);
-    text-color:       var(selected-normal-foreground);
-}
-element selected.active {
-    background-color: var(active-background);
-    text-color:       var(selected-active-foreground);
+    text-color:       white;
+    font-weight: 900;
 }
 element alternate.normal {
     background-color: var(normal-background);
     text-color:       var(normal-foreground);
-}
-element alternate.urgent {
-    background-color: var(normal-background);
-    text-color:       var(urgent-foreground);
-}
-element alternate.active {
-    background-color: var(normal-background);
-    text-color:       var(active-foreground);
 }
 element-text {
     background-color: transparent;
@@ -56,17 +32,20 @@ element-icon {
 window {
     padding:          25;
     background-color: var(background);
-    border:           0;
+    border-color: var(separatorcolor);
+    border:           2px solid;
+    border-radius: 9px;
     width: 600px;
 }
 mainbox {
+    background-color: var(background);
     padding: 0;
     border:  0;
 }
 message {
     padding:      1px ;
     border-color: var(separatorcolor);
-    border:       2px dash 0px 0px ;
+    border:       0px dash 0px 0px ;
 }
 textbox {
     text-color: var(foreground);
@@ -74,6 +53,7 @@ textbox {
 listview {
     padding:      5px 0px 0px ;
     scrollbar:    true;
+    background-color: var(background);
     border-color: var(separatorcolor);
     spacing:      2px ;
     fixed-height: 0;
@@ -89,7 +69,7 @@ scrollbar {
 }
 sidebar {
     border-color: var(separatorcolor);
-    border:       2px dash 0px 0px ;
+    border:       0px dash 0px 0px ;
 }
 button {
     cursor:     pointer;
@@ -116,6 +96,7 @@ textbox-num-sep {
 inputbar {
     padding:    10px ;
     spacing:    0px ;
+    background-color: var(background);
     text-color: var(normal-foreground);
     children:   [ "entry" ];
 }
@@ -124,6 +105,7 @@ case-indicator {
     text-color: var(normal-foreground);
 }
 entry {
+    background-color: var(background);
     text-color:        var(normal-foreground);
     cursor:            text;
     spacing:           0;

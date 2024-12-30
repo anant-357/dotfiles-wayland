@@ -11,5 +11,5 @@ configuration {
     }
 }
 
-@theme "gruvbox-light"
+@theme "gruvbox-dark"
 @import "current"
