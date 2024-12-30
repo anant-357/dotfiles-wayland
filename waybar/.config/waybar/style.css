@@ -1,0 +1,171 @@
+* {
+    font-family: "Playfair";
+    font-weight: bold; 
+    font-size: 16px;
+}
+
+window#waybar {
+    background: transparent; 
+}
+
+tooltip {
+        background: #282828;
+        color: #ebdbb2;
+        font-size: 12px;
+        border-radius: 7px;
+    }
+
+#workspaces{
+    background: @theme_bg_color;
+    color: @theme_fg_color;
+        background: #282828;
+        color: #ebdbb2;
+    box-shadow: none;
+	text-shadow: none;
+    transition: 0.2s ease;
+}
+
+#workspaces button {
+    background: @theme_bg_color;
+    color: @theme_fg_color;
+        background: #282828;
+        color: #ebdbb2;
+    box-shadow: none;
+	text-shadow: none;
+    transition: 0.2s ease;
+    padding-left: 0px;
+    padding-right: 4px;
+    animation: ws_normal 20s ease-in-out 1; 
+}
+
+#workspaces button.active {
+    padding-left: 0px;
+    padding-right: 4px;
+    transition: all 0.4s cubic-bezier(.55,0.68,.48,1.682); 
+}
+
+#workspaces button:hover {
+    background: @theme_bg_color;
+    color: @theme_unfocused_text_color;
+        background: #282828;
+        color: #ebdbb2;
+    animation: ws_hover 20s ease-in-out 1;
+    transition: all 0.5s cubic-bezier(.55,-0.68,.48,1.682);
+}
+
+#upower{
+    background: @theme_bg_color;
+    color: @theme_fg_color;
+        background: #282828;
+        color: #ebdbb2;
+    font-weight: normal;
+    font-size: 22px;
+    opacity: 1;
+    margin: 0px 4px;
+    padding: 2px 8px;
+}
+
+#clock{
+    background: @theme_bg_color;
+    color: @theme_fg_color;
+        background: #282828;
+        color: #ebdbb2;
+    font-size: 18px;
+    font-weight: 900;
+    opacity: 1;
+    margin: 3px 0px 0px 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid @theme_fg_color;
+    
+}
+
+#pulseaudio{
+ background: @theme_bg_color;
+    color: @theme_fg_color;
+        background: #282828;
+        color: #ebdbb2;
+    font-weight: normal;
+    font-size: 18px;
+    opacity: 1;
+    margin: 0px 4px;
+    padding: 0px 8px;
+}
+
+#group_expand-2 {
+    background: @theme_bg_color;
+    color: @theme_fg_color;
+        background: #282828;
+        color: #ebdbb2;
+}
+
+#cpu{
+    background: @theme_bg_color;
+    color: @theme_fg_color;
+        background: #282828;
+        color: #ebdbb2;
+    font-weight: normal;
+    font-size: 22px;
+    margin: 0px 4px;
+    padding: 0px 8px 4px 8px;
+}
+
+#memory{
+    background: @theme_bg_color;
+    color: @theme_fg_color;
+        background: #282828;
+        color: #ebdbb2;
+    font-weight: normal;
+    font-size: 22px;
+    margin: 0px 4px;
+    padding: 0px 8px 4px 8px;
+}
+
+#network{
+ background: @theme_bg_color;
+    color: @theme_fg_color;
+        background: #282828;
+        color: #ebdbb2;
+    font-weight: normal;
+    font-size: 19px;
+    margin: 0px 4px;
+    padding: 0px 12px 0px 8px;
+}
+
+#pulseaudio-slider slider {
+  background-color: transparent;
+  box-shadow: none;
+  margin-right: 7px;
+}
+
+#pulseaudio-slider trough {
+  margin-top: -3px;
+  min-width: 90px;
+  min-height: 10px;
+  margin-bottom: -4px;
+  border-radius: 8px;
+}
+
+#pulseaudio-slider highlight {
+  border-radius: 8px;
+}
+
+#battery.critical:not(.charging) {
+    color: red;
+}
+
+#window {
+        background: #282828;
+        color: #ebdbb2;
+        padding: 0px 4px;
+    border-bottom: 1px solid #ebdbb2;
+}
+
+#mpd {
+    background: @theme_bg_color;
+    color: @theme_fg_color;
+        background: #282828;
+        color: #ebdbb2;
+    margin: 0px 4px;
+    padding: 0px 12px 0px 8px;
+}
