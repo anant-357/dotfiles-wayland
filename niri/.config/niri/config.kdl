@@ -16,9 +16,10 @@ input {
 
 output "eDP-1" {
     mode "1920x1080@60.019"
-    scale 0.8
+    scale 1  
     variable-refresh-rate
-    background-color "#ebdbb2"
+    //background-color "#1e1d2f"
+    background-color "#171717"
 }
 
 prefer-no-csd
@@ -38,13 +39,15 @@ environment {
     WLR_NO_HARDWARE_CURSORS "1";
     DISPLAY ":0";
     BROWSER "zen-browser";
-    EDITOR "emacs";
+    EDITOR "nvim";
     LAUNCHER "rofi -show drun";
-    TERMINAL "kitty";
+    TERMINAL "ghostty";
+    NIRI_LOADED "true";
 }
 
 layout {
     gaps 12
+//    gaps 0
     always-center-single-column
 preset-column-widths {
         proportion 0.1
@@ -61,44 +64,78 @@ preset-column-widths {
     }
     border {
         width 1
-        active-color "282828"
-        inactive-color "282828"
+        active-color "ebdbb2"
+        inactive-color "ffefa7"
     }
     struts {
         left 4
         right 4
         top 0
-        bottom 2
+        bottom 4
     }
 }
+
+workspace "terminal" {
+    open-on-output "eDP-1"
+    }
+window-rule {
+    match at-startup=true app-id="ghostty"
+    open-on-workspace "terminal"
+    }
+
+workspace "browser" {
+    open-on-output "eDP-1"
+    }
+window-rule {
+    match at-startup=true app-id="zen-alpha"
+    open-on-workspace "browser"
+    open-maximized true
+    }
 
 
 window-rule {
-    geometry-corner-radius 8
+    geometry-corner-radius 6
     clip-to-geometry true
-}
+    }
 
 animations {
-    off
     workspace-switch {
-        spring damping-ratio=0.1 stiffness=10 epsilon=0.0001
+        spring damping-ratio=1.0 stiffness=800 epsilon=0.0001
     }
 
     horizontal-view-movement {
-        spring damping-ratio=0.1 stiffness=10 epsilon=0.0001
+        spring damping-ratio=1.0 stiffness=800 epsilon=0.0001
     }
+
+    screenshot-ui-open {
+        spring damping-ratio=1.0 stiffness=800 epsilon=0.0001
+    }
+
+    window-open {
+        spring damping-ratio=1.0 stiffness=800 epsilon=0.0001
+    }
+    window-close {
+        spring damping-ratio=1.0 stiffness=800 epsilon=0.0001
+    }
+
 }
 
-spawn-at-startup "ironbar"
+spawn-at-startup "waybar"
 spawn-at-startup "xwayland-satellite"
-spawn-at-startup "emacs --daemon"
+
+spawn-at-startup "gammastep" "-O" "5000"
 
 binds {
     Mod+Shift+Slash { show-hotkey-overlay; }
-    Mod+Return { spawn "sh" "-c" "$TERMINAL"; }
-    Mod+x { spawn "sh" "-c" "$EDITOR"; }
-    Mod+r { spawn "sh" "-c" "$LAUNCHER"; }
-    Mod+b {spawn "sh" "-c" "$BROWSER"; }
+    Mod+Return { spawn "ghostty"; }
+    Mod+r { spawn "rofi" "-show" "drun"; }
+    Mod+b { spawn "zen-browser"; }
+    Mod+c { spawn "chromium"; }
+    Mod+m { spawn "fractal"; }
+    Mod+e { spawn "nautilus"; }
+    Mod+d { spawn "discord"; }
+    Mod+g { spawn "koreader"; }
+    Mod+Shift+b { spawn "killall" "-SIGUSR1" "waybar"; }
     XF86AudioRaiseVolume { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "4%+"; }
     XF86AudioLowerVolume { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "4%-"; }
     XF86AudioMute {spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SINK@" "toggle";}
@@ -107,7 +144,7 @@ binds {
     XF86MonBrightnessDown { spawn "brightnessctl" "set" "50-";}
     Shift+XF86MonBrightnessDown { spawn "brightnessctl" "set" "750-";}
     Mod+Q { close-window; }
-    Mod+e { switch-preset-column-width; }
+    Mod+Shift+e { switch-preset-column-width; }
     Mod+Left  { focus-column-left; }
     Mod+Shift+Tab  { focus-column-left; }
     Mod+Down  { focus-workspace-down; }
@@ -167,5 +204,6 @@ binds {
 }
 
 cursor {
-    xcursor-size 20
+    xcursor-theme "Posy_Cursor_Mono_Black"
+    xcursor-size 24
 }
