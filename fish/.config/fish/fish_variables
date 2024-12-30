@@ -1,5 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR NIRI_LOADED:\x1d
 SETUVAR --export PYENV_ROOT:/home/fisher/\x2epyenv
 SETUVAR __fish_initialized:3400
 SETUVAR _fisher_jomik_2F_fish_2D_gruvbox_files:\x7e/\x2econfig/fish/functions/theme_gruvbox\x2efish
