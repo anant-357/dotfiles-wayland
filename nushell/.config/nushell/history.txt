@@ -1,0 +1,5958 @@
+./setup.sh
+clear
+exit
+clear
+ls
+nvim ~/.config/nushell/
+cd ~/.config/nushell/
+clear
+ls
+nvim config.nu 
+touch catppuccin-mocha.nu
+nvim catppuccin-mocha.nu 
+nvim config.nu 
+nvim env.nu 
+clear
+nvim catppuccin-mocha.nu 
+nvim config.nu 
+clear
+ls
+nvim catppuccin-mocha.nu 
+clear
+ls
+cd 
+ls
+clear
+exit
+nvim ~/.config/zellij/config.kdl 
+clear
+cd .config/nushell/
+ls
+nvim config.nu 
+clear
+exit
+nu
+clear
+:q
+exit
+clear
+nvim ~/.config/
+clear
+nvim ~/.config/nushell/config.nu 
+zellij help
+zellij attatch help
+zellij attach help
+clear
+paru -Rcns fish 
+clear
+nvim ~/.config/kitty/kitty.conf 
+clear
+exit
+exut
+exit
+clear
+exit
+clear
+exit
+clear
+nvim ~/.config/zellij/config.kdl 
+clear
+cd ~/.config/zellij/
+clear
+ls
+mkdir plugins
+cd plugins/
+ls
+clear
+curl https://github.com/dj95/zjstatus/releases/download/v0.17.0/zjstatus.wasm > zjstatus.wasm
+curl
+curl https://github.com/dj95/zjstatus/releases/download/v0.17.0/zjstatus.wasm
+ls
+curl https://github.com/dj95/zjstatus/releases/download/v0.17.0/zjstatus.wasm | zjstatus.wasm
+curl --help
+curl https://github.com/dj95/zjstatus/releases/download/v0.17.0/zjstatus.wasm -o zjstatus.wasm
+clear
+ls
+clear
+mv ~/Downloads/zjstatus.wasm .
+ls
+nvim ~/.config/zellij/config.kdl 
+nvim ~/.config/nushell/config.nu 
+nvim ~/.config/zellij/config.kdl 
+zellij
+clear
+ls
+clear
+exit
+nvim ~/.config/zellij/config.kdl 
+clear
+cat ~/.config/fish/config.fish 
+clear
+e
+exit
+exit
+clear
+paru -Sy zellij 
+clear
+exit
+clear
+exit
+clear
+exit
+exit
+paru
+clear
+exit
+nmcli device wifi connect IIITG-Faculty exit
+exit
+paru
+clearclearclear
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+clear
+paru
+nmcli device wifi connect testam 
+clear
+paru
+clear
+nvim ~/.config/zellij/layouts/default.kdl 
+clear
+mpc play
+mpc clear
+mpc load 
+mpc list
+mpc listall
+mpc load nadaaniyan.mp3
+mpc help
+mpc add nadaaniyan.mp3
+clear
+mpc play
+clear
+mpc play
+mpc repeat on
+mpc play
+clear
+mv ~/Downloads/Nasamajh.mp3 /disks/notwork/Music/
+clear
+ls
+clear
+mpc add Nasamajh.mp3
+clear
+mpc pause
+clear
+sudo systemctl disable ntfsfixwork
+sudo systemctl disable ntfsfixnotwork
+clear
+paru
+clear
+paru
+clear
+killall -SIGUSR1 waybarexit
+exit
+nvim ~/.config/niri/config.kdl 
+exit
+clear
+killall -SIGUSR1 waybar
+clear
+mpc play
+sudo powertop --auto-tune
+clear
+sudo powertop -calibrate
+clear
+mpc pause
+clear
+paru
+clear
+nmcli device wifi rescan
+nmcli device wifi list
+nmcli device wifi connect IIITG-Student 
+nmcli device wifi connect IIITG-Faculty 
+sudo systemctl restart NetworkManager 
+clear
+paru
+clear
+mpc play
+mpc pause
+mpc play
+paru
+clear
+ps 
+top
+clear
+mpc pause
+mpc play
+sudo powertop --auto-tune
+clear
+cd dev
+mkdir ai
+cd ai/
+ls
+clear
+pyenv help
+pyenv init
+git clone https://github.com/vladmandic/automatic
+pyenv global
+clear
+cd automatic/
+ls
+./webui.sh
+rm -r venv/
+clear
+paru
+clear
+exit
+pyenv init
+pyenv gloabl
+pyenv global
+pyenv help
+pyenv versions
+clear
+pyenv install 3.11
+clear
+pyenv global
+pyenv global
+pyenv versions
+pyenv global 3.11.10
+clear
+./webui.sh --low-vram
+which python
+pyenv help
+pyenv commanfds
+pyenv commands
+pyenv local
+pyenv local 3.11.10
+clear
+pyenv local
+rm -r venv/
+./webui.sh --low-vram
+clear
+exit
+exit
+pyenv init
+clear
+ls
+clear
+rm -r venv/
+which python
+clear
+bash
+paru -Sy cuda
+clear
+exit
+clear
+exit
+clear
+cd 
+clear
+cd Downloads/
+ls
+rm Demo_maybe_final.mp4
+rm DL-logic.pdf FPGAs_AdaptiveSoCs_Unified_2024.1_0522_2023_Lin64.bin `HS408 Fundamentals Of Stock Market.pdf` 
+clear
+ls
+mv duplex-the.last.guardian-hako.part7.rar /disks/notwork/Entertainment/Games/
+cp /disks/notwork/.Secrets.zip ~/Documents/
+mpc pause
+clear
+paru -Sy matlab 
+paru -Sy octave 
+clear
+paru -Sy qt6-wayland 
+clear
+mv ~/Downloads/juggernautXL_juggXIByRundiffusion.safetensors ~/dev/ai/automatic/models/Stable-diffusion/
+clear
+ls
+mkdir "The Last Guwardian"
+clear
+cd `The Last Guwardian/`
+ls
+mv ../hako-playdox-tlgv103.rar .
+mv ../duplex-the.last.guardian-hako.part7.rar .
+clear
+cd 
+clear
+mpc play
+clear
+paru
+clear
+exit
+cd Downloads/
+ls
+mv *.rar `The Last Guwardian/`
+clear
+ls
+rm `PS4_The_Last_Guardian CUSA03745_Game_Full.KN6WjXGg.pkg.rar.part`
+clear
+ls
+cd `The Last Guwardian/`
+ls
+sudo umount /disks/notwork 
+pkill mpd
+clear
+sudo umount /disks/notwork 
+clear
+sudo fdisk -l
+findmnt 
+sudo ntfsfix /dev/sda2 
+celar
+clear
+sudo mount /dev/sda2 /disks/notwork/
+clear
+cd ..
+mv `The Last Guwardian/` `/disks/notwork/Entertainment/Games/`
+clear
+mpc pause
+clear
+ls
+cd ..
+clear
+ls
+mpc play
+clear
+ls
+cd Documents/
+ls
+clear
+ls ~/Documents/
+clear
+exit
+ls
+ls -a
+clear
+ls
+cd Documents/
+ls
+clear
+unzip .Secrets.zip 
+7z -x .Secrets.zip
+7z --help
+7z x .Secrets.zip
+clear
+ls
+clear
+cd ~/dev/
+ls
+rm -r android/
+clear
+ls
+cd roms/
+ls
+cd ..
+ls
+rm -r roms
+clear
+ls
+clear
+git@github.com:anant-357/RRDV-Memristor.git
+git clone git@github.com:anant-357/RRDV-Memristor.git
+git clone git@github.com-anant-357:anant-357/RRDV-Memristor.git
+git clone git@github.com:anant-357/RRDV-Memristor.git
+clear
+ls
+cd RRDV-Memristor/
+ls
+clear
+ls
+mkdir diagrams
+mkdir code
+mkdir text
+clear
+ls
+mv RRDV.ipynb diagrams/
+mv Architecture.png diagrams/
+clear
+ls
+mv ../sem7* diagrams/
+clear
+ls
+mv ../layer2.png diagrams/
+clear
+ls
+cd diagrams/
+clear
+cd ..
+ls
+clear
+ls
+nvim .
+c;ear
+clear
+ls
+git add .
+git commit -m "Organise"
+clear
+git push origin main
+clear
+ls
+cd code/
+ls
+cd ..
+ls
+cd diagrams/
+ls
+mv RRDV.ipynb ../code/
+clear
+ls
+cd ..
+ls
+clear
+git add .
+git commit -m "Organise"
+git push origin main
+clear
+nvim text/report.typst
+nvim text/report.typ
+clear
+ld
+ls
+clear
+ls
+rm report.typst
+nvim text/report.typ
+clear
+paru -Sy zathurara
+paru -Sy zathura
+clear
+exit
+nvim report.typ
+clear
+ls
+zathura report.pdf 
+paru -Sy zathura-pdf-poppler 
+clear
+nvim ~/.config/zathura
+clear
+mpc play
+exit
+mv ~/Downloads/iiitg.png .
+clear
+ls
+exit
+nvim report.typ 
+clear
+cd 
+clear
+cd Desktop/clear
+clear
+ls
+cd dev/
+ls
+clear
+ls
+mkdir cses
+cd cses/
+clear
+g++ removal_game.cpp
+clear
+./a.out
+g++ removal_game.cpp
+./a.out
+g++ removal_game.cpp
+./a.out
+clear
+g++ -g removal_game.cpp
+gdb a.out 
+paru -Sy gdb
+clear
+gdb a.out 
+g++ -g removal_game.cpp
+gdb a.out 
+clear
+g++ -g removal_game.cpp
+./a.out
+g++ -g removal_game.cpp
+./a.out
+g++ -g removal_game.cpp
+./a.out
+clear
+g++ -g removal_game.cpp
+./a.out
+g++ -g removal_game.cpp
+./a.out
+g++ -g removal_game.cpp
+./a.out
+clear
+g++ -g removal_game.cpp
+clear
+./a.out
+g++ -g removal_game.cpp
+clear
+./a.out
+clear
+./a.out
+clear
+g++ -g removal_game.cpp
+./a.out
+clear
+g++ -g removal_game.cpp
+./a.out
+clear
+./a.out
+g++ -g removal_game.cpp
+./a.out
+clear
+g++ -g removal_game.cpp
+./a.out
+mpc toggle
+clear
+sudo powertop --auto-tune
+clear
+cd 
+exit
+cd dev/ai/
+clear
+ls
+cd automatic/
+./webui.sh --lowvram
+./webui.sh --help
+exit
+./webui.sh --lowvram --use-cuda
+./webui.sh --use-cuda
+exit
+clear
+./webui.sh --use-cuda --medvram
+cd automatic/
+:q
+exit
+celar
+clear
+pkill waybar
+clear
+exit
+clear
+source ./venv/bin/activate
+./webui.sh --use-cuda --medvram
+./webui.sh --use-cuda --medvram --use-xformers
+clear
+paru -Sy cuda 
+clear
+exit
+cd ~/dev/ai/automatic/
+clear
+exit
+clear
+./webui.sh --use-cuda --medvram --use-xformers
+bash
+exit
+pkill waybar
+clear
+exit
+./webui.sh --use-cuda --lowvram --use-xformers
+exit
+clear
+ls
+nvim .
+./webui.sh --use-cuda --lowvram --use-xformers
+clear
+./webui.sh --use-cuda --lowvram --use-xformers
+nvim .
+paru
+clear
+exit
+./webui.sh --use-cuda --lowvram --use-xformers
+clear
+exit
+cd 
+clear
+nvim .
+clear
+cd Documents/.Secrets/
+ls
+clear
+ls
+cd Secrets/
+ls
+cd ..
+clear
+ls
+cd Secrets/
+nvim links
+clear
+exit
+paru
+clear
+paru -Sy yazi
+clear
+exit
+clear
+exit
+exit
+paru
+clear
+exit
+zellij -l welcome
+clear
+exit
+cd dev/ai/automatic/
+clear
+mpc toggle
+yazi .
+clear
+NVIM=1 NVIM_LOG_FILE=1 yazi
+clear
+yazi .
+clear
+./webui.sh --use-cuda --lowvram --use-xformers
+clear
+yazi .
+clear
+yazi .
+clear
+xdg-settings --help
+xdg-settings --list
+xdg-settings get default-web-browser
+echo $EDITOR
+echo $env.EDITOR
+clear
+nvim ~/.config/niri/config.kdl 
+echo $env.EDITOR
+clear
+exit
+ckea
+rclear
+clear
+par
+pari
+paru
+clear
+mpc tpgg;e
+mpc toggle
+clear
+nmcli device wifi connect testam 
+clear
+cat ~/Documents/.Secrets/Secrets/links 
+paru
+nvim ~/Documents/.Secrets/Secrets/links 
+clear
+paru
+clear
+exit
+exit
+clear
+cd dev/ai/automatic/
+./webui.sh --use-cuda --lowvram --use-xformers
+clear
+sudo powertop --auto-tune
+clear
+cat ~/Documents/.Secrets/Secrets/links 
+clear
+mut x = 0; loop { if $x > 10 { break }; $x = $x + 1; echo $x };
+mut x = 0; loop { if $x > 10 { break }; $x = $x + 1; echo $x; };
+mut x = 0; loop { if $x > 10 { break }; $x = $x + 1; echo $x; }; $x
+mut x = 0; loop { if $x > 10 { break }; $x = $x + 1; echo "hello"; }; $x
+mut x = 0;loop { if $x > 10 { break; }; $x = $x + 1; } $x
+mut x = 0;loop { if $x > 10 { break; }; $x = $x + 1; }; $x
+mut x = 0;loop { if $x > 10 { break; }; $x = $x + 1; $x | print }; $x
+mkdir test
+cd test
+mut x = 0;loop { if $x > 10 { break; }; $x = $x + 1; curl 'https://www.nudeindians.net/wp-content/uploads/2024/08/indian-big-tits-teen-nude-photos-in-shower-'+str($x)+'.jpg' };
+mut x = 0;loop { if $x > 10 { break; }; $x = $x + 1; curl 'https://www.nudeindians.net/wp-content/uploads/2024/08/indian-big-tits-teen-nude-photos-in-shower-20.jpg' };
+curl --help
+curl --help output
+mut x = 0;loop { if $x > 10 { break; }; $x = $x + 1; curl -O 'https://www.nudeindians.net/wp-content/uploads/2024/08/indian-big-tits-teen-nude-photos-in-shower-20.jpg' };
+clear
+ls
+mut x = 0;loop { if $x > 10 { break; }; $x = $x + 1; curl -O 'https://www.nudeindians.net/wp-content/uploads/2024/08/indian-big-tits-teen-nude-photos-in-shower-'+ str($x) +'.jpg' };
+ls
+mut x = 0;loop { if $x > 10 { break; }; $x = $x + 1; curl -O 'https://www.nudeindians.net/wp-content/uploads/2024/08/indian-big-tits-teen-nude-photos-in-shower-'+ $x +'.jpg' };
+mut x = 0;loop { if $x > 10 { break; }; $x = $x + 1; curl -O 'https://www.nudeindians.net/wp-content/uploads/2024/08/indian-big-tits-teen-nude-photos-in-shower-'$x'.jpg' };
+clear
+clear
+mut x = 0;loop { if $x > 10 { break; }; $x = $x + 1; curl -O 'https://www.nudeindians.net/wp-content/uploads/2024/08/indian-big-tits-teen-nude-photos-in-shower-' into string $x '.jpg' };
+mut x = 0;loop { if $x > 10 { break; }; $x = $x + 1; "https://www.nudeindians.net/wp-content/uploads/2024/08/indian-big-tits-teen-nude-photos-in-shower-"| append $x | ".jpg" | curl -O };
+mut x = 0;loop { if $x > 10 { break; }; $x = $x + 1; "https://www.nudeindians.net/wp-content/uploads/2024/08/indian-big-tits-teen-nude-photos-in-shower-"| append $x | ".jpg" | print };
+mut x = 0;loop { if $x > 10 { break; }; $x = $x + 1; "https://www.nudeindians.net/wp-content/uploads/2024/08/indian-big-tits-teen-nude-photos-in-shower-"| append $x | append ".jpg" | print };
+mut x = 0;loop { if $x > 10 { break; }; $x = $x + 1; "https://www.nudeindians.net/wp-content/uploads/2024/08/indian-big-tits-teen-nude-photos-in-shower-"| append $x | append ".jpg" | curl -O };
+mut x = 0;loop { if $x > 10 { break; }; $x = $x + 1; "https://www.nudeindians.net/wp-content/uploads/2024/08/indian-big-tits-teen-nude-photos-in-shower-"| append $x | append ".jpg" | curl -O $in};
+mut x = 0;loop { if $x > 10 { break; }; $x = $x + 1; 'https://www.nudeindians.net/wp-content/uploads/2024/08/indian-big-tits-teen-nude-photos-in-shower-' | append $x | append '.jpg' | curl -O };
+mut x = 0;loop { if $x > 10 { break; }; $x = $x + 1; 'https://www.nudeindians.net/wp-content/uploads/2024/08/indian-big-tits-teen-nude-photos-in-shower-' | append $x | append '.jpg' | print };
+mut x = 0;loop { if $x > 10 { break; }; $x = $x + 1; 'https://www.nudeindians.net/wp-content/uploads/2024/08/indian-big-tits-teen-nude-photos-in-shower-' | append $x | append '.jpg' | str join "" | print };
+mut x = 0;loop { if $x > 10 { break; }; $x = $x + 1; 'https://www.nudeindians.net/wp-content/uploads/2024/08/indian-big-tits-teen-nude-photos-in-shower-' | append $x | append '.jpg\n' | str join "" | print };
+mut x = 0;loop { if $x > 10 { break; }; $x = $x + 1; "https://www.nudeindians.net/wp-content/uploads/2024/08/indian-big-tits-teen-nude-photos-in-shower-" | append $x | append ".jpg\n" | str join "" | print };
+mut x = 0;loop { if $x > 20 { break; }; $x = $x + 1; "https://www.nudeindians.net/wp-content/uploads/2024/08/indian-big-tits-teen-nude-photos-in-shower-" | append $x | append ".jpg\n" | str join "" | curl -O };
+mut x = 0;loop { if $x > 20 { break; }; $x = $x + 1; "https://www.nudeindians.net/wp-content/uploads/2024/08/indian-big-tits-teen-nude-photos-in-shower-" | append $x | append ".jpg\n" | str join "" | curl -O $in};
+mut x = 0;loop { if $x > 20 { break; }; $x = $x + 1; let url = "https://www.nudeindians.net/wp-content/uploads/2024/08/indian-big-tits-teen-nude-photos-in-shower-" | append $x | append ".jpg\n" | str join ""; curl -O $url };
+mut x = 0;loop { if $x > 20 { break; }; $x = $x + 1; let url = "https://www.nudeindians.net/wp-content/uploads/2024/08/indian-big-tits-teen-nude-photos-in-shower-" | append $x | append ".jpg\n" | str join ""; print $url };
+mut x = 0;loop { if $x > 20 { break; }; $x = $x + 1; let url = "https://www.nudeindians.net/wp-content/uploads/2024/08/indian-big-tits-teen-nude-photos-in-shower-" | append $x | append ".jpg\n" | str join ""; curl $url };
+mut x = 0;loop { if $x > 20 { break; }; $x = $x + 1; let url = "https://www.nudeindians.net/wp-content/uploads/2024/08/indian-big-tits-teen-nude-photos-in-shower-" | append $x | append ".jpg\n" | str join ""; wget $url };
+paru -Sy wget
+clear
+mut x = 0;loop { if $x > 20 { break; }; $x = $x + 1; let url = "https://www.nudeindians.net/wp-content/uploads/2024/08/indian-big-tits-teen-nude-photos-in-shower-" | append $x | append ".jpg\n" | str join ""; wget $url };
+ls
+rm indian-big-tits-teen-nude-photos-in-shower-
+rm indian-big-tits-teen-nude-photos-in-shower-$x.jpg
+mut x = 0;loop { if $x > 20 { break; }; $x = $x + 1; let url = "https://www.nudeindians.net/wp-content/uploads/2024/08/indian-big-tits-teen-nude-photos-in-shower-" | append $x | append ".jpg" | str join ""; curl -O $url };
+rm indian-big-tits-teen-nude-photos-in-shower-+
+clear
+ls
+clear
+clear
+cd ~/dev/ai/automatic/
+./webui.sh --use-cuda --lowvram --use-xformers
+nvim ~/dev/ai/automatic/extensions/sd-webui-reactor/scripts/reactor_faceswap.py 
+clear
+exit
+yazi .
+clear
+cd ~
+cd dev/
+mkdir codeforces
+cd codeforces/
+ls
+mkdir c979
+cd c979/
+clear
+nvim A.cpp
+g++ A.cpp
+./a.out
+clear
+cd ~/dev/codeforces/c979/
+clear
+./a.out
+clear
+nvim A.cpp
+clear
+nvim D.cpp
+clear
+paru
+clear
+paru 
+exit
+cd ~/dev/ai/automatic/
+clear
+cd 
+clear
+rm -r .NexData/ .Xilinx/ .dotnet/ .floorp .thunderbird/
+clear
+ls
+clear
+ls -l
+clear
+ls -a
+clear
+exit
+cp `~/Documents/.Secrets/Secrets/Assets/IIITG/IIITG Batch 2021-25/janhavi/00120-leosamsHelloworldXL_helloworldXL60-A young Indian woman around 18 sits on.png` ./outputs/control/
+clear
+sudo powertop --calibrate
+clear
+sudo powertop --auto-tune 
+clear
+exit
+./webui.sh --use-cuda --lowvram --use-xformers
+clear
+yazi .
+clear
+./webui.sh --use-cuda --lowvram --use-xformers
+pkill wayvar
+pkill waybar
+paru
+clear
+./webui.sh --use-cuda --lowvram --use-xformers
+cd dev/ai/automatic/
+./webui.sh --use-cuda --lowvram --use-xformers
+clear
+cd ~/test/
+ls
+mkdir suni
+mv indian-big-tits-teen-nude-photos-in-shower-* suni/
+clear
+cat ~/Documents/.Secrets/Secrets/links 
+mut x = 0;loop { if $x > 30 { break; }; $x = $x + 1; let url = "https://www.nudeindians.net/wp-content/uploads/2024/10/sexy-desi-nude-big-boobs-girl-pics-" | append $x | append ".jpg" | str join ""; curl -O $url };
+clear
+mkdir lax
+ls
+mv sexy-desi-nude-big-boobs-girl-pics-* lax/
+clear
+yazi .
+cd test/
+ls
+mkdir nan
+cat ~/Documents/.Secrets/Secrets/links 
+clear
+mut x = 0;loop { if $x > 22 { break; }; $x = $x + 1; let url = "https://www.nudeindians.net/wp-content/uploads/2024/08/nude-porn-indian-college-girl-photos-" | append $x | append ".jpg" | str join ""; curl -O $url };
+cd ~
+clear
+cd Downloads/
+ls
+unzip Sage-20241020T055659Z-001.zip 
+clear
+yazi .
+clear
+ls
+mkdir riy
+mv nude-porn-indian-college-girl-photos-* riy/
+clear
+ls
+cd riy/
+cd ..
+ls
+clear
+mut x = 0;loop { if $x > 80 { break; }; $x = $x + 1; let url = "https://www.nudeindians.net/wp-content/uploads/2024/06/indian-slim-girl-nude-photoshoot-" | append $x | append ".jpg" | str join ""; curl -O $url };
+clear
+ls
+mkdir vam
+mv indian-slim-girl-nude-photoshoot-* vam/
+clear
+ls
+mut x = 0;loop { if $x > 53 { break; }; $x = $x + 1; let url = "https://www.nudeindians.net/wp-content/uploads/2024/07/manipuri-girl-nude-images-of-small-boobs-ass-" | append $x | append ".jpg" | str join ""; curl -O $url };
+mkdir khy
+cd khy
+clear
+ls
+mut x = 0;loop { if $x > 42 { break; }; $x = $x + 1; let url = "https://www.nudeindians.net/wp-content/uploads/2024/08/nude-assamese-girl-sex-photo-of-blowjobs-" | append x | append ".jpg" | str join ""; curl -O $url };
+ls
+clear
+mut x = 0;loop { if $x > 42 { break; }; $x = $x + 1; let url = "https://www.nudeindians.net/wp-content/uploads/2024/08/nude-assamese-girl-sex-photo-of-blowjobs-" | append $x | append ".jpg" | str join ""; curl -O $url };
+nvim ~/Documents/.Secrets/Secrets/links 
+cd ..
+mkdir nav2
+ls
+cd nav2/
+clear
+ls
+mut x = 0;loop { if $x > 48 { break; }; $x = $x + 1; let url = "https://www.nudeindians.net/wp-content/uploads/2024/08/small-boobs-kerala-nude-girl-pics-" | append $x | append ".jpg" | str join ""; curl -O $url };
+clear
+ls
+cd ..
+clear
+ls
+mkdir ext
+mv manipuri-girl-nude-images-of-small-boobs-ass-* ext/
+clear
+ls
+yazi .
+clear
+exit
+clear
+cd 
+clear
+paru
+clear
+paru
+clear
+nmcli device wifi connect testam 
+sudo powertop --auto-tune 
+clear
+yazi .
+clear
+paru
+clear
+cd Downloads/
+ls
+cd `The Last Guardian/`
+ls
+rm duplex-the.OD8iWlsk.last.guardian-hako.part5.rar.part
+rm duplex-the.last.guardian-hako.part5.rar
+clear
+ls
+cd ..
+clear
+mpc toggle
+clear
+paru
+clear
+nmcli device wifi connect testam 
+clear
+mpc toggle
+clear
+sudo powertop --auto-tune 
+clear
+cd dev/ai/automatic/
+./webui.sh --use-cuda --lowvram --use-xformers
+clear
+cd ..
+rm -r something-lock-rs/
+clear
+ls
+du -h
+du -h .
+df -h .
+clear
+ls
+cd ..
+cd Documents/
+rm .Secrets.zip
+clear
+ls
+cd ..
+clear
+df -h .
+clear
+paru -Syu element-desktop 
+paru
+clear
+paru -Scc
+clear
+exit 
+clear
+cd outputs/.Secrets/Secrets/Assets/test/
+clear
+ls
+mkdir nav3
+cd nav3/
+clear
+ls
+mut x = 0;loop { if $x > 43 { break; }; $x = $x + 1; let url = "https://www.nudeindians.net/wp-content/uploads/2024/08/nude-mallu-girls-showing-boobs-pussy-pics-" | append $x | append ".jpg" | str join ""; curl -O $url };
+clear
+cd ..
+mkdir jan
+cd jan/
+clear
+mut x = 0;loop { if $x > 39 { break; }; $x = $x + 1; let url = "https://www.nudeindians.net/wp-content/uploads/2024/10/nude-desi-girl-porn-pics-before-sex-in-hotel-" | append $x | append ".jpg" | str join ""; curl -O $url };
+./webui.sh --use-cuda --lowvram --use-xformers
+clear
+yazi .
+exit
+exit
+clear
+paru
+clear
+paru
+paru --help
+pacman --help
+sudo nvim /etc/pacman.conf 
+paru --help
+paru 
+clear
+paru -Sy sway
+clear
+paru -Sy  hyprland 
+paru -Sy  niri 
+clear
+paru -Qtdq | grep git
+paru -Qtdq | grep 
+paru -Qtdq 
+paru -Q | grep git 
+paru -Sy ironbar
+clear
+paru -Qtdq | paru -Rcns 
+paru -Qtdq | paru -Rcns $in
+paru -Qtdq | print 
+paru -Rcns blueprint-compiler 
+clear
+paru -Qtdq | print 
+paru -Qtdq | paru -Rcns $in
+paru -Qtdq | paru -Rcns 
+clear
+paru
+clear
+paru -Sy thunderbird
+paru -Sy fluffychat-bin 
+clear
+fluffy
+fluffychat 
+paru -Sy fluffychat
+paru -Sy fractal
+clear
+nmcli device wifi connect "fisher mobile" 
+nmcli device wifi connect "IIITG Student 2.4GHz" 
+clear
+paru -Sy nheko
+clear
+pkill nheko 
+clear
+sudo systemctl stop mpd 
+clear
+sudo umount /disks/notwork 
+pkill mpd
+sudo umount /disks/notwork 
+ntfsfix /dev/sda2
+sudo ntfsfix /dev/sda2
+sudo mount /dev/sda2 /disks/notwork/
+clear
+paru
+clear
+paru -Rcns thunderbird 
+paru -Rcns element-desktop 
+clear
+paru -Sy mailspring
+clear
+nmcli device wifi connect testam
+clear
+paru -Sy mailspring
+paru -Sy evolution geary 
+clear
+paru -Rcns evolution geary 
+clear
+cd ~/dev/
+clear
+ls
+git clone git@github.com:anant-357/bearchair.git
+clear
+cd bearchair/
+clear
+ls
+mkdir backend
+mkdir frontend
+clear
+ls
+cd frontend/
+cargo init
+clear
+ls
+cd ..
+clear
+ls
+cd backend/
+clear
+paru -Sy go
+paru -Sy go 
+clear
+ls
+clear
+go mod init bearchair/backend
+clear
+ls
+nvim .
+clear
+nvim .
+clear
+nvim backend.go
+c;ear
+clear
+go mod tidy
+clear
+go run .
+nvim backend.go
+clear
+go run .
+clear
+ls
+cd ..
+cd backend/
+mv go.mod ../
+go run .
+clear
+ls
+sudo systemctl start mpd
+mpc toggle
+mpc database
+mpc listall
+cd /disks/notwork/
+sudo systemctl status mpc 
+sudo systemctl status mpd
+sudo pkill mpd
+sudo systemctl --user start mpc 
+systemctl --user start mpc 
+systemctl --user start mpd
+cd 
+clear
+mpc toggle
+clear
+mpc toggle
+clear
+ls
+cd dev/
+clear
+ls
+cd bearchair/
+clear
+mpc toggle
+clear
+ls
+rm go.mod
+clear
+cd backend/
+clear
+ls
+rm backend.go
+clear
+ls
+clear
+ls
+clear
+mpc toggle
+clear
+paru
+clear
+paru -Syu mpv
+clear
+ls
+cd `The Last Guardian/`
+ls
+7zr --help
+clear
+7z x duplex-the.last.guardian-hako.part1.rar
+7z x duplex-the.last.guardian-hako.part2.rar
+clear
+ls
+rm -r The.Last.Guardian.PS4-DUPLEX/
+clear
+sudo systemctl start NetworkManager 
+nmcli device wifi connect testam
+clear
+7z --help
+7z x duplex-the.last.guardian-hako.part1.rar -trar.split 
+ks
+ls
+clear
+cd `The Last Guardian/`
+ls
+cd The.Last.Guardian.PS4-DUPLEX/
+ls
+7z x duplex-the.last.guardian-hako.part1.rar
+cat hako.txt
+ls
+7z x duplex-the.last.guardian-hako.part2.rar
+7z x duplex-the.last.guardian-hako.part5.rar
+7z x duplex-the.last.guardian.rar 
+clear
+ls
+clear
+cd ..
+ls
+cd `The Last Guardian/`
+ls
+cat bilgi-nfo.txt 
+clear
+ls
+rm -r The.Last.Guardian.PS4-DUPLEX/
+clear
+ls
+cd ..
+clear
+ls
+clear
+cd ..
+clear
+ls
+cd fisher/
+clear
+sudo umount /disks/notwork 
+sudo systemctl --user stop mpd
+pkill mpd
+clear
+sudo umount /disks/notwork 
+sudo ntfsfix /dev/sda2
+clear
+sudo mount /dev/sda2 /disks/notwork/
+clear
+sudo umount /disks/notwork 
+sudo mount /dev/sda2 /disks/notwork/
+sudo umount /disks/notwork 
+clear
+sudo powertop --auto-tune 
+clear
+exit
+cd ~/dev/
+ls
+cd shadPS4/
+ls
+cd build/
+ls
+pkill mpd
+sudo umount /disks/notwork 
+sudo ntfsfix /dev/sda2
+sudo mount /dev/sda2 /disks/notwork/
+paru
+clear
+./shadps4
+clear
+cd ~/Downloads/
+ls
+rm -r `The Last Guardian/`
+clear
+ls
+cd CUSA03745/
+ls
+clear
+pkill shadps4 
+clear
+bluetoothctl 
+clear
+cd ~/dev/shadPS4/
+clear
+cd build/
+clear
+bluetoothctl 
+clear
+mpv ~"/Downloads/Bramayugam 2024 Dual ORG 1080p HEVC.mkv" 
+pactl --help
+pactl
+./shadps4
+clear
+paru
+clear
+zellij -l welcome
+exit
+clear
+exit
+clear
+cd Downloads/
+ls
+paru
+clear
+cd dev/ai/automatic/
+clear
+mv ~/Downloads/bulk-image-crop.zip ~/dev/ai/automatic/outputs/Assets/rishika/
+yazi .
+clear
+./webui.sh --use-cuda --lowvram --use-xformers
+ckear
+clear
+nvim ~/dev/ai/automatic/outputs/links 
+clear
+ls
+clear
+paru
+clear
+paru -Sy ngspice 
+clear
+ngspice 
+clear
+bluetoothctl 
+clear
+cd dev/shadPS4/
+git pull 
+clear
+ls
+cat README.md 
+cat documents/building-linux.md 
+cd build
+paru
+clear
+sudo nvim /etc/pacman.conf 
+clear
+cat ~/dev/ai/automatic/outputs/links 
+paru
+clear
+sudo powertop --auto-tune 
+yazi .
+clear
+paru
+clear
+paru -Rcns umu-launcher 
+clear
+fluffychat 
+paru -Rcns fluffychat-bin 
+clear
+ls
+cd Downloads/
+ls
+cd CUSA03745/
+ls
+cd ..
+clear
+rm -r CUSA03745/
+clear
+ls
+rm `Unconfirmed 562702.crdownload`
+clear
+ls
+paru -Scc
+cleazr
+clear
+bluetoothctl 
+clear
+nvim ~/.config/niri/config.kdl 
+clear
+paru -Sy minetest 
+clear
+paru
+clear
+ls
+cd /disks/notwork/
+ls
+rm bootTel.dat
+rm found.000/
+clear
+ls
+cd Entertainment/
+l
+clear
+ls
+cd Games/
+ls
+cd `The Last Guwardian/`
+ls
+rm The.Last.Guardian.PS4-DUPLEX.pkg
+clear
+ls
+cd ../../
+ls
+cd ../
+clear
+ls
+mkdir Movies
+mv `~/Downloads/Bramayugam 2024 Dual ORG 1080p HEVC.mkv` ./Movies/
+clear
+ls
+clear
+cd
+clear
+ls
+clear
+nvim ~/.config/nushell/config.nu 
+clear
+paru
+clear
+cd dev/
+ls
+cd RRDV-Memristor/
+clear
+ls
+clear
+ls
+pary
+paru
+clear
+paru
+clear
+paru -Sy thunar
+clear
+sudo powertop --auto-tune 
+clear
+ls
+clear
+cd dev/ai/automatic/
+clear
+git pull
+clear
+cd dev/ai/automatic/
+clear
+ls
+cd outputs/
+ls
+clear
+cd Assets/
+;s
+ls
+clear
+cd test/
+ls
+mkdir new
+cd new/
+clear
+ls
+clear
+mut x = 0;loop { if $x > 12 { break; }; $x = $x + 1; let url = "https://www.antarvasnaphotos2.com/wp-content/uploads/2021/11/chut-dikhati-sexy-nri-girl-porn-gallery-" | append $x | append ".jpg" | str join ""; curl -O $url };
+./webui.sh --use-cuda --lowvram --use-xformers
+clear
+clear
+ls
+cd ..
+clear
+mkdir test2
+mut x = 0;loop { if $x > 16 { break; }; $x = $x + 1; let url = "https://www.antarvasnaphotos2.com/wp-content/uploads/2021/11/desi-nri-girl-hot-chudai-photos-" | append $x | append ".jpg" | str join ""; curl -O $url };
+clear
+cd ..
+clear
+ls
+cd test/
+ls
+yazi .
+clear
+cd test2/
+clear
+mut x = 0;loop { if $x > 66 { break; }; $x = $x + 1; let url = "https://www.nudeindians.net/wp-content/uploads/2024/09/nri-indian-nude-model-photoshoot-in-beach-" | append $x | append ".jpg" | str join ""; curl -O $url };
+cd ..
+mkdir u
+cd u
+clear
+mut x = 0;loop { if $x > 89 { break; }; $x = $x + 1; let url = "https://www.nudeindians.net/wp-content/uploads/2024/09/indian-model-nude-shoot-photos-of-ass-boobs-" | append $x | append ".jpg" | str join ""; curl -O $url };
+cd dev/ai/automatic/outputs/Assets/test/
+clear
+ls
+clear
+mkdir new2
+cd new2/
+clear
+ls
+clear
+cd ..
+ls
+clear
+mkdir new3
+mv desi-nri-girl-hot-chudai-photos-* new3/
+clear
+ls
+mut x = 0;loop { if $x > 90 { break; }; $x = $x + 1; let url = "https://www.nudeindians.net/wp-content/uploads/2024/05/nri-desi-college-girl-sex-bbc-photos-" | append $x | append ".jpg" | str join ""; curl -O $url };
+clear
+paru
+clear
+paru
+clear
+paru
+clear
+mpc play
+clear
+paru
+clear
+paru -Sy niri-git
+clear
+mpc toggle
+clear
+cd dev/profile/
+clear
+ls
+mkdir svelte
+cd svelte/
+clear
+ls
+index.svelte
+cd dev/codeforces/
+mkdir c981/
+cd 981
+cd c981
+clear
+cd dev/codeforces/c981/
+clear
+ls
+g++ B.cpp
+./B.cpp
+./a.out
+g++ -g B.cpp
+gdb a.out 
+g++ -g B.cpp
+./a.out
+g++ -g B.cpp
+./a.out
+g++ -g B.cpp
+4
+./a.out
+clear
+g++ -g B.cpp
+./a.out
+g++ -g B.cpp
+./a.out
+g++ -g B.cpp
+./a.out
+g++ -g B.cpp
+./a.out
+g++ -g B.cpp
+./a.out
+clear
+./a.out
+nvim index.svelte
+clear
+ls
+cd ..
+clear
+ls
+rm -r svelte
+clear
+mkdir lit
+cd lit/
+clear
+nvim index.html
+zen-browser index.html
+nvim index.html
+clear
+cd dev/profile/
+cd lit/
+clear
+ls
+paru
+nvim .
+paru -Sy js-beautify 
+clear
+exit
+clear
+cd ..
+clear
+cd 
+clear
+paru
+sudo powertop --auto-tune 
+cd Downloads/
+ls
+unzip Awommy-20241025T075945Z-001.zip 
+clear
+unzip Sam-20241025T080342Z-001.zip 
+cd ~/dev/ai/automatic/
+paru
+clear
+bluetoothctl 
+clear
+paru -Sy qemu-full 
+clear
+qemu
+qemu-system-x86_64 -smp 2 -m 1G -hda Downloads/guix-system-vm-image-1.4.0.x86_64-linux.qcow2
+clear
+paru
+clear
+mpc toggle
+clear
+mpc pause
+nmcli device wifi connect testam 
+clear
+paru 
+clear
+yazi .
+clear
+cd ~/dev/ai/automatic/
+./webui.sh --use-cuda --lowvram --use-xformers
+paru
+clear
+yazi .
+sudo powertop --auto-tune 
+sudo powertop --calibrate
+clear
+clea
+clear
+bluetoothctl 
+clear
+paru -Sy qbittorrent 
+cd Downloads/
+ls
+cd ../Documents/
+celar
+clear
+nmcli device wifi connect testam 
+clear
+bluetoothctl 
+clear
+paru
+clear
+cd Downloads/
+clear
+ls
+cd Awommy/
+ls
+cd ..
+clear
+ls
+rm guix-system-vm-image-1.4.0.x86_64-linux.qcow2
+clear
+ls
+rm stre*
+clear
+ls
+mv m3u8play.dev-1729963131221.mp4 dandadan_S01E01.mp4
+clear
+ls
+mkdir dandadan
+mkdir pics
+mkdir imp
+clear
+ls
+mv Sc* Awommy/ pics
+clear
+ls
+mv dandadan_S01E01.mp4 dandadan/
+clear
+ls
+mv Element-megolm-export-@tripleheader_matrix.org-2024-10-21.txt architecture.svg guix-system-install-1.4.0.x86_64-linux.iso imp
+clear
+ls
+mv m3u8play.dev-1729963176758.mp4 dandadan/dandadan_S01E02.mp4
+mv m3u8play.dev-1729963196566.mp4 dandadan/dandadan_S01E03.mp4
+mv m3u8play.dev-1729963216515.mp4 dandadan/dandadan_S01E04.mp4
+clear
+ls
+cd dandadan/
+clear
+mpv dandadan_S01E01.mp4 
+clear
+paru
+clear
+paru
+clear
+paru -Rcns qbittorrent 
+paru -Rcns qt6-base 
+clear
+paru -Rcns qt6-base 
+clear
+paru -Q
+paru -Rcns xwayland-satellite 
+clear
+paru -Q
+paru -Rcns vcpkg 
+clear
+paru -Rcns cuda 
+cd dev/ai/automatic/
+./webui.sh --use-cuda --lowvram --use-xformers
+clear
+cd 
+clear
+paru -Rcns dotnet-runtime 
+clear
+paru -Sy parabolic-git 
+clear
+paru -Q | wc -l
+clear
+paru -Rcns eza 
+paru -Rcns go 
+paru -Rcns ironbar-git 
+clear
+bluetoothctl 
+clear
+mpv dandadan_S01E02.mp4 
+bluetoothctl 
+clear
+cd dev/ai/automatic/
+clear
+git pull
+clear
+./webui.sh --use-cuda --lowvram --use-xformers
+clear
+zell
+sudo powertop --auto-tune 
+clear
+cd ~/Downloads/
+cd dandadan/
+paru
+mpv .
+clear
+clear
+yazi
+cd Downloads/
+clear
+ls
+cd desifakes.com/
+ls
+mkdir images
+cd i.ibb.co/
+clear
+ls
+clear
+cd dev/ai/automatic/
+./webui.sh --use-cuda --lowvram --use-xformers
+clear
+cd /disks/notwork/
+ls
+mkdir Anime
+cd 
+sudo umount /disks/notwork 
+pkill mpd
+sudo umount /disks/notwork 
+sudo ntfsfix /dev/sda2
+clear
+sudo mount /dev/sda2 /disks/notwork/
+cd /disks/notwork/
+mkdir Anime
+cd Anime/
+clear
+ls
+mv ~/Downloads/dandadan/ .
+clear
+ls
+cd dandadan/
+ks
+ls
+clear
+ls
+cd ..
+clear
+ls
+cd ..
+clear
+ls
+cd ..
+clear
+cd ..
+clear
+cd
+sudo umount /disks/notwork 
+clear
+paru
+clear
+ayzi .
+yazi .
+clear
+paru -Sy ngspice 
+ngspice 
+clear
+cd dev/
+clear
+mkdir ngspice
+mkdir spice
+cd spice/
+clear
+nvim memristor.cir
+ngspice memristor.cir
+nvim memristor.cir
+ngspice memristor.cir
+clear
+ngspice memristor.cir
+clear
+ls
+pip install pyspice
+paru -Sy openssl 
+clear
+nvim memristor.py
+python memristor.py 
+nvim memristor.py
+python memristor.py 
+nvim memristor.py
+python memristor.py 
+nvim memristor.py
+python memristor.py 
+nvim ~/.pyenv/versions/3.11.10/lib/python3.11/site-packages/PySpice/Spice/NgSpice/RawFile.py 
+nvim ~/.pyenv/versions/3.11.10/lib/python3.11/site-packages/PySpice/Spice/RawFile.py 
+clear
+python memristor.py 
+clear
+nvim memristor.py
+python memristor.py 
+nvim memristor.py
+python memristor.py 
+nvim memristor.py
+python memristor.py 
+paru -Sy ltspice 
+paru -Sy spacedrive-bin
+exit
+clear
+paru -Sy ltspice
+luffy
+exit
+paru -Sy ltspice 
+cd Downloads/
+ls
+unzip RRAM2_0_Beta.zip 
+cd RRAM2_0_Beta/
+clear
+ls
+cat RRAM_v_2_0_Beta.va 
+clear
+ls
+cd sample_usage/
+ls
+clear
+paru -Sy xwayland-satellite
+clear
+paru -Sy openvaf 
+clear
+cd Downloads/
+ls
+cd `desifakes.com (1)/i.ibb.co/`
+./script.sh
+cd ../../desifakes.com/i.ibb.co/
+./script.sh
+sudo powertop --auto-tune 
+clear
+paru -Sy zoxide 
+clear
+z
+clear
+nvim ~/.config/nushell/config.nu 
+exit
+clear
+ls
+nvim ~/.config/nushell/env.nu 
+source ~/dev/dotfiles-wayland/nushell/.config/nushell/env.nu
+clear
+ls
+source ~/dev/dotfiles-wayland/nushell/.config/nushell/env.nu
+clear
+ls
+clear
+source ~/dev/dotfiles-wayland/nushell/.config/nushell/env.nu
+CLEAR
+clear
+ls
+cd dev/
+cd dotfiles-wayland/
+clear
+ls
+source ~/dev/dotfiles-wayland/nushell/.config/nushell/env.nu
+clear
+ls
+source ~/dev/dotfiles-wayland/nushell/.config/nushell/env.nu
+clear
+source ~/dev/dotfiles-wayland/nushell/.config/nushell/env.nu
+c;ear
+clear
+ls
+source ~/dev/dotfiles-wayland/nushell/.config/nushell/env.nu
+clear
+source ~/dev/dotfiles-wayland/nushell/.config/nushell/env.nu
+clear
+source ~/dev/dotfiles-wayland/nushell/.config/nushell/env.nu
+clear
+nvim ~/.config/nushell/env.nu 
+source ~/dev/dotfiles-wayland/nushell/.config/nushell/config.nu
+cd dotfiles-wayland/
+cd --help
+z
+z ~
+z /home/fisher/.config
+clear
+zoxide --help
+source ~/dev/dotfiles-wayland/nushell/.config/nushell/config.nu
+cd ~
+clear 
+cd dev
+cd ./
+cd ./ai
+clear
+ls
+cd automatic/
+ls
+cd 
+clear
+exit
+clear
+cd /home/fisher/Downloads
+ls
+cd pics
+ls
+clear
+cd 
+mv ~/dev/ai/ ~/dev/.ai
+clear
+ls
+clear
+cd Downloads/
+rm -r pics
+clear
+ls
+sudo powertop --auto-tune 
+clear
+exit
+paru
+clear
+nmcli device wifi connect testam 
+clear
+nmcli device wifi connect IIITG-Faculty 
+clear
+paru
+clear
+paru
+clear
+nmcli device wifi connect IIITG-Faculty 
+nmcli device wifi connect IIITG-Student 
+nmcli device wifi connect testam 
+clear
+mpc play
+clear
+mpc pause
+nmcli device wifi connect testam 
+nmcli device wifi connect IIITG-Faculty 
+nmcli device wifi connect IIITG-Student 
+clear
+paru
+clear
+mpc play
+clear
+paru -Rcns ngspice ltspice
+clear
+paru -Rcns spacedrive-bin
+paru
+paru -Rcns qemu-full
+clear
+paru -Q | wc -l
+clear
+paru -Rcns qt6-base 
+clear
+clear
+exit
+sudo powertop --auto-tune 
+clear
+paru -Sy kooha
+clear
+exit
+cd dev/.ai
+cd automatic/
+./webui.sh --use-cuda --lowvram --use-xformers
+git pull
+clear
+ls
+clear
+rm -r venv/
+./webui.sh --use-cuda --lowvram --use-xformers
+clear
+clear
+./webui.sh --use-cuda --lowvram --use-xformers
+pyenv help
+pyenv global
+pyenv versions
+pyenv global system
+rm -r venv/
+./webui.sh --use-cuda --lowvram --use-xformers
+clear
+ls
+which python 
+clear
+ls
+pyenv global 
+pyenv local 
+pyenv local system
+which python 
+clear
+rm -r venv/
+./webui.sh --use-cuda --lowvram --use-xformers
+exit
+pyenv install 3.12.2
+clear
+pyenv local 3.12.2
+pyenv global 3.12.2
+rm -r venv/
+bluetoothctl 
+clear
+exit
+./webui.sh --use-cuda --lowvram --use-xformers
+mpc play
+mpc pause
+clear
+mpc listall
+mpc add 'free flow.mp3'
+mpc add 'Comfortably Numb.mp3'
+mpc add 'Nothing.mp3'
+mpc play
+mpc next
+exit
+./webui.sh --use-cuda --lowvram --use-xformers
+bash
+ls
+cd extensions-builtin
+ls
+ls -l
+cd ..
+clear
+rm -r extensions-builtin
+clear
+./webui.sh --use-cuda --lowvram --use-xformers
+git status 
+clear
+ls
+mv venv/ ../
+mv models ../
+mv outputs/ ../
+ls
+cd ..
+ls
+rm -r automatic/
+git clone https://github.com/vladmandic/automatic
+mv outputs/ automatic/
+ls
+cd /home/fisher/dev/.ai/automatic
+ls
+yazi .
+cleat
+mv ../models/ .
+rm -r models
+mv ../models/ .
+mv ../venv/ .
+exit
+mpc toggle
+exit
+./webui.sh --use-cuda --lowvram --use-xformers
+cd ./models
+ls
+cd styles
+ls
+clear
+ls
+cd ..
+ls
+cd ..
+ls
+cd javascript
+ls
+c;ear
+clear
+yazi .
+ls
+rm -r automatic/
+./webui.sh --use-cuda --lowvram --use-xformers
+git clone https://github.com/vladmandic/automatic
+mv venv automatic/
+ls
+rm -r automatic/outputs
+mv outputs/ automatic/
+clera
+clear
+ls
+cd automatic/
+./webui.sh --use-cuda --lowvram --use-xformers
+exit
+cd /home/fisher/dev/.ai/automatic
+./webui.sh --use-cuda --lowvram --use-xformers
+clear
+cd ..
+ls
+cd ..
+ls
+mv .ai ai
+cd /home/fisher/dev/ai
+ls
+cd /home/fisher/dev/ai/automatic
+ls
+rm -r models/*
+mv ../GFPGAN/ ../Stable-diffusion/ ../insightface/ ../reactor/ models/
+clear
+ls
+cd ..
+ls
+cd /home/fisher/dev/ai/automatic
+./webui.sh --use-cuda --lowvram --use-xformers
+bash
+./webui.sh --use-cuda --lowvram --use-xformers
+python -m xformers.info
+clear
+cd dev/.ai
+cd dev/ai/automatic/
+ls
+bash
+mv ~/.pyenv/ ~/pyenv
+bash
+mv ~/pyenv/ ~/.pyenv
+clear
+pyenv uninstall 3.12.2
+pyenv install 3.11
+pyenv system 3.11.10
+pyenv global 3.11.10
+pyenv locaal 3.11.10
+pyenv local 3.11.10
+clear
+ls
+rm -r venv
+clear
+./webui.sh --use-cuda --lowvram 
+./webui.sh --use-cuda --lowvram --use-xformers
+bash
+./webui.sh --use-cuda --lowvram --use-xformers
+clear
+nmcli device wifi connect IIITG-Student 
+clear
+nmcli device wifi connect IIITG-Faculty 
+nmcli device wifi connect IIITG-Student 
+clear
+nmcli device wifi connect IIITG-Faculty 
+clear
+nmcli device wifi connect testam 
+clear
+sudo powertop --auto-tune 
+clear
+exit
+mpv /disks/notwork/Anime/dandadan/dandadan_S01E01.mp4 
+clear
+nmcli device wifi connect testam 
+nmcli device wifi connect IIITG-Faculty 
+nmcli device wifi connect IIITG-Student 
+clear
+paru
+nmcli device wifi connect IIITG-Student 
+nmcli device wifi connect IIITG-Faculty 
+nmcli device wifi connect IIITG-Student 
+clear
+paru
+clear
+cd ~/dev
+clear
+ls
+git clone git@github.com:anant-357/niri.git
+clear
+ls
+cd niri
+clear
+ls
+nvim .
+exit
+clear
+paru -Sy parabolic-git 
+clear
+sudo powertop --auto-tune 
+exit
+PARU
+paru
+clear
+run0 --help
+run0 pacman -Syu
+clear
+pacman -SYu
+pacman -Syu
+clear
+run0
+systemd --help
+cleasr
+clear
+cd 
+clear
+nmcli device wifi connect IIITG-Student 
+clear
+paru 
+clcear
+clear
+paru
+clear
+nmcli device wifi connect IIITG-Student 
+exit
+nmcli device wifi connect IIITG-Student 
+clear
+nmcli device wifi connect IIITG-Student 
+nmcli device wifi connect IIITG-Faculty 
+nmcli device wifi connect testam 
+clear
+cd 
+clear
+mkdir Interview
+clear
+ls
+cd Interview
+clear
+ls
+git clone https://github.com/21f3001737/iescp.git
+clear
+ls
+cd iescp
+clear
+ls
+nvim .
+clear
+./run.sh
+clear
+cd ..
+clear
+git clone git@github.com:anant-357/Animal_Rehabilitation_Backend.git
+clear
+cd Animal_Rehabilitation_Backed
+cd Animal_Rehabilitation_Backend
+clear
+ls
+npm run
+npm start
+npm i nodemon
+npm -g i nodemon
+sudo npm -g i nodemon
+clear
+npm start
+npm run
+npm i
+npm run
+cd ..
+clear
+npm start
+clear
+cd ..
+nvim .
+nvim try.sql
+clear
+ls
+rm try.sql
+clear
+ls
+exit
+clear
+nvim ~/.config/nushell/env.nu 
+exit
+clear
+paru
+clear
+paru
+clear
+paru
+clear
+sudo powertop --auto-tune 
+bluetoothctl 
+clear
+cd dev/ai/automatic/
+clear
+./webui.sh --use-cuda --lowvram --use-xformers
+paeu
+clear
+paru
+sudo powertop --auto-tune 
+clear
+paru
+clear
+cd Downloads/
+mv pics .pics
+clear
+ls
+cd ..
+clear
+bluetoothctl 
+ps
+ps | sort-by mem
+ps | sort-by virtual
+sudo powertop --auto-tune 
+clear
+cd dev/ai/automatic/
+clear
+cd Downloads/
+mv .pics pics
+clear
+./webui.sh --use-cuda --lowvram --use-xformers
+clear
+cd dev/ai/automatic/
+cd ~/Downloads/
+./webui.sh --use-cuda --lowvram --use-xformers
+paru
+clear
+ps | sort-by virtual
+clear
+nvi m
+nvim 
+clear
+cd /home/fisher/.config
+clear
+sudo pacman -Qtdq 
+sudo pacman -Qtdq | enumerate
+sudo pacman -Qtdq | table
+sudo pacman -Qtdq | table | describe
+sudo pacman -Qtdq | split-by  '\n'
+sudo pacman -Qtdq | split-by '\n'
+sudo pacman -Qtdq | into record
+sudo pacman -Qtdq | split row
+sudo pacman -Qtdq | split row "\n"
+sudo pacman -Qtdq | split row "\n" | each sudo pacman -Rcns 
+sudo pacman -Qtdq | split row "\n" | sudo pacman -Rcns
+sudo pacman -Qtdq | split row "\n" | each { sudo pacman -Rcns }
+sudo pacman -Qtdq | split row "\n" | each { |e| sudo pacman -Rcns $e }
+clear
+pacman -Qtdq
+sudo pacman -Rcns audiofile cargo-nextest cksfv 
+sudo pacman -Rcns cmake electron30 freeimage gendesk mandown
+clear
+pacman -Qtdq
+sudo pacman -Rcns scdoc sccache
+clear
+pacman -Qtdq
+sudo pacman -Rcns python-build python-hatchling python-installer python-psutil 
+sudo pacman -Rcns optipng ninja icoutils clang 
+clear
+pacman -Qtdq
+pacman -Rcns llvm makepkg-git-lfs-proto 
+sudo pacman -Rcns llvm makepkg-git-lfs-proto 
+clear
+pacman -Qtdq
+clear
+paru -Scc
+clear
+nvim ~/.config/nushell/env.nu 
+nvim ~/.config/nvim
+nvim ~/.config/nushell/env.nu 
+nvim ~/.config/nvim
+nvim ~/.config/nushell/env.nu 
+nvim ~/.config/nvim
+nvim ~/.config/nushell/env.nu 
+paru -Sy luarocks 
+clear
+nvim ~/.config/nushell/env.nu 
+clear
+nvim .
+curl -sS https://starship.rs/install.sh | sh
+clear
+ls
+clear
+nvim ~/.config/starship.toml
+clear
+nvim ~/.config/zellij 
+clear
+cd ~/dev
+ls
+cd /home/fisher/dev/Parabolic
+clear
+ls
+cd ..
+ls
+cd /home/fisher/dev/codeforces
+ks
+clear
+ls
+cd /home/fisher/dev/codeforces/c979
+ls
+clear
+touch Makefile
+clear
+ls
+rm Makefile
+clear
+cd ..
+clear
+ls
+nvim ~/.config/starship.toml 
+clear
+nvim ~/.config/starship.toml 
+clear
+nvim ~/.config/starship.toml 
+clear
+exit
+zellij -l welcome
+clear
+nvim ~/.config/kitty/kitty.conf 
+exit
+clear
+nvim ~/.config/kitty/kitty.conf 
+exit
+nvim ~/.config/kitty/kitty.conf 
+exit
+clear
+nvim ~/.config/starship.toml 
+clear
+exit
+cd ~/dev/niri
+clear
+paru -Sy fira
+paru -Sy ttf-firacode-nerd 
+clear
+nvim ~/.config/kitty 
+clear
+clear
+nvim ~/.config/kitty 
+clear
+nvim ~/.config/kitty 
+clear
+paru -Rcns ttf-cascadia-code-nerd 
+clear
+paru -Rcns ttf-liberation 
+clear
+cd ~/dev/ai/automatic/
+paru
+clear
+ps
+ps | sort-by virtual
+ps | get pid
+clear
+http help
+http --help
+http get https://raw.githubusercontent.com/JakeStanger/ironbar/refs/heads/master/Cargo.toml 
+http get https://raw.githubusercontent.com/JakeStanger/ironbar/refs/heads/master/Cargo.toml | package
+http get https://raw.githubusercontent.com/JakeStanger/ironbar/refs/heads/master/Cargo.toml | get package
+http get https://raw.githubusercontent.com/JakeStanger/ironbar/refs/heads/master/Cargo.toml | get package.name
+clear
+sudo pacman -Sy noto-fonts-emoji 
+clear
+fc-cache 
+clear
+exut
+exit
+exit
+cd ~/dev/niri
+clear
+cd 
+clear
+ls
+cd /home/fisher/Downloads
+clear
+ls
+mv pics .pics
+clear
+rm drive-download-20241102T183841Z-001/
+clear
+ls
+nvim ~/.config/
+clear
+exit
+clear
+z /home/fisher/.config
+zi 
+paru -Sy fzf
+clear
+zi 
+clear
+nvim ~/.config/
+exit
+yazi ~/.config/
+c;ear
+clear
+mpc play
+mpc toggle
+clear
+sudo powertop --auto-tune 
+clear
+paru
+clear
+sudo timedatectl set-ntp false
+sudo timedatectl --help
+sudo timedatectl set-time
+sudo timedatectl set-time --help
+sudo timedatectl status
+hwclock --help 
+hwclock --systohc
+sudo hwclock --systohc
+sudo hwclock -u
+sudo hwclock -l
+sudo timedatectl status
+sudo hwclock -u
+sudo timedatectl status
+ls -l /etc/localtime
+sudo timedatectl list-timezones
+sudo timedatectl list-timezones | grep 'London'
+sudo timedatectl set-timezone Europe/London
+clear
+sudo timedatectl stat 
+sudo timedatectl status
+clear
+p
+clear
+paru -Sy thunar 
+kear
+clear
+paru -Rcns nautilus 
+paru -Sy xdg-user-dirs-gtk xdg-desktop-portal-gnome 
+paru -Sy xdg-user-dirs-gtk xdg-desktop-portal-gtk
+clear
+paru -Sy gvfs thunar-archive-plugin
+clear
+paru -Sy xdg-desktop-portal-gnome 
+clear
+paru -Sy noisetorch-bin 
+clear
+paru -Sy easy-effects
+paru -Sy easyeffects 
+clear
+ls
+bluetoothctl 
+clear
+cd Interview
+clear
+z ../Interview/
+clear
+ls
+clear
+git clone git@github.com:anant-357/kernel.git
+git clone https://github.com/AmanYadav31/Animal_Rehabilitation_Website.git
+git@github.com:AmanYadav31/Animal_Rehabilitation_Website.git
+cd kernel/
+git clone git@github.com:AmanYadav31/Animal_Rehabilitation_Website.git
+cat Makefile 
+clear
+paru -Sy qemu
+clear
+make run
+paru -Sy nasm
+clear
+make run
+cd Animal_Rehabilitation_Backend
+cd ../Animal_Rehabilitation_Website/
+clear
+git switch dev 
+clear
+ls
+npm i
+clear
+npm run
+npm i
+clear
+nmcli device wifi connect "fisher mobile" 
+clear
+npm start
+clear
+npm start
+clear
+exit
+luffy
+clear
+paru -Sy i386-elf-binutils 
+clear
+make run
+make clean 
+make kernel.bin 
+make kernel.elf 
+make os-image.bin 
+nmcli device wifi connect IIITG-Student 
+clear
+nvim .
+nvim .
+clear
+npm start
+clear
+nvim .
+paru -Sy mongodb-bin mongosh-bin
+clear
+sudo systemctal enable --now mongodb.service
+sudo systemctl enable --now mongodb.service
+clear
+mongosh
+clear
+cd ..
+clear
+cd Animal_Rehabilitation_Website/
+clear
+npm start
+clear
+paru -Sy postman-bin 
+clear
+exit
+nvim .
+exit
+npm start
+clear
+exit
+exit
+nvim .
+clear
+cd ..
+clear
+ls
+cd iescp/
+nvim .
+clear
+cd ..
+clear
+nvim .
+clear
+cd Interview
+cd Animal_Rehabilitation_Backend/
+clear
+nvim .
+nmcli device wifi connect IIITG-Student 
+nmcli device wifi connect "IIITG Student 2.4GHz" 
+clear
+cd ..
+clear
+ls
+mkdir QuickSell
+cd QuickSell/
+clear
+nvim tables.sql
+clear
+cd 
+clear
+rm -R QuickSell/
+rm -r QuickSell/
+ls
+clear
+paru -Rcns postman
+paru -Rcns postman-bin 
+clear
+paru
+sudo powertop --auto-tune 
+clear
+exit
+exit
+clear
+cd dev/ai/automatic/
+git pull
+clear
+./webui.sh --use-cuda --lowvram --use-xformers
+clear
+nmcli device wifi connect "IIITG Student 2.4GHz" 
+rm ~/dev/ai/automatic/models/Stable-diffusion/juggernautXL_juggXIByRundiffusion.safetensors
+mv ~/Downloads/sd3.5_medium.safetensors ~/dev/ai/automatic/models/Stable-diffusion/
+cd dev/ai/automatic/
+./webui.sh --use-cuda --lowvram --use-xformers
+clear
+ls
+clear
+paru
+clear
+ey
+clear
+cat ~/Downloads/config.txt 
+nvim ~/.config/niri/config.kdl 
+clear
+nvim ~/.config/niri/config.kdl 
+clear
+nvim ~/.config/niri/config.kdl 
+clear
+:q
+clear
+exit
+zellij -l welcome
+clear
+nmcli device wifi connect "IIITG Student 2.4GHz" 
+nmcli device wifi connect IIITG-Student 
+nmcli device wifi connect IIITG-Faculty 
+nmcli device wifi connect "fisher mobile" 
+nmcli device wifi connect IIITG-Faculty 
+nmcli device wifi connect IIITG-Student 
+clear
+paru
+clear
+exit
+clear
+cd Downloads/
+clear
+cd dev/ai/automatic/
+./webui.sh --use-cuda --lowvram --use-xformers
+yazi .
+sudo powertop --auto-tune 
+clear
+paru
+clear
+bluetoothctl 
+clear
+bluetoothctl 
+clear
+bluetoothctl 
+clear
+mpc toggle
+clear
+paru
+clear
+paru
+clear
+sudo powertop --auto-tune 
+clear
+paru -Sy waycheck 
+paru
+paru -Rcns waycheck 
+clear
+clear
+exit
+clear
+yazi .
+clear
+bluetoothctl 
+clear
+paru
+clear
+nmcli device wifi connect IIITG-Student 
+bluetoothctl 
+clear
+patu
+sudo powertop --auto-tune 
+clear
+exit
+clear
+yazi /
+clear 
+yazi 
+clear
+cd Downloads/
+chromium girijahegde_2133_20240324.zip 
+cd girijahegde_2133_20240324/
+clear
+l
+ls
+nvim .
+chromium start_here.html 
+nvim ,.
+paru
+nvim .
+cd ..
+unzip girijahegde_2133_20240324.zip 
+clear
+clear
+cd Downloads/
+cd girijahegde_2133_20240324/
+clear
+grep -r "anant" .
+grep -nrHI "anant" .
+grep -nrHI "shreya" .
+clear
+paru -Sy prettier 
+clear
+find . -mindepth 2 -maxdepth 2 -name "*.html" -exec prettier --write {} \;
+find --help
+clear
+bash
+clear
+grep -nrHI "anant" .
+clear
+find . -mindepth 1 -maxdepth 3 -name "*.html" -exec prettier --write {} \;
+bash
+grep -nrHI "anant" .
+grep -nrHI "dick" .
+grep -nrHI "pass" .
+grep -nrHI "blackswan" .
+grep -nrHI "blak" .
+bash
+exit
+grep -nrHI "pussy" .
+clear
+grep -nrHI "horny" .
+grep -nrHI "0721" .
+clear
+sudo powertop --auto-tune 
+clear
+imv --help
+imv -help
+man imv
+imv -r .
+clear
+cd ..
+clear
+cd ..
+clear
+paru
+paru -Syu niri 
+clear
+bluetoothctl 
+clear
+pacman -Qtdq
+clear
+paru -Rcns chromium 
+clear
+paru 
+clear
+bluetoothctl 
+clear
+paru
+clear
+paru
+clear
+paru
+clear
+paru -Rcns helvum pavucontrol 
+clear
+paru -Sy chromium
+clear
+cd 
+clear
+paru
+clear
+niri -v
+niri version
+niri --help
+clear
+niri -V
+clear
+nvim ~/.config/niri/config.kdl 
+clear
+exit
+nvim ~/.config/kitty/kitty.conf 
+nvim ~/.config/zellij 
+clear
+kitty
+kitty --help
+clear
+rm ~/.cache/kitty/
+rm -r ~/.cache/kitty/
+clear
+rm -r ~/.cache/zellij/
+clear
+nvim ~/.config/waybar/style.css 
+clear
+paru -Sy gruvbox-dark-gtk 
+clear
+exit
+nvim ~/.config/kitty/kitty.conf 
+c;ear
+clear
+nvim ~/.config/nushell/catppuccin-mocha.nu 
+clear
+nvim ~/.config/nushell/catppuccin-mocha.nu 
+paru
+clear
+zellij -l welcome
+zellij --help
+zellij -l --help
+clear
+bluetoothctl 
+clear
+bluetoothctl 
+clear
+mpc play
+clear
+mpc toggle
+clear
+nvim ~/.config/nushell/catppuccin-mocha.nu 
+clear
+mpc toggle
+clear
+mpc toggle
+clear
+zellij -l --help
+paru
+clear
+sudo powertop --auto-tune 
+paru -Sy guile
+clear
+paru -Rcns guile
+clear
+nvim hello.guile
+nvim hello.scm
+clear
+ls
+guile hello.scm
+clear
+rm hello.scm
+clear
+paru -Sy guix
+clear
+paru 
+clear
+sudo nvim /etc/pacman.conf 
+paru 
+clear
+niri -V
+clear
+bluetoothctl 
+clear
+bluetoothctl 
+clear
+cd /disks/notwork/
+ls
+cd Entertainment/
+clear
+ls
+cd ..
+ls
+cd Anime/
+ls
+cd dandadan/
+ls
+ffprobe dandadan_S01E01.mp4
+=ffprobe -v quiet -print_format json -show_format -show_streams dandadan_S01E01.mp4
+ffprobe -v quiet -print_format json -show_format -show_streams dandadan_S01E01.mp4
+ffprobe -v quiet -print_format json -show_format -show_entries format_tags dandadan_S01E01.mp4
+ls
+sudo powertop --auto-tune 
+clear
+cd ~/Downloads/
+ls
+rm -r ads_information/ apps_and_websites_off_of_instagram/ connections/ files/ girijahegde_2133_20240324/ logged_information/ media/ personal_information/ preferences/ security_and_login_information/ start_here.html streaming.php `streaming(1).php` your_instagram_activity/ your_activity_across_facebook/
+clear
+ls
+mv EP.5.v0.1730391904.1080p.mp4 dandadan_S01E05.mp4
+mv EP.6.v0.1730997905.1080p.mp4 dandadan_S01E06.mp4
+clear
+ls
+rm girijahegde_2133_20240324.zip
+clear
+ls
+exit
+clear
+paru
+clear
+paru -Rcns guix
+paru -Rcns guile-avahi 
+paru -Rcns guile-lib 
+paru -Rcns guile-git-lib 
+paru -Rcns guile-avahi 
+paru -Rcns guile-bytestructures 
+paru -Rcns guile-json 
+paru -Rcns guile-lib 
+paru -Rcns guile-lzlib 
+paru -Rcns guile-quickcheck 
+paru -Rcns guile-quickcheck
+paru -Rcns guile-semver 
+paru -Rcns guile-sqlite3 
+paru -Rcns guile-zlib 
+paru -Rcns guile-zstd 
+clear
+paru -Qtdq
+bluetoothctl 
+sudo powertop --auto-tune 
+clear
+paru
+clear
+paru
+clear
+bluetoothctl 
+sudo powertop --auto-tune 
+clear
+cd ~/dev/
+ls
+git clone git@github.com:anant-357/ironbar.git
+clear
+cd ironbar/
+ls
+clear
+nvim .
+clear
+cargo build
+nvim .
+cargo build
+nvim .
+nvim Cargo.toml 
+cargo build
+clear
+nmcli device wifi connect IIITG-Student 
+clear
+bluetoothctl 
+mpc play
+clear
+mpc toggle
+paru -Sy keepassXC
+paru -Sy keepass 
+keepass 
+keepass --help
+paru -Rcns keepass 
+paru -Sy buttercup-desktop-bin 
+paru -Sy bitwarden-bin 
+clear
+exit
+clear
+bluetoothctl 
+clear
+mpc toggle
+clear
+paru
+clear
+paru -Rcns mongosh-bin 
+paru -Rcns minetest-common 
+paru -Rcns mujs 
+clear
+nmcli device wifi connect IIITG-Student 
+mv ~/Downloads/dandadan_S01E0* /disks/notwork/Anime/dandadan/
+sudo umount /disks/notwork 
+sudo ntfsfix /dev/sda2
+sudo mount /dev/sda2 /disks/notwork/
+fuser /dev/sda2
+sudo mount /dev/sda2 /disks/notwork/
+paru
+cd /disks/notwork/
+ls
+cd ~
+mv ~/Downloads/dandadan_S01E0* /disks/notwork/Anime/dandadan/
+sudo umount /disks/notwork 
+clear
+clear
+exit
+cd dev/
+ls
+cd ironbar/
+clear
+ls
+git status 
+clear
+cargo build
+clear
+nvim .
+xlwE
+XLWE
+clear
+cargo build
+clear
+cd ..
+rm -r ironbar/
+clear
+git clone git@github.com:anant-357/ironbar.git
+cd ironbar/
+clear
+nvim .
+cargo build
+nvim .
+clear
+cargo build
+nvim ./src/clients/compositor/
+clear
+bluetoothctl 
+clear
+cargo build
+clear
+exit
+nmcli device wifi connect IIITG-Student 
+clear
+exit
+cd Downloads/
+nano rrdv.py 
+nvim rrdv.py 
+clear
+nmcli device wifi connect IIITG-Student 
+nvim ~/.config/niri/config.kdl 
+bluetoothctl 
+clear
+paru
+clear
+sudo powertop --auto-tune 
+cclear
+clear
+bluet
+bluetoothctl 
+paru -Sy doom 
+paru -Sy emacs 
+paru -Sy emacs-nox 
+clear
+git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs<\n>~/.config/emacs/bin/doom install
+emacs
+emacs --help
+paru -Rcns emacs-nox 
+paru -Sy emacs-wayland 
+clear
+emacs 
+clear
+exit
+clear
+paru -Rcns doom 
+exit
+clear
+nmcli device wifi connect IIITG-Student 
+nmcli device wifi connect IIITG-Faculty 
+paru
+clear
+paru -Sy jay-git 
+paru -Sy rust
+paru -Sy jay-git 
+clear
+jay --help
+jay run
+clear
+sudo powertop --auto-tune 
+clear
+nvim ~/.config/jay/config.toml
+mkdir ~/.config/jay
+nvim ~/.config/jay/config.toml
+exit
+cd ~/dev/
+ls
+cd ironbar/
+clear
+ls
+git status 
+cargo build
+clear
+cargo clippy
+cargo build
+clear
+cargo build
+clear
+cargo run 
+nvim ~/.config/ironbar/config.toml 
+clear
+mv ~/.config/ironbar/config.toml ~/.config/ironbar/config.toml.bkp
+mv ~/.config/ironbar/config.toml.save ~/.config/ironbar/config.toml
+cargo run
+nvim ~/.config/ironbar/config.toml 
+cargo run
+clear
+exit
+nvim ./src/clients/compositor/
+clear
+exit
+IRONBAR_LOG="trace" cargo run
+exit
+nvim ./src/clients/compositor/
+exit
+clear
+IRONBAR_LOG="trace" cargo run
+cd dev/ironbar/
+exit
+IRONBAR_LOG="trace" cargo run
+nvim ./src/modules/workspaces.rs 
+exit
+IRONBAR_LOG="trace" cargo run
+nvim ./src/modules/workspaces.rs 
+clear
+cd 
+paru -Sy pavucontrol 
+clear
+mpc play
+mpc toggle
+clear
+nmcli device wifi connect IIITG-Faculty 
+nmcli device wifi connect IIITG-Student 
+clear
+paru
+clear
+nvim ~/.config/niri/config.kdl 
+bluetoothctl 
+clear
+nvim ~/.config/niri/config.kdl 
+nmcli device wifi connect IIITG-Student 
+clear
+bluetoothctl 
+clear
+bluetoothctl 
+nmcli device wifi connect testam 
+nmcli device wifi rescan
+nmcli device wifi connect IIITG-Student 
+clear
+nmcli device wifi connect testam
+nmcli device wifi connect rescan
+nmcli device wifi list
+nmcli device wifi rescan
+nmcli device wifi list
+nmcli device wifi rescan
+nmcli device wifi rescan; nmcli device wifi list
+clear
+nmcli device wifi rescan; nmcli device wifi list
+clear
+nmcli device wifi rescan; nmcli device wifi list
+nmcli device wifi connect testam 
+clear
+mpc toggle
+nmcli device wifi connect testam 
+mpc toggle
+cd Downloads/
+clear
+ls
+clear
+cd 
+clear
+bluetoothctl 
+clear
+nvim ~/.config/rofi/current.rasi 
+clear
+cleear
+cd
+clear
+mkdir icpc
+cd icpc/
+clear
+ls
+g++ q1.cpp
+./a.out
+g++ q1.cpp
+./a.out
+g++ q1.cpp
+./a.out
+g++ q1.cpp
+./a.out
+g++ q1.cpp
+./a.out
+g++ q1.cpp
+./a.out
+g++ q1.cpp
+./a.out
+g++ q1.cpp
+./a.out
+g++ q1.cpp
+./a.out
+bash
+clear
+exit
+nvim q1.cpp
+clear
+exit
+clear
+cd 
+clear
+exit
+paru
+clear
+bluetoothctl 
+clear
+mpc toggle
+clear
+nmcli device wifi connect testam 
+nmcli device wifi connect IIITG-Faculty 
+mpc toggle
+paru -Sy deno 
+clear
+deno --help
+bluetoothctl 
+clear
+ls
+cd dev/
+ls
+cd profile/lit/
+ls
+deno init
+deno new
+clear
+paru -Rcns node-gyp 
+paru -Rcns deno 
+clear
+cd 
+clear
+paru
+clear
+yazi .
+clear
+mpc toggle
+nmcli device wifi connect IIITG-Faculty 
+clear
+nmcli device wifi connect IIITG-S
+nmcli device wifi connect IIITG-Student 
+clear
+mpc next
+mpc toggle
+bluetoothctl 
+clear
+mpc toggle
+mpc pause
+mpc listall
+mpc add 'Espresso.mp3'
+mpc playlist
+mpc remove 'Nothing.mp3'
+mpc --help
+mpc help
+mpc del 3
+mpc playlist
+mpc del 4
+mpc playlist
+mpc add 'free flow.mp3'
+clear
+mpc play
+mpc nexy
+mpc next
+nmcli device wifi connect IIITG-Student 
+nmcli device wifi connect IIITG-Faculty 
+clear
+nmcli device wifi connect IIITG-Faculty 
+nmcli device wifi connect IIITG-Student 
+mpc next
+clear
+nmcli device wifi connect IIITG-Faculty 
+nmcli device wifi connect IIITG-Student 
+sudo powertop --auto-tune 
+mpc toggle
+clear
+nmcli device wifi connect IIITG-Faculty 
+mpc toggle
+mpc pause
+clear
+sudo powertop --auto-tune 
+clear
+bluetoothctl 
+clear
+cd  
+cleasr
+clear
+paru
+clear
+paru
+clear
+cd dev/ironbar/
+ls
+pkill kooha 
+clear
+exit
+cargo run
+clear
+bluetoothctl 
+clear
+mpc toggle
+mpc next
+mpc pause
+nmcli device wifi connect IIITG-Faculty 
+nmcli device wifi connect IIITG-Student 
+clear
+ssh shreya.malik21b@172.16.2.17
+exit
+ssh shreya.malik21b@172.16.2.17
+bash
+clear
+cd 
+clear
+ls
+clear
+bluetoothctl 
+clear
+mpc toggle
+nmcli device wifi connect IIITG-Student 
+mpc next
+nmcli device wifi connect IIITG-Student 
+clear
+mpc next
+mpc toggle
+sudo powertop --auto-tune 
+clear
+cd 
+clear
+paru
+clear
+nvim /etc/pacman.conf 
+sudo nvim /etc/pacman.conf 
+clear
+exit
+paru
+clear
+yazi .
+exit
+zellij -l --help
+exit
+clear
+sudo powertop --auto-tune 
+clear
+paru
+clear
+bluetoothctl 
+mpc toggle
+mpc next
+nmcli device wifi connect IIITG-Student 
+nmcli device wifi connect IIITG-Faculty 
+nmcli device wifi connect IIITG-Student 
+mpc toggle
+clear
+paru
+clear
+nmcli device wifi connect testam 
+clear
+paru
+clear
+paru -Sy wezterm
+wezterm &
+wezterm 
+wezterm-gui 
+paru -Rcns wezterm
+clear
+paru -Sy ghostty-git
+paru -Qtdq
+paru -Rcns haskell-aeson 
+clear
+paru -Rcns zig 
+paru -Sy jujutsu
+clear
+cd dev/niri/
+git infoo
+git info
+git status
+clear
+cd ..
+jj git clone https://github.com/octocat/Hello-World
+jj config set --user user.name "Anant Sharma"
+jj config set --user user.email "anantsh.88@gmail.com"
+clear
+cd Hello-World/
+clear
+ls
+jj st 
+ls -l
+ls -la
+cd .jj/
+ls
+cd 
+cd -
+clear
+cd ../
+clear
+ls
+jj describe 
+sed -i 's/Hello/Goodbye/' README
+jj diff --git
+jj new 
+jj log
+jj new master -m A; echo a > file1
+clear
+cd 
+clear
+nmcli device wifi connect testam --ask
+niri
+clear
+cd dev/profile/
+ls
+sudo powertop --auto-tune 
+clear
+nmcli device wifi connect testam --ask
+nmcli device wifi connect IIITG-Faculty 
+nmcli device wifi connect IIITG-Student 
+clear
+nmcli device wifi connect testam
+nmcli device wifi rescan 
+nmcli device wifi connect testam
+nmcli device wifi rescan 
+nmcli device wifi connect testam
+nmcli device wifi list
+nmcli device wifi connect testam
+nmcli device wifi rescan 
+nmcli device wifi list
+nmcli device wifi rescan 
+nmcli device wifi list
+nmcli device wifi rescan 
+nmcli device wifi list
+nmcli device wifi rescan 
+nmcli device wifi list
+nmcli device wifi rescan 
+nmcli device wifi list
+nmcli device wifi connect testam
+paru
+nmcli device wifi connect testam
+clear
+nmcli device wifi rescan 
+nmcli device wifi connect testam
+nmcli device wifi connect IIITG-Student 
+nmcli device wifi rescan 
+nmcli device wifi connect IIITG-Student 
+nmcli device wifi list
+nmcli device wifi connect testam
+nmcli device wifi connect IIITG-Faculty 
+nmcli device wifi connect testam
+nmcli device wifi list
+nmcli device wifi connect IIITG-Student 
+paru
+clear
+cd 
+clear
+exit
+nmcli device wifi connect testam 
+coear
+clear
+cd Downloads/
+clear
+mkdir dl
+clear
+cd dl
+clear
+ls
+clear
+exit
+zathura .
+clear
+yazi .
+clear
+paru -Sy raylib 
+clear
+cd dev/
+mkdir new_ray
+cd new_ray/
+clear
+nvim main.c
+paru -Sy clangd
+paru -Sy clang
+clear
+nvim main.c
+gcc main.c
+gcc main.c -ldraylib
+nvim main.c
+gcc main.c
+clear
+mv ~/Downloads/raylib-5.5_linux_amd64.tar.gz .
+clear
+unzip raylib-5.5_linux_amd64.tar.gz 
+tar -xvf raylib-5.5_linux_amd64.tar.gz 
+clear
+ls
+rm raylib-5.5_linux_amd64.tar.gz
+clear
+ls
+cd raylib-5.5_linux_amd64/
+ls
+mv ../main.c .
+clear
+ls
+nvim main.c 
+gcc main.c
+mv main.c ../
+clear
+cd ..
+ls
+clear
+nvim main.c 
+cc main.c -lraylib
+clear
+./a.out
+clear
+paru
+clear
+paru -Sy niri-git 
+clear
+niri -V
+clear
+exit
+clear
+cd dev/ai/automatic/
+clear
+./webui.sh --use-cuda --lowvram --use-xformers
+clear
+baobab 
+nautilus 
+clear
+chromium 
+clear
+sudo powertop --auto-tune 
+clear
+nmcli device wifi connect testam 
+y
+sudo powertop --auto-tune 
+clear
+paru
+clear
+cd dev/ai/automatic/
+./webui.sh --use-cuda --lowvram --use-xformers
+chromium 
+git pull
+yazi
+clear
+clear
+./webui.sh --use-cuda --lowvram --use-xformers
+mv venv ../
+pyenv list
+pyenv --help
+pyenv install 3.12
+pyenv local 3.12.7
+pyenv global 3.12.7
+clear
+./webui.sh --use-cuda --lowvram --use-xformers
+pyenv global 3.12.
+pyenv global 3.12
+rm -r venv
+pyenv local 3.12
+python --version
+pyenv local
+pyenv --help
+pyenv global
+pyenv shims
+clear
+pyenv --help
+pyenv version
+pyenv versions
+pyenv local 3.11
+pyenv global 3.11
+mv ../venv/ .
+clear
+./webui.sh --use-cuda --lowvram --use-xformers
+clear
+paru -Sy posy-improved-cursors 
+clear
+nwg-look 
+clear
+cd /usr/share/icons/
+ls
+clear
+exit
+nwg-look 
+clear
+exit
+nvim ~/.config/niri/config.kdl 
+clear
+exit
+clear
+cd icpc/
+clear
+ls
+rm *.*
+clear
+ls
+rm *
+clear
+ls
+clear
+nvim first.cpp
+cp first.cpp second.cpp
+cp first.cpp third.cpp
+clear
+nvim first.cpp 
+clear
+sudo powertop --auto-tune 
+clear
+cd ..
+cd dev/ai/automatic/
+cd ~/Downloads/
+ls
+unzip CuteGirlShowingHerBoobsAndPussy3VideosCollectionZip.zip 
+ls
+mpv D1.mov 
+mpv D2.mov 
+mpv D3.mov 
+clear
+exit
+chromium 
+clear
+exit
+nvim ./outputs/links 
+clear
+bluetoothctl 
+clear
+bluetoothctl 
+clear
+mpc toggle
+bluetoothctl 
+clear
+paru
+paru -Rcns qemu-base 
+clear
+paru
+clear
+paru
+clear
+bluetoothctl 
+clear
+paru
+clear
+cd ~/dev/
+clear
+ls
+cd new_ray/
+clear
+ls
+rm -r raylib-5.5_linux_amd64/
+clear
+ls
+nvim main.c 
+cc main.c -lraylib
+nvim Makefile
+clear
+mkdir include 
+mkdir sr
+mkdir src
+mkdir build
+clear
+rm -r sr/
+clear
+ls
+rm a.out
+clear
+ls
+mv main.c src/
+clear
+ls
+clear
+nvim Makefile
+make 
+clear
+ls
+make biuld
+make buld
+make biuld
+make build
+clear
+nmcli device wifi connect testam 
+nmcli device wifi connect IIITG-Faculty 
+nmcli device wifi connect IIITG-Student
+nvim Makefile 
+make build
+ls --help
+ls --tree
+ls -t
+clear
+nvim Makefile 
+make
+clear
+ls
+cd build/
+ls
+./executable
+clear
+nmcli device wifi connect IIITG-Student
+clear
+nmcli device wifi connect IIITG-Student
+nmcli device wifi connect testam 
+mpc toggle
+paru
+clear
+bluetoothctl 
+clear
+mpc toggle
+mpc next
+paru
+clear
+clear
+mpc toggle
+exit
+nvim ./src/main.c 
+make build
+make clean
+make build
+cd build/
+ls
+cd ..
+clear
+make
+clear
+nvim Makefile 
+make bui
+make build 
+nvim Makefile 
+make run
+nvim ./src/main.c 
+make run
+clear
+cd ~/Downloads/
+ls
+cclear
+clear
+ls
+mkdir extra
+mv CuteGirlShowingHerBoobsAndPussy3VideosCollectionZip.zip D* extra/
+clear
+ls
+clear
+ls
+cd dl/
+ls
+cd ..
+clear
+rm -r dl
+clear
+ls
+;s
+clear
+ls
+cd ~/Documents/
+cd -
+clear
+exit
+paru -Sy zen-browser-generic 
+c;ear
+clear
+cd ~/dev/
+ls
+clear
+git clone git@github.com:anant-357/profile.git
+rm -r profile/
+c;ear
+clear
+git clone git@github.com:anant-357/profile.git
+elar
+clear
+ls
+clear
+cd profile/
+clear
+ls
+cd Downloads/
+ls
+rm AnyConv.com__Bluesky_Logo-1.html
+rm AnyConv.com__Bluesky_Logo.html
+clear
+ls
+unzip github-mark-c791e9551fe4.zip 
+clear
+yazi .
+clear
+zen-browser ./github-mark/github-mark.svg
+sudo powertop --auto-tune 
+clear
+paru
+clear
+exit
+clear
+ls
+git add .
+git commit  -m "convert footer text to logos"
+clear
+git push origin main
+celear
+clear
+sudo powertop --auto-tune 
+cd ~/dev/ai/automatic/
+clear
+cd outputs/
+exit
+chromium
+clear
+yazi .
+cd `~/Downloads/Sexy Figure Girl Showing Her Full Body On Snapchat 6+Videos Collection Zip/`
+ls
+clear
+zen-browser .
+clear
+nvim links 
+exit
+c;ear
+clear
+yazi .
+cd 
+clear
+cd 
+clear
+nmcli device wifi connect testam 
+paru
+clear
+nmcli device wifi connect testam 
+clear
+bluetoothctl 
+clear
+bun --help
+clear
+paru -Sy bun
+deno --help
+clear
+paru -Sy deno
+clear
+cd ~/dev/
+clear
+mkdir profile-lit
+cd profile-lit/
+clear
+jj init --help
+clear
+jj git remote add origin git@github.com:anant-357/profile_v2.git
+jj init --git
+jj git init
+clear
+ls
+jj git remote add origin git@github.com:anant-357/profile_v2.git
+clear
+jj git push
+jj new main
+nvim Readme.md
+jj new main
+jj new main -m A
+clear
+jj status
+jj git push
+jj commit -m 'feat(docs): add Readme'
+clear
+jj new main
+jj git pull
+jj git fetch
+ssh -F /dev/null
+clear
+ls
+ls -a
+rm -r .jj
+clear
+ls
+git init
+clear
+ls
+git remote add origin git@github.com:anant-357/profile_v2.git
+clear
+git add .
+git commit -m 'feat(docs): add Readme'
+git push origin main
+clear
+deno --help
+deno init 
+clear
+ls
+git add .
+git commit -m 'feat(profile): initialize deno'
+clear
+deno install lit
+deno install npm:lit
+clear
+ls
+deno install -gArf jsr:@deno/deployctl<\n>
+deno run
+deno --help
+clear
+nvim .
+clear
+deno run
+deno run main.ts 
+clear
+nvim deno.json 
+deno dev
+deno install -gArf jsr:@deno/deployctl<\n>
+deployctl deploy
+clear
+deno install -gArf jsr:@deno/deployctl<\n>
+nvim ~/.config/nushell/env.nu 
+deployctl deploy
+paru
+boabab
+yazi .
+clear
+baobab 
+nautilus 
+exit
+clear
+bluetoothctl 
+clear
+paru
+clear
+exit
+clear
+bluetoothctl 
+clear
+paru
+clear
+paru
+clear
+bluetoothctl 
+clear
+mpc toggle
+clear
+mpc toggle
+bluetoothctl 
+mpc toggle
+mpc toggl
+mpc toggle
+clear
+paru -Sy plasma-desktop 
+clear
+mpc toggle
+bluetoothctl 
+clear
+mpc status
+helvum
+clear
+bluetoothctl 
+clear
+mpc play
+mpd --help
+sudo systemctl status mpd
+sudo systemctl --user status mpd
+sudo systemctl --user start mpc 
+sudo systemctl --user start mpd
+systemctl --user status mpd
+systemctl --user restart mpd
+systemctl --user status mpd
+clear
+exit
+pavucontrol 
+clear
+nvim .
+deno run
+deno clear
+clear
+cat deno.json
+deno dev
+deno run dev
+deno run dev --allow-net
+nvim .
+nvim .
+nvim ~/.config/niri/config.kdl 
+clear
+paru -Sy bundler
+paru -Sy bundle-install
+paru -Sy ruby rubygems
+clear
+ls
+rm *.*
+rm *
+clear
+ls
+deno run dev
+clear
+exit
+gem init
+gem --help
+gem server
+gem install rubygems-server
+gem server
+nvim ~/.config/nushell/env.nu 
+gem sercer
+gem server
+clear
+echo $env.PATH
+gem update --system 3.5.23
+clear
+exit
+exit
+nvim ~/.config/niri/config.kdl 
+c;ear
+clear
+mpc toggle
+bluetoothctl 
+clear
+nmcli device wifi connect testam 
+clear
+mpc toggle
+nmcli device wifi connect testam 
+clear
+mpc toggle
+clear
+bluetoothctl 
+clear
+paru
+clear
+paru -Sy parabolic-gtk 
+clear
+parabolic
+parabolic-gtk
+clear
+paru -Rcns parabolic-gtk 
+paru -Rcns blueprint-compiler 
+paru -Sy blueprint-compiler
+paru -Sy parabolic-gtk 
+paru -Scc 
+paru -Rcns parabolic-gtk 
+paru -Sy parabolic-gtk 
+python3.8 -m pip install pgi
+pyenv gloabl
+pyenv global
+clear
+paru -Sy python36 
+clear
+paru -Rcns python 
+ckear
+clear
+cd /usr/bin/<\n>rm python3<\n>ln -s python3.6 python3<\n>
+sudo rm python 3
+sudo rm python3
+sudo ln -s python3.6 python3
+clear
+python --version
+python3 --version
+sh -c python3 --version
+sh -c "python3 --version"
+clear
+pyenv 
+pyenv global
+pyenv local
+paru -Sy parabolic-gtk 
+clear
+paru -Rcns python36
+clear
+paru -Sy yt-dlg 
+paru -Sy youtube-dl
+clear
+mpv https://www.youtube.com/watch?v=hBoR_BeHEMc
+paru -Sy yt-dlp
+clear
+mpv https://www.youtube.com/watch?v=hBoR_BeHEMc
+yt-dlp --help 
+yt-dlp help 
+man yt-dlp 
+yt-dlp https://www.youtube.com/watch?v=hBoR_BeHEMc
+yt-dlp 
+clear
+exit
+yt-dlp
+asdasfasd
+clear
+bash
+paru -Sy yt-dlp-git 
+clear
+cd ~/Downloads/
+clear
+ls
+./yt-dlp
+chmod +x yt-dlp 
+./yt-dlp
+./yt-dlp https://www.youtube.com/watch?v=hBoR_BeHEMc
+clear
+mpv "Four Lions [2010] Full Movie [hBoR_BeHEMc].webm" 
+bluetoothctl 
+pavucontrol 
+clear
+paru
+mpv --sub-files=Four.Lions.2010.BluRay.720p.DTS.x264-CHD.English.srt "Four Lions [2010] Full Movie [hBoR_BeHEMc].webm"  
+clear
+clear
+ls
+clear
+ssh anant.sharma21b@172.16.0.10
+paru
+clear
+paru -Sy discord 
+bluetoothctl 
+clear
+mpc toggle
+bluetoothctl 
+pavucontrol 
+clear
+bluetoothctl 
+clear
+paru 
+discord
+paru
+nmcli device wifi connect testam 
+nmcli device wifi hotspot  testam 
+nmcli device wifi hotspot 
+nmcli device wifi connect testam 
+nmcli connection delete Hotspot 
+nmcli connection delete testam 
+nmcli device wifi connect testam --ask
+clear
+nvim ~/.config/niri/config.kdl 
+clear
+paru
+clear
+bluetoothctl 
+clear
+mpc toggle
+paru
+clear
+mpc toggle
+nmcli device wifi connect testam --ask
+nmcli device wifi connect testam
+nmcli device wifi connect IIITG-Student
+clear
+nmcli device wifi connect IIITG-Faculty 
+clear
+sudo powertop --auto-tune 
+exit
+clear
+paru
+clear
+bluetoothctl 
+clear
+paru
+clear
+bluetoothctl 
+clear
+exit
+chromium 
+clear
+paru -Sy floorp-bin 
+paru
+floorp 
+paru -Rcns floorp-bin 
+clear
+exit
+exit
+clear
+yazi .
+clear
+exit
+cd ../
+clear
+mkdir SWT
+cd SWT/
+clear
+nvim rdf.xml
+sudo powertop --auto-tune 
+nmcli device wifi connect IIITG-Faculty 
+clear
+nmcli device wifi connect testam
+clear
+paru
+clear
+bluetoothctl 
+clear
+bluetoothctl 
+clear
+mpc toggle
+clear
+ls
+cd ~/dev/
+clear
+ls
+cd profile-lit/
+ls
+deno new
+deno init
+clear
+ls
+open deno.json
+open deno.json | to json
+open deno.json | select tasks from $in 
+open deno.json | select tasks 
+clear
+paru
+clear
+bluetoothctl 
+clear
+mpc toggle
+paru
+clear
+sudo powertop --auto-tune 
+clear
+paru
+nmcli device wifi connect testam
+bluetoothctl 
+clear
+paru
+clear
+sudo powertop --auto-tune 
+paru
+clear
+chromium 
+clear
+sudo powertop --auto-tune 
+clear
+nmcli device wifi connect testam
+paru
+clear
+exit
+bluetoothctl 
+clear
+mpc toggle
+paru
+clear
+sudo powertop --auto-tune 
+cl
+clear
+paru
+paru -Rcns qt6-base 
+paru -Rcns plasma-desktop
+paru -Rcns qt6-base qt5-base 
+clear
+paru -Syu
+clear
+nmcli device wifi connect "A 10 5G" 
+nmcli device wifi connect "A 10 5G" --ask
+clear
+paru
+chromium 
+clear
+clear
+exit
+exit
+cd ~/dev/profile-lit/
+ls
+clear
+cd Downloads/
+;s
+ls
+unzip Gir.zip 
+unzip "Hot Indian Nri Girl Blowjob And Fucking With Boyfriend 5 Videos Collection Zip.zip" 
+unzip "Beautiful Desi Nri Girl Ridding Her Boyfriend's Dick 5 Videos Collection Zip.zip" 
+unzip "Cute Indian Girl Pressing Her Small Boobs 2 Videos Collection Zip.zip" 
+nmcli device wifi connect "A 10 4G" --ask
+unzip Desimms69.com.zip 
+cd Downloads/
+cd ~/Downloads/
+clear
+ls
+mv `Beautiful Girlfriend Showing Her Cute Boobs And Romance With Boyfriend 40 Pics And 17 Videos Collection Zip (Must Watching Guys).zip` pics/
+cd pics/new4/
+ls
+unzip "Beautiful Girlfriend Showing Her Cute Boobs And Romance With Boyfriend 40 Pics And 17 Videos Collection Zip (Must Watching Guys).zip" 
+clear
+cd
+paru
+clear
+pari
+paru
+clear
+sudo powertop --auto-tune 
+clear
+paru
+clear
+cd dev/ai/automatic/
+clear
+ls
+./webui.sh --use-cuda --lowvram --use-xformers
+clear
+./webui.sh --use-cuda --lowvram --use-xformers
+paru -Sy cuda-tools 
+cd ~/dev/
+ls
+clear
+ls
+rm -r Hello-World/ Parabolic/ bearchair/ codeforces/ cses/ ironbar/ new_ray/ ngspice/ niri/ profile-lit/ shadPS4/ spice/
+clear
+boabab
+baobab
+c;ear
+clear
+rm -r Hello-World/ Parabolic/ bearchair/ codeforces/ cses/ ironbar/ new_ray/ ngspice/ niri/ profile-lit/ shadPS4/ spice/
+paru -Sy cuda-tools 
+clear
+cd ai/automatic/
+./webui.sh --use-cuda --lowvram --use-xformers
+paru
+clear
+cd dev/
+ls
+mkdir profile-new/
+celar
+clear
+cd profile-new/
+ls
+deno init
+clear
+cd ..
+deno run -A -r https://fresh.deno.dev
+cd next-profile/
+clear
+ls
+clear
+nvim .
+cd dev/next-profile/
+clear
+deno task start
+clear
+cd ../profile/
+clear
+nvim ~/.config/niri/config.kdl 
+c;ear
+clear
+cd routes/
+ls
+rm -r api greet/
+clear
+ls
+cd ..
+clear
+ls
+cd islands/
+ls
+clear
+exit
+deno task start
+mv notes.tsx routes/
+clear
+nvim .
+rm -r components/
+clear
+ls
+rm -r islands/
+clear
+ls
+clear
+ls
+deno task start
+nvim .
+deno install gsap
+deno install npm:gsap
+clear
+bluetoothctl 
+clear
+nvim .
+nvim .
+clear
+cd
+clear
+exit
+cd 
+clear
+discord
+clear
+exit
+exit
+paru
+paru -Rcns cuda-tools 
+clear
+cd dev/
+ls
+cd ai/
+ls
+clear
+ls
+cd dev/
+ls
+clear
+cd ai/
+clear
+ls
+ls -h
+ls --du
+cd models/
+ls
+ls --du
+cd Stable-diffusion/
+ls
+cd ..
+clear
+ls
+cd ..
+clear
+ls
+rm -r models/
+rm -r automatic/
+clear
+ls
+cd outputs/
+ls
+ls --du
+cd control/
+clear
+ls
+rm `00120-leosamsHelloworldXL_helloworldXL60-A young Indian woman around 18 sits on.png`
+clear 
+cd ..
+clear
+ls --du
+cd text/
+ls
+yazi .
+clear
+ls
+cd ../
+cd Assets/
+ls
+ls --du
+cd IIITG/
+ls --du
+cd `IIITG Batch 2020-24/`
+ls
+ls --du
+rm -r Ananya/
+rm -r `Bohagi pics/`
+clear
+ls
+ls --du
+cd ..
+clear
+ls --du
+cd ..
+clear
+ls
+ls --du
+cd new/
+ls
+ls --du
+cd store/
+ls --du
+cd ..
+clear
+ls
+cd ..
+clear
+ls
+cd ..
+ls
+clear
+ls
+cd ..
+clear
+ls
+mv outputs/* .
+clear
+ls
+cd outputs/
+ls
+cd
+clear
+cd ..
+clear
+ls
+rm -r outputs/
+clear
+ls
+cd ..
+clear
+ls
+mv ai/* .
+clear
+ls
+rm -r ai/
+clear
+ls
+rm -r profile-new/
+clear
+ls
+clear
+ls --du
+nvim ~/.config/nushell/env.nu 
+nvim ~/.config/nushell/config.nu 
+nvim ~/.config/nushell/env.nu 
+clear
+alias ls=ls --du
+alias ls ls --du
+alias ls="ls --du"
+alias ls = "ls --du"
+alias ls = ls --du
+ls
+clear
+ls
+paru
+paru -Rcns 
+paru -Rcns cuda-tools 
+paru -Rcns cuda
+clear
+yazi .
+clear
+bluetoothctl 
+clear
+nautilus 
+clear
+gio mount -li | awk -F= '{if(index($2,"mtp") == 1)system("gio mount "$2)}'
+nautilus 
+clear
+bash
+paru -Sy android-file-transfer 
+mkdir mnt
+aft-mtp-mount ~/mnt/
+bash
+paru -Sy eog
+paru -Sy totem
+clear
+nautilus 
+clear
+exit
+cd Downloads/
+ls
+cd ~/dev/Assets/
+ls
+cd `IIITG/IIITG Batch 2020-24/`ls
+cd `IIITG/IIITG Batch 2020-24/`
+clear
+ls
+unzip heic.online.zip 
+clear
+aft-mtp-mount ~/mnt/
+rm -r ~/mnt
+cd ~
+clear
+ls
+rm mnt
+clear
+ls
+bash
+mkdir mnt
+aft-mtp-mount ~/mnt/
+cd dev/
+cd Assets/
+ls
+cd IIITG/
+ls
+cd `IIITG Batch 2020-24/shivangi/`
+ls
+clear
+cd orig/
+ls
+bash
+clear
+ls
+cle
+clear
+rm *.HEIC
+rm *.heic
+clear
+ls
+clear
+nautilus 
+bash
+mkdir ~/mnt
+aft-mtp-mount ~/mnt/
+nautilus 
+clear
+bash
+mkdir ~/mnt
+aft-mtp-mount ~/mnt/
+nautilus 
+clear
+yazi .
+cd `dev/Assets/IIITG/IIITG Batch 2020-24/shivangi/new/`
+CLEAR
+clear
+unzip bulk-image-cr.zip 
+clear
+yazi .
+clewar
+clear
+cd 
+exit
+clear
+sudo powertop --auto-tune 
+clear
+cd dev/
+clear
+ls
+cd next-profile/
+clear
+ls
+clear
+ls
+clear
+cd ..
+clear
+gem install bundler jekyll
+jekyll new  j-profile
+gem install bundler jekyll
+gem install core_ext
+gem install rubygems-server
+clear
+gem install rubygems-server
+clear
+ls
+jekyll new  j-profile
+paru -Rcns ruby
+clear
+paru -Sy rubygems
+clear
+ls
+cd dev/
+clear
+ls
+gem install bundler jekyll
+clear
+jekyll new  j-profile
+gem install erb
+jekyll new  j-profile
+cd j-profile/
+clear
+ls
+bundle exec jekyll serve
+bundle install minima
+bundle install
+sudo bundle install
+gem install minima
+bundle exec jekyll serve
+gem install erb
+bundle exec jekyll serve
+bundle add webrick
+nvim ~/.config/nushell/env.nu 
+clear
+exit
+clear
+discord 
+paru -Sy android-tools 
+fastboot -v
+fastboot --version
+clear
+fastboot flash --help
+clear
+cd 
+clear
+ls
+rm -r ~/mnt
+clear
+ls
+aft-mtp-mount ~/mnt/
+mkdir ~/mnt
+aft-mtp-mount ~/mnt/
+nautilus 
+clear
+ls
+fastboot --help
+adb devices 
+adb --help
+cd bangkk/
+clear
+ls
+clear
+ls
+exit
+clear
+cd dev/bangkk/
+clear
+ls
+adb devices
+adb reboot bootloader
+clear
+adb devices
+fastboot flash boot boot.img
+fastboot flash dtbo.img
+fastboot flash dtbo dtbo.img
+fastboot flash vendor_boot.img
+fastboot flash vendor_boot vendor_boot.img
+fastboot --help
+fastboot reboot recovery
+adb sideload PixelOS_bangkk-15.0-20241204-0351.zip 
+adb devices 
+adb sideload PixelOS_bangkk-15.0-20241204-0351.zip 
+clear
+cd
+paru -Sy nheko 
+clear
+paru -Sy qt6-wayland 
+nheko
+nvim ~/.config/niri/config.kdl 
+clear
+exit
+bluetoothctl 
+clear
+paru -Sy element-desktop 
+clear
+nmcli device wifi connect "A 10 5G" --ask
+clear
+nheko
+element-desktop 
+clear
+clear
+bluetoothctl 
+clear
+sudo powertop --auto-tune 
+clear
+nheko
+clear
+nmcli device wifi connect "A 10 4G"
+nmcli device wifi connect "A 10 4G" 
+clear
+paru
+clear
+exit
+paru
+clea
+rclear
+cle
+clea
+clear
+paru
+clear
+paru -Sy gfeedse
+paru -Sy gfeeds
+clear
+gfeeds 
+gfeed
+gfeeds 
+gfeeds --help
+clear
+paru -Rcns gfeeds 
+paru -Sy telegram
+clear
+paru -Sy telegram-desktop 
+telegram-desktop 
+clear
+paru -Sy neochat fractal 
+nheko
+clear
+paru -Sy neochat 
+neochat 
+paru -Rcns neochat 
+clear
+clear
+fractal
+clear
+exit
+exit
+niri validate
+nvim ~/.config/niri/config.kdl 
+clear
+clear
+nheko 
+cd Downloads/
+cd ~/Documents/
+clear
+ls
+l
+ls -a
+clear
+nheko 
+clear
+clear
+bluetoothctl 
+clear
+paru -Sy parabolic-gtk 
+paru -Sy vcpkg 
+clear
+cd ~/dev/
+clear
+ls
+cd dev/Parabolic/
+clear
+ls
+git clone git@github.com:NickvisionApps/Parabolic.git
+bash
+find . -name vcpkg
+bash
+paru -Rcns vcpkg
+clear
+paru -Sy cmake ninja
+clear
+bluetoothctl 
+bash
+clear
+cd ..
+clear
+bash
+clear
+nmcli device wifi connect "A 10 5G" 
+paru
+paru -Rcns vcpkg-git 
+paru
+bluetoothctl 
+clear
+nvim 
+clear
+paru -Sy ripgrep 
+clear
+nvi m
+telegram-desktop 
+clear
+bluetoothctl 
+clear
+paru
+clear
+nvim 
+clear
+cd ~/Downloads/
+clear
+ls
+cd `Telegram Desktop/`
+ls
+clear
+telegram-desktop 
+clear
+ps aux
+ps 
+ps | sort-by mem
+ps | sort-by mem | SELECT SUM(mem) 
+ps | SELECT SUM(mem) 
+clear
+telegram-desktop 
+clear
+adb devices
+adb reboot bootloader
+fastboot flash boot boot.img
+fastboot reboot recovery
+adb devices
+adb sideload Bangkk-Vallhound-ota-ap3a.241005.015-REL.10241355.zip 
+clear
+telegram-desktop 
+clear
+sudo powertop --auto-tune 
+paru
+clear
+nmcli device wifi connect "A 10 4G" 
+clear
+cd profile/
+clear
+zen-browser index.html
+nvim .
+clear
+exit
+clear
+yazi .
+clear
+cd ..
+clear
+ls
+yazi .
+clear
+adb devices
+clear
+adb reboot bootloader
+cd dev/bangkk/InfinityXOS/
+fastboot flash boot boot.img
+fastboot flash dtbo dtbo.img
+fastboot flash vendor_boot vendor_boot.img
+fastboot reboot recovery
+adb devices
+adb sideload Project_Infinity-X-2.2-bangkk-20241201-0839-GAPPS-UNOFFICIAL.zip 
+clear
+cd 
+clear
+nvim ~/.config/niri/config.kdl 
+paru
+paru -Rcns qt5-base 
+paru -Rcns qt5-base qt6-5compat 
+paru -Rcns qt6-base 
+clear
+bluetoothctl 
+clear
+sudo powertop --auto-tune 
+clear
+paru -Sy keepass 
+clear
+keepass 
+bluetoothctl 
+clear
+nmcli device wifi connect "A 10 5G" 
+clear
+paru
+clear
+yt-dlp --help
+cd ~/Downloads/
+ls
+ls imp/
+ls extra/
+cd extra/
+clear
+ls
+rm *.pptx
+clear
+ls
+./yt-dlp --help
+./yt-dlp -x  --audio-quality 0 'https://www.youtube.com/watch?v=s_k81z6rpuw'
+ls
+./yt-dlp -x  --audio-quality 0 'https://www.youtube.com/watch?v=zwf5MpcuKDM'
+./yt-dlp -x  --audio-quality 0 'https://www.youtube.com/watch?v=XKNzeGxDHog'
+./yt-dlp -x  --audio-quality 0 'https://www.youtube.com/watch?v=EfgAd6iHApE'
+./yt-dlp -x  --audio-quality 0 
+./yt-dlp -x  --audio-quality 0 'https://www.youtube.com/watch?v=rqScfATfNnc'
+./yt-dlp -x  --audio-quality 0 'https://www.youtube.com/watch?v=Sp6idnemeE0'
+./yt-dlp -x  --audio-quality 0 'https://www.youtube.com/watch?v=625dPre0eqk'
+./yt-dlp -x  --audio-quality 0 'https://www.youtube.com/watch?v=lfxXg6nNdNk'
+cleart
+clear
+ls
+clear
+nvim ~/.config/niri/config.kdl 
+clear
+cd 
+clear
+paru
+sudo pacman -Sy noto-fonts-emoji 
+paru
+sudo pacman -Syu
+rm /var/lib/pacman/db.lck
+sudo rm /var/lib/pacman/db.lck
+paru
+clear
+paru
+clear
+bluetoothctl 
+clear
+cd /disks/notwork/
+clear
+ls
+mkdir Hello
+clear
+sudo umount /disks/notwork 
+sudo ntfsfix /dev/sda2
+sudo mount /dev/sda2 /disks/notwork/
+fuser
+fuser -l
+sudo mount /dev/sda2 /disks/notwork/
+cd ..
+cd notwork/
+clear
+ls
+cd Music/
+clear
+ls
+mb ~/Downloads/extra/*.opus .
+mv ~/Downloads/extra/*.opus .
+sudo mv ~/Downloads/extra/*.opus .
+bash
+cd
+clear
+sudo umount /disks/notwork 
+systemctl --user stop mpd
+sudo umount /disks/notwork 
+sudo ntfsfix /dev/sda2
+sudo mount /dev/sda2 /disks/notwork/
+bash
+systemctl --user start mpd
+clear
+mpc  list
+mpc list songs
+mpc list Title
+mpc --help
+mpc help
+cd /disks/notwork/Music/
+clear
+ls
+mv 'FKJ & Bas - Risk (Official Music Video) [Sp6idnemeE0].opus' Risk.opus
+mv 'FKJ - 10 Years Ago (Official Audio) [rqScfATfNnc].opus' '10 Years ago.opus'
+mv 'FKJ - 100 Roses (Official Audio) [lfxXg6nNdNk].opus' '100 roses.opus'
+mv 'FKJ - Brother (Official Audio) [625dPre0eqk].opus' Brother.opus
+mv 'FKJ - Tui [XKNzeGxDHog].opus' Tui.opus
+mv 'FKJ - Ylang Ylang [EfgAd6iHApE].opus' 'Ylang Ylang.opus'
+clear
+mpc clear
+mpc playlist
+mpc rescan
+mpc add 'tui.opus'
+mpc load tui.opus
+mpc listall
+mpc load Tui.opus
+mpc add Tui.opus
+mpc add 'Ylang Ylang.opus'
+mv 'Masego  - Queen Tings ft. Tiffany Gouché (Official Music Video) [s_k81z6rpuw].opus' 'Queen Tings.opus'
+mv 'Masego + FKJ   - Tadow [zwf5MpcuKDM].opus' Tadow.opus
+mpc rescan
+mpc add 'Risk.opus'
+mpc add '100 roses.opus'
+paru -Sy mympd 
+clear
+paru -Sy mympd 
+cler
+clear
+mympd 
+sudo mympd 
+clear
+systemctl --user start mympd
+systemctl --user enable mympd
+systemctl --user status mympd
+mympd 
+systemctl --user disable mympd
+systemctl --user stop mympd
+sudo systemctl start mympd
+clear
+paru -Rcns mympd 
+paru -Sy ympd 
+clear
+ympd
+clear
+mpc pause
+clear
+bluetoothctl 
+paru
+clear
+cd 
+clear
+cd dev/
+clear
+ls
+cd j-profile/
+clear
+ls
+cd ..
+cd next-profile/
+clear
+ls
+blu
+bluetoothctl 
+clear
+sudo powertop --auto-tune 
+paru
+clear
+cd Downloads/extra/
+clear
+ls
+./yt-dlp -x  --audio-quality 0 https://www.youtube.com/watch?v=MfTWob5Ii9k
+clear
+ls
+mv 'Beer Song (From ＂Diesel＂) [MfTWob5Ii9k].opus' 'Beer Song.opus'
+clear
+ls
+mv ~/Downloads/extra/*.opus /disks/notwork/Music/
+clear
+./yt-dlp -x  --audio-quality 0 https://www.youtube.com/watch?v=Thf60JU8E98
+clear
+mpc rescan
+mpc add 'Queen Tings.opus'
+mpc add 'Beer Song.opus'
+clear
+ympd
+clear
+mpc pause
+bluetoothctl 
+paru
+clear
+bluetoothctl 
+clera
+clear
+paru
+clear
+clear
+mpc play
+nautilus 
+aft-mtp-mount ~/mnt/
+paru -Sy android-tools 
+paru -Sy android-file-transfer 
+aft-mtp-mount ~/mnt/
+nautilus 
+fusermount -u ~/mnt/
+clear
+paru -Rcns android-file-transfer
+paru -Sy gvfs-mtp
+clear
+mpc pause
+mpc play
+baobab 
+MPC PAUSE
+mpc pause
+nautilus 
+sudo powertop --auto-tune 
+paru -Sy heif 
+bluetoothctl 
+lear
+clear
+nmcli device wifi connect "A 10 4G" 
+lear
+clear
+mpc play
+paru -Sy shotwell
+clear
+paru
+clear
+mpc pause
+clear
+nautilus 
+clear
+bluetoothctl 
+paru
+clear
+cd ~
+clear
+ls
+nautilus 
+clear
+bluetoothctl 
+clear
+paru
+clear
+tuba
+clear
+cd ~/dev/
+clear
+ls --du
+cd Assets/
+ls --du
+cd new/
+clear
+ls --du
+cd store/
+clear
+ls --du
+cd new4/
+clear
+ls --du
+rm `Beautiful Girlfriend Showing Her Cute Boobs And Romance With Boyfriend 40 Pics And 17 Videos Collection Zip (Must Watching Guys).zip`
+clear
+cd ..
+clear
+ls
+cd ..
+ls --du
+paru -Sy ttf-playfair-variable 
+clear
+nvim ~/.config/niri/config.kdl 
+cd ~/.config/waybar/
+clear
+ls
+cp style.css style.css.bkp
+waybar --help
+waybar 
+exit
+waybar 
+waybar --help
+waybar -b 0
+waybar --bar 
+waybar --bar 1
+waybar --bar --help
+killall -SIGUSR2 waybar
+nautilus 
+font-manager 
+clear
+nvim ./config.jsonc 
+c;ear
+nvim style.css 
+clear
+exit
+exit
+clear
+~/.config/kitty/kitty.conf
+nvim ~/.config/kitty/kitty.conf
+clear
+ls
+clear
+kitty
+discord 
+clear
+nvim ~/.config/zellij/config.kdl 
+nvim ~/.config/kitty/kitty.conf
+clear
+nvim ~/.config/kitty/kitty.conf
+clear
+cd ~/dev/profile/
+clear
+zen-browser index.html
+clear
+nvim .
+clear
+bluetoothctl 
+clear
+adb devices
+clear
+adb reboot bootloader
+telegram-desktop 
+fastboot reboot 
+paru
+nmcli device wifi connect "A 10 5G" 
+paru
+clear
+paru -Sy tele
+paru -Sy telegram-desktop 
+clear
+adb reboot bootloader
+mv `~/Downloads/Telegram Desktop/magisk_patched-28100_XeX1T.img` ~/dev/bangkk/InfinityXOS/
+clear
+clear
+cd ~/dev/bangkk/InfinityXOS/
+clear
+ls
+fastboot flash boot magisk_patched-28100_XeX1T.img
+fastboot reboot 
+clear
+exit
+cd 
+clear
+sudo powertop --auto-tune 
+clear
+sudo powertop --auto-tune 
+bluetoothctl 
+clear
+mpc play
+paru
+nmcli device wifi connect "A 10 5G" 
+paru
+clear
+mpc pause
+cleasr
+clear
+paru
+clear
+bluetoothctl 
+clear
+cd
+clear
+paru
+clear
+discord
+clear
+paru
+mpc play
+clear
+cd ~/Downloads/
+ls
+./Stable_Diffusion_GUI-0.2.3-ad11faf.glibc2.38-x86_64.AppImage
+chmod +x Stable_Diffusion_GUI-0.2.3-ad11faf.glibc2.38-x86_64.AppImage 
+./Stable_Diffusion_GUI-0.2.3-ad11faf.glibc2.38-x86_64.AppImage
+clear
+exit
+cd
+clear
+mpc pause
+paru
+paru -Rcns yt-dlp 
+paru -Rcns yt-dlp  python-beautifulsoup4 
+paru -Rcns python-beautifulsoup4 
+sudo timedatectl status
+sudo timedatectl set-timezone Asia/Kolkata
+sudo timedatectl set-ntp true
+sudo timedatectl status
+clear
+exit
+niri 
+nvim ~/.config/niri/config.kdl 
+clear
+exit
+niri exit
+clear
+exit
+sudo powertop --auto-tune 
+exit
+paru
+nmcli device wifi connect "A 10 5G" 
+paru
+nmcli device wifi connect "A 10 5G" 
+paru
+nmcli device wifi connect "A 10 4G" 
+paru
+clear
+paru -Rcns emacs-wayland 
+clear
+cd
+clear
+paru
+clear
+baobab 
+clear
+paru
+paru -Rcns thunar
+clear
+nvim ~/.config/niri/config.kdl 
+clear
+exit
+bluetoothctl 
+clear
+clear
+exit
+cd ~/dev/
+clear
+paru -Rcns chromium 
+clear
+sudo powertop --auto-tune 
+clear
+exit
+paru
+clear
+paru
+paru -Rcns libnick 
+clear
+bluetoothctl 
+clear
+mpc play
+mpc pause
+clear
+cd 
+clear
+paru
+clear
+paru -Sy sway 
+pkill sway
+clear
+bluetoothctl 
+mpc play
+mpc pause
+cd ~/Downloads/
+clear
+ls
+cd extra/
+clea
+ls
+./yt-dlp https://www.youtube.com/watch?v=g7NWrzJTUTM
+clear
+paru -Sy openshot 
+paru -Sy vidcutter
+paru -Sy kdenliv
+paru -Sy kdenlive 
+paru -Sy footage 
+clear
+ps
+ps | sort-by mem 
+pkill 2801
+ps | sort-by mem 
+pkill 8113
+ps | sort-by mem 
+pkill xwayland-satell 
+ps | sort-by mem 
+pkill 1126
+ps | sort-by mem 
+clear
+paru
+paru -Sy avidemux-2.6 
+paru -Sy pitvi
+paru -Sy pitivi
+pitivi 
+paru -Sy python-gobject 
+paru -Sy kdenlive
+paru -Sy kdenlive 
+c;ear
+clear
+cd 
+clear
+ls
+mpv untitled.mp4 
+mv untitled.mp4 divya.mp4
+clear
+kdenlive 
+clear
+sudo powertop --auto-tune 
+clear
+bluetoothctl 
+par
+paru
+clear
+nmcli device wifi connect "A 10 5G" 
+clear
+paru
+clear
+paru
+clear
+bluetoothctl 
+clear
+paru -Rcns kdenlive 
+clear
+sudo powertop --auto-tune 
+cd dev/
+clear
+ls
+git clone git@github.com:vladmandic/automatic.git
+clear
+cd automatic/
+ls
+paru
+paru -Scc
+clear
+./webui.sh --use-cuda --lowvram --use-xformers
+baobab
+clear
+exit
+clear
+exit
+clear
+mv ~/Downloads/*.safetensors ~/dev/automatic/models/Stable-diffusion/
+cd ~/dev/
+cd automatic/
+clear
+ls
+cd models/
+ls
+cd Stable-diffusion/
+ls
+mv sdxl_vae.safetensors ../VAE/
+clear
+ls
+./webui.sh --use-cuda --lowvram --use-xformers
+clear
+./webui.sh --use-cuda --lowvram --use-xformers
+exit
+exit
+blue
+bluetoothctl 
+clear
+paru
+paru -Sy chromium
+clear
+pkill zen-bin 
+clear
+paru
+nmcli device wifi connect "A 10 5G" 
+bluetoothctl 
+clear
+./webui.sh --use-cuda --lowvram --use-xformers
+cd ..
+clear
+paru
+clear
+exit
+ps | sort-by mem 
+pkill 1420
+ps | sort-by mem 
+pkill Discord
+ps | sort-by mem 
+exit
+clear
+ps | sort-by mem 
+exit
+paru -Sy spotube-bin 
+clear
+yazi .
+clear
+./webui.sh --use-cuda --lowvram --use-xformers
+exit
+nvim ~/.config/niri/config.kdl 
+clear
+exit
+spotube 
+exit
+clear
+exit
+clear
+cd 
+clear
+cd Downloads/
+clear
+ls
+cd extra/
+ls
+./yt-dlp -x  --audio-quality 0 https://www.youtube.com/watch?v=-Idgc_ra6G8
+./yt-dlp -x  --audio-quality 0 https://www.youtube.com/watch?v=hjfzFVw2Zjo
+./yt-dlp -x  --audio-quality 0 https://www.youtube.com/watch?v=fOvvUYHrud0
+./yt-dlp -x  --audio-quality 0 https://www.youtube.com/watch?v=UlWAjd9bcKw
+./yt-dlp -x  --audio-quality 0 https://www.youtube.com/watch?v=eM8Mjuq4MwQ
+./yt-dlp -x  --audio-quality 0 https://www.youtube.com/watch?v=mXkbWKr5ovU
+./yt-dlp -x  --audio-quality 0 https://www.youtube.com/watch?v=x_elT6zkqN0
+./yt-dlp -x  --audio-quality 0 https://www.youtube.com/watch?v=4dsFQFCvVGU
+./yt-dlp -x  --audio-quality 0 https://www.youtube.com/watch?v=84TjXsRHf6Q
+./yt-dlp -x  --audio-quality 0 https://www.youtube.com/watch?v=Yqj1_V90KJo
+./yt-dlp -x  --audio-quality 0 https://www.youtube.com/watch?v=Zxgvob1Ew0c
+clear
+paru
+nmcli device wifi connect "A 10 5G" 
+paru
+clear
+nvim ~/.config/niri/config.kdl 
+clear
+exit
+paru
+bluetoothctl 
+clear
+nmcli device wifi connect "A 10 5G" 
+sudo powertop --auto-tune 
+clear
+bluetoothctl 
+clear
+mv ./*.opus /disks/notwork/Music/
+clear
+mpc rescan
+clear
+ympd
+clear
+paru
+clear
+mpc pause
+clear
+nvim ~/.config/niri/config.kdl 
+clear
+cd ~/dev/
+clear
+ls
+git clone git@github.com:NexConn/Lockey.git
+clear
+cd Lockey/
+clear
+ls
+mkdir src
+mkdir include 
+clear
+ls
+clear
+ls
+mpc play
+clear
+mpc next
+clear
+nvim CMakeLists.txt
+clear
+ls
+cd src/
+clear
+nvim main.coo
+nvim main.cpp
+clear
+cd ~/Downloads/
+ls
+unzip cmake-3.31.3-tutorial-source.zip 
+ls
+cd cmake-3.31.3-tutorial-source/
+clear
+ls
+nvim .
+clear
+exit
+nvim .
+make
+clear
+cmake  
+cd ..
+clear
+cmake
+cmake .
+nvim .
+mv src/main.cpp .
+clear
+cmake .
+clear
+ls
+cat Config.h 
+clear
+nvim .
+nvim ~/.config/
+nvim .
+cmake .
+cat Config.h 
+clear
+ls
+mpc pause
+make
+./Lockey
+clear
+clear
+mpc play
+nvim .
+cmake .
+nvim .
+cmake .
+cd ~/Downloads/
+nvim .
+cd cmake-3.31.3-tutorial-source/Complete/
+clear
+cmake .
+ls
+nvim .
+cmake .
+clear
+nvim .
+cmake-gui 
+cmake clean
+cmake --help
+cmake . clean
+cmake . --target clean
+make clean
+ckear
+clear
+ls
+rm -r CMakeFiles/
+rm CMakeCache.txt
+clear
+ls
+rm cmake_install.cmake
+clear
+ls
+clear
+clear
+mpc pause
+clear
+nvim .
+;s
+clear
+ls
+mv main.cpp src/
+clear
+l
+clear
+ls
+rm Makefile
+mv CMakeLists.txt src/
+clear
+ls
+mv Config.h Config.h.in include/
+clear
+l
+ls
+clear
+exit
+paru
+nmcli device wifi connect "A 10 5G" 
+paru
+clear
+paru
+clear
+bluetoothctl 
+clear
+cd 
+clear
+ls
+cd dev/automatic/
+clear
+cd ~/dev/
+clear
+ls
+cd Lockey/
+clear
+ls
+nvim .
+clear
+nvim README.md 
+paru
+nmcli device wifi connect "A 10 5G" 
+paru
+clear
+cmake .
+clear
+mv src/CMakeLists.txt .
+clear
+cmake .
+ls
+nvim .
+cmake .
+clear
+ls
+make
+clear
+ls
+./Lockey
+clear
+ls
+nvim .gitignore
+clear
+git add .gitignore 
+git commit -m 'chore: add gitignore'
+clear
+git add .
+git status 
+git commit -m 'feat: add basic project setup' -m 'Structure needs more thought, a better system is possible'
+rm Lockey
+git add .
+git commit -m 'fix: remove binary'
+clear
+git status
+git push 
+clear
+blue
+bluetoothctl 
+clear
+exit
+./webui.sh --use-cuda --lowvram --use-xformers
+clear
+exit
+c;ear
+paru
+nmcli device wifi connect "A 10 5G" 
+paru
+paru -Scc
+clear
+baobab
+clear
+paru
+clear
+yazi .
+clear
+cd dev/automatic/
+clear
+mv ~/Downloads/*.safetensors ~/dev/automatic/models/Stable-diffusion/
+clear
+exit
+clear
+cd dev/automatic/
+bluetoothctl 
+clear
+exit
+./webui.sh --use-cuda --lowvram --use-xformers
+clera
+clear
+foliate
+clear
+./webui.sh --use-cuda --lowvram --use-xformers
+ls
+rm -r *
+clear
+ls
+ls -l
+cd ..
+clear
+ls
+rm -r Lockey/
+clear
+ls
+git clone git@github.com:NexConn/Lockey.git
+clear
+cd Lockey/
+ls
+rm CMakeLists.txt
+rm -r include/
+rm -r src/
+clear
+ls
+cargo init
+clear
+l
+ls
+nvim .
+clear
+cargo build
+nvim .
+cargo build
+nvim .
+clear
+cargo build
+clear
+nvim .
+git add CMakeLists.txt Cargo.lock Cargo.toml include/Config.h include/Config.h.in src/main.cpp src/main.rs .gitignore 
+git status 
+git commit -m 'refactor: switch to Rust and Cargo'
+clear
+bluetoothctl 
+git add README.md 
+clear
+git commit -m "fix: update gitignore"
+clear
+paru
+cat .gitignore 
+nvim .gitignore
+git add .
+git commit -m "fix: update gitignore"
+clear
+ls
+git push
+clear
+clear
+exit
+cd ~/dev/
+clear
+cd automatic/
+clear
+bluetoothctl 
+clear
+exit
+bluetoothctl 
+c;ear
+clear
+exit
+clear
+bluetoothctl 
+clear
+bluetoothctl 
+clear
+discord 
+clear
+paru
+clear
+bluetoothctl 
+clear
+paru
+clear
+cd ..
+clear
+git clone git@github.com:anant-357/xdg_desktop_portal_wayland.git
+clear
+cd xdg_desktop_portal_wayland/
+clear
+ls
+nvim .
+clear
+cd ..
+clear
+rm -r xdg_desktop_portal_wayland/
+clear
+ls
+rm -r j-profile/
+rm -r next-profile/
+rm -r profile/
+rm -r profile-content/
+clear
+ls
+cd text/
+ls
+zen-browser *
+rm *
+clear
+ls
+cd ..
+ls
+rm -r text/
+clear
+ls
+cd Boyem/
+ls
+clear
+yazi .
+clear
+paru
+clear
+discord 
+clear
+bluetoothctl 
+clear
+paru
+clear
+bluetoothctl 
+clear
+bluetoothctl 
+clear
+bluetoothctl 
+clear
+paru
+clear
+paru
+clear
+mpc play
+mpc status
+mpc toggle
+bluetoothctl 
+clear
+blu
+bluetoothctl 
+clear
+mpc play
+mpc toggle
+mpc help
+mpc volume -
+mpc volume -10
+mpc toggle
+mpc volume -10
+clear
+mpc toggle
+paru -Sy koreader-bin 
+clear
+koreader 
+clear
+nvim ~/.config/niri/config.kdl 
+paru -Rcns foliate 
+clear
+paru
+timedatectl set-ntp true
+clear
+timedatectl status
+clear
+sudo powertop --auto-tune 
+paru
+clear
+cd ..
+clear
+git clone git@github.com:saksham2003jain/taskManagement.git
+cd taskManagement/
+cd taskManagement/
+clear
+clear
+cd client/
+clear
+cd server/
+clear
+ls
+paru -Sy npm
+clear
+npm ci
+cleasr
+clear
+npm start
+npm ci
+npm run
+ls
+cat package.json 
+clear
+nodemon 
+nvim .
+exit
+nvim .
+nodemon
+clear
+nodemon
+clear
+nvim .
+npm run
+nodemon
+nvim /
+nvim ,
+nvim .
+nodemon
+nvim .
+exit
+nodemon
+nvim 
+nvim .
+nvim .
+nodemon
+bluetoothctl 
+nodemon
+clear
+mpc
+mpc toggle
+clear
+bluetoothctl disconnect 
+clear
+paru
+clear
+sudo powertop --auto-tune 
+clear
+exit
+paru -Sy postgresql 
+clear
+psql -h database-1.cnjl6jnnj86z.ap-south-1.rds.amazonaws.com -p 5432 -U postgres 
+bluetoothctl disconnect 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+paru -Sy ghostty 
+nmcli device wifi connect "A 10 5G" 
+paru -Sy ghostty 
+ghostty 
+nvim ~/.config/niri/config.kdl 
+clear
+exit
+clear
+cd
+clear
+nvim ~/.config/ghostty/config 
+clear
+cd .config/gtk-4.0/
+clear
+ls
+rm gtk-dark.css
+clear
+ln -sf /usr/share/themes/gruvbox-dark-gtk/gtk-3.0/gtk-dark.css 
+ls
+cat gtk-dark.css 
+cat gtk.css 
+clear
+unzip ~/Downloads/Gruvbox-Dark-BL.zip 
+ls
+sudo mv Gruvbox-Dark-BL/ /usr/share/themes/
+clear
+paru -Rcns gruvbox-dark-gtk 
+clear
+ls
+cd ~/Downloads/
+ls
+zen-browser kidding.html
+rm kidding.html
+rm -r kidding_files/
+clear
+ls
+unzip Gruvbox-Dark-BL.zip 
+clear
+ls
+rm Gruvbox-Dark-BL.zip
+rm -r Gruvbox-Dark-BL/
+clear
+unzip Gruvbox-Dark-BL-LB.zip 
+clear
+ls
+cd Gruvbox-Dark/
+ls
+cd ..
+clear
+ls
+sudo mv Gruvbox-Dark* /usr/share/themes/
+clear
+cd ..
+cd ~/.config/
+rm -r gtk-4.0/
+clear
+sudo ln -sf /usr/share/themes/Gruvbox-Dark/gtk-4.0 gtk-4.0
+ls
+cd gtk-4.0/
+clear
+ls
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+ls
+clear
+yazi .
+clear
+exit
+nvim ~/.config/ghostty/config 
+clear
+paru -Rcns kitty 
+clear
+exit
+clear
+nvim ~/.config/ghostty/config 
+clear
+paru -Sy wl-gammactl 
+paru -Sy gammastep 
+gammastep --help
+gammastep -h
+gammastep -O 
+gammastep -O  6500
+gammastep -O 4500
+gammastep -O 5000
+clear
+nvim ~/.config/niri/config.kdl 
+clear
+gammastep -O 5000
+clear
+exit
+nvim ~/.config/waybar/style.css 
+clear
+mpc toggle
+clear
+cd
+clear
+paeu
+paru
+clear
+mpc toggle
+nvim ~/.config/ghostty/config 
+clear
+cd ~/dev/dotfiles-wayland/
+clear
+ls
+git status 
+git add zathura
+git commit -m "update: zathura"
+clear
+git status 
+git add rofi/
+git commit -m "update: rofi"
+clear
+git add nvim
+git commit -m "update: nvim"
+clear
+git status 
+git add mpd
+git commit -m "update: mpd"
+git add yofi
+git commit -m "remove: yofi"
+git add kitty/.config/kitty/kitty.conf
+git commit -m "update: kitty"
+rm -r kitty/
+clear
+git add kitty
+git commit -m "remove: kitty"
+clear
+git status 
+git add fish
+git commit -m "update: kitty"
+rm -r fish
+git add fish
+git commit -m "remove: fish"
+clear
+git status 
+git add ironbar/.config/
+git commit -m "update: ironbar"
+rm -r ironbar
+git commit -m "remove: ironbar"
+git add ironbar
+git commit -m "remove: ironbar"
+clear
+git status 
+git add niri
+git add mako
+git add zellij
+git add dir_change.sh dir_change_2.sh sem7.svg theme theme_selector.sh 
+git status 
+git commit -m "update: miscellaneous"
+clear
+git status
+git add systemd
+git commit -m "update(systemd): pipewire"
+git add waybar 
+git commit -m "add: waybar"
