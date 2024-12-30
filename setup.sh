@@ -2,15 +2,15 @@ user_configs=(
     bat
     emacs
     fish
-    ironbar
-    kitty
+    ghostty
     mako
     mpd
     niri
     nvim
+    nushell
     rofi
     systemd
-    tmux
+    waybar
     zathura
     zellij
 )
