@@ -1,0 +1,9 @@
+[global]
+width = (50, 300)
+font = "Playfair 12"
+corner_radius = 8
+
+[colors]
+fgcolor="#ebdbb2"
+bgcolor="#282828"
+frcolor="#ebdbb2"
