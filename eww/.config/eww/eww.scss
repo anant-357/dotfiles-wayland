@@ -1,0 +1,143 @@
+
+* {
+  all: unset;
+  font-family: "Playfair";
+}
+
+$bg: #282828;
+$bg-niri: #171717;
+$fg: #ebdbb2;
+
+.bar {
+  background: transparent;
+}
+
+.ewwbar-workspace {
+  background: transparent;
+  border: none;
+  margin: 0 5px;
+  color: $fg;
+}
+.px-sm {
+  padding: 0 2px;
+}
+
+.px-md {
+  padding: 0 5px;
+}
+
+.px-lg {
+  padding: 0 8px;
+}
+
+.mx-sm {
+  margin: 0 2px;
+}
+
+.mx-md {
+  margin: 0 5px;
+}
+
+.mx-lg {
+  margin: 0 8px;
+}
+
+.mr-sm {
+  margin-right: 2px;
+}
+
+.mr-md {
+  margin-right: 5px;
+}
+
+.mr-lg {
+  margin-right: 8px;
+}
+
+
+.ml-sm {
+  margin-left: 2px;
+}
+
+.ml-md {
+  margin-left: 5px;
+}
+
+.ml-lg {
+  margin-left: 8px;
+}
+
+
+.bg {
+  background: $bg;
+}
+
+.fg {
+  color: $fg;
+}
+
+.bg-transparent {
+  background: $bg-niri;
+}
+
+.border {
+  border: 1px solid $fg;
+}
+
+.round-sm-pc {
+  border-radius: 10%;
+}
+
+.round-md-pc {
+  border-radius: 25%;
+}
+
+.round-lg-pc {
+  border-radius: 50%;
+}
+
+.round-sm-px {
+  border-radius: 4px;
+}
+
+.round-md-px {
+  border-radius: 10px;
+}
+
+.round-lg-px {
+  border-radius: 18px;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-13 {
+  font-size: 13px;
+}
+
+.font-16 {
+  font-size: 16px;
+}
+
+.font-18 {
+  font-size: 16px;
+
+}
+
+tooltip {
+ padding: 4px;
+ color: $fg;
+ background: $bg;
+}
+
+.ewwbar-window {
+  margin-left: 10px; 
+  border-radius: 4px;
+  color: $fg;
+  font-weight: bold;
+}
+
+
+
+

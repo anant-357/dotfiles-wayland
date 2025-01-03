@@ -1,0 +1,63 @@
+(include '/home/fisher/.config/eww/bar.yuck')
+
+(defwidget _time [] (label 
+    :class "px-lg bg fg border round-sm-px" 
+    :text "${formattime(EWW_TIME, "%H:%M")}"))
+
+(defwidget _battery [] (label 
+    :class "px-lg mx-md bg fg border round-md-pc" 
+    :tooltip "${EWW_BATTERY["BAT1"]["capacity"]} %" 
+    :text {EWW_BATTERY["BAT1"]["capacity"] > 90 ? 
+        "󰁹" : EWW_BATTERY["BAT1"]["capacity"] > 80 ? 
+        "󰂂" : EWW_BATTERY["BAT1"]["capacity"] > 70 ? 
+        "󰂀" : EWW_BATTERY["BAT1"]["capacity"] > 60 ? 
+        "󰁿" : EWW_BATTERY["BAT1"]["capacity"] > 50 ? 
+        "󰁾" : EWW_BATTERY["BAT1"]["capacity"] > 40 ? 
+        "󰁽" : EWW_BATTERY["BAT1"]["capacity"] > 30 ? 
+        "󰁼" : EWW_BATTERY["BAT1"]["capacity"] > 20 ? 
+        "󰁻" : EWW_BATTERY["BAT1"]["capacity"] > 10 ? 
+        "󰁺" : "󰂎" }))
+
+(defwidget _net [] (label 
+    :class "px-lg mx-md bg fg border round-md-pc" 
+    :text "󰓅" 
+    :tooltip "${round(EWW_NET['wlp0s20f3']['NET_DOWN']/1024, 2)} KB/s"))
+
+(defwidget _ram [] (label
+    :class "px-lg mx-md bg fg border round-md-pc" 
+    :text "󰍛"
+    :tooltip "${round(EWW_RAM["used_mem"]/(1024*1024*1024), 2)}GB/ ${round(EWW_RAM["total_mem"]/(1024*1024*1024), 2)}GB"
+))
+
+(defwindow topbar 
+    :monitor 0
+    :geometry (geometry 
+                :x "0%" 
+                :y "5px" 
+                :width "100%" 
+                :height "30px" 
+                :anchor "top center")
+    :stacking "fg"
+    :exclusive true
+    :namespace "topbar"
+    (box 
+        :orientation "h" 
+        (box 
+            :orientation "h" 
+            :halign "start" 
+            :space-evenly false 
+            )
+        (box 
+            :orientation "h" 
+            :halign "center" 
+            :space-evenly false 
+            (_time))
+        (box 
+            :orientation "h" 
+            :halign "end" 
+            :space-evenly false
+            (box :orientation "h" :space-evenly false
+            (_net) (_ram) (_battery))
+            )
+    )
+)
