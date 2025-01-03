@@ -1,16 +1,15 @@
 user_configs=(
     bat
-    emacs
-    fish
+    dunst
+    eww
     ghostty
-    mako
     mpd
     niri
     nvim
     nushell
-    rofi
     systemd
     waybar
+    wofi
     zathura
     zellij
 )

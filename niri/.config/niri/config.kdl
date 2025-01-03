@@ -40,7 +40,7 @@ environment {
     DISPLAY ":0";
     BROWSER "zen-browser";
     EDITOR "nvim";
-    LAUNCHER "rofi -show drun";
+    LAUNCHER "eww open launcher";
     TERMINAL "ghostty";
     NIRI_LOADED "true";
 }
@@ -63,7 +63,7 @@ preset-column-widths {
         off
     }
     border {
-        width 1
+        width 2
         active-color "ebdbb2"
         inactive-color "ffefa7"
     }
@@ -74,23 +74,6 @@ preset-column-widths {
         bottom 4
     }
 }
-
-workspace "terminal" {
-    open-on-output "eDP-1"
-    }
-window-rule {
-    match at-startup=true app-id="ghostty"
-    open-on-workspace "terminal"
-    }
-
-workspace "browser" {
-    open-on-output "eDP-1"
-    }
-window-rule {
-    match at-startup=true app-id="zen-alpha"
-    open-on-workspace "browser"
-    open-maximized true
-    }
 
 
 window-rule {
@@ -120,15 +103,16 @@ animations {
 
 }
 
-spawn-at-startup "waybar"
+spawn-at-startup "eww" "daemon"
 spawn-at-startup "xwayland-satellite"
-
 spawn-at-startup "gammastep" "-O" "5000"
+spawn-at-startup "eww" "open" "bar"
+spawn-at-startup "eww" "open" "topbar"
 
 binds {
     Mod+Shift+Slash { show-hotkey-overlay; }
     Mod+Return { spawn "ghostty"; }
-    Mod+r { spawn "rofi" "-show" "drun"; }
+    Mod+r { spawn "wofi" "--show" "drun"; }
     Mod+b { spawn "zen-browser"; }
     Mod+c { spawn "chromium"; }
     Mod+m { spawn "fractal"; }

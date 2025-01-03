@@ -38,7 +38,7 @@ $env.config = {
 
 def start_zellij [] {
     if 'ZELLIJ' not-in ($env | columns) {
-        zellij attach gracious-muskrat
+        zellij attach general
         if 'ZELLIJ_AUTO_EXIT' in ($env | columns) and $env.ZELLIJ_AUTO_EXIT == 'true' {
                 exit 
                 }
