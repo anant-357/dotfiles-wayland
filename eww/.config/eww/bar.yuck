@@ -1,0 +1,56 @@
+(defpoll window_name 
+    :interval "100ms" 
+    :initial `niri msg -j windows | jq -r '.[] | select(.is_focused == true)' ` 
+    `niri msg -j windows | jq -r '.[] | select(.is_focused == true)' `)
+
+(defpoll workspaces 
+    :interval "100ms" 
+    :initial `niri msg -j workspaces | jq -r 'sort_by(.id)'` 
+    `niri msg -j workspaces | jq -r 'sort_by(.id)'`)
+
+(defwidget _workspaces [] (box 
+                            :class "ewwbar-workspaces" 
+                            :orientation "h" 
+                            :hexpand false 
+                            (for ws in workspaces 
+                                (button 
+                                    :class {ws["is_active"] == true ? 
+                                    "ewwbar-workspace active-workspace" : "ewwbar-workspace"} 
+                                    :on-click "niri msg action focus-workspace ${ws['idx']}" 
+                                    {ws["is_active"] == true ? "": "" }))))
+
+(defwidget _window [] (label 
+                    :class "bg fg border round-md px-md round-sm-px" 
+                    :orientation "h"  
+                    :limit-width 28
+                    :text "${window_name['title']}"))
+
+(defwindow bar 
+    :monitor 0
+    :geometry (geometry 
+                :x "0%" 
+                :y "5px" 
+                :width "100%" 
+                :height "30px" 
+                :anchor "bottom center")
+    :stacking "fg"
+    :exclusive true
+    :namespace "bar"
+    (box 
+        :orientation "h" 
+        (box 
+            :orientation "h" 
+            :halign "start" 
+            :space-evenly false 
+            (_window))
+        (box 
+            :orientation "h" 
+            :halign "center" 
+            :space-evenly false 
+            (_workspaces))
+        (box 
+            :orientation "h" 
+            :halign "end" 
+            :space-evenly false)
+    )
+)
