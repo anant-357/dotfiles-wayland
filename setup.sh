@@ -1,6 +1,7 @@
 user_configs=(
     bat
     dunst
+    emacs
     eww
     ghostty
     mpd

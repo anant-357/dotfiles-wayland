@@ -5,7 +5,7 @@ let zoxide_completer = {|spans|
 let carapace_completer = {|spans: list<string>|
     carapace $spans.0 nushell ...$spans 
     | from json 
-    | if ($in | default [] | where value =~ '^-.*ERR$' | is-empty) { $in } else { null }
+    | if ($in | default [] | where value =~ '^-.*ERROR: $' | is-empty) { $in } else { null }
 }
 
 let external_completer = {|spans| 
@@ -38,17 +38,13 @@ $env.config = {
 
 def start_zellij [] {
     if 'ZELLIJ' not-in ($env | columns) {
-        zellij attach general
+        zellij -l home
         if 'ZELLIJ_AUTO_EXIT' in ($env | columns) and $env.ZELLIJ_AUTO_EXIT == 'true' {
                 exit 
                 }
         }
     }
 
-source ~/.zoxide.nu
 source ~/.config/nushell/catppuccin-mocha.nu
-
-
-use ~/.cache/starship/init.nu
 
 start_zellij

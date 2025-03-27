@@ -3,17 +3,17 @@
 Linux Distribution : Arch Linux
 
 **Window Manager** : Niri<br/>
-**Status Bar** : Ironbar<br/>
-**Shell** : Fish<br/>
-**Terminal** : WezTerm<br/>
-**Launcher** : Rofi<br/>
-**Editor** : Emacs<br/>
-**Music** : MPD+MPC<br/>
+**Status Bar** : Eww<br/>
+**Shell** : Nu Shell<br/>
+**Terminal** : Ghossty<br/>
+**Launcher** : Wofi<br/>
+**Editor** : Neovim<br/>
+**Music** : Spotify<br/>
 **Browser** : Zen<br/>
-**Notifications** : Mako<br/>
+**Notifications** : Dunst<br/>
 **Screenshot** : Niri<br/>
 **PDF** : Zathura<br/>
-**Image Viewer** : imv<br/>
+**Image Viewer** : Loupe<br/>
 **Video Player** : mpv<br/>
 
 ## screenshots

@@ -76,3 +76,19 @@ vim.cmd([[
 set signcolumn=yes
 autocmd CursorHold * lua vim.diagnostic.open_float(nil, { focusable = false })
 ]])
+
+lspconfig.rust_analyzer.setup {
+    on_attach = function(client, bufnr) vim.lsp.inlay_hint.enable(true, { bufnr = bufnr }) end,
+    settings = {
+        ['rust-analyzer'] = {
+            imports = {
+                granularity = {
+                    group = "module" },
+                prefix = "self"
+            },
+            cargo = { buildScripts = { enable = true } },
+            procMacro = { enable = true },
+            diagnostics = { enable = true },
+        }
+    }
+}
