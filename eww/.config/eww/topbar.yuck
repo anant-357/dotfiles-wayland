@@ -17,28 +17,24 @@
                         :orientation "h" 
                         :space-evenly "false" 
                         :class "bg px-md round-sm-px ml-sm" 
-                        (label
-                            :class "fg bold font-16" 
-                            :angle 1
-                            :text "${window_name['app_id']}  ")
                         (label 
-                            :class "fg font-14" 
-                            :angle 359
+                            :class "px-sm fg font-16 bold" 
                             :limit-width 48
+                            :onclick "sh /home/fisher/.config/niri/switcher.sh"
                             :text "${window_name['title']}"))))
 (defpoll mpc_status 
     :interval "1000ms"
-    :initial `python scripts/song.py`
-    `python scripts/song.py`
+    :initial `./.venv/bin/python scripts/song.py`
+    `./.venv/bin/python scripts/song.py`
 )
 
 (defwidget _mpc [] 
     (box 
     :orientation "h" 
     :space-evenly "false" 
-    :class "px-lg bg fg round-sm-px mr-xxlg"
+    :class "px-lg bg fg round-sm-px mr-md"
         (button 
-        :onclick "python scripts/song.py toggle" 
+        :onclick "./.venv/bin/python scripts/song.py toggle" 
             (label :class "font-16 mr-lg" :text "${mpc_status['status']}"))
         (label 
         :class "bold font-16"
@@ -94,3 +90,23 @@
     :namespace "music_cover"
     (image :class "image round-md-px p-lg bg" :image-width 144 :image-height 144 :path "${mpc_status['cover']}")
 )
+
+(defwindow time :monitor 0 :geometry (geometry :x "8px" :y "16px" :width "144px" :height "144px" :anchor "top left")
+    :stacking "bg"
+    :excusive false
+    :namespace "time"
+    (box :orientation "v" :class "white-transluscent round-md-px" 
+        (label :class "font-84 bold green" :text "${formattime(EWW_TIME, "%H")}") 
+        (label :class "font-84 bold grey" :text "${formattime(EWW_TIME, "%M")}")
+ )
+    )
+
+(defwindow time2 :monitor 0 :geometry (geometry :x "12px" :y "16px" :width "144px" :height "144px" :anchor "top left")
+    :stacking "bg"
+    :excusive false
+    :namespace "time"
+    (box :orientation "v" :class "white-transluscent round-md-px" 
+        (label :class "font-84 bold green" :text "${formattime(EWW_TIME, "%H")}") 
+        (label :class "font-84 bold grey" :text "${formattime(EWW_TIME, "%M")}")
+ )
+    )
