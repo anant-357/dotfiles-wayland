@@ -1,0 +1,7 @@
+
+{
+    "runtime": {
+        "version": "LuaJIT",
+        "path": ["?.lua", "?/init.lua"]
+    }
+}

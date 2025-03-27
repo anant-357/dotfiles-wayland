@@ -1,94 +1,31 @@
-require("neoconf").setup({})
-
-local capabilities = require("cmp_nvim_lsp").default_capabilities()
-local lspconfig = require("lspconfig")
-
-local servers = { "clangd", "rust_analyzer", "lua_ls", "tinymist", "nushell" }
-
-for _, lsp in ipairs(servers) do
-    lspconfig[lsp].setup({
-        capabilities = capabilities,
-    })
-end
-
-require("mason").setup({})
-require("mason-lspconfig").setup({
-    handlers = {
-        function(server_name)
-            lspconfig[server_name].setup({})
-        end,
-    },
-})
-
-local luasnip = require("luasnip")
-local cmp = require("cmp")
-
-cmp.setup({
-    sources = {
-        { name = "nvim_lsp" },
-        { name = "luasnip" },
-    },
-    mapping = cmp.mapping.preset.insert({
-        ["<C-d>"] = cmp.mapping.scroll_docs(-4),
-        ["<C-f>"] = cmp.mapping.scroll_docs(4),
-        ["<C-Space>"] = cmp.mapping.complete(),
-        ["<CR>"] = cmp.mapping.confirm({
-            behavior = cmp.ConfirmBehavior.Replace,
-            select = true,
-        }),
-    }),
-    snippet = {
-        expand = function(args)
-            luasnip.lsp_expand(args.body)
-        end,
-    },
-})
-
--- LSP Diagnostics Options Setup
-local sign = function(opts)
-    vim.fn.sign_define(opts.name, {
-        texthl = opts.name,
-        text = opts.text,
-        numhl = "",
-    })
-end
-
-sign({ name = "DiagnosticSignError", text = "󰅚" })
-sign({ name = "DiagnosticSignWarn", text = "" })
-sign({ name = "DiagnosticSignHint", text = "󰌶" })
-sign({ name = "DiagnosticSignInfo", text = "" })
-
-vim.diagnostic.config({
-    virtual_text = false,
-    signs = true,
-    update_in_insert = true,
-    underline = true,
-    severity_sort = false,
-    float = {
-        border = "rounded",
-        source = "always",
-        header = "",
-        prefix = "",
-    },
-})
-
-vim.cmd([[
-set signcolumn=yes
-autocmd CursorHold * lua vim.diagnostic.open_float(nil, { focusable = false })
-]])
-
-lspconfig.rust_analyzer.setup {
-    on_attach = function(client, bufnr) vim.lsp.inlay_hint.enable(true, { bufnr = bufnr }) end,
+vim.lsp.config.luals = {
+    cmd = { 'lua-language-server' },
+    filetypes = { 'lua' },
+    root_markers = { '.luarc.json', '.luarc.jsonc' },
     settings = {
-        ['rust-analyzer'] = {
-            imports = {
-                granularity = {
-                    group = "module" },
-                prefix = "self"
-            },
-            cargo = { buildScripts = { enable = true } },
-            procMacro = { enable = true },
-            diagnostics = { enable = true },
+        Lua = {
+            runtime = {
+                version = 'LuaJIT',
+                diagnostics = { globals = { 'vim' } },
+                workspace = {
+                    library = {
+                        vim.fn.expand("$VIMRUNTIME/lua"),
+                        vim.fn.expand("$VIMRUNTIME/lua/vim"),
+                    },
+                    checkThirdParty = false, -- Avoids "third-party library" warning
+                },
+            }
         }
     }
 }
+
+vim.lsp.enable({ 'luals', 'rust-analyzer' })
+
+vim.api.nvim_create_autocmd('LspAttach', {
+    callback = function(e)
+        local client = vim.lsp.get_client_by_id(e.data.client_id)
+        if client:supports_method('textDocument/completion') then
+            vim.lsp.completion.enable(true, client.id, e.buf, { autotrigger = true })
+        end
+    end
+})
