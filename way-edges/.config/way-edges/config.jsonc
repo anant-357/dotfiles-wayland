@@ -1,0 +1,218 @@
+{
+  "$schema": "https://raw.githubusercontent.com/way-edges/way-edges/master/config/config.schema.json",
+  "ensure_load_group": ["niri", "common"],
+  "groups": [
+    {
+      "name": "niri",
+      "widgets": [
+     {
+          "edge": "left",
+          "position": "bottom",
+          "layer": "overlay",
+          "monitor": "eDP-1",
+          "widget": {
+            "type": "workspace",
+            "thickness": 8,
+            "length": "30%",
+            "hover_color": "#ebdbb222",
+            "active_increase": 0.2,
+            "active_color": "#fff",
+            "focus_color": "#ebdbb2",
+            "default_color": "#282828",
+            "preset": "niri"
+          }
+        }
+      ]
+    },
+    {
+      "name": "common",
+      "widgets": [
+        {
+          "name": "stats",
+          "edge": "left",
+          "position": "top",
+          "margins": {
+            "top": 40
+          },
+          "monitor": "eDP-1",
+          "layer": "overlay",
+          "widget": {
+            "type": "wrap-box",
+            "outlook": {
+              "type": "window",
+              "color": "#282828"
+            },
+            "widgets": [
+              {
+                "index": [-1, -1],
+                "widget": {
+                  "radius": 10,
+                  "ring_width": 4,
+                  "font_size": 12,
+                  "font_family": "Iosevka",
+                  "fg_color": "#ebdbb2",
+                  "type": "ring",
+                  "prefix": " ",
+                  "suffix": " {preset}",
+                  "suffix_hide": true,
+                  "preset": {
+                    "update_interval": 500,
+                    "type": "disk"
+                  }
+                }
+              },
+              {
+                "index": [-1, -1],
+                "widget": {
+                  "radius": 10,
+                  "ring_width": 4,
+                  "font_size": 12,
+                  "font_family": "Iosevka",
+                  "fg_color": "#ebdbb2",
+                  "type": "ring",
+                  "prefix": " ",
+                  "suffix": " {preset}",
+                  "suffix_hide": true,
+                  "preset": {
+                    "update_interval": 500,
+                    "type": "battery"
+                  }
+                }
+              },
+              {
+                "index": [-1, -1],
+                "widget": {
+                  "radius": 10,
+                  "ring_width": 4,
+                  "font_size": 12,
+                  "font_family": "Iosevka",
+                  "fg_color": "#ebdbb2",
+                  "type": "ring",
+                  "prefix": " ",
+                  "suffix": " {preset}",
+                  "suffix_hide": true,
+                  "preset": {
+                    "update_interval": 500,
+                    "type": "cpu"
+                  }
+                }
+              },
+              {
+                "index": [-1, -1],
+                "widget": {
+                  "radius": 10,
+                  "ring_width": 4,
+                  "font_size": 12,
+                  "font_family": "Iosevka",
+                  "fg_color": "#ebdbb2",
+                  "type": "ring",
+                  "prefix": "󰾶 ",
+                  "suffix": " {preset}",
+                  "suffix_hide": true,
+                  "preset": {
+                    "update_interval": 500,
+                    "type": "swap"
+                  }
+                }
+              },
+              {
+                "index": [-1, -1],
+                "widget": {
+                  "radius": 10,
+                  "ring_width": 4,
+                  "font_size": 12,
+                  "font_family": "Iosevka",
+                  "fg_color": "#ebdbb2",
+                  "type": "ring",
+                  "prefix": " ",
+                  "suffix": " {preset}",
+                  "suffix_hide": true,
+                  "preset": {
+                    "update_interval": 500,
+                    "type": "ram"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "time",
+          "edge": "top",
+          "position": "right",
+          "monitor": "eDP-1",
+          "layer": "overlay",
+          "widget": {
+            "type": "wrap-box",
+            "outlook": {
+              "type": "window",
+              "color": "#222",
+              "margins": {
+                "top": 10,
+                "left": 30,
+                "right": 30,
+                "bottom": 10
+              }
+            },
+            "widgets": [
+              {
+                "index": [-1, -1],
+                "widget": {
+                  "type": "text",
+                  "fg_color": "#ebdbb2",
+                  "font_size": 12,
+                  "font_family": "Iosevka",
+                  "preset": {
+                    "type": "time",
+                    "update_interval": 500,
+                    "format": "%v %T %A"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "edge": "top",
+          "monitor": "eDP-1",
+          "layer": "overlay",
+          "position": "left",
+          "preview_size": 7,
+          "widget": {
+            "type": "slider",
+            "thickness": 24,
+            "border_width": 4,
+            "length": "12.5%",
+            "fg_color": "#ebdbb2",
+            "redraw_only_on_internal_update": true,
+            "preset": {
+              "type": "speaker"
+            }
+          }
+        },
+        {
+          "edge": "top",
+          "monitor": "eDP-1",
+          "position": "left",
+          "layer": "overlay",
+          "margins": {
+            "left": "12.5%"
+          },
+          "preview_size": 7,
+          "widget": {
+            "type": "slider",
+            "thickness": 24,
+            "border_width": 4,
+            "length": "12.5%",
+            "fg_color": "#ebdbb2",
+            "redraw_only_on_internal_update": true,
+            "preset": {
+              "type": "microphone"
+            }
+          }
+        }
+    ]
+    },
+    
+  ]
+}
