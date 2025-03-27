@@ -10,7 +10,7 @@ default = {"title": "", "artist": "", "status": "󰝚"}
 def get_mpris_metadata():
     try:
         session_bus = dbus.SessionBus()
-        player_names = [name for name in session_bus.list_names() if name.startswith('org.mpris.MediaPlayer2.')]
+        player_names = [name for name in session_bus.list_names() if name.startswith('org.mpris.MediaPlayer2.sp')]
         
         if not player_names:
             return default

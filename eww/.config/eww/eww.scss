@@ -18,6 +18,11 @@ $fg: #ebdbb2;
   margin: 0 5px;
   color: $fg;
 }
+
+.white-transluscent {
+  background: rgba(255, 255, 255, 0.15);
+}
+
 .py-sm {
   padding: 2px 0px;
 }
@@ -201,9 +206,27 @@ $fg: #ebdbb2;
 }
 
 .font-18 {
-  font-size: 16px;
+  font-size: 18px;
 
 }
+
+.font-24 {
+  font-size: 24px;
+
+}
+
+.font-84 {
+  font-size: 84px;
+}
+
+.green {
+  color: #79740e;
+}
+
+.grey {
+  color: #7c6f64;
+}
+
 
 .bold {
   font-weight: bold;
