@@ -1,16 +1,14 @@
 user_configs=(
     bat
     dunst
-    emacs
     eww
+    fuzzel
     ghostty
-    mpd
     niri
     nvim
     nushell
     systemd
-    waybar
-    wofi
+    way-edges
     zathura
     zellij
 )
