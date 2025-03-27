@@ -16,4 +16,5 @@ mpd/.config/mpd/pid
 mpd/.config/mpd/database
 
 nvim/.config/nvim/lazy-lock.json
+zellij/.config/zellij/plugins/zjstatus.wasm
 
