@@ -1,5 +1,4 @@
 shell-integration  = detect
-shell-integration-features = no-title
 font-family = FiraCode Nerd Font Mono
 theme = GruvboxDarkHard
 command = nu
@@ -7,4 +6,6 @@ window-decoration = false
 cursor-style = block
 mouse-hide-while-typing = true
 keybind = ctrl+o=toggle_quick_terminal
-keybind = ctrl+n=new_tab 
+background-opacity = 0.75
+window-padding-x = 16
+window-padding-y = 12

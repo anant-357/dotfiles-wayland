@@ -1,9 +1,22 @@
 [global]
 width = (50, 300)
+notification_limit = 10
 font = "Playfair 12"
 corner_radius = 8
+frame_width = 0
+progress_bar = true
+progress_bar_height = 10
+progress_bar_frame_width = 0
+progress_bar_corner_radius = 4 
+format = "<span size='xx-small'><b>%a</b></span>\n<b>%s</b>\n%b"
+enable_recursive_icon_lookup = true
+icon_theme = "Adwaita"
+browser = /bin/zen-browser
 
-[colors]
-fgcolor="#ebdbb2"
-bgcolor="#282828"
-frcolor="#ebdbb2"
+[default]
+foreground="#ebdbb2"
+background="#282828"
+
+[play_sound]
+summary="*"
+script=/home/fisher/.config/dunst/notification.sh 

@@ -1,7 +1,38 @@
-(defpoll window_name 
-    :interval "100ms" 
-    :initial `niri msg -j windows | jq -r '.[] | select(.is_focused == true)' ` 
-    `niri msg -j windows | jq -r '.[] | select(.is_focused == true)' `)
+(defpoll bluetooth_status 
+    :interval "1000ms"
+    :initial `sh ~/.config/eww/scripts/bluetooth.sh`
+    `sh ~/.config/eww/scripts/bluetooth.sh`
+)
+
+(defwidget _bluetooth [] (label
+    :class "py-md my-md bg fg round-sm-px bold font-16 mb-sm mx-sm"
+    :tooltip "Battery: ${bluetooth_status.battery}%"
+    :text "${bluetooth_status.icon}"))
+
+(defwidget _battery [] (label 
+    :class "py-md my-md bg fg round-md-pc mx-sm" 
+    :tooltip "${EWW_BATTERY["BAT1"]["capacity"]} %" 
+    :text {EWW_BATTERY["BAT1"]["capacity"] > 90 ? 
+        "󰁹" : EWW_BATTERY["BAT1"]["capacity"] > 80 ? 
+        "󰂂" : EWW_BATTERY["BAT1"]["capacity"] > 70 ? 
+        "󰂀" : EWW_BATTERY["BAT1"]["capacity"] > 60 ? 
+        "󰁿" : EWW_BATTERY["BAT1"]["capacity"] > 50 ? 
+        "󰁾" : EWW_BATTERY["BAT1"]["capacity"] > 40 ? 
+        "󰁽" : EWW_BATTERY["BAT1"]["capacity"] > 30 ? 
+        "󰁼" : EWW_BATTERY["BAT1"]["capacity"] > 20 ? 
+        "󰁻" : EWW_BATTERY["BAT1"]["capacity"] > 10 ? 
+        "󰁺" : "󰂎" }))
+
+(defwidget _net [] (label 
+    :class "py-md my-md bg fg round-md-pc mx-sm" 
+    :text "󰓅" 
+    :tooltip "${round(EWW_NET['wlp0s20f3']['NET_DOWN']/1024, 2)} KB/s"))
+
+(defwidget _ram [] (label
+    :class "py-md my-md bg fg round-md-pc mx-sm" 
+    :text "󰍛"
+    :tooltip "${round(EWW_RAM["used_mem"]/(1024*1024*1024), 2)}GB/ ${round(EWW_RAM["total_mem"]/(1024*1024*1024), 2)}GB"
+))
 
 (defpoll workspaces 
     :interval "100ms" 
@@ -10,47 +41,41 @@
 
 (defwidget _workspaces [] (box 
                             :class "ewwbar-workspaces" 
-                            :orientation "h" 
+                            :orientation "v" 
                             :hexpand false 
                             (for ws in workspaces 
                                 (button 
                                     :class {ws["is_active"] == true ? 
-                                    "ewwbar-workspace active-workspace" : "ewwbar-workspace"} 
+                                    "my-sm ewwbar-workspace active-workspace" : "ewwbar-workspace"} 
                                     :on-click "niri msg action focus-workspace ${ws['idx']}" 
-                                    {ws["is_active"] == true ? "": "" }))))
-
-(defwidget _window [] (label 
-                    :class "bg fg border round-md px-md round-sm-px" 
-                    :orientation "h"  
-                    :limit-width 28
-                    :text "${window_name['title']}"))
+                                    {ws["is_active"] == true ? "󰺕": "" }))))
 
 (defwindow bar 
     :monitor 0
     :geometry (geometry 
                 :x "0%" 
-                :y "5px" 
-                :width "100%" 
-                :height "30px" 
-                :anchor "bottom center")
+                :y "0%" 
+                :width "34px" 
+                :height "96%" 
+                :anchor "left center")
     :stacking "fg"
     :exclusive true
     :namespace "bar"
     (box 
-        :orientation "h" 
+        :orientation "v" 
         (box 
-            :orientation "h" 
-            :halign "start" 
-            :space-evenly false 
-            (_window))
+            :orientation "v" 
+            :valign "start" 
+            :space-evenly false )
         (box 
-            :orientation "h" 
-            :halign "center" 
+            :orientation "v" 
+            :valign "center" 
             :space-evenly false 
             (_workspaces))
         (box 
-            :orientation "h" 
-            :halign "end" 
-            :space-evenly false)
+            :orientation "v" 
+            :valign "end" 
+            :space-evenly false
+            (_bluetooth) (_net) (_ram) (_battery))
     )
 )

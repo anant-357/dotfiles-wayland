@@ -4,7 +4,7 @@
   font-family: "Playfair";
 }
 
-$bg: #282828;
+$bg: rgba(40, 40, 40, 1);
 $bg-niri: #171717;
 $fg: #ebdbb2;
 
@@ -18,6 +18,30 @@ $fg: #ebdbb2;
   margin: 0 5px;
   color: $fg;
 }
+.py-sm {
+  padding: 2px 0px;
+}
+
+.py-md {
+  padding: 5px 0;
+}
+
+.py-lg {
+  padding: 8px 0;
+}
+
+.p-sm {
+  padding: 2px;
+}
+
+.p-md {
+  padding: 5px;
+}
+
+.p-lg {
+  padding: 8px;
+}
+
 .px-sm {
   padding: 0 2px;
 }
@@ -30,16 +54,60 @@ $fg: #ebdbb2;
   padding: 0 8px;
 }
 
+.my-sm {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.my-md {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.my-lg {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.mt-sm {
+  margin-top: 2px;
+}
+
+.mt-md {
+  margin-top: 5px;
+}
+
+.mt-lg {
+  margin-top: 8px;
+}
+
+
+.mb-sm {
+  margin-bottom: 2px;
+}
+
+.mb-md {
+  margin-bottom: 5px;
+}
+
+.mb-lg {
+  margin-bottom: 8px;
+}
+
+
 .mx-sm {
-  margin: 0 2px;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 .mx-md {
-  margin: 0 5px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .mx-lg {
-  margin: 0 8px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .mr-sm {
@@ -52,6 +120,18 @@ $fg: #ebdbb2;
 
 .mr-lg {
   margin-right: 8px;
+}
+
+.mr-xlg {
+  margin-right: 16px;
+}
+
+.mr-xxlg {
+ margin-right: 36px;
+}
+
+.mr-xxxlg {
+  margin-right: 50px;
 }
 
 
@@ -125,18 +205,21 @@ $fg: #ebdbb2;
 
 }
 
+.bold {
+  font-weight: bold;
+}
+
 tooltip {
  padding: 4px;
  color: $fg;
  background: $bg;
 }
 
-.ewwbar-window {
-  margin-left: 10px; 
+.image > * {
   border-radius: 4px;
-  color: $fg;
-  font-weight: bold;
 }
+
+
 
 
 

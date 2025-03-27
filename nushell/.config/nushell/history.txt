@@ -5956,3 +5956,4311 @@ git add systemd
 git commit -m "update(systemd): pipewire"
 git add waybar 
 git commit -m "add: waybar"
+git add nushell 
+git commit -m "add: nushell"
+git add ghostty 
+git commit -m "add: ghostty"
+git status 
+git add setup.sh 
+git commit -m "chore: update setup"
+clear
+git status 
+clear
+git push
+clear
+nvim ~/.config/ghostty/config 
+mv ~/.config/zellij .
+mkdir zellij_temp
+mv ~/.config/zellij/* zellij_temp/
+clear
+:q
+exit
+clear
+rm ~/.config/zellij/
+clear
+zellij 
+zellij -l welcome
+clear
+rm -r ~/.config/zellij/
+clear
+ls
+cd dev/
+ls
+cd dotfiles-wayland/
+ls
+mkdir zellij/.config/zellij
+mv zellij_temp/* zellij/.config/zellij/
+clear
+rm -r zellij_temp/
+clear
+ls
+./setup.sh
+clear
+nvim ./setup.sh 
+clear
+cd ~/.config/
+ls
+nvim ~/.config/ghostty/config 
+exit
+nvim ~/.config/ghostty/config 
+clear
+nvim ~/.config/ghostty/config 
+clear
+nvim /etc/sysctl.d/dirty.conf
+sudo nvim /etc/sysctl.d/dirty.conf
+clear
+sudo nvim /etc/sysctl.d/disable_watchdog.conf
+sudo nvim /etc/sysctl.d/laptop.conf
+lsmod | grep '^iwl.vm'
+sudo powertop --auto-tune 
+clear
+paru -Sy power-options-gtk 
+clear
+power-options-gtk 
+clear
+sudo powertop --auto-tune 
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+sudo systemctl start bluetoot
+sudo systemctl start bluetooth
+bluetoothctl connect 74:2A:8A:04:0E:74 
+bluetoothctl power on
+power-options-gtk 
+exit
+bluetoothctl connect 74:2A:8A:04:0E:74 
+exit
+clear
+yazi .
+exit
+clear
+yazi .
+clear
+exit
+exit
+clear
+exit
+cd dev/automatic/
+./webui.sh --use-cuda --lowvram --use-xformers
+yazi .
+exit
+clear
+cd
+clear
+nvim ~/.config/nushell/config.nu 
+clear
+paru
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+mpc toggle
+mpc next
+paru -
+paru 
+clear
+exit
+exit
+bluetoothctl connect 74:2A:8A:04:0E:74 
+mpc toggle
+paru
+clear
+mpc toggle
+clear
+nvim ~/.config/nushell/config.nu 
+clear
+paru -Sy eww
+clear
+eww --help
+eww shell-complettions --help
+eww shell-complettions 
+eww shell-completions 
+eww shell-completions  --help
+clear
+cd ~/.config/
+cd ~/dev/dotfiles-wayland/
+ls
+mkdir eww
+mkdir eww/.config
+mkdir eww/.config/eww
+nvim ~/.config/niri/
+eww daemon
+cd ~/dev/dotfiles-wayland/
+nvim setup.sh 
+./setup.sh
+clear
+eww daemon
+eww open --help
+eww open bar
+niri msg --help
+niri msg workspaces
+clear
+niri msg workspaces
+cat /run/user/1000/niri.wayland-1.85127.sock 
+niri msg outputs
+niri msg workspaces
+niri msg workspaces --json
+niri msg workspaces --help
+niri msg --help
+niri msg -j workspaces
+nvim ./eww/.config/eww/eww.yuck 
+clear
+rxit
+exit
+paru
+clear
+eww daemon
+eww state
+eww open bar
+eww state
+bash
+exit
+nmcli 
+nmcli device status 
+nmcli device show 
+clear
+nmcli device wifi show
+nmcli connection show --active 
+bash
+clear
+niri msg --help
+niri msg action --help
+niri msg action --help | grep "switch"
+niri msg action --help | grep "move"
+niri msg action --help | grep "workspace"
+eww state
+eww reload
+clear
+niri msg action focus-workspace 5
+niri msg -j workspaces
+niri msg -j workspaces | jq -r
+niri msg action focus-workspace 6
+niri msg action focus-workspace 9
+niri msg action focus-workspace 7
+niri msg action focus-workspace 1
+niri msg action focus-workspace 2
+niri msg action focus-workspace 4
+clear
+eww help
+eww state
+eww debug
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+eww debug
+eww help
+eww ping
+eww inspector
+mpc toggle
+clear
+niri msg window
+niri msg windows
+niri -j msg windows
+niri msg -j windows
+niri msg -j windows | jq -r
+niri msg -j windows | jq -r '[] | .title'
+niri msg -j windows | jq -r '.[] | .title'
+clear
+mpc toggle
+clear
+exit
+eww reload
+pkill waybar
+clear
+eww reload
+clear
+man eww
+eww help
+nvim ./eww/.config/eww/eww.scss
+clear
+nvim ./eww/.config/eww/bar.yuck
+clear
+eww reload
+cd ~/.config/eww/
+clear
+ls
+eww reload
+clear
+exit
+nvim ./eww/.config/eww/eww.yuck 
+clear
+paru -Rcns waybar
+clear
+paru
+nmcli device wifi connect "A 10 5G" 
+clear
+paru
+nmcli device wifi connect "A 10 5G" 
+eww help
+eww active-windows
+paru
+clear
+exit
+nvim ~/.config/niri/config.kdl 
+eww gtk-inspector
+eww inspector
+paru
+clea
+exit
+eww reload
+clear
+niri msg -j windows | jq -r '.[] | .title'
+clear
+niri msg -j workspaces | jq -r 'sort_by(.id)'
+c
+clear
+paru -Rcns eog
+paru -Sy loupe 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+bluetoothctl power on
+power-options-gtk 
+bluetoothctl power on
+bluetoothctl connect 74:2A:8A:04:0E:74 
+exit
+eww state
+eww reload
+eww state
+eww reload
+clear
+font-manager 
+nvim ~/.config/eww/eww.scss 
+clear
+exit
+nvim ~/.config/niri/config.kdl 
+clear
+exit
+clear
+exit
+paru
+cat /etc/netconfig
+clear
+niri msg -j windows | jq -r 
+sleep 1 ; niri msg -j windows | jq -r 
+sleep 1s; niri msg -j windows | jq -r 
+sleep 1sec; niri msg -j windows | jq -r 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+cd eww/.config/eww/
+clear
+eww reload
+eww open topbar
+eww reload
+eww state
+loupe 
+clear
+mpc toggle
+mpc next
+mpc toggle
+clear
+paru
+eww reload
+nvim .
+clear
+paru -Sy whatsapp-desktop-client-git 
+clear
+whatsapp-desktop-client 
+clear
+paru -Rcns whatsapp-desktop-client-git 
+paru -Qtdq
+paru 
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+nmcli device wifi connect "A 10 5G" 
+sudo powertop --auto-tune 
+clear
+paru
+nmcli device wifi connect "A 10 5G" 
+paru
+clear
+niri msg -j windows | jq -r 
+cleasr
+clear
+paru -Sy wofi 
+nmcli device wifi connect "A 10 5G" 
+paru -Sy wofi 
+wofi
+wofi --show
+wofi --help
+wofi -d
+wofi --gtk-dark
+wofi -G -d
+man wofi(7)
+man wofi
+man wofi 7
+man man
+man wofi.7
+wofi -G --mode drun
+wofi -G --show drun
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+sudo powertop --auto-tune 
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+mpc toggle
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+cd eww/.config/eww/
+clear
+exit
+mpc status
+mpc status --json
+mpc status --help
+mpc --help
+mpc help
+mpd --help
+mpc current
+mpc current -f "%artist% - %title%" 
+mpc current -f "%artist% - %Title%" 
+mpc current -f 
+mpc current -f "%title%"
+mpc current -f "%name%"
+mpc current
+mpc current -f "%album%"
+mpc current -f "%date%"
+mpc current -f "%track%"
+mpc current -f "%file%"
+mpc current -f "[[%artist% - ]%title%]|[%file%]"
+mpc current -f "[[%artist% - ]%title%]"
+clear
+wofi
+nvim ~/.config/niri/config.kdl 
+clear
+cd ~/.config/
+clear
+cd ~/dev/dotfiles-wayland/
+ls
+mkdir wofi
+mkdir wofi/.config
+mkdir wofi/.config/wofi
+paru -Sy ianny-bin
+clear
+paru -Sy dunst-wayland-git 
+clear
+wofi --style ~/dev/dotfiles-wayland/wofi/.config/wofi/style.css --show drun
+wofi --hide-scroll true --style ~/dev/dotfiles-wayland/wofi/.config/wofi/style.css --show drun
+wofi --width 40% --hide-scroll true --style ~/dev/dotfiles-wayland/wofi/.config/wofi/style.css --show drun
+wofi --width 35% --hide-scroll true --style ~/dev/dotfiles-wayland/wofi/.config/wofi/style.css --show drun
+wofi --width 30% --hide-scroll true --style ~/dev/dotfiles-wayland/wofi/.config/wofi/style.css --show drun
+wofi --height 28% --width 30% --hide-scroll true --style ~/dev/dotfiles-wayland/wofi/.config/wofi/style.css --show drun
+wofi --height 28% --width 30% --hide-scroll true --stylesheet style.css --show drun
+cd ../../..
+clear
+nvim setup.sh 
+./setup.sh
+clear
+wofi --height 28% --width 30% --hide-scroll true --stylesheet style.css --show drun
+wofi --hide-search true --height 28% --width 30% --hide-scroll true --stylesheet style.css --show drun
+wofi --hide_search true --height 28% --width 30% --hide-scroll true --stylesheet style.css --show drun
+wofi --hide_search true --height 28% --show drun
+wofi --show drun
+clear
+dunst
+clear
+nvim wofi/.config/wofi/
+clear
+nvim systemd/
+cat /usr/lib/systemd/user/dunst.service 
+nvim systemd/.config/systemd/user/niri.service.wants/
+rm systemd/.config/systemd/user/niri.service.wants/mako.service
+ln -sf systemd/.config/systemd/user/niri.service.wants/dunst.service /usr/lib/systemd/user/dunst.service 
+sudo ln -sf systemd/.config/systemd/user/niri.service.wants/dunst.service /usr/lib/systemd/user/dunst.service 
+clear
+clear
+notify-send 
+notify-send "Hello"
+pkill mako 
+notify-send "Hello"
+ps | grep mako
+pkill mako
+notify-send "Hello"
+clear
+mkdir dunst
+mkdir dunst/.config
+mkdir dunst/.config/dunst
+nvim .
+clear
+dunstify "Hello"
+dunst
+c;ear
+clear
+nvim setup.sh 
+clear
+./setup.sh
+clear
+dunst
+nvim setup.sh 
+dunstify "Hello"
+dunst
+pkill mako
+dunst
+dunstify "Hello"
+nvim dunst/.config/dunst/dunstrc
+clear
+paru -Rcns mako
+clear
+paru
+paru -Rcns telegram-desktop 
+git status 
+notify-send "Hello"
+sudo systemctl enable dunst 
+ls systemd/.config/systemd/user/default.target.wants/
+ls systemd/.config/systemd/user/niri.service.wants/
+ls
+cd dunst/.config/dunst/
+ls
+cd ~
+ls
+find . -name dunst
+sh -c "find . -name dunst"
+clear
+sudo ln -sf systemd/.config/systemd/user/niri.service.wants/dunst.service /usr/lib/systemd/user/dunst.service 
+ls systemd/.config/systemd/user/niri.service.wants/
+cd ~/dev/dotfiles-wayland/ ls systemd/.config/systemd/user/niri.service.wants/
+cd ~/dev/dotfiles-wayland/ ; ls systemd/.config/systemd/user/niri.service.wants/
+clear
+ls
+cd systemd/
+ls
+cd .config/systemd/
+clear
+ls
+cd user/niri.service.wants/
+ls
+clear
+sudo ln -sf dunst.service /usr/lib/systemd/user/dunst.service 
+ls
+sudo ln -sf /usr/lib/systemd/user/dunst.service dunst.service
+cat dunst.service 
+paru -Rcns dunst-wayland-git 
+paru -Sy dunst-wayland-git 
+ls
+cat dunst.service 
+clear
+cd ..
+clear
+cd ..
+clear
+ls
+cd 
+clear
+paru
+clear
+notify-send "Hello"
+cd
+clear
+cd
+exit
+clear
+notify-send "Hello"
+nvim ~/.config/dunst/dunstrc 
+clear
+dunst --help
+systemctl --user restart dunst.service 
+nvim ~/.config/dunst/dunstrc 
+nvim ~/.config/dunst/dunstrc 
+clear
+cd dev/dotfiles-wayland/
+ls
+rm -r mako
+rm -r rofi
+rm -r waybar
+clear
+git status
+git add dunst mako/.config/mako/config 
+git commit -m "update: switch from mako to dunst"
+git add eww waybar
+git commit -m "update: switch from waybar to eww"
+git add rofi wofi
+git commit -m "update: switch from rofi to wofi"
+git status
+git add ghostty/.config/ghostty/config  nushell/.config/nushell/config.nu systemd/.config/systemd/user/niri.service.wants/mako.service systemd/.config/systemd/user/niri.service.wants/dunst.service zellij/.config/zellij/ 
+git status
+git add niri/.config/niri/config.kdl 
+git add setup.sh 
+clear
+git commit -m "chore: miscellaneous changes"
+clear
+git status 
+git push origin main
+clear
+pkill dunst
+notify-send "Hello"
+pkill dunst
+notify-send "Hello"
+pkill dunst
+notify-send "Hello"
+nvim ~/.config/dunst/dunstrc 
+clear
+paru -Sy conky 
+paru -Sy conky-git 
+clear
+conky
+nvim ~/.config/
+cd ~/.config/
+mkdir conky
+cd conky/
+nvim conky.conf
+conky
+nvim conky.conf
+conky
+cd ~/Downloads/
+ls
+./conky-ubuntu-24.04-x86_64-v1.22.0.AppImage
+chmod +x conky-ubuntu-24.04-x86_64-v1.22.0.AppImage 
+./conky-ubuntu-24.04-x86_64-v1.22.0.AppImage
+paru -Rcns conky 
+rm conky-ubuntu-24.04-x86_64-v1.22.0.AppImage
+clear
+ls
+mv DerpFest-15-Unofficial-Stable-bangkk-20241230.zip boot.img dtbo.img ~/dev/bangkk/
+clear
+ls
+rm dunstrc1-new
+clear
+ckear
+clear
+pkill zellij
+clear
+paru -Rcns shotwell 
+clear
+yazi .
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+nvim mpc -f %title% current
+mpc -f %title% current
+mpc next
+mpc -f %title% current
+mpc next
+mpc -f %title% current
+mpc next 
+mpc -f %title% current
+clear
+mpc toggle
+cd ~/Downloads/
+ls
+cd extra/
+./yt-dlp -x --audio-quality 0 --embed-metadata https://www.youtube.com/watch?v=Zxgvob1Ew0c
+mv 'Mere Khwabon Mein ｜ Lyrical Song ｜ Dilwale Dulhania Le Jayenge ｜ Kajol, SRK ｜ Lata Mangeshkar ｜ DDLJ [Zxgvob1Ew0c].opus' '/disks/notwork/Music/Mere Khwabo Mein.opus'
+sudo umount /disks/notwork 
+systemctl --user stop mpd.service 
+sudo umount /disks/notwork 
+sudo ntfsfix /dev/sda2
+sudo mount /dev/sda2 /disks/notwork/
+systemctl --user start mpd.service 
+mv 'Mere Khwabon Mein ｜ Lyrical Song ｜ Dilwale Dulhania Le Jayenge ｜ Kajol, SRK ｜ Lata Mangeshkar ｜ DDLJ [Zxgvob1Ew0c].opus' '/disks/notwork/Music/Mere Khwabo Mein.opus'
+mpc reload
+mpc --help
+mpc help
+mpc rescan
+mpc next
+clear
+mpc -f %title% current
+mpc -f %title%
+ffprobe -v quiet -show_format -show_streams `/disks/notwork/Music/Mere Khwabo Mein.opus`
+ffprobe -v quiet -show_format -show_streams '/disks/notwork/Music/Mere Khwabon Mein ｜ Lyrical Song ｜ Dilwale Dulhania Le Jayenge ｜ Kajol, SRK ｜ Lata Mangeshkar ｜ DDLJ [Zxgvob1Ew0c].opus'
+clear
+mpc clear
+mpc load smooth
+mpc playlist
+mpc list-playlists
+mpc list
+clea
+clear
+mpc load soother
+mpc load soothe
+clear
+mpc next
+systemctl --user status mpd
+ss
+ss | grep 6600
+ss -lp | grep 6600
+clear
+systemctl --user restart mpd
+mpc next
+mpc play
+mpc current -f "[[%artist% - ]%title%]"
+nvim ~/.config/eww/eww.yuck 
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+mpc toggle
+clear
+mpc clear
+mpc help
+mpc lsplaylists
+mpc load jsie
+mpc load jzie
+mpc play
+mpc next
+mpc toggle
+bluetoothctl disconnect 
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+mpc play
+nvim ~/.config/eww/eww.yuck 
+clear
+cd 
+clear
+paru
+clear
+pkill zellij
+clear
+nvim ~/.config/ghostty/config 
+paru -Rcns fish 
+element-desktop 
+paru -Rcns electron33 
+clear
+paru -Rcns rofi-wayland 
+paru -Rcns noisetorch-bin 
+paru -Rcns spotube-bin 
+pitivi
+paru -Rcns pitivi 
+paru -Rcns kooha
+paru -Rcns discord avahi 
+paru -Rcns discord
+niri validate
+niri --help
+niri --cersion
+niri --version
+clear
+nvim ~/.config/niri/config.kdl 
+clear
+mpc toggle
+clear
+sudo cat /sys/class/dmi/id/product_serial 
+paru -Sy dmidecode 
+sudo cat /sys/class/dmi/id/board_serial 
+clear
+dmidecode
+sudo dmidecode
+paru -Sy cpu-x 
+clear
+sudo cpu-x 
+cpu-x 
+dmidecode -t memory
+sudo dmidecode -t memory
+lshw -short -C memory
+sudo pacman -Sy lshw 
+clear
+lshw -short -C memory
+sudo lshw -short -C memory
+clear
+exit
+exit
+paru
+clear
+exit
+clear
+sudo powertop --auto-tune 
+clear
+ls
+mv *.png *.svg dev/RRDV-Memristor/
+clear
+ls
+cd Downloads/
+ls
+baobab 
+clear
+bitwarden 
+clear
+curl https://api.github.com/search/users?q=NexConn+type:org
+curl https://api.github.com/orgs/NexConn
+clear
+paru -Sy network-manager-l2tp
+paru -Sy networkmanager-l2tp
+paru -Sy nm-connection-editor 
+paru -Sy network-manager-applet 
+nm-applet 
+paru -Sy l2tp
+paru -Sy networkmanager-l2tp
+clear
+nmcli c add con-name IIITG-VPN type vpn vpn-type l2tp vpn.data 'gateway=14.139.197.66, ipsec-enabled=yes, ipsec-psk=9435118700, password-flags=2, user=yash.agrawal21b'<\n>
+nmcli 
+nmcli connection up IIITG-VPN 
+nmcli connection up IIITG-VPN --ask
+journalctl -xe NM_CONNECTION=470fecfc-5e78-4bfa-bdd9-160abf139138 + NM_DEVICE=wlp0s20f3
+journalctl -xe NM_CONNECTION=470fecfc-5e78-4bfa-bdd9-160abf139138
+clear
+exit
+nmcli connection up IIITG-VPN 
+clear
+nmcli device wifi connect "A 10 5G" 
+w
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+nmcli device wifi connect "A 10 5G" 
+clear
+mpc toggle
+clear
+paru -Sy gnome
+paru -Sy --needed gnome
+paru 
+clear
+exit
+clear
+paru -Sy strongswan 
+sudo systemctl stop gdm.service
+nmcli connection up "VPN 1" 
+journalctl -xe NM_CONNECTION=fc1e687b-d77c-49f6-8cb9-f5522f7ea24d + NM_DEVICE=wlp0s20f3
+clear
+paru -Rcns gnome
+clear
+exit
+paru -Sy baobab
+paru -Scc
+clear
+paru
+paru -Rcns network-manager-applet networkmanager-l2tp 
+cd Pictures/
+ls
+clear
+paru
+clear
+exit
+paru
+clear
+nvim done_pass
+dunstctl --help
+dunstctl close
+pkill dunst
+clear
+notify-send "Hello"
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+paru
+clear
+paru
+clear
+mpc toggle
+clear
+nvim ~/.config/niri/config.kdl 
+eww restart
+eww r
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+paru
+clear
+exit
+bash
+paru -Sy xdg-desktop-portal-gnome 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+mpc toggle
+nmcli connection up "VPN 1" 
+clear
+nmcli device wifi connect "A 10 5G" 
+nmcli device wifi connect "A 10 4G" 
+nmcli device wifi rescon
+nmcli device wifi rescan
+nmcli device wifi list
+nmcli device wifi rescon
+nmcli device wifi rescan
+nmcli device wifi list
+nmcli device wifi rescon
+nmcli device wifi rescan
+nmcli device wifi list
+nmcli device wifi connect "A 10 4G" 
+nmcli device wifi connect "moto g84 5G_9188"
+nmcli device wifi connect "moto g84 5G_9188" 
+nmcli device wifi connect "moto g84 5G_9188"  --ask
+nmcli device wifi connect "A 10 5G" 
+mpc toggle
+clear
+paru -Sy emacs-wayland 
+paru
+cd .config/
+ls
+rm -r emacs/
+clear
+ls
+cd ..
+ls
+cd .config/
+ls
+sudo rm -r ./emacs/
+clear
+cd ~/dev/
+ls
+cd dotfiles-wayland/
+ls
+mkdir emacs
+cd emacs/
+ls
+mkdir .config
+cd .config/
+ls
+mkdir emacs
+cd emacs/
+ls
+touch init.el
+clear
+cd ../../..
+nvim setup.sh 
+./setup.sh
+clear
+cd 
+rm .emacs.d/
+rm -r .emacs.d/
+clear
+emacsclient 
+emacsclient .
+emacs .
+clear
+ls
+clear
+paru
+clear
+cd ~/dev/
+clear
+ls
+mkdir Books
+cd Books/
+ls
+mkdir First
+rm -r First/
+clear
+mkdir "I Know You"
+cd `I Know You/`
+clear
+ls
+cd ..
+ls
+cd `I Know You/`
+ls
+clear
+mkdir Prologue
+cd Prologue/
+ls
+cd ..
+clear
+rm -r Prologue/
+clear
+ls
+nvim ~
+nvim ~/.config/niri/config.kdl 
+clear
+exit
+typst watch prologue.typ
+zathura prologue.pdf 
+zathura prologue.pdf &
+clear
+nohup zathura prologue.pdf 
+nohup zathura prologue.pdf &
+clear
+nvim ~/.config/zathura/zathurarc 
+zathura prologue.pdf &
+nvim prologue.typ
+clear
+ls
+cd ..
+ls
+mkdir Dreams
+clear
+cd Dreams/
+ls
+eww r
+mpc toggle
+clear
+zathura prologue.pdf
+paru
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+ps | grep wl
+ps | grep way
+paru -Rcns xwayland-satellite 
+clear
+ps | grep way
+ps 
+clear
+paru -Sy calibre 
+clear
+exit
+clear
+cd ..
+ls
+cd Dreams/
+ls
+cd `../I Know You/`
+zathura prologue.pdf
+clear
+paru -Sy luanti
+clear
+cd 
+cd Downloads/
+ls
+rm luanti-5.10.0-win64.zip
+clear
+luanti 
+clear
+luanti 
+clear
+mpc toggle
+clear
+sudo powertop --auto-tune 
+clear
+paru
+clear
+cd 
+clear
+wofi --show drun
+nvim ~/.config/jay/config.toml 
+clear
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+oary
+paru
+clear
+exit
+paru
+clear
+paru
+clear
+mpc toggle
+clear
+bluetoothctl disconnect 
+clear
+paru
+paru -Rcns qt6-base 
+clear
+paru -Sy tuba 
+clear
+paru 
+clear
+paru -Sy dunst-wayland-git 
+clear
+notify-send "Hello"
+clear
+exit
+cd 
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+sudo powertop --auto-tune 
+clear
+strace -c ls
+clear
+nvim ~/.config/niri/config.kdl 
+clear
+nvim 
+nvim ~/.config/niri/config.kdl 
+clear
+paru -Sy gnome-keyring 
+clear
+exit
+bluetoothctl connect 74:2A:8A:04:0E:74 
+mpc toggle
+chromium 
+clear
+chromium --ozone-platform-hint=auto
+clear
+mpc toggle
+mv  ~/.config/emacs/start,html ~/.config/emacs/start.html
+clear
+paru
+c;ear
+clear
+bluetoothctl disconnect 
+clear
+ps 
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+sudo powertop --auto-tune 
+sudo powertop --calibrate
+clear
+paru
+clear
+paru -Sy zen-twilight-bin 
+cear
+clear
+paru -Sy auto-cpufreq 
+bash
+esit
+exit
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+yazi .
+clear
+paru -Scc
+sudo rm -r /var/cache/pacman/pkg/download-FQLV3U/
+clear
+cd ~/Downloads/
+ls
+cd ~/dev/automatic/models/Stable-diffusion/
+ls
+rm ponyDiffusionV6XL_v6StartWithThisOne.safetensors
+rm prefectPonyXL_v40.safetensors
+clear
+ls
+clear
+unzip Assets.zip 
+ls
+cd Assets/
+ls
+cd ..
+ls
+rm -r Assets/
+clear
+7z x Assets.zip
+clear
+cd 
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+exit
+nvim ~/.config/chromium-flags.conf
+clear
+exit
+clear
+cd Downloads/
+ls
+yazi .
+clear
+cd ~/dev/automatic/
+clear
+ls
+free
+free -h
+./webui.sh --use-cuda --lowvram --use-xformers
+yazi .
+clear
+paru
+nmcli device wifi connect "A 10 5G" 
+nmcli device wifi rescan
+nmcli device wifi liste
+nmcli device wifi list
+nmcli device wifi connect "A 10 5G" 
+clear
+paru
+clear
+mv `~/Downloads/ponyRealism_V22MainVAE (1).safetensors` ./models/Stable-diffusion/ponyRealism.safetensors
+clear
+free -h
+clear
+free -h
+./webui.sh --use-cuda --lowvram --use-xformers
+clear
+free -h
+clear
+free -h
+clear
+free -h
+clear
+./webui.sh --use-cuda --lowvram --use-xformers
+bash
+free -h
+clear
+exit
+clear
+paru
+nmcli device wifi connect "A 10 5G" 
+pkill dunst
+clear
+notify-send "Hello"
+clear
+cd 
+clear
+paru
+clear
+cd 
+cd ~/.config/eww/
+clear
+cd ~/.config/eww/
+clear
+ls
+mkdir scripts
+cd scripts/
+nvim bluetooth.sh
+bluetoothctl list
+bluetoothctl connect 74:2A:8A:04:0E:74 
+bluetoothctl devices 
+clear
+bluetoothctl devices 
+bluetoothctl disconnect
+bluetoothctl devices 
+bluetoothctl info
+bluetoothctl connect 74:2A:8A:04:0E:74 
+bluetoothctl info
+pkill zen-bin 
+clear
+nvim .
+clear
+mpc toggle
+mpc toggl
+mpc toggle
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+paru
+free -h
+clear
+free -h
+clear
+exit
+./webui.sh --use-cuda --lowvram --use-xformers
+clear
+mpc toggle
+sudo powertop --auto-tune 
+clear
+exit
+paru
+clear
+cd 
+clear
+nvim ~/.config/nushell/config.nu 
+clear
+ls
+clear
+nvim ~/.config/nushell/config.nu
+exit
+exit
+v ~/.config/nvim/
+c;ear
+c;earclear
+clear
+v ~/.config/nvim/
+clear
+v ~/.config/nvim/
+clear
+nvim .
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+zen-browser --help
+zen-browser --v
+zen-twilight  --v
+clear
+exit
+paru
+clear
+paru
+clear
+nvim ~/.config/nushell/config.nu
+nvim ~/.config/nvim/lua/plugins.lua 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+paru
+clear
+cd ~/dev/automatic/
+./webui.sh --use-cuda --lowvram --use-xformers
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+paru -Sy swww
+nvim ~/.config/ghostty/config 
+paru
+nmcli device wifi connect "A 10 5G" 
+exit
+paru
+nmcli device wifi connect "A 10 5G" 
+paru
+nvim ~/.config/niri/config.kdl 
+nvim ~/.config/ghostty/config 
+exit
+exit
+clear
+swww ~/dev/dotfiles-wayland/wallpapers/raining_train.gif
+swww --help
+swww img ~/dev/dotfiles-wayland/wallpapers/raining_train.gif
+nvim ~/.config/ghostty/config 
+v ~/.config/niri/config.kdl 
+paru
+nmcli device wifi connect "A 10 4G" 
+v ~/.config/nvim/
+clear
+swww-daemon
+clear
+exit
+exit
+swww img ~/dev/dotfiles-wayland/wallpapers/green_waterfall.gif
+clear
+nvim ~/.config/ghostty/config 
+clear
+nvim ~/.config/ghostty/config 
+clear
+nvim ~/.config/ghostty/config 
+clear
+v ~/.config/niri/config.kdl 
+eww r
+clear
+v ~/.config/niri/config.kdl 
+eww r
+clear
+nvim ~/.config/ghostty/config 
+clear
+pkill gammastep 
+clear
+sudo powertop --auto-tune 
+paru
+clear
+clear
+exit
+paru -Sy ladybird 
+clear
+paru
+clear
+mv ~/Downloads/zjstatus.wasm ~/.config/zellij/plugins/
+clear
+exit
+cat /tmp/zellij-1000/zellij-log/zellij.log
+clear
+cat /tmp/zellij-1000/zellij-log/zellij.log
+y
+clear
+nvim ~/.config/zellij/layouts/try.kdl 
+clear
+exit
+exit
+nvim ~/.config/zellij/layouts/try.kdl 
+clear
+mv ~/.config/zellij/layouts/try.kdl ~/.config/zellij/layouts/default.kdl
+clear
+rm ~/.config/zellij/layouts/minimal.kdl
+clear
+exit
+clear
+paru
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+mpc playlists
+mpc ls-playlists
+mpc ls-playlist
+mpc lsplaylists
+mpc clear
+mpc load soothe
+mpc listall
+mpc find artist Masego
+mpc find artist
+mpc find Artist
+mpc find Artist Masego
+clear
+mpc search Artist Masego
+mpc find --help
+mpc --help
+mpc help
+mpc search 
+mpc search artist "Masego"
+mpc search title "Tui"
+mpc listall
+mpc search title "Time"
+clear
+printf "0x28"
+printf "%d" 0x28
+exit
+v ~/.config/eww/eww.scss 
+clear
+v ~/.config/nushell/config.nu 
+clear
+cd ~/dev/automatic/
+./webui.sh --use-cuda --lowvram --use-xformers
+mv ~/Downloads/add-detail-xl.safetensors ./models/Lora/
+clear
+./webui.sh --use-cuda --lowvram --use-xformers
+clear
+sudo powertop --auto-tune 
+exit
+pkill dunst
+clear
+exit
+paru -Rcns jay-git 
+clear
+exit
+cat ~/.config/ghostty/config 
+v ~/.config/ghostty/config 
+clear
+exit
+paru
+clear
+paru -Sy niri
+clear
+paru
+paru -Sy hyprlock 
+clear
+hyprlock 
+v ~/.config/
+hyprlock 
+v ~/.config/
+v ~/.config/hypr/hyprlock.conf 
+hyprlock 
+v ~/.config/hypr/hyprlock.conf 
+hyprlock 
+v ~/.config/niri/config.kdl 
+clear
+exit
+clear
+paru
+clear
+paru
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+bluetoothctl disconnect 
+clear
+bluetoothctl disconnect 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+paru
+clear
+cd 
+clear
+mpc toggle
+clear
+v ~/.config/ghostty/config 
+clear
+paru
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+sudo powertop --auto-tune 
+paru
+clear
+cd
+clear
+v ~/.config/ghostty/config 
+v ~/.config/nvim/
+clear
+alias 
+alias --help
+exit
+v ~/.config/nushell/env.nu 
+clear
+cd ~/dev/automatic/
+clear
+v ~/.config/nushell/env.nu 
+clear
+exit
+clear
+exit
+v ~/.config/nushell/env.nu 
+$nu.os-info
+clear
+exit
+clear
+paru
+clear
+v ~/.config/ghostty/config 
+clear
+exit
+paru
+clear
+cd ~/dev/Boyem/
+ls
+cd ..
+cd dotfiles-wayland/
+clear
+zellij --help
+v ~/.config/zellij/layouts/default.kdl
+clear
+zellij --help
+v ~/.config/nushell/env.nu 
+v ~/.config/zellij/layouts/
+mv ~/.config/zellij/layouts/default.kdl ~/.config/zellij/layouts/home.kdl:w
+mv ~/.config/zellij/layouts/home.kdl ~/.config/zellij/layouts/home.kdl
+mv ~/.config/zellij/layouts/home.kdl:w ~/.config/zellij/layouts/home.kdl
+clear
+eww r
+eww close topbar
+eww open topbar
+eww kill
+eww r
+v eww/topbar.yuck 
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+paru
+clear
+nmcli device wifi connect "A 10 4G" 
+paru -Sy slack-desktop-wayland 
+clear
+v ~/.config/niri/config.kdl 
+clear
+paru
+clear
+eww r
+v ~/.config/eww/bar.yuck 
+clear
+eww open topbar
+sudo timedatectl statuss
+sudo timedatectl status
+clear
+eww damon
+eww daemon
+sudo timedatectl set-ntp true
+eww daemon
+pkill eww
+eww logs
+eww daemon
+nmcli device wifi connect "A 10 4G" 
+clear
+eww open topbar
+cat ~/.cache/eww/eww_dfc1609d26e13654.log 
+eww daemon
+eww help
+eww debug
+eww daemon
+sudo timedatectl set-ntp true
+eww daemon
+rm ~/.cache/eww/eww_dfc1609d26e13654.log
+eww daemon
+eww open topbar
+eww open bar
+clear
+eww close topbar
+eww open topbar
+clear
+paru -Sy noisetorch-bin 
+c;ear
+clear
+noisetorch 
+paru -Sy xwayland-satellite 
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+bluetoothctl disconnect 
+bluetoothctl remove 74:2A:8A:04:0E:74 
+bluetoothctl pair 74:2A:8A:04:0E:74 
+bluetoothctl scan
+bluetoothctl scan on
+bluetoothctl show 
+bluetoothctl list
+bluetoothctl connect 74:2A:8A:04:0E:74 
+bluetoothctl pair 74:2A:8A:04:0E:74 
+clear
+noisetorch 
+clear
+xwayland-satellite 
+clear
+exit
+exot
+exit
+paru -Sy nvm 
+bash
+ls
+cd automatic/
+ls
+mv outputs/ ../
+clear
+ls
+cd ..
+clear
+rm -r automatic/
+clear
+ls
+clear
+ls ~/.ssh/
+v ~/.ssh/config
+cat ~/.ssh/config 
+ssh-keygen -t ed25519 -b 4096 -C "anant.sharma@quicksell.co"
+ls
+mv id_bitbucket* ~/.ssh/
+clear
+ls
+clear
+ls
+ls ~/.ssh/
+cat ~/.ssh/config 
+mv ~/.ssh/id_ed25519 ~/.ssh/id_anant357
+mv ~/.ssh/id_ed25519.pub ~/.ssh/id_anant357.pub
+clear
+cat ~/.ssh/id_bitbucket.pub 
+cat ~/.ssh/id_bitbucket.pub --raw
+cat ~/.ssh/id_bitbucket.pub 
+clear
+bluetoothctl pair 74:2A:8A:04:0E:74 
+clear
+exit
+paru -Sy redis 
+clear
+sudo systemctl start redis
+clear
+exit
+v ~/.config/ghostty/config 
+clear
+exit
+cd dev/whatsapp-crm-backend/
+ls
+cd src/
+ls
+cd shared/
+ls
+cd infra/database/
+ls
+cat postgres/entities/TemplateFolder.entity.ts 
+clear
+paru -Sy dbeaver 
+clear
+dbeaver 
+clear
+clear
+exit
+bluetoothctl pair 74:2A:8A:04:0E:74 
+bluetoothctl trust 74:2A:8A:04:0E:74
+bluetoothctl pair 74:2A:8A:04:0E:74 
+bluetoothctl trust 74:2A:8A:04:0E:74
+bluetoothctl pair 74:2A:8A:04:0E:74 
+sudo systemctl restart bluetooth
+bluetoothctl pair 74:2A:8A:04:0E:74 
+bluetoothctl trust 74:2A:8A:04:0E:74
+bluetoothctl scan on
+bluetoothctl trust 74:2A:8A:04:0E:74
+bluetoothctl pair 74:2A:8A:04:0E:74 
+bluetoothctl scan on
+clear
+xwayland-satellite 
+cd dev/whatsapp-crm-backend/
+clear
+ls
+paru -Sy prettier
+clear
+exit
+noise
+noisetorch 
+clear
+exit
+eixt
+exit
+clear
+exit
+pactl --help
+pactl get-default-sink
+pactl get-default-source
+pactl get-source-volume 0
+pactl get-sink-volume 0
+clear
+paru -Sy postman-bin 
+clear
+paru
+clear
+paru -Sy webstorm
+clear
+paru
+v .
+clear
+paru -Sy webstorm
+cd /opt/webstorm/bin/
+./webstorm
+./webstorm.sh
+./webstorm
+./webstorm.sh
+xwayland-satellite 
+clear
+paru -Rcns webstorm 
+clear
+cd
+clear
+paru -Sy jetbrains-toolbox 
+clear
+jetbrains-toolbox 
+cd
+cler
+clear
+sudo jetbrains-toolbox 
+jetbrains-toolbox 
+paru -Rcns jetbrains-toolbox 
+clear
+paru -Sy jetbrains-toolbox 
+clear
+jetbrains-toolbox 
+clear
+exit
+clear
+paru -Sy loupe 
+fc-cache 
+clear
+xwayland-satellite 
+loupe
+clear
+clear
+exit
+exit
+cd /opt/
+clear
+ls
+clear
+paru
+clear
+cd 
+clear
+:q
+exit
+pactl get-sink-volume 0
+eww open topbar
+paru -Sy fontconfig 
+ls ~/.config/
+wofi
+wofi --show drun
+paru
+clear
+pango-list 
+v ~/.config/wofi/config 
+font-manager 
+fc-list | wc -l
+fc-match
+fc-cache
+nwg-look 
+cd ~/.local/share/fonts/
+ls
+fc-list
+cd /usr/share/fonts/
+ls
+cd encodings/
+ls
+cd large/
+ls
+cd ..
+clear
+ls
+cd ..
+ls
+cd 
+ls
+ls -l
+ls -a
+cd .local/
+ls
+cd share/
+ls
+paru -Sy strace
+paru -Rcns ttf-firacode-nerd ttf-iosevka ttf-playfair-variable 
+fc-cache
+paru -Rcns ttf-nerd-fonts-symbols 
+paru -Rcns fonts-droid-fallback 
+fc-cache
+clear
+yazi .
+paru -Sy yazi
+clear
+yazi .
+clear
+fc-cache
+jetbrains-toolbox  
+xwayland-satellite 
+paru -Rcns jetbrains-toolbox 
+paru -Rcns java-environment-common 
+clear
+fc-cache
+nautilus 
+wofi
+wofi --show drun
+clear
+ls
+clear
+paru -Sy ttf-playfair-variable 
+clear
+paru -Sy ttf-fira-code 
+paru -Sy ttf-fira-code
+fc-cache
+clear
+eww r
+clear
+paru -Rcns kitty
+clear
+eww r
+paru -Sy ttf-iosevka
+clear
+eww r
+v ~/.config/eww/eww.scss 
+clear
+paru -Sy flatpak
+loupe
+clear
+flatpak install flathub com.jetbrains.WebStorm
+clear
+flatpak run com.jetbrains.WebStorm 
+rm -r ./.var/app/com.jetbrains.WebStorm/cache/
+flatpak run com.jetbrains.WebStorm 
+rm ./.var/app/com.jetbrains.WebStorm/config/JetBrains/WebStorm2024.3/.lock
+pactl get-sink-volume 0
+clear
+paru
+clear
+cd ~/Downloads/Assets/
+clear
+loupe .
+paru -Sy webp-pixbuf-loader 
+clear
+flatpak run com.jetbrains.WebStorm 
+ps | sort-by mem 
+paru -Sy strace
+clear
+paru -Sy stacer
+paru -Sy qt6-tools
+clear
+paru
+clear
+paru
+ianny --version
+ianny --v
+ianny -v
+clear
+paru -Sy bleachbit 
+clear
+cd ~/dev/
+ls
+cd whatsapp-crm-backend/
+ls
+git status 
+clear
+cd ~/Downloads/
+ls
+pkill mpv
+mpv instagram_voice_message_17_Jan_2025_08-37-51.mp4 
+clear
+ffmpeg -i ~/Downloads/instagram_voice_message_17_Jan_2025_08-37-51.mp4 -vn -acodec libmp3lame sindhu.mp3 
+clear
+mpv sindhu.mp3 
+clear
+bluetoothctl pair 74:2A:8A:04:0E:74 
+bluetoothctl scan on
+paru -Sy hciconfig
+hciconfig
+paru -Sy bluez-deprecated-tools
+sudo hciconfig hci0 down
+sudo bluemoon -A
+sudo hciconfig hci0 up
+sudo systemctl restart bluetooth
+bluetoothctl scan on
+bluetoothctl pair 74:2A:8A:04:0E:74 
+bluetoothctl scan on
+bluetoothctl pair 74:2A:8A:04:0E:74 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+bluetoothctl trust 74:2A:8A:04:0E:74
+clear
+bluetoothctl 
+clear
+mpv sindhu.mp3 
+clear
+cd dev/whatsapp-crm-backend/
+v .
+clear
+git pull
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+paru
+nmcli device wifi connect "A 10 5G" 
+clear
+paru
+clear
+paru
+clear
+paru -Sy snapshot 
+clear
+paru -Sy loupe-git 
+cd ~/Downloads/
+rm Assets.zip
+clear
+loupe --version
+loupe --v
+loupe -v
+loupe -version
+loupe --help
+loupe --help-all
+loupe 
+clear
+exit
+paru -Sy loupe-git 
+clear
+loupe
+paru -Sy loupe
+clear
+ps
+ps | sort-by mem 
+pkill chromium 
+xwayland-satellite 
+ps | sort-by mem 
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+bluetoothctl 
+sudo hciconfig hci0 down
+sudo bluemoon -A
+sudo hciconfig hci0 up
+sudo systemctl restart bluetooth
+clear
+bluetoothctl 
+clear
+paru -Sy excalidraw-cli 
+clear
+excalidraw-cli 
+excalidraw-cli --help
+clear
+paru -Rcns excalidraw-cli 
+clear
+par
+parui
+paru
+clear
+paru -Scc
+clear
+exit
+v ./eww/
+mpc toggle
+mpc clear
+mpc add 'Beer Song.opus'
+mpc play
+mpc add 'Queen Tings.opus'
+mpc add '100 roses.opus'
+mpc toggle
+sudo powertop --auto-tune 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+sudo hciconfig hci0 down
+sudo bluemoon -A
+sudo hciconfig hci0 up
+sudo systemctl restart bluetooth
+bluetoothctl
+clea
+clear
+paru
+clear
+paru -Sy niri-git
+clear
+niri validate
+clear
+exit
+v ~/.config/niri/config.kdl 
+clear
+v ~/.config/niri/config.kdl 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+sudo hciconfig hci0 down
+sudo bluemoon -A
+sudo hciconfig hci0 up
+sudo systemctl restart bluetooth
+clear
+nmcli device wifi connect "A 10 5G" 
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+paru
+clear
+paru
+clear
+paru
+clear
+ls
+mv sindhu.mp3 `~/Downloads/Assets/IIITG/IIITG Batch 2021-25/sindhu/`
+clear
+v ~/.config/niri/config.kdl 
+clear
+v ~/.config/ghostty/config 
+clear
+v ~/.config/ghostty/config 
+cclear
+clear
+v ~/.config/niri/config.kdl 
+clear
+sleep 1sec; niri msg focused-window
+niri msg focused-window
+niri validate
+clear
+ls
+clear
+v ~/.config/niri/config.kdl 
+clear
+nmcli device wifi connect "A 10 5G" 
+clear
+exit
+paru
+clear
+swww img ~/dev/dotfiles-wayland/wallpapers/gruvbox_dark.png
+swww img ~/dev/dotfiles-wayland/wallpapers/everforest_dark.png
+clear
+exit
+v ~/.config/dunst/dunstrc 
+clear
+sudo systemctl restart dunst 
+pkill dunst
+clear
+notify-send "Hello"
+clear
+v ~/.config/dunst/dunstrc 
+pkill dunst
+notify-send "Hello"
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+sudo hciconfig hci0 down
+sudo bluemoon -A
+sudo hciconfig hci0 up
+sudo systemctl restart bluetooth
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+v bluetooth.sh
+clear
+ls
+chmod +x bluetooth.sh 
+clear
+ls
+cd Camera/
+ls
+clear
+paru
+clear
+paru
+paru -Syyu
+sleep 1sec; niri msg focused-window
+niri validate
+v ~/.config/niri/config.kdl 
+clear
+./bluetooth.sh
+clear
+notify-send "Hello"
+clear
+paplay ~/Downloads/notification-22-270130.mp3
+mv ~/Downloads/notification-22-270130.mp3 .config/dunst/notification.mp3
+clear
+v ~/.config/dunst/dunstrc 
+v ~/.config/dunst/notification.sh
+ls
+clear
+pkill dunst
+notify-send "Hello"
+cd dunst/
+ls
+v dunstrc 
+chmod +x notification.sh 
+clear
+pkill dunst
+notify-send "Hello"
+clear
+paru
+clear
+cd ~/Downloads/Assets/
+clear
+ls
+v ~/.config/dunst/notification.sh
+clear
+notify-send "Hello"
+clear
+mkdir QuickSell
+cd QuickSell/
+mkdir Tasks
+cd Tasks/
+cd dev/whatsapp-crm-backend/
+git pull
+clear
+ps 
+ps | select * where name==node
+ps | select all where name==node
+clear
+paru
+clear
+paru
+clear
+paru -Sy zoom
+clear
+sudo powertop --auto-tune 
+clear
+paru
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+./bluetooth.sh
+bluetoothctl connect 74:2A:8A:04:0E:74 
+sudo hciconfig hci0 up
+v bluetooth.sh 
+./bluetooth.sh
+sudo bluemoon -A
+sudo hciconfig hci0 down
+sudo bluemoon -A
+v bluetooth.sh 
+sudo bluemoon -A
+./bluetooth.sh
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+paru
+clear
+pkill dunst
+notify-send "Hello"
+pkill dunst
+notify-send "Hello"
+notify-send -u critical 'battery < 15%'
+dunstify --icon=alarm-clock SmartTech101
+pkill dunst
+dunstify --icon=alarm-clock SmartTech101
+v dunst/dunstrc 
+clear
+paru
+c;ear
+clear
+paru
+clear
+paru
+clear
+paru
+clear
+paru -Sy pinta
+paru -Sy krita 
+paru -Sy blender
+clear
+paru -Sy rnote
+clear
+paru -Sy wooz
+clear
+paru -Q
+paru -Rcns zen-twilight-bin 
+paru -Rcns wlroots 
+paru -Rcns strongswan 
+paru -Rcns qt5-base 
+paru -Rcns qt6-base 
+paru -Rcns postgresql postman-bin 
+paru -Q
+paru -Q hyprlock 
+paru -Rcns hyprlock 
+clear
+paru -Scc
+clear
+rm -rf ~/.cache/paru/
+rm -rf ~/.cache/pip/
+clear
+paru -Qtdq
+paru -Rcns yarn sccache python-pyinotify 
+paru -Qtdq
+paru -Rcns itstool makepkg-git-lfs-proto meson 
+clear
+paru -Qtdq
+clear
+paru
+clear
+pactl get-sink-volume 0
+clear
+yazi .
+clear
+./bluetooth.sh
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+pkill snapshot 
+clear
+paru
+clear
+v snapchat_tracker
+clea
+clear
+paru
+clear
+paru -Sy verso-git 
+ps
+ps | sort-by mem 
+pkill eww slack
+pkill eww
+./bluetooth.sh
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+cd QuickSell/whatsapp-crm-backend/
+git pull
+clear
+git checkout -b anant
+clear
+cd ..
+paru -Sy postgresql 
+clear
+flatpak run com.jetbrains.WebStorm 
+clear
+paru -Sy redis 
+redis
+redis-cli 
+clear
+redis-server 
+clear
+exit
+exit
+v ~/db
+clear
+sudo powertop --auto-tune 
+paru
+nmcli device wifi connect "A 10 5G" 
+nmcli device wifi connect "A 10 4G"  
+paru
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+paru
+clear
+v ~/.config/niri/config.kdl 
+clear
+paru
+clear
+paru
+paru -Syyu
+paru -Sy wine 
+clear
+paru
+clear
+flatpak update
+clear
+./bluetooth.sh
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+curl -X POST \<\n>  -H "Content-Type: application/json" \<\n>  -d '{<\n>    "mobileNumber": "+919876543210" <\n>  }' \<\n>  http://localhost:4000/channel-partner/dashboard/login/get-otp
+par
+paru
+clear
+paru
+clear
+bash
+clear
+paru
+clear
+sudo powertop --auto-tune 
+clear
+bluetoothctl disconnect 
+clear
+pactl get-sink-volume 0
+clear
+paru
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+cler
+clear
+exit
+paru
+clear
+paru
+clear
+bluetoothctl disconnect 
+clear
+paru
+clear
+paru
+clear
+cd dev/whatsapp-crm-backend/
+cd QuickSell/whatsapp-crm-backend/
+clear
+git status 
+git add src/modules/channel-partner/constants/channel-partner.ts src/modules/channel-partner/helpers/get-app-name.ts src/modules/channel-partner/infra/rest/controllers/v1/channel-partner.controller.ts src/modules/channel-partner/use-cases/auth.use-case.ts 
+clear
+git status
+git commit -m "feat(referral-partner): login/auth"
+git status
+clear
+git log
+clear
+git branch -m anant anant/referral-partner
+clear
+git status 
+git log
+git push origin anant/referral-partner
+clear
+git status 
+paru
+clear
+git status
+git add src/modules/channel-partner/infra/dtos/referral-partner.dto.ts 
+git add src/modules/channel-partner/infra/rest/controllers/v1/channel-partner.controller.ts 
+git add src/modules/channel-partner/use-cases/referral-partner-details.use-case.ts 
+git status
+git commit -m "feat(referral-partner): onboarding - personal details"
+clear
+git status
+clear
+git push origin anant/referral-partner
+clear
+paru
+clear
+paru
+clear
+cd QuickSell/whatsapp-crm-backend/
+curl -X POST \<\n>  -H "Content-Type: application/json" \<\n>  -d '{<\n>    "mobileNumber": "+919876543210" <\n>  }' \<\n>  http://localhost:4000/v1/channel-partner/dashboard/login/get-otp
+bash
+clear
+bash
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+./bluetooth.sh
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+cd QuickSell/whatsapp-crm-backend/
+clear
+ls
+clear
+bash
+paru -Sy postman
+paru -Sy postman-bin
+clear
+paru
+clear
+cat snapchat_tracker 
+clear
+./bluetooth.sh
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+paru
+clear
+cd QuickSell/whatsapp-crm-backend/
+git pull 
+clear
+git log
+clear
+bash
+clear
+blu
+bluetoothctl connect 74:2A:8A:04:0E:74 
+bluetoothctl disconnect 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+ps | grep "Web"
+clear
+rm .var/app/com.jetbrains.WebStorm/config/JetBrains/WebStorm2024.3/.lock
+clear
+cd QuickSell/whatsapp-crm-backend/
+git status 
+git add src/modules/channel-partner/channel-partner.module.ts 
+git add src/modules/channel-partner/constants/channel-partner.ts 
+git add src/modules/channel-partner/helpers/get-subdomain.ts 
+git add src/modules/channel-partner/infra/dtos/referral-partner.dto.ts 
+clear
+git status 
+git add src/modules/channel-partner/infra/dtos/referral-partner.dto.ts 
+git status 
+git add src/modules/channel-partner/infra/rest/controllers/v1/channel-partner.controller.ts 
+git add src/modules/channel-partner/use-cases/auth.use-case.ts 
+git add src/modules/channel-partner/use-cases/referral-partner-details.use-case.ts 
+clear
+git status 
+git add src/modules/channel-partner/use-cases/referral-partner-details.use-case.ts 
+git status 
+git add src/shared/core/validators/file-type-validator.ts 
+clear
+git status 
+git commit -m "fix(referral-partner): login/auth + onboarding/personal-details"
+clear
+git push origin anant/referral-partner
+git pull
+git pull origin anant/referral-partner
+git config pull.rebase false
+git pull origin anant/referral-partner
+clear
+git status 
+git log
+git push origin anant/referral-partner
+clear
+sudo powertop --auto-tune 
+clear
+paru
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+bluetoothctl disconnect 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+paru
+clear
+clear
+flatpak update
+clear
+paru
+clear
+paru
+nmcli device wifi connect "A 10 4G"  
+paru
+clear
+paru
+clear
+paru
+clear
+paru -Sy discord-canary 
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+./bluetooth.sh
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+bluetoothctl disconnect 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+bluetoothctl disconnect 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+bluetoothctl disconnect 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+bluetoothctl disconnect 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+paru
+clear
+paru
+clear
+nmcli device wifi connect "A 10 4G"  
+nmcli device wifi connect "A 10 5G"  
+nmcli device wifi connect "A 10 5G"
+clear
+paru
+clear
+paru -Sy gnome-mahjongg 
+bluetoothctl disconnect 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+pkill xwayland-satell 
+clear
+niri msg focused-window
+v ~/.config/niri/config.kdl 
+clear
+paru
+clear
+v ./wofi/config 
+clear
+paru
+sudo powertop --auto-tune 
+clear
+nmcli device wifi connect "A 10 5G"
+nmcli device wifi connect "A 10 4G"
+clear
+v ~/.config/niri/config.kdl 
+clear
+paru
+clear
+./bluetooth.sh
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+paru
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+bluetoothctl disconnect 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+paru
+clear
+paru -Sy hoppscotch-bin 
+clear
+cd bash
+cd QuickSell/whatsapp-crm-backend/
+clear
+git status 
+git add src/modules/channel-partner/channel-partner.module.ts 
+git add src/modules/channel-partner/constants/channel-partner.ts 
+clear
+git status 
+git add src/modules/channel-partner/infra/dtos/referral-partner.dto.ts 
+clear
+git status 
+git add src/modules/channel-partner/infra/rest/controllers/v1/channel-partner.controller.ts 
+clear
+git status 
+git add src/modules/channel-partner/use-cases/update-referral-partner-business-details.use-case.ts 
+clear
+git status 
+git add src/modules/channel-partner/use-cases/referral-partner-apply-for-review.use-case.ts 
+git add src/modules/channel-partner/use-cases/update-referral-partner-bank-details.use-case.ts 
+clear
+git status 
+git commit -m "feat(referral-partner): business details - bank details - apply for review"
+clear
+git push origin anant/referral-partner
+clear
+git pull origin anant/referral-partner
+clear
+git status 
+clear
+bash
+clear
+cd QuickSell/whatsapp-crm-backend/
+git status 
+git commit -m "fix(referral-partner): fileValidator personal-details + business-details"
+clear
+git push origin anant/referral-partner
+clear
+git status 
+clear
+pary
+cd ~/QuickSell/whatsapp-crm-backend/
+git add src/modules/channel-partner/use-cases/referral-partner-apply-for-review.use-case.ts 
+git commit -m "refactor(referral-partner): correct slack channel"
+git push origin anant/referral-partner
+clear
+paru
+./bluetooth.sh
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+cd ~/QuickSell/whatsapp-crm-backend/
+clear
+git status 
+git add src/modules/channel-partner/types/referral-partner-slack.ts 
+git add src/modules/channel-partner/use-cases/referral-partner-apply-for-review.use-case.ts 
+git add src/modules/channel-partner/services/referral-partner-data.service.ts 
+clear
+git status 
+git commit -m "refactor(referral-partner): better slack message"
+clear
+git push origin anant/referral-partner
+clear
+paru
+sudo powertop --auto-tune 
+clear
+paru
+clear
+bluetoothctl disconnect 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+./bluetooth.sh
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+paru
+clear
+cd dev/
+cargo new lobar
+cd lobar/
+clear
+ls
+cd src/
+clear
+ls
+cargo add gtk4 --rename gtk
+cargo add gtk4 --rename gtk --features v4_18
+clear
+cargo run
+paru -Sy gtk4 
+clear
+cargo run
+clear
+gtk build
+cargo build
+sudo pacman -Sy gobject-introspection 
+cargo build
+clear
+cd dev/
+ls
+cd lobar/
+clear
+cargo build
+pkg-config --modversion gtk4
+cargo add gtk4 --rename gtk --features v4_16
+clear
+cargo build
+bash
+pkg-config --help
+pkg-config --list-all
+pkg-config --list-all | grep "gtk"
+cd ..
+mkdir gtkc
+cd gtkc/
+clear
+v main.cpp
+clear
+paru -Sy glib2-devel 
+cd ../lobar/
+cargo build
+pkg-config --libs --cflags gtk4 gtk4 >= 4.17
+v Cargo.toml 
+pkg-config --libs --cflags gtk4 gtk4 >= 4.17
+cargo build
+clear
+v src/main.rs 
+cargo build
+cargo run
+cargo add kdl
+clear
+cargo new config
+clear
+v Cargo.toml 
+ls
+cd config/
+ls
+cargo build
+clear
+v Cargo.toml 
+cd ..
+cargo build
+clear
+v config.kdl
+v .
+cargo run
+clear
+v .
+clear
+cargo build
+cargo run
+cd ~/dev/lobar/
+clear
+cargo build
+cargo run
+v .
+v ~/.config/nvim/
+clear
+v ~/.config/nvim/
+cd ~/dev/lobar/
+v .
+./bluetooth.sh
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+cd QuickSell/whatsapp-crm-backend/
+git status 
+git add src/modules/channel-partner/infra/dtos/referral-partner.dto.ts 
+git add src/modules/channel-partner/use-cases/referral-partner-get-all-details.use-case.ts 
+git add src/modules/channel-partner/infra/rest/controllers/v1/channel-partner.controller.ts 
+git add src/modules/channel-partner/use-cases/update-referral-partner-business-details.use-case.ts 
+clear
+git add src/modules/channel-partner/channel-partner.module.ts 
+git add src/modules/channel-partner/infra/rest/controllers/v1/channel-partner.controller.ts 
+clear
+git status 
+git commit -m "feat(referral-partner): get request to restore onboarding process"
+clear
+git push origin anant/referral-partner
+clear
+git pull origin anant/referral-partner
+clear
+bluetoothctl disconnect 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+git add src/modules/channel-partner/infra/dtos/referral-partner.dto.ts 
+git add src/modules/channel-partner/use-cases/referral-partner-get-all-details.use-case.ts 
+git commit -m "fix(referral-partner): send state in (get)/referral/all-details"
+git push origin anant/referral-partner
+clear
+paru
+clear
+sleep 1sec; niri msg focused-window
+sudo powertop --auto-tune 
+clear
+paru
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+./bluetooth.sh
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+bluetoothctl disconnect 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+paru
+clear
+bl
+bluetoothctl disconnect 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+paru
+clear
+paru
+clear
+cd dev/lobar/
+v .
+v ~/.config/nvim/
+v .
+clear
+cargo add slint
+clear
+cargo build
+paru
+clear
+cd QuickSell/whatsapp-crm-backend/
+clear
+git status 
+git add src/modules/channel-partner/channel-partner.module.ts 
+git add src/modules/channel-partner/constants/channel-partner.ts 
+git add src/modules/channel-partner/helpers/get-file-url.ts 
+git add src/modules/channel-partner/infra/dtos/referral-partner.dto.ts 
+git add src/modules/channel-partner/infra/rest/controllers/v1/channel-partner.controller.ts 
+git add src/modules/channel-partner/services/referral-partner-data.service.ts 
+git add src/modules/channel-partner/use-cases/referral-partner-details.use-case.ts 
+git add src/modules/channel-partner/use-cases/referral-partner-get-all-details.use-case.ts  src/modules/channel-partner/use-cases/update-referral-partner-bank-details.use-case.ts src/modules/channel-partner/use-cases/update-referral-partner-business-details.use-case.ts src/shared/infra/database/postgres/entities/referral-partner-data.entity.ts src/modules/channel-partner/use-cases/auth.use-case.ts 
+git status 
+git commit -m "fix(referral-partner): international partner support and other fixes"
+clear
+git push origin anant/referral-partner
+clear
+./bluetooth.sh
+cd 
+./bluetooth.sh
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+vlrst
+clear
+cd QuickSell/whatsapp-crm-backend/
+clear
+git add src/modules/channel-partner/channel-partner.module.ts src/modules/channel-partner/infra/rest/controllers/v1/channel-partner.controller.ts src/modules/channel-partner/types/referral-partner-slack.ts src/modules/channel-partner/use-cases/update-referral-partner-bank-details.use-case.ts src/modules/channel-partner/use-cases/update-referral-partner-review-status.use-case.ts src/shared/infra/rest/guards/slack.guard.ts src/shared/infra/slack/slack.service.ts
+clear
+git status 
+git log
+clear
+exit
+git commit -m "refactor(referral-partner) better slack message, slack guard etc."
+clear
+git push origin anant/referral-partner
+clear
+git pull origin anant/referral-partner
+clear
+git log
+clear
+sudo powertop --auto-tune 
+clear
+cd QuickSell/whatsapp-crm-backend/
+clra
+clear
+git add src/modules/channel-partner/constants/channel-partner.ts src/modules/channel-partner/use-cases/auth.use-case.ts src/modules/channel-partner/use-cases/referral-partner-details.use-case.ts src/modules/channel-partner/use-cases/referral-partner-get-all-details.use-case.ts src/modules/channel-partner/use-cases/update-referral-partner-bank-details.use-case.ts src/modules/channel-partner/use-cases/update-referral-partner-business-details.use-case.ts src/shared/config/app-config/app-config.service.ts 
+clear
+git commit -m "refactor(referral-partner): change bucket to partnerDetailsBucket"
+clear
+git push origin anant/referral-partner
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+bluetoothctl disconnect 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+bluetoothctl disconnect 
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+paru
+clear
+paru
+clear
+cd Downloads/
+ls
+unzip "beautiful Girl boobs show.zip" 
+ls
+imv .
+cat D.Txt 
+clear
+mkdir piks
+mv *.zip piks/
+ls
+rm D.Txt
+mv Pho* piks/
+clear
+ls
+cd piks/
+clear
+ls
+unzip "Extremely Sexy Indian Girl.zip" 
+clear
+ls
+bluetoothctl 
+mpv .
+clear
+imv .
+ls
+mpv "Desimms69.org (10).mp4" 
+mpv *.mp4
+clear
+cd ..
+clear
+:q
+c;ear
+clear
+v ~/.config/niri/config.kdl 
+pkill zellij 
+clear
+bash
+clear
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
+ls
+mkdir n
+mv nvim-linux64.tar.gz n/
+clear
+cd n
+clear
+ls
+unzip nvim-linux64.tar.gz 
+curl https://github.com/neovim/neovim/releases/download/v0.10.4/nvim-linux-x86_64.appimage
+ls
+curl https://github.com/neovim/neovim/releases/download/v0.10.4/nvim-linux-x86_64.appimage -O 
+ls
+curl -L0 https://github.com/neovim/neovim/releases/download/v0.10.4/nvim-linux-x86_64.appimage 
+curl -LO https://github.com/neovim/neovim/releases/download/v0.10.4/nvim-linux-x86_64.appimage 
+clear
+ls
+chmod +x nvim-linux-x86_64.appimage 
+./nvim-linux-x86_64.appimage
+cd QuickSell/whatsapp-crm-backend/
+git add src/modules/channel-partner/helpers/get-file-url.ts 
+git add src/modules/channel-partner/infra/dtos/referral-partner.dto.ts src/modules/channel-partner/infra/rest/controllers/v1/channel-partner.controller.ts src/modules/channel-partner/use-cases/auth.use-case.ts src/modules/channel-partner/use-cases/referral-partner-details.use-case.ts src/modules/channel-partner/use-cases/update-referral-partner-bank-details.use-case.ts src/modules/channel-partner/use-cases/update-referral-partner-business-details.use-case.ts 
+clear
+git status 
+git commit -m "fix(referral-partner): safer file handling and other changes"
+clear
+git push origin anant/referral-partner
+clear
+git status
+git add src/modules/channel-partner/constants/channel-partner.ts src/modules/channel-partner/helpers/get-file-key.ts src/modules/channel-partner/types/referral-partner-slack.ts src/modules/channel-partner/use-cases/referral-partner-details.use-case.ts src/modules/channel-partner/use-cases/referral-partner-get-all-details.use-case.ts src/modules/channel-partner/use-cases/update-referral-partner-bank-details.use-case.ts src/modules/channel-partner/use-cases/update-referral-partner-business-details.use-case.ts 
+git status 
+git commit -m "fix(referral-partner): store and send correct file paths"
+clear
+git push origin anant/referral-partner
+paru
+clear
+cd QuickSell/whatsapp-crm-backend/
+git status 
+git add src/modules/channel-partner/use-cases/referral-partner-details.use-case.ts src/modules/channel-partner/use-cases/referral-partner-get-all-details.use-case.ts src/modules/channel-partner/use-cases/update-referral-partner-bank-details.use-case.ts src/modules/channel-partner/use-cases/update-referral-partner-business-details.use-case.ts src/shared/config/app-config/app-config.service.ts 
+git commit -m "refactor(referral-partner): change bucket to partnerDetailsBucket"
+clear
+git push origin anant/referral-partner
+clear
+paru
+cd Downloads/
+ls
+mv *.zip piks/
+clear
+ls
+sudo powertop --auto-tune 
+clear
+niri msg windows
+exit
+niri msg windows | jq -r '.[]'
+niri msg windows
+exit
+niri msg windows
+bash
+clear
+exit
+v ~/.config/eww/
+clear
+v ~/.config/eww/
+clear
+paru
+clear
+xdg-icon-resource --help
+xdg-icon-find
+paru -Sy xdg-tools
+grep -r "zen" /usr/share/applications ~/.local/share/applications
+pacman -Qf ghostty
+pacman -Ql ghostty
+pacman -Fl ghostty
+pacman -Qf ghostty | grep ".desktop"
+pacman -Ql ghostty | grep ".desktop"
+ls /usr/share/applications/ | grep "zen"
+bash
+xdg-icon-resource lookup  zen-browser
+find /usr/share/icons -name "zen*.png"
+bash
+v icon.py
+python icon.py 
+v ~/.config/chromium-flags.conf 
+clear
+rm icon.py
+clear
+cat db
+rm db
+clear
+ls
+cat dump.rdb
+rm dump.rdb
+clear
+ls
+cd n
+ls
+cd ..
+rm -r n
+clear
+ls
+rm Whatsapp-CRM-Backend.postman_environment.json
+rm referral-partner-whatsapp-crm-backend.postman_collection.json
+clear
+ls
+rm -r Postman/
+clear
+paru -Rcns postman-bin 
+clear
+ls
+echo $env.DISPLAY
+v ~/.config/niri/config.kdl 
+clear
+flatpak update
+clear
+flatpak install flathub se.sjoerd.Graphs 
+clear
+flatpak run  se.sjoerd.Graphs 
+clear
+./bluetooth.sh
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+bluetoothctl disconnect 
+paru
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+paru
+clear
+paru
+clear
+paru -Rcns cpu-x deno emacs-wayland fluidsynth 
+clear
+bash
+paru -Sy epiphany 
+clear
+gsettings set org.gnome.Epiphany.web:/ hardware-acceleration-policy 'always'
+gsettings set org.gnome.Epiphany.web:/ 
+bluetoothctl disconnect 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+paru
+clear
+paru
+bluetoothctl disconnect 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+bluetoothctl disconnect 
+mpc --help
+clear
+mpc current -f "[[%artist% - ]%title%]"
+systemctl --user restart mpd
+paru -Sy mpd
+fluidsynth 
+systemctl --user restart mpd
+clear
+mpc toggle
+mpc next
+mpc toggle
+clear
+paru
+clear
+flatpak install flathub page.kramo.Sly
+clear
+pkill sly
+bluetoothctl connect 74:2A:8A:04:0E:74 
+./bluetooth.sh
+bluetoothctl connect 74:2A:8A:04:0E:74 
+paru -Sy shotwel
+paru -Sy shotwell
+clear
+cd QuickSell/whatsapp-crm-backend/
+git status 
+git add src/shared/config/app-config/app-config.service.ts
+git commit -m "refactor(referral-partner): update dt-partner-details-dev bucket config"
+clear
+paru
+clear
+paru
+clear
+paru
+clear
+ls /usr/share/icons/hicolor/16x16/apps/
+eww help
+eww state
+eww window_icon_path
+eww help
+eww get window_icon_path
+eww restart
+eww r
+eww get window_icon_path
+cd ..
+bash get_icon.sh zen
+bash -c 'find /usr/share/applications ~/.local/share/applications -name "*app_id*.desktop"'
+v ~/get_icon.sh 
+clear
+bash
+v ~/get_icon.sh 
+bash get_icon.sh zen
+bash get_icon.sh
+v ~/.config/eww/
+./bluetooth.sh
+bluetoothctl connect 74:2A:8A:04:0E:74 
+sudo powertop --auto-tune 
+clear
+paru
+clear
+paru
+clear
+v ~/.config/eww/
+clear
+./bluetooth.sh
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+paru
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+bluetoothctl disconnect 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+paru
+clear
+paru
+bluetoothctl disconnect 
+paru
+clear
+paru
+clear
+./bluetooth.sh
+paru
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+paru
+clear
+flatpak update
+clear
+paru
+clear
+paru
+clear
+paru -Sy lemurs
+clear
+cd dotfiles-wayland/
+clear
+mkdir lemurs
+cd lemurs/
+touch config.toml
+mkdir wayland
+touch variables.toml
+v wayland/niri
+cd wayland/
+ls
+sudo chmod 755 niri 
+clear
+ls
+cd ..
+ls
+mv wayland/ /etc/lemurs/wayland/
+mv wayland/niri /etc/lemurs/wayland/
+sudo mv wayland/niri /etc/lemurs/wayland/
+clear
+systemctl status lemurs
+cat /usr/lib/systemd/system/lemurs.service 
+v config.toml 
+cat /etc/lemurs/config.toml
+sudo systemctl start lemurs.service
+v /etc/lemurs/config.toml 
+sudo v /etc/lemurs/config.toml 
+sudo systemctl status lemurs 
+clear
+cat /var/log/lemurs.client.log 
+cat /var/log/lemurs.log 
+clear
+exit
+sudo nvim /etc/lemurs/config.toml 
+clear
+./bluetooth.sh
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+paru
+clear
+paru -Sy libheif
+paru -Sy libheif-git
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+paru
+clear
+cd lobar/
+ls
+v src/main.rs 
+cargo add cushy
+clear
+v Cargo.toml 
+cargo build
+v .
+cargo build
+cargo run
+paru
+clear
+paru
+clear
+paru
+clear
+paru
+niri --help
+clear
+paru
+clear
+paru
+clear
+cd QuickSell/whatsapp-crm-backend/
+git pull origin anant/referral-partner
+git stash
+git pull origin anant/referral-partner
+clear
+git status
+paru
+clear
+./bluetooth.sh
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+bluetoothctl disconnect 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+bluetoothctl disconnect 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+flatpak install flathub org.cubocore.CoreInfo
+flatpak install flathub org.nickvision.tubeconverter
+clear
+flatpak run org.nickvision.tubeconverter 
+clear
+flatpak install flathub fr.romainvigier.MetadataCleaner
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+./bluetooth.sh
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+paru -Sy cursor-bin
+clear
+cd QuickSell/whatsapp-crm-backend/
+git branch anant/referral-partner/dashboard
+git branch anant/dashboard
+clear
+git checkout anant/dashboard 
+clear
+./bluetooth.sh
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+systemctl --user stop mpd
+sudo umount /disks/notwork 
+sudo ntfsfix /dev/sda2
+sudo mount /dev/sda2 /disks/notwork/
+systemctl --user start mpd
+clear
+mpc clear
+mpc add 'Bandook Meri Laila.opus'
+ls `/disks/notwork/Music/Bandook Meri Laila Song.opus`
+mpc add 'Bandook Meri Laila Song.opus'
+mpc help
+mpc listall
+mpc rescan
+mpc listall
+mpc listall | grep "Bandook"
+./bluetooth.sh
+bluetoothctl connect 74:2A:8A:04:0E:74 
+mpc add 'Bandook Meri Laila Song.webm'
+mpc play
+clear
+nmcli device wifi connect "A 10 5G"
+rm /home/fisher/.var/app/com.jetbrains.WebStorm/config/JetBrains/WebStorm2024.3/.lock
+clear
+mpc pause
+mpc play
+clear
+mpc pause
+bluetoothctl disconnect 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+mpc play
+clear
+paru
+clear
+mpc pause
+sudo powertop --auto-tune 
+flatpak install flathub io.gpt4all.gpt4all
+flatpak install flathub io.github.qwersyk.Newelle
+clear
+flatpak run io.github.qwersyk.Newelle
+clear
+flatpak install flathub com.github.tchx84.Flatseal
+clear
+cd Downloads/
+ls
+cd kroos/
+ls
+cd Kroos/
+ls
+cd ..
+clear
+ls
+zip Assets/
+cd Assets/
+ls
+cd ..
+bash
+clear
+cp -r Assets/ .Assets.bkp
+cat snapchat_tracker 
+v snapchat_tracker 
+clear
+./bluetooth.sh
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+paru
+clear
+bluetoothctl disconnect 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+paru
+clear
+paru
+clear
+paru -Rcns rnote 
+clear
+paru -Rcns baobab 
+flatpak install flathub dev.neovide.neovide
+flatpak install flathub io.github.realmazharhussain.GdmSettings
+clear
+flatpak uninstall dev.neovide.neovide
+clear
+paru -Sy neovide 
+clear
+paru -Rcns easyeffects fractal greetd-tuigreet-bin
+clear
+paru -Rcns inkscape guile 
+paru -Rcns inkscape
+clear
+paru -Rcns qt5-base 
+clear
+paru -Rcns raylib 
+paru -Rcns ruby 
+paru -Rcns slack-desktop-wayland 
+clear
+flatpak install flathub com.slack.Slack
+clear
+paru -Rcns gnome-mahjongg 
+clear
+flatpak run com.slack.Slack
+paru -Sy slack-desktop-wayland 
+clear
+flatpak install flathub com.hack_computer.OperatingSystemApp
+clear
+paru -Rcns epiphany 
+flatpak install flathub com.rustdesk.RustDesk
+flatpak install flathub com.github.PintaProject.Pinta
+flatpak install flathub org.gnome.Loupe
+flatpak install flathub io.gitlab.theevilskeleton.Upscaler
+flatpak install flathub com.github.flxzt.rnote
+clear
+paru -Rcns lemurs 
+paru -Sy gdm
+clear
+./
+./bluetooth.sh
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+paru
+clear
+flatpak uninstall io.gitlab.theevilskeleton.Upscaler
+flatpak uninstall com.github.PintaProject.Pinta
+neovide 
+rm /home/fisher/.var/app/com.jetbrains.WebStorm/config/JetBrains/WebStorm2024.3/.lock
+clear
+./bluetooth.sh
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+mpc play
+clear
+paru
+clear
+cd QuickSell/whatsapp-crm-backend/
+git status 
+git add src/modules/channel-partner/constants/channel-partner.ts 
+git add src/modules/channel-partner/infra/dtos/channel-partner-customer.dto.ts src/modules/channel-partner/infra/rest/controllers/v1/channel-partner.controller.ts src/modules/channel-partner/services/channel-partner-customers.service.ts src/modules/channel-partner/use-cases/channel-partner-customer-list.use-case.ts src/modules/channel-partner/use-cases/create-referral-partner-customer.use-case.ts 
+clear
+git status 
+git commit -m "feat(referral-partner): list customers and add new lead"
+clear
+git push origin anant/dashboard
+clear
+cd QuickSell/whatsapp-crm-backend/
+git status 
+git checkout anant/referral-partner 
+clear
+git status 
+git log
+git stash list 
+git stash apply 
+git status 
+git log
+git stash
+clear
+git push origin anant/referral-partner
+clear
+git checkout anant/dashboard 
+clear
+bluetoothctl disconnect 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+mpc pause
+paru 
+clear
+bluetoothctl disconnect 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+bluetoothctl disconnect 
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+paru
+clear
+bluetoothctl disconnect 
+clear
+paru 
+clear
+sudo powertop --auto-tune 
+paru
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+cd QuickSell/whatsapp-crm-backend/
+clear
+ls
+clear
+git status 
+git add src/modules/channel-partner/channel-partner.module.ts src/modules/channel-partner/constants/channel-partner.ts src/modules/channel-partner/services/channel-partner-customers.service.ts 
+clear
+git commit -m "fix(referral-partner): customer status logic"
+clear
+paru
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+paru
+clear
+flatpak update
+clear
+bluetoothctl disconnect 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+bluetoothctl disconnect 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+paru
+clear
+paru
+clear
+cd QuickSell/whatsapp-crm-backend/
+git checkout anant/referral-partner 
+clear
+git pull origin anant/referral-partner
+clear
+git status 
+git add src/modules/channel-partner/use-cases/auth.use-case.ts 
+git commit -m "fix(referral-partner): handle origin set an whitespace character"
+git reset --soft HEAD^
+git status 
+cat .aws/credentials 
+cd ~/QuickSell/whatsapp-crm-backend/
+git commit -m "fix(referral-partner): handle origin set an whitespace character"
+git push origin anant/referral-partner
+clear
+git checkout anant/dashboard 
+clear
+git pull origin anant/referral-partner
+clear
+cd ..
+git clone git@bitbucket.org:quicksellcoreteam/billing.git
+clear
+cd whatsapp-crm-backend/
+git status 
+git commit src/modules/channel-partner/constants/channel-partner.ts src/modules/channel-partner/services/channel-partner-customers.service.ts src/modules/channel-partner/use-cases/create-referral-partner-customer.use-case.ts 
+git add src/modules/channel-partner/constants/channel-partner.ts src/modules/channel-partner/services/channel-partner-customers.service.ts src/modules/channel-partner/use-cases/create-referral-partner-customer.use-case.ts 
+git commit -m "fix(referral-partner)"
+clear
+git push origin anant/dashboard
+clear
+rm -r .cache/hoppscotch/
+rm -r .local/share/hoppscotch/
+paru -Sy hoppscotch-bin 
+clear
+bash
+rm -r .local/share/hoppscotch/
+rm -r .cache/hoppscotch/
+paru -Rcns hoppscotch-bin 
+paru -Sy hoppscotch-bin 
+clear
+./bluetooth.sh
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+bluetoothctl disconnect 
+sudo powertop --auto-tune 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+cd whatsapp-crm-backend/
+cd QuickSell/whatsapp-crm-backend/
+clear
+git status 
+git stash
+clear
+git checkout anant/referral-partner 
+git add src/modules/channel-partner/use-cases/referral-partner-details.use-case.ts 
+git commit -m "fix(referral-partner): necessary files"
+clear
+git push origin anant/referral-partner
+git checkout anant/dashboard 
+git pull origin anant/referral-partner
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+paru
+nmcli device wifi connect "A 10 5G"
+nmcli device wifi connect "A 10 5G" 
+paru
+clear
+flatpak install flathub app.zen_browser.zen
+clear
+zen-browser --v
+clear
+flatpak run app.zen_browser.zen 
+paru -Rcns zen-browser-bin 
+clear
+flatpak install flathub org.gnome.Fractal
+flatpak update
+flatpak uninstall  com.rustdesk.RustDesk  
+flatpak install flathub org.gnome.Fractal
+clear
+v ~/Documents/matrix:anant-357:rec_key
+flatpak run org.gnome.Fractal 
+flatpak uninstall com.slack.Slack 
+clear
+flatpak uninstall io.github.qwersyk.Newelle 
+ls /usr/share/themes/Gruvbox-Dark/index.theme
+cat /usr/share/themes/Gruvbox-Dark/index.theme
+mkdir .themes
+mv /usr/share/themes/Gruvbox-Dark/ .themes/
+sudo mv /usr/share/themes/Gruvbox-Dark/ .themes/
+ls .themes/Gruvbox-Dark/
+rm -r .themes/Gruvbox-Dark/
+sudo mv /usr/share/themes/Gruvbox-Dark/ .themes/
+ls .themes/
+ls .themes/Gruvbox-Dark/
+clear
+sudo mv /usr/share/themes/Gruvbox-Dark-BL/ .themes/
+sudo rm -r /usr/share/themes/Emacs/
+sudo rm -r /usr/share/themes/Gruvbox-Dark-BL-LB.zip 
+sudo rm -r /usr/share/themes/Gruvbox-Dark-hdpi/
+sudo rm -r /usr/share/themes/Gruvbox-Dark-xhdpi/
+clear
+paru -Rcns discord-canary 
+clear
+cd Downloads/
+ls
+./Hoppscotch_linux_x64.AppImage
+sudo chmod +x hoppscotch 
+sudo chmod +x Hoppscotch_linux_x64.AppImage 
+./Hoppscotch_linux_x64.AppImage
+rm Hoppscotch_linux_x64.AppImage
+clear
+lshw --help
+paru -Rcns lshw power-options-gtk 
+paru -Rcns bleachbit 
+flatpak uninstall io.github.realmazharhussain.GdmSettings 
+clear
+flatpak uninstall  fr.romainvigier.MetadataCleaner 
+clear
+ls
+cat get_icon.sh 
+ls /usr/share/applications/org.gnome.Loupe.desktop
+cat /usr/share/applications/org.gnome.Loupe.desktop
+./get_icon.sh
+chmod +x get_icon.sh 
+./get_icon.sh
+v get_icon.sh 
+./get_icon.sh
+v get_icon.sh 
+clear
+niri msg windows
+v get_icon.sh 
+./get_icon.sh
+ls /var/lib/flatpak/exports/share/applications/com.jetbrains.WebStorm.desktop
+cat /var/lib/flatpak/exports/share/applications/com.jetbrains.WebStorm.desktop
+./get_icon.sh
+v ./get_icon.sh 
+clear
+cd QuickSell/whatsapp-crm-backend/
+git status 
+git stash list 
+git stash apply 
+git status 
+clear
+git stash list
+git status 
+git add src/modules/channel-partner/infra/dtos/channel-partner-customer.dto.ts src/modules/channel-partner/infra/rest/controllers/v1/channel-partner.controller.ts src/modules/channel-partner/interfaces/channel-partner-customer.interface.ts src/modules/channel-partner/services/channel-partner-customers.service.ts src/modules/channel-partner/services/channel-partner-lead.service.ts src/modules/channel-partner/use-cases/create-referral-partner-customer.use-case.ts src/shared/infra/database/postgres/entities/channel-partner-lead.entity.ts src/shared/infra/database/postgres/repositories/channel-partner-lead.repository.ts 
+clear
+git status 
+clear
+git status 
+git commit -m "feat(referral-partner): leads and get-customers logic"
+clear
+git push origin anant/dashboard
+git commit -m "refactor(referral-partner): remove comments"
+git add src/modules/channel-partner/services/channel-partner-customers.service.ts 
+git commit -m "refactor(referral-partner): remove comments"
+git push origin anant/dashboard
+git commit -m "refactor(referral-partner): merge api for referral partner and whitelabel"
+git add src/modules/channel-partner/use-cases/channel-partner-customer-list.use-case.ts 
+git commit -m "refactor(referral-partner): merge api for referral partner and whitelabel"
+git push origin anant/dashboard
+./bluetooth.sh
+cd 
+./bluetooth.sh
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+cd QuickSell/whatsapp-crm-backend/
+git checkout anant/referral-partner 
+clear
+git add src/modules/channel-partner/constants/channel-partner.ts src/modules/channel-partner/infra/dtos/referral-partner.dto.ts src/modules/channel-partner/use-cases/referral-partner-details.use-case.ts src/modules/channel-partner/use-cases/referral-partner-get-all-details.use-case.ts src/modules/channel-partner/use-cases/update-referral-partner-bank-details.use-case.ts 
+git commit -m "fix(referral-partner): additional info, (un)necessary files"
+git push origin anant/referral-partner
+clear
+git checkout anant/dashboard 
+git pull origin anant/referral-partner
+clear
+git status 
+clear
+git push origin anant/dashboard
+clear
+git status 
+clear
+paru
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+v ~/.config/nushell/config.nu 
+clear
+cd QuickSell/whatsapp-crm-backend/
+clear
+git branch anant/get-leads
+git checkout anant/get-leads 
+clear
+git add src/modules/channel-partner/channel-partner.module.ts src/modules/channel-partner/infra/rest/controllers/v1/channel-partner.controller.ts src/modules/channel-partner/interfaces/channel-partner-customer.interface.ts src/modules/channel-partner/services/channel-partner-lead.service.ts src/modules/channel-partner/use-cases/create-referral-partner-customer.use-case.ts src/modules/channel-partner/use-cases/get-channel-partner-leads.use-case.ts src/shared/infra/database/postgres/entities/channel-partner-lead.entity.ts src/shared/infra/database/postgres/repositories/channel-partner-lead.repository.ts 
+git commit -m "feat(referral-partner): get leads api"
+clear
+git push origin anant/get-leads
+clear
+git checkout anant/dashboard 
+clear
+git add src/modules/channel-partner/services/channel-partner-lead.service.ts src/modules/channel-partner/use-cases/create-referral-partner-customer.use-case.ts src/shared/infra/database/postgres/entities/channel-partner-lead.entity.ts 
+git commit -m "fix(referral-partner): handle uuid properly"
+git push origin anant/dashboard
+clear
+paru
+sudo powertop --auto-tune 
+clear
+sudo powertop --auto-tune 
+clear
+mpc play
+mpc pause
+mpc play
+mpc pause
+clear
+paru
+clear
+cd Downloads/
+bash
+clear
+ls
+cd ..
+ls
+du
+cd dev/
+ls
+du
+rm -r /home/fisher/dev/lobar/
+clear
+paru -Scc
+clear
+cd ..
+cd Downloads/
+bash
+clear
+du
+paru -Sy baobob
+paru -Sy baobab
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+paru
+clear
+paru
+clear
+bluetoothctl disconnect 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+mpc list
+mpc listplaylist
+mpc listplaylists
+mpc --help
+mpc help
+mpc lsplaylists
+mpc clear
+clear
+paru
+paru -Rcns zoxide 
+paru -Sy wf-recorder
+wf-recorder 
+wf-recorder --help
+ls
+mpv recording.mkv 
+clear
+nmcli device wifi connect "moto g84 5G_9188" 
+clear
+paru
+nmcli device wifi connect "A 10 5G" 
+clear
+flatpak update
+clear
+paru
+clear
+v ~/.config/nushell/env.nu 
+clear
+clewar
+clear
+v ~/.config/nushell/config.nu 
+clear
+paru
+clear
+paru
+bash
+clear
+paru
+clear
+paru
+flatpak update
+clear
+paru
+clear
+paru
+clear
+flatpak update
+clear
+sudo powertop --auto-tune 
+clear
+./bluetooth.sh
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+bluetoothctl disconnect 
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+paru
+clear
+bluetoothctl disconnect 
+clear
+paru
+flatpak update
+clear
+paru
+niri msg action | grep "or"
+eccho "Hello"
+echo "Hello"
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+exit
+paru
+clear
+flatpak update
+clear
+paru
+clear
+paru
+clear
+tcl --version
+paru -Sy tcl tk
+clear
+par
+clear
+pkill ghostty
+bluetoothctl disconnect 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+paru
+clear
+./bluetooth.sh
+bluetoothctl connect 74:2A:8A:04:0E:74 
+paru
+flatpak update
+clear
+swww img ~/dev/dotfiles-wayland/wallpapers/wp9637442.webp
+swww img ~/dev/dotfiles-wayland/wallpapers/wallhaven-rdvyjw_1920x1080.png
+swww img ~/dev/dotfiles-wayland/wallpapers/wallhaven-r0w5p0_1920x1080.png
+swww img ~/dev/dotfiles-wayland/wallpapers/wallhaven-p9x8rm_1920x1080.png
+swww img ~/dev/dotfiles-wayland/wallpapers/wallhaven-
+swww img ~/dev/dotfiles-wayland/wallpapers/wallhaven-4gxwl0_1920x1080.png
+swww img ~/dev/dotfiles-wayland/wallpapers/wallhaven-54lqq0_1920x1080.png
+swww img ~/dev/dotfiles-wayland/wallpapers/wallhaven-768zy3_1920x1080.png
+swww img ~/dev/dotfiles-wayland/wallpapers/wallhaven-851g8o_1920x1080.png
+swww img ~/dev/dotfiles-wayland/wallpapers/wallhaven-95wey8_1920x1080.png
+swww img ~/dev/dotfiles-wayland/wallpapers/wallhaven-e76pew_1920x1080.png
+swww img ~/dev/dotfiles-wayland/wallpapers/wallhaven-j3qq15_1920x1080.png
+swww img ~/dev/dotfiles-wayland/wallpapers/wallhaven-kx6rjm_1920x1080.png
+swww img ~/dev/dotfiles-wayland/wallpapers/wallhaven-lmwglr_1920x1080.png
+swww img ~/dev/dotfiles-wayland/wallpapers/wallhaven-nr7zq0_1920x1080.png
+swww img ~/dev/dotfiles-wayland/wallpapers/wallhaven-r0w5p0_1920x1080.png
+clear
+swww img ~/dev/dotfiles-wayland/wallpapers/wallhaven-4gxwl0_1920x1080.png
+swww img ~/dev/dotfiles-wayland/wallpapers/wallhaven-p9x8rm_1920x1080.png
+cd QuickSell/whatsapp-crm-backend/
+git add src/modules/channel-partner/services/channel-partner-customers.service.ts 
+git commit -m "fix(referral-partner): correct column name"
+git push origin anant/dashboard
+clear
+git checkout anant/get-leads 
+clear
+git log
+git pull anant/dashboard
+git pull . anant/dashboard
+git stash
+git pull . anant/dashboard
+git status 
+clear
+git status 
+git stash list 
+git stash apply 
+clear
+git add .
+clear
+git status 
+git commit -m "feat(referral-partner): delete lead api"
+clear
+flatpak update
+paru
+clear
+cd QuickSell/whatsapp-crm-backend/
+git status 
+git push origin anant/get-leads
+clear
+git checkout anant/referral-partner 
+git pull origin master
+clear
+git status 
+git add .
+git commit -m "Merge origin into anant/referral-partner"
+git status 
+clear
+paru
+clear
+bash
+git push origin anant/referral-partner
+git pull
+clear
+git pull origin anant/referral-partner
+clear
+git status
+git push origin anant/referral-partner
+clear
+git checkout anant/dashboard 
+git pull . anant/referral-partner
+git status 
+clear
+git status 
+git add .
+git status 
+clear
+git commit -m "Merge anant/referral-partner into anant/dashboard"
+git status 
+git stash
+git checkout anant/get-leads 
+git pull . anant/dashboard
+clear
+git add .
+git status 
+git commit -m "Merge anant/dashboard into anant/leads"
+clear
+git status 
+clear
+git checkout anant/dashboard 
+git push origin anant/dashboard
+clear
+git checkout anant/get-leads 
+git push origin anant/get-leads
+clear
+cd QuickSell/whatsapp-crm-backend/
+git diff anant/dashboard
+clear
+git checkout anant/dashboard 
+clear
+git stash apply 
+clear
+git stash apply 
+git add .
+git commit -m "fix(referral-partner): rectify entity and repository"
+clear
+git push origin anant/dashboard
+git checkout anant/get-leads 
+git pull . anant/dashboard
+clear
+git status 
+git add .
+git commit -m "Merge anant/dashboard into anant/leads"
+clear
+git push origin anant/get-leads
+clear
+paru
+clear
+mpc play
+mpc pause
+clear
+mpc add 'Bandook Meri Laila Song.webm'
+mpc play
+mpc paise
+mpc pause
+mpc add 'Bandook Meri Laila Song.opus'
+ls /disks/notwork/Music/
+ls /disks/notwork/Music/ | sort-by name
+touch /disks/notwork/Music/t
+rm /disks/notwork/Music/Bandook*
+mpc rescan
+mpc clear
+mpc rescan
+systemctl --user restart mpd
+mpc rescan
+mpc add 'Bandook Meri Laila Song.opus'
+mpc play
+paru
+clear
+mpc pause
+clear
+mpc --help
+mpc help
+clear
+paru -Rcns xwayland-satellite 
+pkill xwayland-satell 
+clear
+paru
+clear
+flatpak install flathub com.spotify.Client
+clear
+flatpak run com.spotify.Client 
+paru -Sy spotify 
+clear
+spotify 
+spotify --enable-features=UseOzonePlatform --ozone-platform=wayland
+cleaer
+clear
+v /usr/share/applications/spotify.desktop 
+sudo v /usr/share/applications/spotify.desktop 
+sudo nvim /usr/share/applications/spotify.desktop 
+clear
+pkill eww
+niri msg action spawn
+niri msg action spawn "eww daemon"
+niri msg action spawn "eww" "daemon"
+niri msg action spawn --help
+niri msg action spawn eww daemon
+clear
+paru
+clear
+paru
+clear
+paru -Sy neofetch
+clear
+neofetch
+clear
+paru -Rcns neofetch
+clear
+sudo powertop --auto-tune 
+clear
+mpc listall
+clear
+flatpak uninstall com.spotify.Client 
+clear
+xdg-open 
+sudo nvim /usr/share/applications/spotify.desktop 
+clear
+xdg-open spotify
+spotufy
+spotify
+clear
+paru -Sy dex
+clear
+dex spotify
+./bluetooth.sh
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+sleep 1sec; niri msg focused-window
+v try.py
+python try.py 
+sudo pacman -S python-dbus<\n>
+python try.py 
+clear
+sudo pacman -S python-pydbus<\n>
+python try.py 
+python -c "import dbus"<\n>
+python3 -m pip show dbus-python
+paru -Rcns pyenv 
+clear
+python3 -m pip show dbus-python
+rm -r .pyenv/
+clear
+python3 -m pip show dbus-python
+python -c "import dbus"
+clear
+python try.py 
+nvim ~/try.py 
+python try.py 
+clear
+mv try.py song.py
+clear
+mv song.py get_icon.sh ~/.config/eww/scripts/
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+bluetoothctl disconnect 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+bluetoothctl disconnect 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+eww reload topbar
+eww close topbar
+eww open topbar
+eww help
+eww open --toggle topbar
+clear
+./bluetooth.sh
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+paru
+clear
+v try.py
+python try.py 
+clear
+v try.py
+python try.py 
+mv try.py ~/.config/eww/scripts/song.py
+clear
+eww state
+eww reload
+eww kill
+eww daemon
+eww open topbar
+eww kill
+eww open topbar
+clear
+eww kill
+eww open music_cover
+eww kill
+eww open music_cover
+paru -Sy python-requests
+clear
+eww kill
+eww open music_cover
+eww kill
+eww open topbar
+eww open music_cover
+eww kill
+eww open music_cover
+eww kill
+eww open music_cover
+eww kill
+eww open music_cover
+eww kill
+eww open music_cover
+eww kill
+eww open music_cover
+flatpak update
+clear
+paru
+flatpak update
+clear
+paru
+clear
+sudo rm .var/app/com.jetbrains.WebStorm/config/JetBrains/WebStorm2024.3/.lock 
+clear
+rm .var/app/com.jetbrains.WebStorm/config/JetBrains/WebStorm2024.3/.lock
+paru -Sy xwayland-satellite 
+cd QuickSell/whatsapp-crm-backend/
+git status 
+git add .
+git commit -m "fix(referral-partner): auth guards and other fixes"
+clear
+git push origin anant/get-leads
+clear
+./bluetooth.sh
+bluetoothctl connect 74:2A:8A:04:0E:74 
+paru
+clear
+flatpak update
+clear
+eww open music_cover
+clear
+eww kill
+eww open music_cover
+eww kill
+eww open music_cover
+eww kill
+eww open music_cover
+eww kill
+eww open music_cover
+eww kill
+eww open music_cover
+eww kill
+eww open music_cover
+eww help
+eww inspector
+clear
+eww kill
+paru -Sy spotifyd
+clear
+spotifyd --help
+spotifyd --use-mpris
+spotifyd --username "k0f04y4vvnlgep0o8mmzmn1nw" --password "reynold12*"
+spotifyd --username "k0f04y4vvnlgep0o8mmzmn1nw" --password "reynold12*" --no-daemon
+clear
+paru -Rcns spotifyd
+clear
+paru
+clear
+paru
+clear
+flatpak update
+clear
+bluetoothctl disconnect 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+sudo powertop --auto-tune 
+clear
+cd .config/eww/
+cd scripts/
+ls
+cd ..
+ls
+imv cover.jpg 
+cd Downloads/
+cd Assets/
+clear
+du
+cd others/
+du
+cd Tera/
+du
+clear
+du
+clear
+du
+cd ..
+du
+clear
+du
+cd ..
+clear
+du
+cd new/
+ls
+clear
+du
+cd store/
+clear
+du
+cd new4/
+clear
+du
+du | sort-by apparent
+clear
+cd ..
+du | sort-by apparent
+cd ..
+ls
+cd ..
+clear
+du | sort-by apparent
+cd IIITG/
+clear
+du | sort-by apparent
+cd `IIITG Batch 2020-24/`
+clear
+du | sort-by apparent
+cd shivangi/
+du | sort-by apparent
+cd orig/
+clear
+du | sort-by apparent
+cd shiv_data/
+clear
+du | sort-by apparent
+mpv 7_00032172.mp4 
+flatpak install flathub io.gitlab.adhami3310.Footage
+clear
+ls
+mpv 7_00032172.mp4 
+clear
+flatpak install flathub org.shotcut.Shotcut
+flatpak install flathub io.github.jliljebl.Flowblade
+clear
+flatpak uninstall io.github.jliljebl.Flowblade
+clear
+du | sort-by apparent
+mpv 5_00053919.mp4 
+mpv 8_00029711.mp4 
+clear
+ls
+mpv "Movie on 21-02-21 at 10.25 AM.mov" 
+clear
+ls
+cd ..
+clear
+ls
+cd ..
+clear
+ls
+./bluetooth.sh
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+paru
+clear
+flatpak update
+clear
+python ./.config/eww/scripts/song.py 
+dbus-monitor --session
+clear
+paru
+clear
+flatpak update
+cd ..
+./bluetooth.sh
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+paru
+clear
+paru
+clear
+cd QuickSell/whatsapp-crm-backend/
+clear
+git branch anant/commission
+git checkout anant/commission 
+clear
+git status 
+clear
+git log
+clear
+paru
+clear
+flatpak update
+clear
+sudo powertop --auto-tune 
+clear
+paru
+clear
+flatpak update
+clear
+paru
+clear
+bluetoothctl disconnect 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+paru
+clear
+paru
+clear
+bluetoothctl disconnect 
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+paru
+clear
+flatpak update
+clear
+paru -Sy waychek
+paru -Sy waycheck
+flatpak install flathub menu.kando.Kando
+clear
+flatpak run menu.kando.Kando
+flatpak uninstall menu.kando.Kando
+clear
+paru -Sy kand
+paru -Sy kando-bin 
+clear
+kando 
+paru -Rcns kando-bin 
+clear
+flatpak install flathub org.gnome.Papers
+paru
+paru -Sy zoom
+clear
+sudo powertop --auto-tune 
+zoom 
+paru
+flatpak update
+clear
+./bluetooth.sh
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+cd .config/
+ls
+cd gtk-4.0/
+ln -sf ~/.themes/Gruvbox-Dark/gtk-4.0/ gtk-4.0
+ls
+cd gtk-3.0/
+cd ..
+cd gtk-4.0
+ls
+cd ..
+mkdir gtk
+cp -r gtk-4.0/* gtk/
+rm gtk-4.0
+mv gtk gtk-4.0
+clear
+cd QuickSell/whatsapp-crm-backend/
+git checkout anant/referral-partner 
+git status 
+git add src/modules/channel-partner/constants/channel-partner.ts src/modules/channel-partner/infra/dtos/referral-partner.dto.ts src/modules/channel-partner/use-cases/update-referral-partner-bank-details.use-case.ts 
+clear
+git commit -m "fix(referral-partner): add accountHolderName for international partners"
+git push origin anant/referral-partner
+clear
+git checkout anant/dashboard 
+git pull . anant/referral-partner
+git status 
+git checkout anant/get-leads 
+git pull anant/dashboard
+git pull .anant/dashboard
+git pull . anant/dashboard
+clear
+git status 
+git checkout anant/commission 
+git pull . anant/get-leads
+clear
+paru
+clear
+paru
+clear
+flatpak update
+clear
+sudo powertop --auto-tune 
+clear
+cat .aws/credentials 
+v .aws/credentials 
+clear
+bluetoothctl disconnect 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+cd QuickSell/whatsapp-crm-backend/
+git checkout anant/referral-partner 
+clear
+git checkout anant/commission 
+clear
+sudo powertop --auto-tune 
+clear
+paru
+nmcli device wifi connect "A 10 5G" 
+clear
+paru
+clear
+flatpak update
+clear
+bash ~/.config/eww/scripts/get_icon.sh 
+sleep 1sec; bash ~/.config/eww/scripts/get_icon.sh 
+clear
+sleep 1sec; bash ~/.config/eww/scripts/get_icon.sh 
+ls .local/share/applications/
+ls /usr/share/applications/ | grep "slack"
+niri msg windows
+bash ~/.config/eww/scripts/get_icon.sh 
+sleep 1sec; bash ~/.config/eww/scripts/get_icon.sh 
+clear
+paru
+nmcli device wifi connect "A 10 5G" 
+clear
+paru
+clear
+bluetoothctl connect 74:2A:8A:04:0E:74 
+./bluetooth.sh
+bluetoothctl connect 74:2A:8A:04:0E:74 
+bluetoothctl disconnect 
+bluetoothctl connect 74:2A:8A:04:0E:74 
+clear
+paru
+clear
+flatpak update
+clear
+paru -Sy wayneko-git 
+wayneko 
+clear
+niri msg action spawn 
+niri msg action spawn -- wayneko
+clear
+paru
+clear
+paru
+clear
+flatpak update
+pkill wayneko 
+niri msg action spawn -- wayneko
+clesr
+clear
+paru -Sy noto-fonts-emoji 
+clear
+paru -Sy smile 
+c
+clear
+paru -Sy emojimart-bin 
+clear
+emojimart 
+paru -Rcns emojimart-bin 
+niri msg windows
+niri validate
+paru -Sy wev 
+clear
+wev
+clear
+wev
+clear
+niri validate
+flatpak install flathub it.mijorus.collector
+clear
+niri msg windows
+paru
+clear
+flatpak update 
+clear
+flatpak list 
+flatpak uninstall page.kramo.Sly se.sjoerd.Graphs org.kde.Platform io.gpt4all.gpt4all.Locale org.gnome.Papers
+clear
+flatpak list 
+clear
+flatpak list 
+flatpak uninstall org.nuckvision.tubeconverter org.kde.Kstyle.Adwaita io.gitlab.adhami3310.Footage
+flatpak uninstall org.nickvision.tubeconverter org.kde.KStyle.Adwaita 
+clear
+flatpak repo 
+flatpak remote-add --if-not-exists flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo
+flatpak list
+flatpak install flathub-beta org.gnome.Loupe
+clear
+cd Downloads/
+ls
+unzip loupe-48.alpha.zip 
+cd loupe-48.alpha/
+clear
+ls
+git clone https://gitlab.gnome.org/GNOME/loupe.git
+cd loupe/
+clear
+cargo build
+clear
+cd target/debug/
+ls
+./loupe
+cd examples/
+ls
+cd //
+cargo build
+cdlear
+cd -
+clear
+clear
+cargo run
+cd ..
+rm -r loupe/
+clear
+flatpak install gnome-nightly org.gnome.Loupe.Devel
+flatpak remote-add --if-not-exists gnome-nightly https://nightly.gnome.org/gnome-nightly.flatpakrepo
+cd ..
+cd ~/Downloads/
+ls
+rm -r loupe-48.alpha/
+flatpak install gnome-nightly org.gnome.Loupe.Devel
+rm loupe-48.alpha.zip
+clear
+ls
+clear
+flatpak run org.gnome.Loupe.Devel
+clear
+flatpak list
+flatpak uninstall org.gnome.Loupe
+paru -Rcns shotwell 
+clear
+paru -Rcns loupe 
+clear
+cd dev/
+ls
+rm -r gtkc/
+cd outputs/
+ls
+paru
+clear
+flatpak update
+cleasr
+clear
+flatpak update
+clear
+flatpak update
+clear
+exit
+paru
+clear
+paru -Rcns luanti 
+clear
+./bluetooth.sh
+bluetoothctl connect 74:2A:8A:04:0E:74 
+flatpak update
+paru
+flatpak install flathub dev.zed.Zed
+flatpak install flathub io.gitlab.theevilskeleton.Upscaler
+flatpak run dev.zed.Zed 
+clear
+ls
+clear
+yazi .
+clear
+cd /dev/
+ls
+cd ~/dev/
+clear
+ls
+cd dotfiles-wayland/
+ls
+git status 
+git add .
+git status 
+rm -r lemurs/

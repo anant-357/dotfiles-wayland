@@ -1,5 +1,5 @@
 def create_left_prompt [] {
-    let dir = match (do --ignore-shell-errors { $env.PWD | path relative-to $nu.home-path }) {
+    let dir = match (do --ignore-errors { $env.PWD | path relative-to $nu.home-path }) {
         null => $env.PWD
         '' => '~'
         $relative_pwd => ([~ $relative_pwd] | path join)
@@ -18,7 +18,7 @@ def create_right_prompt [] {
     let git_segment = if ($git_current_ref != "") {
         $"(ansi yellow)󰘬 ($git_current_ref) " 
     }
-
+    
     $git_segment
 }
 
@@ -53,10 +53,13 @@ $env.NU_PLUGIN_DIRS = [
     ($nu.default-config-dir | path join 'plugins') 
 ]
 
-zoxide init nushell | save -f ~/.zoxide.nu
-
-mkdir ~/.cache/starship
-starship init nu | save -f ~/.cache/starship/init.nu
+alias ll = ls -l
+alias v = nvim 
+alias vi = nvim 
+alias vim = nvim
+alias cat = bat 
+alias la = ls -a
+alias lla = ls -la
 
 $env.BUNDLE_PATH = ''
 
