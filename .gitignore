@@ -17,4 +17,4 @@ mpd/.config/mpd/database
 
 nvim/.config/nvim/lazy-lock.json
 zellij/.config/zellij/plugins/zjstatus.wasm
-
+nushell/.config/nushell/history.txt
