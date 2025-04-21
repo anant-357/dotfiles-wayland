@@ -2,10 +2,18 @@ shell-integration  = detect
 font-family = FiraCode Nerd Font Mono
 theme = GruvboxDarkHard
 command = nu
-window-decoration = false
+window-decoration = true
 cursor-style = block
 mouse-hide-while-typing = true
 keybind = ctrl+o=toggle_quick_terminal
+keybind = ctrl+n=new_tab
+keybind = ctrl+w=close_tab
+keybind = alt+n=new_split:right
+keybind = alt+shift+n=new_split:down
+keybind = alt+up=goto_split:up
+keybind = alt+down=goto_split:down
+keybind = alt+right=goto_split:right
+keybind = alt+left=goto_split:left
 background-opacity = 0.75
 window-padding-x = 16
 window-padding-y = 12
