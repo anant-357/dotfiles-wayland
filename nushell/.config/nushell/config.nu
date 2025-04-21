@@ -47,4 +47,3 @@ def start_zellij [] {
 
 source ~/.config/nushell/catppuccin-mocha.nu
 
-start_zellij
