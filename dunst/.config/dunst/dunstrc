@@ -1,16 +1,33 @@
 [global]
-width = (50, 300)
+width = (200, 400)
 notification_limit = 10
+
+origin = "bottom-right"
+offset = (10, 10)
+
 font = "Playfair 12"
-corner_radius = 8
-frame_width = 0
+format = "<span size='small'><b>%a</b></span>\n<span size='medium' weight='bold'>%s</span>\n<span size='small'>%b</span>"
+
+icon_position = left
+icon_theme = "Adwaita"
+enable_recursive_icon_lookup = true
+icon_corner_radius = 4
+min_icon_size = 128
+
+transparency = 10
+
+corner_radius = 10
+frame_width = 2
+
+padding = 16
+horizontal_padding = 16
+separator_height = 2
+
 progress_bar = true
 progress_bar_height = 10
 progress_bar_frame_width = 0
 progress_bar_corner_radius = 4 
-format = "<span size='xx-small'><b>%a</b></span>\n<b>%s</b>\n%b"
-enable_recursive_icon_lookup = true
-icon_theme = "Adwaita"
+
 browser = /bin/zen-browser
 
 [default]
