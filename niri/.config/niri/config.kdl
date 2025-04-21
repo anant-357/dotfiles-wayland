@@ -31,6 +31,7 @@ spawn-at-startup "gammastep" "-O" "5000"
 spawn-at-startup "wluma"
 spawn-at-startup "way-edges"
 spawn-at-startup "dunst"
+spawn-at-startup "~/.local/bin/clipboard-manager.sh" "monitor"
 
 
 input {
@@ -281,6 +282,7 @@ window-rule {
     match app-id="com.mitchellh.ghostty"
     match app-id="spotify"
     match app-id="it.mijorus.smile"
+    match app-id="Slack" title="^Huddle.*$"
     open-floating true
     draw-border-with-background false
     }
@@ -348,6 +350,7 @@ binds {
     Mod+W { toggle-column-tabbed-display; }
     Mod+Return { spawn "ghostty"; }
     Mod+Tab { spawn "~/.config/niri/switcher.sh"; }
+    Mod+H { spawn "~/.local/bin/clipboard-manager.sh" "pick"; }
     Mod+r { spawn "fuzzel"; }
     Mod+b { spawn "flatpak" "run" "app.zen_browser.zen"; }
     Mod+c { spawn "chromium"; }
