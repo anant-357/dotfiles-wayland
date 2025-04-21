@@ -1,7 +1,6 @@
 user_configs=(
     bat
     dunst
-    eww
     fuzzel
     ghostty
     niri
@@ -10,7 +9,6 @@ user_configs=(
     systemd
     way-edges
     zathura
-    zellij
 )
 
 user_home_configs=(
