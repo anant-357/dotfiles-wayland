@@ -37,3 +37,6 @@ vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
 vim.opt.inccommand = 'split'
 
 vim.opt.cursorline = true
+
+vim.o.completeopt = "menu,noinsert,popup,fuzzy"
+vim.diagnostic.config { virtual_lines = true, virtual_text = { current_line = true } }
