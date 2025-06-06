@@ -20,17 +20,15 @@ environment {
     MOZ_ENABLE_WAYLAND "1";
     // Custom
     BROWSER "zen-browser";
-    EDITOR "neovide";
-    LAUNCHER "eww open launcher";
+    EDITOR "zeditor";
+    LAUNCHER "rofi -show dmenu";
     TERMINAL "ghostty";
 }
 
 spawn-at-startup "xwayland-satellite"
-spawn-at-startup "swww-daemon"
 spawn-at-startup "gammastep" "-O" "5000"
 spawn-at-startup "wluma"
-spawn-at-startup "way-edges"
-spawn-at-startup "dunst"
+spawn-at-startup "ironbar"
 spawn-at-startup "~/.local/bin/clipboard-manager.sh" "monitor"
 
 
@@ -54,7 +52,7 @@ output "eDP-1" {
     mode "1920x1080@60.019"
     scale 1
     variable-refresh-rate
-    background-color "#171717"
+    background-color "#282828"
 }
 
 prefer-no-csd
@@ -90,8 +88,7 @@ layout {
         off
     }
     border {
-        off
-        width 2
+        width 1
         active-color "ebdbb2"
         inactive-color "ffefa7"
     }
@@ -102,7 +99,6 @@ layout {
         bottom 4
     }
     shadow {
-        on
         softness 24
         spread 12
         offset x=0 y=5
@@ -114,14 +110,32 @@ layout {
     }
 }
 
+overview {
+    zoom 0.64
+    workspace-shadow {
+        softness 24
+        spread 12
+        offset x=0 y=5
+        color "#9f9f9f90"
+    }
+    backdrop-color "#aaaaaa"
+}
+
 cursor {
     xcursor-theme "Posy_Cursor_Mono_Black"
     xcursor-size 24
+    hide-when-typing
+    hide-after-inactive-ms 1000
+}
+
+hotkey-overlay {
+    skip-at-startup
 }
 
 animations {
+    off
     workspace-switch {
-        spring damping-ratio=1.0 stiffness=800 epsilon=0.0001
+        spring damping-ratio=0.8 stiffness=200 epsilon=0.0001
     }
 
     horizontal-view-movement {
@@ -274,7 +288,7 @@ vec4 glitch_transition(vec3 coords_geo, vec3 size_geo) {
    }
 }
 window-rule {
-    geometry-corner-radius 6
+    geometry-corner-radius 0
     clip-to-geometry true
     }
 
@@ -283,6 +297,7 @@ window-rule {
     match app-id="spotify"
     match app-id="it.mijorus.smile"
     match app-id="Slack" title="^Huddle.*$"
+    exclude title="ncspot"
     open-floating true
     draw-border-with-background false
     }
@@ -309,10 +324,11 @@ window-rule {
 }
 
 layer-rule {
-    match namespace="launcher" 
+    match namespace="launcher"
+    match namespace="rofi"
     match namespace="notifications"
     
-    shadow {
+    /- shadow {
         on
         softness 12
         spread 6
@@ -336,32 +352,36 @@ window-rule {
     max-height 500
     }
 
+    window-rule {
+    match title="ncspot"
+    open-floating true
+    default-floating-position x=0 y=0 relative-to="top-left"
+    min-width 400
+    max-width 400
+    min-height 400
+    max-height 400
+    }
 
 binds {
     Mod+Shift+Slash { show-hotkey-overlay; }
     Mod+Shift+Q { quit; }
-    Mod+L { power-off-monitors; }
-    Mod+Shift+L { spawn "hyprlock"; }
-    Mod+Q { close-window; }
+    Mod+l { power-off-monitors; }
+    Mod+q { close-window; }
     Print { screenshot; }
     Ctrl+Print { screenshot-screen; }
     Alt+Print { screenshot-window; }
-    Mod+V { toggle-window-floating; } 
-    Mod+W { toggle-column-tabbed-display; }
+    Mod+v { toggle-window-floating; } 
+    Mod+w { toggle-column-tabbed-display; }
     Mod+Return { spawn "ghostty"; }
     Mod+Tab { spawn "~/.config/niri/switcher.sh"; }
-    Mod+H { spawn "~/.local/bin/clipboard-manager.sh" "pick"; }
-    Mod+r { spawn "fuzzel"; }
+    Mod+h { spawn "~/.local/bin/clipboard-manager.sh" "pick"; }
+    Mod+r { spawn "rofi" "-show" "drun"; }
     Mod+b { spawn "flatpak" "run" "app.zen_browser.zen"; }
     Mod+c { spawn "chromium"; }
     Mod+e { spawn "nautilus"; }
-    Mod+x { spawn "neovide"; }
-    Mod+s { spawn "slack"; }
-    Mod+Shift+s { spawn "spotify" "--enable-features=UseOzonePlatform" "--ozone-platform=wayland";}
-    Ctrl+Period { spawn "smile"; }
-    Mod+Shift+b { spawn "eww" "open" "--toggle" "bar"; }
-    Mod+Shift+t { spawn "eww" "open" "--toggle" "topbar"; }
-    Mod+Shift+m { spawn "eww" "open" "--toggle" "music_cover"; }
+    Mod+x { spawn "zeditor"; }
+    Mod+s { spawn "ghostty" "--window-width=300" "--window-height=200" "--window-position-x=0" "--window-position-y=0" "-e" "ncspot";}
+    Ctrl+Period { spawn "rofi" "-show" "emoji"; }
     XF86AudioRaiseVolume { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "4%+"; }
     XF86AudioLowerVolume { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "4%-"; }
     XF86AudioMute {spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SINK@" "toggle";}
@@ -370,6 +390,7 @@ binds {
     XF86MonBrightnessDown { spawn "brightnessctl" "set" "50-";}
     Shift+XF86MonBrightnessDown { spawn "brightnessctl" "set" "750-";}
     Mod+Shift+F { fullscreen-window; }
+    Mod+Ctrl+F { toggle-windowed-fullscreen; }
     Mod+F { maximize-column; }
     Mod+Shift+E { switch-preset-column-width; }
     Mod+Minus { set-column-width "-10%"; }
