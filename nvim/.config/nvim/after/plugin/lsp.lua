@@ -1,53 +1,37 @@
-vim.lsp.config.luals = {
-    cmd = { 'lua-language-server' },
-    filetypes = { 'lua' },
-    root_markers = { '.luarc.json', '.luarc.jsonc' },
-    settings = {
-        Lua = {
-            runtime = {
-                version = 'LuaJIT',
-                diagnostics = { globals = { 'vim' } },
-                workspace = {
-                    library = {
-                        vim.fn.expand("$VIMRUNTIME/lua"),
-                        vim.fn.expand("$VIMRUNTIME/lua/vim"),
-                    },
-                    checkThirdParty = false, -- Avoids "third-party library" warning
-                },
-            }
-        }
-    }
-}
+vim.lsp.enable({ "lua_ls", "rust_analyzer", "gopls" })
 
-
-vim.lsp.config.rust_analyzer = {
-    cmd          = { "rust-analyzer" },
-    filetypes    = { "rust" },
-    root_markers = { "Cargo.toml" },
-    settings     = {
-        ["rust-analyzer"] = {
-            cargo = { allFeatures = true },
-        },
-    },
-}
-
-vim.lsp.enable({ 'luals', 'rust_analyzer' })
-
-vim.api.nvim_create_autocmd('LspAttach', {
-    callback = function(e)
-        local client = vim.lsp.get_client_by_id(e.data.client_id)
-        client.server_capabilities.completionProvider.triggerCharacters = vim.split("qwertyuiopasdfghjklzxcvbnm. ", "")
-        vim.api.nvim_create_autocmd({ 'TextChangedI' }, {
-            buffer = e.buf,
-            callback = function()
-                vim.lsp.completion.get()
-            end
-
-        })
-
-        vim.lsp.completion.enable(true, client.id, e.buf, { autotrigger = true })
-    end
+vim.api.nvim_create_autocmd("LspAttach", {
+	callback = function(ev)
+		local client = vim.lsp.get_client_by_id(ev.data.client_id)
+		if client and client:supports_method("textDocument/completion") then
+			vim.lsp.completion.enable(true, client.id, ev.buf, { autotrigger = true })
+		end
+	end,
 })
 
-vim.keymap.del({ "i", "s" }, "<Tab>")
-vim.keymap.del({ "i", "s" }, "<S-Tab>")
+vim.cmd("set completeopt+=noselect")
+vim.o.winborder = "rounded"
+
+vim.diagnostic.config({
+	virtual_lines = true,
+	virtual_text = true,
+	underline = true,
+	update_in_insert = false,
+	severity_sort = true,
+	float = {
+		border = "rounded",
+		source = true,
+	},
+	signs = {
+		text = {
+			[vim.diagnostic.severity.ERROR] = "󰅚 ",
+			[vim.diagnostic.severity.WARN] = "󰀪 ",
+			[vim.diagnostic.severity.INFO] = "󰋽 ",
+			[vim.diagnostic.severity.HINT] = "󰌶 ",
+		},
+		numhl = {
+			[vim.diagnostic.severity.ERROR] = "ErrorMsg",
+			[vim.diagnostic.severity.WARN] = "WarningMsg",
+		},
+	},
+})
