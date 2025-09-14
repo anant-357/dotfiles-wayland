@@ -11,7 +11,7 @@ let carapace_completer = {|spans: list<string>|
 let external_completer = {|spans| 
     let expanded_alias = scope aliases 
     | where name == $spans.0 
-    | get -i 0.expansion
+    | get -o 0.expansion
 
     let spans = if $expanded_alias != null {
             $spans 
@@ -36,14 +36,6 @@ $env.config = {
         },
     }
 
-def start_zellij [] {
-    if 'ZELLIJ' not-in ($env | columns) {
-        zellij -l home
-        if 'ZELLIJ_AUTO_EXIT' in ($env | columns) and $env.ZELLIJ_AUTO_EXIT == 'true' {
-                exit 
-                }
-        }
-    }
-
 source ~/.config/nushell/catppuccin-mocha.nu
+source ~/.config/nushell/niri-completions.nu
 

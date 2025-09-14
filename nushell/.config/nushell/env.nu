@@ -64,3 +64,4 @@ alias lla = ls -la
 $env.BUNDLE_PATH = ''
 
 $env.PATH = ($env.PATH | split row (char esep) | append "/home/fisher/.deno/bin" | append "/home/fisher/.local/share/gem/ruby/3.3.0/bin")
+
