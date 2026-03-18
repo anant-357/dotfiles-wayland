@@ -7,7 +7,7 @@ user_configs=(
     nvim
     nushell
     systemd
-    way-edges
+    ironbar
     zathura
 )
 

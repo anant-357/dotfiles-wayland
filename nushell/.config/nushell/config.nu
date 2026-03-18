@@ -38,4 +38,4 @@ $env.config = {
 
 source ~/.config/nushell/catppuccin-mocha.nu
 source ~/.config/nushell/niri-completions.nu
-
+source ~/.zoxide.nu

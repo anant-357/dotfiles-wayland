@@ -1,0 +1,156 @@
+@define-color color_bg #ebdbb2;
+@define-color color_bg_dark #1e1d2f;
+@define-color color_border #1e1d2f;
+@define-color color_border_active #ffffff;
+@define-color color_text #282828;
+@define-color color_urgent #8f0a0a;
+
+/* -- base styles -- */
+
+* {
+    font-family: Fira Code;
+    font-size: 12px;
+    border: none;
+    padding: 0px; 
+    margin: 0px;
+}
+
+.background {
+    background-color: transparent;
+}
+
+box, menubar, button {
+    background-color: transparent;
+    background-image: none;
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+label {
+    margin: 8px 5px 8px 5px;
+    padding: 0px 8px;
+    background-color: @color_text;
+    color: @color_bg;
+    border-radius: 8px;
+    border: 0px solid @color_bg;
+    box-shadow: 3px 5px 4px #282828aa;
+}
+
+button {
+    background-color: transparent;
+}
+
+scale trough {
+    min-width: 1px;
+    min-height: 2px;
+}
+
+
+.popup {
+    padding: 1em;
+}
+
+.focused .label {
+    margin: 0;
+    padding: 0;
+    background-color: @color_text;
+    color: @color_bg;
+}
+
+.focused .icon {
+    padding-right: 2px;
+    margin: 0px;
+}
+
+
+.focused {
+    font-weight: bold;
+    margin: 8px 5px 8px 5px;
+    border-radius: 8px;
+    border: 0px solid @color_bg
+    box-shadow: 3px 5px 4px #282828aa;
+}
+
+
+.clipboard > * {
+    font-size: 14px;
+}
+
+.popup-clipboard .item {
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid @color_border;
+}
+
+
+.clock {
+    font-weight: bold;
+}
+
+.popup-clock .calendar-clock {
+    color: @color_text;
+    font-size: 2.5em;
+    padding-bottom: 0.1em;
+}
+
+.popup-clock .calendar {
+    background-color: @color_bg;
+    color: @color_text;
+}
+
+.popup-clock .calendar .header {
+    padding-top: 1em;
+    border-top: 1px solid @color_border;
+    font-size: 1.5em;
+}
+
+.popup-clock .calendar:selected {
+    background-color: @color_border_active;
+}
+
+.music {
+       margin:0px 8px;
+}
+.popup-music .volume .slider {
+    color: red;
+    background-color: red;
+}
+
+/* -- volume -- */
+
+.volume > * {
+    font-size: 13px;
+}
+
+.popup-volume .device-box {
+    border-right: 1px solid @color_border;
+}
+
+.battery .label {
+    margin: 0;
+    padding: 0px 8px;
+    background-color: @color_text;
+    color: @color_bg;
+    border-radius: 8px;
+    border: 0px solid @color_bg
+}
+
+
+.battery {
+    font-weight: bold;
+    margin: 10px 5px 10px 5px;
+}
+
+/* -- custom: power menu -- */
+
+.popup-power-menu {
+}
+
+.popup-power-menu .power-btn {
+    padding: 0.1em 1em;
+}
+
+.workspaces .item.focused {
+    background: yellow;
+}
+
+

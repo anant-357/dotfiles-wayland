@@ -63,5 +63,15 @@ alias lla = ls -la
 
 $env.BUNDLE_PATH = ''
 
-$env.PATH = ($env.PATH | split row (char esep) | append "/home/fisher/.deno/bin" | append "/home/fisher/.local/share/gem/ruby/3.3.0/bin")
+ssh-agent -c
+    | lines
+    | first 2
+    | parse "setenv {name} {value};"
+    | transpose -r
+    | into record
+    | load-env
+
+ssh-add ~/.ssh/anantsh.88
+zoxide init nushell | save -f ~/.zoxide.nu
+clear
 

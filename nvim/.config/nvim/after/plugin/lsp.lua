@@ -18,10 +18,12 @@ vim.diagnostic.config({
 	underline = true,
 	update_in_insert = false,
 	severity_sort = true,
-	float = {
-		border = "rounded",
-		source = true,
-	},
+    float = {
+        border = "rounded",
+        source = true,
+        max_width = 80,
+        header = "",
+    },
 	signs = {
 		text = {
 			[vim.diagnostic.severity.ERROR] = "󰅚 ",

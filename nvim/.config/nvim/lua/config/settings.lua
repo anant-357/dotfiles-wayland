@@ -38,5 +38,6 @@ vim.opt.inccommand = 'split'
 
 vim.opt.cursorline = true
 
-vim.o.completeopt = "menu,noinsert,popup,fuzzy"
-vim.diagnostic.config { virtual_lines = true, virtual_text = { current_line = true } }
+vim.o.completeopt = "menuone,noselect,noinsert,popup,fuzzy"
+vim.opt.pumheight = 10
+vim.opt.pumwidth = 15
